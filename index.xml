@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DeFi Blockchain</title>
-    <link>https://defichain.io/</link>
+    <link>https://www.defichain.io/</link>
     <description>Recent content on DeFi Blockchain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All Rights Reserved</copyright>
     
-	<atom:link href="https://defichain.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.defichain.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Developers</title>
-      <link>https://defichain.io/developers/</link>
+      <link>https://www.defichain.io/developers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://defichain.io/developers/</guid>
+      <guid>https://www.defichain.io/developers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Foundation</title>
-      <link>https://defichain.io/foundation/</link>
+      <link>https://www.defichain.io/foundation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://defichain.io/foundation/</guid>
+      <guid>https://www.defichain.io/foundation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learn</title>
-      <link>https://defichain.io/learn/</link>
+      <link>https://www.defichain.io/learn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://defichain.io/learn/</guid>
+      <guid>https://www.defichain.io/learn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Media</title>
-      <link>https://defichain.io/media/</link>
+      <link>https://www.defichain.io/media/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://defichain.io/media/</guid>
+      <guid>https://www.defichain.io/media/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Partners</title>
-      <link>https://defichain.io/partners/</link>
+      <link>https://www.defichain.io/partners/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://defichain.io/partners/</guid>
+      <guid>https://www.defichain.io/partners/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Token</title>
-      <link>https://defichain.io/token/</link>
+      <link>https://www.defichain.io/token/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://defichain.io/token/</guid>
+      <guid>https://www.defichain.io/token/</guid>
       <description></description>
     </item>
     
     <item>
       <title>White paper</title>
-      <link>https://defichain.io/white-paper/</link>
+      <link>https://www.defichain.io/white-paper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://defichain.io/white-paper/</guid>
+      <guid>https://www.defichain.io/white-paper/</guid>
       <description>Abstract: The DeFi Foundation, registered in Singapore, is developing the DeFi Blockchain, a blockchain specifically dedicated to decentralized financial applications. By focusing on the functionality of the blockchain and dedicating it specifically to decentralized finance, the DeFi Blockchain provides unparalleled high transaction throughput, reduced risk of errors, and intelligent feature development specifically for the fulfillment of financial services on the blockchain.
 This Document is not a Prospectus
 This document does not constitute nor imply a prospectus of any sort.</description>
