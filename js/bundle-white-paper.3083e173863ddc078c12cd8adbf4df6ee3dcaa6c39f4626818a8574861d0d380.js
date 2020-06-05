@@ -353,7 +353,8 @@ $(function () {
     duration: 500,
     offset: {
       top: -144
-    }
+    },
+    hash: true,
   });
 
 });

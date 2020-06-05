@@ -127,10 +127,10 @@
     <li><a href="#comparing-existing-defi-alternatives">Comparing existing DeFi alternatives</a>
       <ul class='nav'>
         <li><a href="#bitcoin-why-not">Bitcoin: Why Not?</a></li>
-        <li><a href="#turingcomplete-solutions-ethereum-eos-tron">Turing-complete Solutions: Ethereum, EOS, Tron…</a></li>
+        <li><a href="#turing-complete-solutions">Turing-complete Solutions: Ethereum, EOS, Tron…</a></li>
       </ul>
     </li>
-    <li><a href="#solution">Solution</a>
+    <li><a href="#the-defi-blockchain-solution">The DeFi Blockchain Solution</a>
       <ul class='nav'>
         <li><a href="#staying-in-the-bitcoin-ecosystem">Staying in the Bitcoin Ecosystem</a></li>
         <li><a href="#building-on-top-of-bitcoin">Building on Top of Bitcoin</a></li>
@@ -141,19 +141,29 @@
         <li><a href="#decentralized-pricing-oracles">Decentralized Pricing Oracles</a></li>
         <li><a href="#decentralized-exchanges">Decentralized Exchanges</a></li>
         <li><a href="#transferable-debts-and-receivables">Transferable Debts and Receivables</a></li>
-        <li><a href="#decentralized-noncollateralized-debt">Decentralized Non-Collateralized Debt</a></li>
+        <li><a href="#decentralized-non-collateralized-debt">Decentralized Non-Collateralized Debt</a></li>
         <li><a href="#asset-tokenization">Asset Tokenization</a></li>
         <li><a href="#distribution-of-dividends">Distribution of Dividends</a></li>
       </ul>
     </li>
-    <li><a href="#the-blockchain">The Blockchain</a>
+    <li><a href="#defi-blockchain-design">DeFi Blockchain Design</a>
       <ul class='nav'>
         <li><a href="#design-parameters">Design Parameters</a></li>
         <li><a href="#consensus-algorithm">Consensus Algorithm</a></li>
         <li><a href="#bitcoin-anchoring">Bitcoin Anchoring</a></li>
+      </ul>
+    </li>
+    <li><a href="#defi-building-blocks">DeFi Building Blocks</a>
+      <ul class='nav'>
         <li><a href="#tokenization-as-a-defi-standard-token-dst">Tokenization as a DeFi Standard Token (DST)</a></li>
+        <li><a href="#cross-chain-mechanics">Cross-chain Mechanics</a></li>
         <li><a href="#defi-custom-token-dct">DeFi Custom Token (DCT)</a></li>
         <li><a href="#defi-asset-token-dat">DeFi Asset Token (DAT)</a></li>
+        <li><a href="#economic-pegging-of-dats">Economic Pegging of DATs</a></li>
+        <li><a href="#loan-contract">Loan Contract</a></li>
+        <li><a href="#decentralized-exchange-dex">Decentralized Exchange (DEX)</a></li>
+        <li><a href="#cross-chain-exchange-xcx">Cross-chain Exchange (XCX)</a></li>
+        <li><a href="#pricing-oracles">Pricing Oracles</a></li>
         <li><a href="#use-case-examples">Use Case Examples</a></li>
       </ul>
     </li>
@@ -169,11 +179,11 @@
         <li><a href="#acquiring-dfi-tokens">Acquiring DFI Tokens</a></li>
       </ul>
     </li>
-    <li><a href="#defifoundation">DeFi-Foundation</a></li>
+    <li><a href="#defi-foundation">DeFi-Foundation</a></li>
     <li><a href="#marketing">Marketing</a>
       <ul class='nav'>
         <li><a href="#target-market">Target Market</a></li>
-        <li><a href="#gotomarket-strategy">Go-to-market Strategy</a></li>
+        <li><a href="#go-to-market-strategy">Go-to-market Strategy</a></li>
         <li><a href="#partnerships">Partnerships</a></li>
       </ul>
     </li>
@@ -187,10 +197,10 @@
 <p><strong>This Document is not a Prospectus</strong></p>
 <p>This document does not constitute nor imply a prospectus of any sort. No wording contained herein should be construed as a solicitation for investment. Accordingly, this whitepaper does not pertain in any way to an offering of securities in any jurisdiction worldwide whatsoever. Rather, this whitepaper constitutes a technical description of the functionality of the Cake products and the development and distribution of the DeFi Blockchain.</p>
 <p><strong>This Document is not a final technical specification</strong></p>
-<p>This document does not constitute nor imply a final technical specification of the DeFi Blockchain. Information presented on this whitepaper, technical or otherwise, is meant to outline the general idea of DeFi Blockchain, its design and its use-cases and is subject to change with or without notice. For the latest up-to-date technical specification, check out the updates and documentations on the official website <a href="https://defichain.io"><a href="https://defichain.io">https://defichain.io</a></a>.</p>
+<p>This document does not constitute nor imply a final technical specification of the DeFi Blockchain. Information presented on this whitepaper, technical or otherwise, is meant to outline the general idea of DeFi Blockchain, its design and its use-cases and is subject to change with or without notice. For the latest up-to-date technical specification, check out the updates and documentations on the official website <a href="https://defichain.io">https://defichain.io</a>.</p>
 <h2 id="executive-summary">Executive summary</h2>
 <p>The cryptocurrency industry is based on a simple premise: people should be fully in control of their finances. While it seems like a simple and obvious statement, the current systems are far from providing financial services that are truly under the control of the people who use them. The mission of the DeFi Blockchain is to give people (and in the future, machines, and devices) seamless access to decentralized financial services.</p>
-<p>For that purpose, we are introducing the DeFi Blockchain, a dedicated blockchain specifically for decentralized finance (DeFi) <a href="https://defichain.io"><a href="http://www.DeFiChain.io">www.DeFiChain.io</a></a>.</p>
+<p>For that purpose, we are introducing the DeFi Blockchain, a dedicated blockchain specifically for decentralized finance (DeFi) <a href="https://defichain.io">www.DeFiChain.io</a>.</p>
 <p>By dedicating the functionality of a blockchain specifically to decentralized finance, the DeFi Blockchain provides high transaction throughput, reduced risk of errors, and intelligent feature development specifically for the fulfillment of Satoshi’s original intent: To create a reliable alternative form of financial services built on top of Bitcoin.</p>
 <p>Bitcoin, as described in the original Satoshi whitepaper, is designed as a form of digital cash, as a store and exchange of value. The evolution to Ethereum and smart contracts has allowed for tremendous new functionalities to be built on top of a blockchain, yet this development has come at a cost. The concept of one global operating system for everything has created a system that requires a complex codebase for smart contracts, slow throughput, and difficulty around the governance of the system.</p>
 <p>The DeFi Blockchain approaches decentralized finance as a specific and critical segment of the blockchain community. DeFi is a dedicated blockchain that is optimized specifically for DeFi applications. The DeFi Blockchain is intentionally non-Turing-Complete and does not support any function, other than those needed for Decentralized Finance, resulting in a blockchain that provides higher throughput and better functionality specifically for dApps related to finance. The advantage of a non-Turing complete command set is that there is a much lower potential for coding errors of the type that have plagued Ethereum smart contracts such as with the DAO hack or the locked funds with Parity. While it is important that we have some smart contract languages that are Turing complete, in the area of finance, it is appropriate to restrict the capabilities of the language in favor of a more secure system with greatly-reduced attack vectors.</p>
@@ -306,13 +316,13 @@ Functionalities that are basic requirements for financial services, such as mult
 <h2 id="comparing-existing-defi-alternatives">Comparing existing DeFi alternatives</h2>
 <h3 id="bitcoin-why-not">Bitcoin: Why Not?</h3>
 <p>Given our optimism on Bitcoin, the first question one might ask is why not develop DeFi using the Bitcoin Blockchain. While Bitcoin allows only basic smart contracts, some projects have begun developing workarounds. However, the transaction costs are restrictive on the Bitcoin chain, and we don’t believe it is going to be appropriate for the speed required for financial transactions. The Bitcoin chain is currently working as designed as a store of value. In our opinion, sticking to that single purpose is the best use of the chain and it is proven over the last decade. Adding financial services into the main chain adds unnecessary complexity and may cause side effects both for DeFi and for Bitcoin that are undesirable. Furthermore, it is not something we think that the Bitcoin governance is prepared to handle, and at some point, if the DeFi Blockchain requirements differed from those of the miners or developers on the Bitcoin chain, we would be subject to their decisions.</p>
-<h3 id="turingcomplete-solutions-ethereum-eos-tron">Turing-complete Solutions: Ethereum, EOS, Tron…</h3>
+<h3 id="turing-complete-solutions">Turing-complete Solutions: Ethereum, EOS, Tron…</h3>
 <p>To date, a number of DeFi applications have been built on Ethereum, Tron, EOS and many other turing-complete chains. Since Ethereum has the biggest adoption it allowed the surfacing of issues that come with using a turing-complete blockchain for DeFi applications the fastest. The DAO hack was one of the first and most dramatic exposures of the vulnerability of using such a complex language. Anyone issuing a token on the network knows how difficult it is. Just to create and issue an ERC20 token can easily cost over 100,000 USD, considering the cost of smart contract auditing that is necessary for innovative solutions. Simply the fact that there’s an entire industry built around “smart contract audits” should be enough to illustrate the problem. Despite the fact that ERC20 is the industry standard, it’s still so easy to hack that it’s impossible to issue even a simple token without getting a high-cost professional auditor as well as a programmer.</p>
 <p>On an even more stark note, it’s now possible to scan for exploitable code using automation, and a 2018 study managed to scan a million smart contracts, finding over 34,000 hackable smart contracts<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. It’s unfathomable that 3.4% of financial transactions would be vulnerable. While this at the moment seems to be a problem mainly centered around Ethereum, we believe most other turing-complete chains will experience the same issues once more use cases get adopted on top of them.</p>
 <p>The second problem stays mostly within Ethereum, which is the network’s usage being already close to maximum capacity. It simply does not seem feasible to use the network for all of the decentralized finance applications. Ethereum’s market cap is a tenth of that of Bitcoin. If the system is already near capacity, it’s hard to see how it can manage the capacity of becoming a true DeFi network for the rest of the ecosystem. Something Vitalik Buterin has acknowledged in an interview: <a href="https://beincrypto.com/ethereum-founders-admit-never-designed-scalability/">https://beincrypto.com/ethereum-founders-admit-never-designed-scalability/</a>.</p>
 <p><img src="/img/white-paper/graph.png" alt="Be your own bank"></p>
 <hr>
-<h2 id="solution">Solution</h2>
+<h2 id="the-defi-blockchain-solution">The DeFi Blockchain Solution</h2>
 <h3 id="staying-in-the-bitcoin-ecosystem">Staying in the Bitcoin Ecosystem</h3>
 <p>The cryptocurrency market as a whole is difficult to predict. Most of the coins have become valueless, and it remains to be seen how the system will sustain itself after cash runs out from many of the major ICOs.</p>
 <p>Despite this, our outlook on Bitcoin specifically is extremely optimistic. Over the last year, through market volatility, including instability in traditional financial markets, Bitcoin has retained its value, demonstrated its impermeability to attack and hackers, and gained increasing respect from traditional financial players.</p>
@@ -382,7 +392,7 @@ The decentralized wrapping function is crucial in allowing people to hold any as
 <p>The DeFi Blockchain will offer a set of calls to work with transferable debts and receivables. In the centralized finance world, debts and accounts receivable can only be managed through financial institutions that handle loans. The lack of transparency of these transferable debts was one of the factors leading to the financial crisis of 2008.</p>
 <p>For small and medium enterprises, this can be a particularly powerful tool. For example, Jane’s widget factory supplies widgets to a large car manufacturer, but the car manufacturer pays for those widgets on a basis of invoice +60. Meanwhile, Jane has to pay for the materials to produce the widgets, and, of course, regular salaries to her workers on a monthly or weekly basis. The car manufacturer will pay the invoice, but not in time for Jane to pay all of her expenses. Without Defi, Jane needs to go to the bank and pay whatever interest rates they demand, because she has no alternatives. The transferable receivables function would allow anyone to offer Jane a loan based on the receivables. Since many people would be able to see that the car manufacturer is a low-risk customer, and that they will pay their invoices, anyone who wants can make an offer to Jane for a better rate than the bank, creating a competitive market for debts and receivables based on the real risk and market assessment of that risk. Jane now can get a loan with great rates, and the lenders, likewise get excellent returns on their loans, despite the fact that they are loaning the money for only 30-60 days.</p>
 <p>Blockchain adds transparency to the exchange of debts and loans based on receivables or other types of financial promises. The DeFi Blockchain will include the capability for organizations to create smart contracts that allow straightforward investment in such assets, so that peer-to-peer loans can be made without the need for a financial institution to guarantee these types of financial assets.</p>
-<h3 id="decentralized-noncollateralized-debt">Decentralized Non-Collateralized Debt</h3>
+<h3 id="decentralized-non-collateralized-debt">Decentralized Non-Collateralized Debt</h3>
 <p>In the future, it will be possible to provide non-collateralized loans based on the reputation and other factors about borrowers. Through different forms of verifiable credentials, and records of an individual’s borrowing and repayment history, non-collateralized systems can be developed. Many of the identity solutions being developed today are looking at anonymous and pseudonymous reputation-reporting systems, based on a Decentralized Identifier (DID) issued by the individual, and Verifiable Credentials (VC) issued by known authorities who are reputable to provide information about the individual’s credit history.</p>
 <p>The appropriate reputation based systems and risk assessment systems will need to be built out. While this will take time, perhaps years, it is foreseeable that this kind of system could supplement or replace today’s credit ratings scores.</p>
 <p>Another potential application of this feature would be the ability to create non-collateralized decentralized stablecoins. The success of DAI and MakerDAO show the desirability of pegged stablecoins, yet the high level of collateralization is a deterrent to creating more such projects. It is feasible that through market mechanisms and staking, decentralized non-collateralized stablecoins can be created.</p>
@@ -411,7 +421,7 @@ The DeFi Blockchain will provide a module specifically designed for asset tokeni
 <p>Similarly, distribution of profits for a private company can be implemented. One of the first experiments in this area is a DAO (Distributed Autonomous Organization) called dOrg. dOrg is a collection of programmers (as well as a sales/operations team) who co-own their software house. Distribution of salaries is through a DAO that functions as a multi-sig, such that every 2 weeks, the whole organization submits their payment requests for work contracted, and the team votes to pass one anothers’ salary requests. Inside dOrg, each person holds a “reputation” that represents the percentage of ownership each person has earned (they earn ownership according to the amount of work done since the inception of the company). But what will happen to the profit at the end of the year? Presumably, each individual will have to submit a request for their percentage of the profits, and everyone will have to vote on that, too, because the DAO does not allow for automated distribution of profits. Using the DeFi Blockchain, the team could easily implement a quarterly or annual function that would automatically distribute the profits of the company to each person, according to their holdings in the company. This scheme would work even for people who were active in the past, but are no longer active, so they aren’t in the DAO any longer, but they still hold a percentage based on their past contributions. Other contributors might be an investor who puts money into the company, but does not participate.</p>
 <p>The examples above seem logical and straightforward, but today are extremely time-consuming and complex. People who want to make an investment together in companies, real estate, or other income-deriving assets type of dividend distribution today is complex and requires a lot of manual calculations. Through the DeFi Distribution of Dividends functionality, it becomes not just simple, but automatic for companies to distribute dividends to equity owners.</p>
 <hr>
-<h2 id="the-blockchain">The Blockchain</h2>
+<h2 id="defi-blockchain-design">DeFi Blockchain Design</h2>
 <h3 id="design-parameters">Design Parameters</h3>
 <p>Looking at the business requirements from the chapter before, the DeFi Blockchain needs to meet the following requirements:</p>
 <ol>
@@ -534,7 +544,7 @@ The DeFi Blockchain will provide a module specifically designed for asset tokeni
 </div>
 <h4 id="3-decentralized-consensus-mechanism">3. Decentralized Consensus Mechanism</h4>
 <p>Bitcoin Core is using Proof-of-Work (PoW) as the consensus mechanism. The DeFi Blockchain leverages the best aspects of PoW, that is, using hashing of the staking node’s ID for block creation while focusing the majority of the consensus on Proof-of-Stake (PoS). The major improvement in the PoW mechanism for DeFi Blockchain is that staking nodes can run without investing in high-end servers and ultra-fast bandwidth connections. Thus, DeFi Blockchain is creating the potential for easier and faster decentralization of the mode ownership and infrastructure.</p>
-<h4 id="4-nonturingcomplete-smart-contracts">4. Non-Turing-complete Smart Contracts</h4>
+<h4 id="4-non-turing-complete-smart-contracts">4. Non-Turing-complete Smart Contracts</h4>
 <p>Decentralized financial transactions are implemented through smart contracts. For example to ensure that borrowers repay lenders, smart contracts implement the conditions of lending in the code. For smart contract development, DeFi Blockchain will be adding opcode support for decentralized financial instruction sets. The DeFi opcode complements and works in tangent with the Script scripting language of the existing Bitcoin Core protocol.</p>
 <p>The DeFi scripting language is called Recipe, denoting the language’s role in describing and allowing for decentralized financial contracts.</p>
 <p>Bitcoin Script instruction words usually start with the prefix <code>OP_*</code>. Recipe instruction words carry the prefix <code>DF_*</code>.</p>
@@ -543,7 +553,7 @@ The DeFi Blockchain will provide a module specifically designed for asset tokeni
 <p>It takes time to amass significant miners or minters to make 51% attack costly enough that it is generally regarded as immutable, meaning that a new blockchain is automatically at a disadvantage when it comes to the immutability of the records. Some newer blockchains have been taking shortcuts to increase its immutability quality, typically by compromising on decentralization. For example, the chains may allow only delegated stakers chosen by the founders, or by making the blockchain permissioned instead of permissionless.</p>
 <p>DeFi Blockchain aims to maintain decentralization quality while maintaining immutability. To do so, the DeFi Blockchain will anchor its block to Bitcoin blockchain every few blocks. This further enhances the immutability of DeFi Blockchain without any compromise to the decentralized nature of the chain.</p>
 <h3 id="consensus-algorithm">Consensus Algorithm</h3>
-<h4 id="proofofstake">Proof-of-Stake</h4>
+<h4 id="proof-of-stake">Proof-of-Stake</h4>
 <p>DeFi Blockchain utilizes a Proof-of-Stake (PoS) algorithm similar to Bitcoin Core’s original Proof-of-Work (PoW) mining algorithm. While DeFi Blockchain is choosing PoS over PoW, at the same time, DeFi technology retains the best of the tested and proven technologies that were developed in the Bitcoin Core blockchain.</p>
 <h4 id="masternodes-for-staking">Masternodes for Staking</h4>
 <p>To run a masternode (staking node), stakers must hold a fixed amount of DFI, initially set at 100,000. Masternodes on the DeFi Blockchain participate in active transaction validations and block creations.</p>
@@ -561,10 +571,10 @@ To be able to verify future headers, the blockchain needs to apply an additional
 <h4 id="nothing-at-stake-protection">Nothing at Stake Protection</h4>
 <p>For PoS blockchains, there’s no limit to how many conflicting blocks a staker may sign. As a result, stakers may stake for every possible fork or branch, which weakens the finality of a PoS blockchain. This problem is known as a double-sign and is not possible in PoW blockchains, where a miner cannot mine all the possible branches without splitting mining capability. In PoW, this represents an intrinsic economic penalty. However, PoS blockchains cannot apply an inherent economic penalty for signing conflicting blocks on different branches.</p>
 <p>Therefore, in order to enhance the finality of DeFi Blockchain, in PoS, it’s necessary to detect double-signs and penalize them through an explicit mechanism.</p>
-<h4 id="detection-of-doublesign">Detection of Double-sign</h4>
+<h4 id="detection-of-double-sign">Detection of Double-sign</h4>
 <p>Each block header has a sequence number as a number of blocks that a particular staker has minted before a particular block. If two blocks are minted with the same sequence number, it means that a staker has double-signed, even if the blocks have different ancestors, i.e. across branches.</p>
 <p>During a block’s generation, a staker has the right to include the double-sign proofs into his block header in exchange for only half of the penalty.</p>
-<h4 id="doublesign-penalty">Double-sign Penalty</h4>
+<h4 id="double-sign-penalty">Double-sign Penalty</h4>
 <p>To be able to apply a penalty to stakers who double-sign, the DeFi Blockchain has to disallow immediate withdrawing of stake. Thus, when a deactivation transaction is confirmed, the DeFi Blockchain requires 3000 blocks to pass. At a block time of 30 seconds, 3000 blocks is equivalent to 25 hours.</p>
 <p>The double-sign penalty is 10 times the block rewards, deducted from the collateral. This also disqualifies the stakers from further staking immediately. The staker wanting to get back to staking has to re-put in fresh stake UTXO of 100,000 DFI. Running the official DeFi Blockchain node does not cause any unintentional or accidental double-sign. Double-sign happens only in cases of malicious intent.</p>
 <h4 id="time-drift-attack">Time Drift Attack</h4>
@@ -574,9 +584,11 @@ To be able to verify future headers, the blockchain needs to apply an additional
 <p>Every 60 blocks (approximately 30 minutes), a staker gets the right to write the Merkle root of the previous block onto the Bitcoin blockchain. The information written is, specifically, the txid of the Bitcoin transaction, Bitcoin block header and Merkle proof containing the Merkle root onto the newly mined block. By doing so, the staker will be rewarded an extra block reward in DFI, incentivising nodes to regularly anchor all records to the Bitcoin blockchain.</p>
 <p><img src="/img/white-paper/every-60-blocks.png" alt="Bitcoin Ancoring"></p>
 <p>The DeFi Blockchain node will include a built-in Bitcoin Simplified Payment Verification (SPV) client. SPV clients sync the Bitcoin blockchain by downloading only block headers which is sufficient information for nodes to add and validate the anchors.</p>
+<h2 id="defi-building-blocks">DeFi Building Blocks</h2>
+<p>To achieve our goals of enabling decentralized finance transactions on DeFi Blockchain, the following build blocks will be included as a base <strong>native</strong> components on DeFi Blockchain.</p>
 <h3 id="tokenization-as-a-defi-standard-token-dst">Tokenization as a DeFi Standard Token (DST)</h3>
 <p>The implementation of the features described in this whitepaper is performed with the use of standardized tokens. This chapter describes the mechanics of the tokens, interaction with other cryptoassets (tokens), and how they are used in the DeFi Blockchain.</p>
-<h4 id="crosschain-mechanics">Cross-chain Mechanics</h4>
+<h3 id="cross-chain-mechanics">Cross-chain Mechanics</h3>
 <p>DeFi Blockchain uses token standards to bring in external tokens to DeFi Blockchain in a trustless manner and allow trustless financial contracts and trading of all major cryptoasset tokens. The token standards are similar to ERC20 on Ethereum and Omni on Bitcoin blockchain. Through this standard, DeFi Blockchain allows tokenization of any assets.</p>
 <p>On the DeFi Blockchain the standardized tokens are called DeFi Standard Token (DST). DST tokens are of two different types: DCT, created by users of the system, and DAT, which are asset-backed tokens created with the backing of cryptoassets.</p>
 <p><img src="/img/white-paper/custom-token.png" alt="Custom token"></p>
@@ -606,87 +618,77 @@ To be able to verify future headers, the blockchain needs to apply an additional
 <li>DBCH, backed by BCH, etc.</li>
 </ul>
 <p>New DATs are introduced to the system through voting by masternodes. This ensures that only assets that gather the most interest amongst DeFi Blockchain users get introduced.</p>
-<h4 id="mechanism-of-dats">Mechanism of DATs</h4>
+<h3 id="economic-pegging-of-dats">Economic Pegging of DATs</h3>
+<p>The goal of DAT is to have it represent the native asset on the other blockchains, e.g. 1 DBTC should represent 1 BTC.</p>
+<p>There are two approaches to this:</p>
 <ol>
-<li>PDC - Personalized Debt Contract</li>
-<li>PD - Asset Peg Depository</li>
-<li>DEX - Decentralized Exchange</li>
-<li>XCX - Cross-chain Exchange</li>
-<li>Pricing contract</li>
+<li>
+<p>Stablecoin approach</p>
+<ul>
+<li>For every single issued 1 DBTC, 1 BTC has to be locked up in an address or a smart contract.</li>
+<li>While this would help to build a guarantee to DBTC, it introduces some other issues – country-party risks and affect the decentralized nature of DeFi.</li>
+</ul>
+</li>
+<li>
+<p>Economic pegging</p>
+<ul>
+<li>By providing a strong guarantee that the DAT representing an asset has its price closely tracking the native asset, i.e. by holding DBTC, one can have a good confidence that the value of DBTC will track that of BTC.</li>
+</ul>
+</li>
+</ol>
+<p>In order for us to achieve economic pegging, the following building blocks are built natively on DeFi Blockchain:</p>
+<ol>
+<li>Loan Contract</li>
+<li>Decentralized Exchange (DEX)</li>
+<li>Cross-chain Exchange (XCX)</li>
+<li>Pricing Oracles</li>
 </ol>
 <p><img src="/img/white-paper/dat-overview.png" alt="DAT overview"></p>
-<h4 id="personalized-debt-contract-pdc">Personalized Debt Contract (PDC)</h4>
-<p>A Personalized Debt Contract (PDC) is designed to allow the owner of the PDC to take a collateralized loan against collateral locked in the PDC. Each PDC is unique to every owner (address) on the DeFi Blockchain.</p>
-<p>Any user can open a PDC on DeFi Blockchain, free of charge. The user who opens a PDC owns a specific PDC. This ownership is transferable.</p>
-<p>Once a PDC is opened, DFI can be sent to fund the PDC collateral. Once a PDC is funded, it allows the owner to take out a loan by minting DATs up to a certain collateralization ratio. The minimum collateralization ratio can be adjusted by the DeFi Blockchain DAO and starts at 150%. In other words, $1,500 worth of collateral (in DFI), allows the PDC owner to take out a maximum of $1,000 in loans.</p>
-<p>Minted DATs are subject to a floating borrowing rate. A PDC has no expiry date. The owner is able to take out a loan for as long as they desire, as long as the collateralization ratio stays above 150% at all times.</p>
+<h3 id="loan-contract">Loan Contract</h3>
+<p>Loan Contract is designed to allow the owner of the contract to take a collateralized loan against collateral locked in the contract. Each loan contract is unique to every owner (address) on the DeFi Blockchain.</p>
+<p>Any user can open a loan contract on DeFi Blockchain, free of charge. The user who opens a loan contract owns the specific contract. This ownership, however, is transferable.</p>
+<p>Once a loan contract is opened, DFI can be sent to fund the loan collateral. Once a loan contract is funded, it allows the owner to take out a loan by minting DATs up to a certain collateralization ratio. The minimum collateralization ratio can be adjusted by the DeFi Blockchain DAO and starts at 150%. In other words, $1,500 worth of collateral (in DFI), allows the loan contract owner to take out a maximum of $1,000 in loans.</p>
+<p>Minted DATs are subject to a floating borrowing rate. A loan contract has no expiry date. The owner is able to take out a loan for as long as they desire, as long as the collateralization ratio stays above 150% at all times.</p>
 <pre><code>Collateralization ratio = Collateral / (Loan + accrued interest)
-</code></pre><p>If a PDC falls below the 150% collateralization ratio at any point in time, a PDC’s collateral is liquidated via Decentralized Exchange (DEX) to pay off accrued interest. There will be an additional 15% liquidation penalty to discourage PDCs from having to be liquidated. It is the responsibility of the PDC owners to monitor the collateralization ratio to prevent an unwanted liquidation.</p>
-<p>If a PDC is close to minimum collateralization ratio, the owner must take one of the following steps to prevent liquidation and having to incur 15% liquidation penalty:</p>
+</code></pre><p>If a loan contract falls below the 150% collateralization ratio at any point in time, its collateral is liquidated via Decentralized Exchange (DEX) to pay off accrued interest. There will be an additional 15% liquidation penalty to discourage loan contracts from having to be liquidated. It is the responsibility of the loan contract owners to monitor the collateralization ratio to prevent an unwanted liquidation.</p>
+<p>If a loan contract is close to minimum collateralization ratio, the owner must take one of the following steps to prevent liquidation and having to incur 15% liquidation penalty:</p>
 <ol>
-<li>Deposit more DFI into the PDC, thereby increasing its collateral and collateralization ratio.</li>
-<li>Pay back some of the loan (or accrued interest), thereby decreasing the PDC’s loan amount and increasing its collateralization ratio.</li>
+<li>Deposit more DFI into the loan contract, thereby increasing its collateral and collateralization ratio.</li>
+<li>Pay back some of the loan (or accrued interest), thereby decreasing the loan contract’s loan amount and increasing its collateralization ratio.</li>
 </ol>
-<p>Closing a PDC entitles its owner to get back all 100% of its collateral. To close a PDC, the owner has to pay back the loan in full, plus the accrued interest in its entity in the DAT (e.g. DBTC). Upon liquidation of the loan, the minted DAT is burned, and the initial minted DAT and the interest will be converted into DFI via the DeFi DEX described in this paper.</p>
+<p>Closing a loan contract entitles its owner to get back all 100% of its collateral. To close a loan contract, the owner has to pay back the loan in full, plus the accrued interest in its entity in the DAT (e.g. DBTC). Upon liquidation of the loan, the minted DAT is burned, and the initial minted DAT and the interest will be converted into DFI via the DeFi DEX described in this paper.</p>
 <p>While this concept is not new to the DeFi system, what is novel is the possibility to collateralize any asset due to the DeFi Blockchain’s nature.</p>
 <ol>
-<li>Alice opens a PDC and funds it with 150k DFI.</li>
-<li>With DFI at $0.10 spot rate, Alice’s PDC now has $15,000 worth of collateral.</li>
-<li>At the minimum collateralization ratio of 150% she can take out a maximum of $10,000 worth of DBTC, which is pegged to BTC spot price via the later described APD.</li>
-<li>Since the DBTC loan via PDC accrues interest, and DBTC and the DFI price fluctuate, Alice decides to only take out $5,000 worth of DBTC, i.e. 0.5 DBTC, giving her PDC a collateralization ratio of: 15000/5000 = 300%, well above 150%.</li>
-<li>Over-collateralization allows for some room for price movements of DBTC. If the BTC price increases to $15,000, Alice’s loan of 0.5 DBTC would now be worth $7,500. Her PDC now has a collateralization ratio of: 15000/7500 = 200%, still above 150%, so liquidation would not be triggered even in the case of this type of price shift.</li>
-<li>The interest rate for each DAT loan differs. Assuming the DBTC loan rate is 5% annually, taking out a loan for a year, in order to close her PDC and to fully redeem her initial 150k DFI, Alice has to pay back 0.5 DBTC * 1.05 = 0.525 DBTC by the end of the year.</li>
+<li>Alice opens a loan contract and funds it with 150k DFI.</li>
+<li>With DFI at $0.10 spot rate, Alice’s loan contract now has $15,000 worth of collateral.</li>
+<li>At the minimum collateralization ratio of 150% she can take out a maximum of $10,000 worth of DBTC, which is pegged to BTC spot price.</li>
+<li>Since the DBTC loan via loan contract accrues interest, and DBTC and the DFI price fluctuate, Alice decides to only take out $5,000 worth of DBTC, i.e. 0.5 DBTC, giving her loan contract a collateralization ratio of: 15000/5000 = 300%, well above 150%.</li>
+<li>Over-collateralization allows for some room for price movements of DBTC. If the BTC price increases to $15,000, Alice’s loan of 0.5 DBTC would now be worth $7,500. Her loan contract now has a collateralization ratio of: 15000/7500 = 200%, still above 150%, so liquidation would not be triggered even in the case of this type of price shift.</li>
+<li>The interest rate for each DAT loan differs. Assuming the DBTC loan rate is 5% annually, taking out a loan for a year, in order to close her loan contract and to fully redeem her initial 150k DFI, Alice has to pay back 0.5 DBTC * 1.05 = 0.525 DBTC by the end of the year.</li>
 </ol>
-<p><img src="/img/white-paper/alice-pdc.png" alt="PDC"></p>
-<h4 id="asset-peg-depository-apd">Asset Peg Depository (APD)</h4>
-<p>The Asset Peg Depository’s (APD) role is to maintain the price guarantee of a DAT to its actual asset, e.g. DBTC to BTC, DETH to ETH, etc.</p>
-<p>APDs are not personalized and act as depositories that collectively hold all collaterals from PDCs.</p>
-<p>An APD sets the base buy and sell price of a DAT on the DEX at spot rate aggregated from pricing oracle contracts, as long as the APD has enough collateral/DAT in its depository to cover it.</p>
-<ul>
-<li>DFI: $0.10</li>
-<li>BTC: $10,000</li>
-<li>ETH: $200</li>
-</ul>
-<p>An APD starts out with no DATs but DFIs as collateral for PDCs. As long as there are enough DFIs in APD, and that DATs holding at APD are less than total issued, the APD would be listing the following buy orders on the DEX:</p>
-<ul>
-<li>Buy DBTC at 100,000 DFI (i.e. $10k worth)</li>
-<li>Buy DETH at 2,000 DFI (i.e. $200 worth)</li>
-</ul>
-<p>If DBTC and/or DETH are sold to an APD, the APD would list the following, as long as there are DATs in its holding:</p>
-<ul>
-<li>Sell DBTC for 100,000 DFI (i.e. $10k worth)</li>
-<li>Sell DETH for 2,000 DFI (i.e. $200 worth)</li>
-</ul>
-<p>Regardless of buys or sells, APD trades are always feeless on DEX to APD, as the non-APD party has to pay the fees.</p>
-<p><img src="/img/white-paper/apd.png" alt="APD"></p>
-<p>Depending on the holdings, an APD will always list buy and sell orders on the DEX autonomously using the following logic:</p>
-<ol>
-<li>As long as any non-DFI holding is less than the maximum amount held, the APD would list a BUY order on the DEX for that asset at spot price.</li>
-<li>If there are any non-DFI holdings, an APD would list a SELL of DBTC at the same price as its BUY.</li>
-<li>DEX will not match APD orders with its own, i.e. an APD’s BUY and SELL orders will not be fulfilled with each other, but only with a 3rd-party, e.g. a user.</li>
-</ol>
-<h4 id="decentralized-exchange-dex">Decentralized Exchange (DEX)</h4>
+<p><img src="/img/white-paper/alice-pdc.png" alt="loan contract"></p>
+<h3 id="decentralized-exchange-dex">Decentralized Exchange (DEX)</h3>
 <p>The DeFi internal DEX provides decentralized trading for all DeFi tokens and DFI itself, which means that all tokens: DFI and DCT (DAT and DCT) can be listed on the DeFi Blockchain DEX. DEX will initially launch with DFI as the base trading pair, providing markets such as DBTC/DFI, DETH/DFI, DUSDT/DFI, etc. With increasing volume, other base trading pairs can be introduced, subject to a DAO approval, providing markets such as DETH/DBTC, DFI/DUSDT, etc.</p>
-<p>Asset Peg Depositories also participate on DEX automatically as described above, setting a base price for DATs.</p>
-<h4 id="crosschain-exchange-xcx">Cross-chain Exchange (XCX)</h4>
+<p>DEX on DeFi Blockchain operates without the need to pass custody to any intermediaries. Users are able to trade on their own in a trustless manner. One of the key differentiator about DeFi Blockchain as compared to many other decentralized financial solutions is that DeFi Blockchain is not only a consensus protocol facilitating DeFi, it is also comes with a very simple to use client user interface (UI) that allows users to interact directly on the blockchain without any intermediaries.</p>
+<h3 id="cross-chain-exchange-xcx">Cross-chain Exchange (XCX)</h3>
 <p>A user holding DBTC might be interested in holding of actual BTC instead of a DeFi pegged BTC token (DBTC).</p>
-<p>The DeFi Cross-chain Exchange (XCX) allows anyone to do exactly that. XCX allows listing of DATs with its native tokens, e.g. DBTC for BTC, DETH for ETH, DXRP for XRP.</p>
+<p>The DeFi Cross-chain Exchange (XCX) allows anyone to do exactly that. XCX allows listing of DATs with its native tokens, e.g. DBTC for BTC, DETH for ETH, DXRP for XRP. Actual transaction is carried out through the trustless swap of both tokens commonly known as atomic swap. Atomic swap guarantees that either both parties receive their exchanged coins, or neither transactions go through – providing a strong cryptographic guarantee that no one party is able to cheat the other.</p>
 <p>We use the following terms to describe the parties in the XCX:</p>
 <ul>
-<li>Borrower: a person owning a DAT and wanting to get the actual asset, e.g, a person who has DBTC and wanting to obtain BTC through the XCX.</li>
+<li>Borrower: a person owning a DAT and wanting to get a native coin, e.g, a person who has DBTC and wanting to obtain BTC through the XCX.</li>
 <li>Lender: a person owning BTC and receiving a DAT through the XCX, either temporarily for the duration of the XCX, or permanently, if the XCX expires.</li>
 </ul>
 <p>XCX orders contain several parameters that can be freely decided by the market marker (first lister of an order). For selling of DBTC for BTC (i.e. someone who’s interested in receiving actual BTC), the parameters are:</p>
 <ul>
-<li>Amount: Amount of BTC a borrower is looking for and how much DBTC is locked up.</li>
-<li>Premium: Amount a lender stands to make from this trade (Premium is listed per unit amount, thus allowing for partial fulfillment of trade orders). Together with expiry, it can also be considered as lending interest to the buyer. The Premium is paid the moment an XCX is mathed, so before expiry.</li>
+<li>Amount: Amount of coin/DAT a seller is looking for and how much DAT is locked up.</li>
+<li>Premium: Amount of additional fee a coin seller stands to make from this trade (Premium is listed per unit amount, thus allowing for partial fulfillment of trade orders). Together with expiry, it can also be considered as lending interest to the buyer. The Premium is paid instantly once an XCX is matched, before expiry of the lending contract. Premium can be positive (+) or negative (-) depending on supply and demand.</li>
 <li>Guarantee: An optional additional amount in DBTC and/or DFI that is locked in the XCX that will provide an extra incentive for a lender as it resolves in either of the following  two outcomes:<br>
 a. Released back to the borrower should the BTC amount be paid up before expiry.<br>
 b. Release to the lender should the contract expire without the borrower making a payment thereby constituting an extra incentive.</li>
 <li>Expiry: Time when the contract expires. Unlike a PDC, a XCX has a mandatory expiry date. If the Guarantee is not paid up, the XCX expires as soon as it matched on the DEX.</li>
 <li>Native token address: Address to send BTC to for executing the contract.</li>
 </ul>
-<h5 id="first-example">First Example:</h5>
+<h4 id="first-example">First Example:</h4>
 <p>Alice has 1 DBTC and wants 1 BTC so she can trade on a centralized exchange.</p>
 <p>Bob has 1 BTC that he does not need for 1 month, hoping to generate some lending interest during that period of time.</p>
 <ol>
@@ -707,12 +709,12 @@ b. Release to the lender should the contract expire without the borrower making 
 <li>XCX’s premium of 8000 DFI is instantly released to Bob. Bob can do what he wants with the DFI straight away with no strings attached. It is Bob’s to keep for this trade.</li>
 </ol>
 <p>Now, Alice has 1 BTC and Bob has 8000 DFI. Alice also has 1 DBTC locked up on XCX order and Bob is the beneficiary of that BTC. Note that the beneficiary of an XCX is transferable, i.e. Bob is able to sell the XCX with Alice to a third party (this allows for decentralized debt selling and tokenization of receivables).</p>
-<p>Should Alice wish to redeem her 1 DBTC from the XCX before the time is up, Alice will send Bob the 1 BTC she borrowed earlier to Bob’s address specified in the XCX and send the acknowledgement on the DeFi Blockchain. Upon confirmation by stakers with a BTC bridge, the XCX contract now closes and Alice gets her 1 DBTC back, having paid 8,000 DFIs as interest.</p>
+<p>Should Alice wish to redeem her 1 DBTC from the XCX before the time is up, Alice will send Bob the 1 BTC she borrowed earlier to Bob’s address specified in the XCX and send the acknowledgment on the DeFi Blockchain. Upon confirmation by stakers with a BTC bridge, the XCX contract now closes and Alice gets her 1 DBTC back, having paid 8,000 DFIs as interest.</p>
 <p>Bob gets his 1 BTC back (keeping his 8000 DFI as lending interest).</p>
 <p>Should Alice wish not to redeem the XCX before the expiry, Bob gets to keep Alice’s 1 DBTC.</p>
 <p>Alice gets to keep the 1 BTC (minus 8000 DFI interest) and Bob now gets 1 DBTC (plus 8000 DFI interest). Additionally Bob received the Guarantee of 0.1 DBTC providing him with an extra 10%.</p>
 <p><img src="/img/white-paper/alice-bob-xcx.png" alt="XCX"></p>
-<h5 id="second-example">Second Example:</h5>
+<h4 id="second-example">Second Example:</h4>
 <p>In a second scenario Charlie has 1 DBTC and wants 1 BTC. He has no intention of paying it back and getting his DBTC back. He also does not want to include an additional guarantee, so he adds a higher Premium and an immediate Expiry. Charlie would list the following XCX order:</p>
 <ul>
 <li>Amount: 1 DBTC/BTC</li>
@@ -722,7 +724,7 @@ b. Release to the lender should the contract expire without the borrower making 
 </ul>
 <p>Dave, notices the order has no guarantee and an immediate expiry and knows that this XCX order expires instantly. He happily provides the counter-trade to Charlie, giving him 1 BTC and receiving immediately 1 DBTC + 12000 DFI.</p>
 <p>A Guarantee is therefore not a must, but a potential incentive for the lender to know whether he/she has to exchange the received funds afterwards or whether he/she will get the original native coins back.</p>
-<h4 id="pricing-contractoracle">Pricing Contract/Oracle</h4>
+<h3 id="pricing-oracles">Pricing Oracles</h3>
 <p>A Pricing Contract is a smart contract on DeFi Blockchain allowing multiple trusted and appointed parties to submit periodic price feeds of DATs and DFI.</p>
 <p>Multiple Pricing Contract oracles are chosen by the DeFi DAO (explained in the next chapter).</p>
 <h3 id="use-case-examples">Use Case Examples</h3>
@@ -1005,7 +1007,7 @@ Of the 49% initially issued DFI tokens, 49% will be kept by the DeFi Foundation.
 <li>The DeFi foundation gives grants to developers who are developing functionality for the DeFi Blockchain or dApps to run on the blockchain.</li>
 </ul>
 <hr>
-<h2 id="defifoundation">DeFi-Foundation</h2>
+<h2 id="defi-foundation">DeFi-Foundation</h2>
 <p>The DeFi Foundation is incorporated as a company limited by guarantee in Singapore, resembling a foundation structure.</p>
 <table class="table-plain members">
   <tr>
@@ -1066,7 +1068,7 @@ Of the 49% initially issued DFI tokens, 49% will be kept by the DeFi Foundation.
 <h2 id="marketing">Marketing</h2>
 <h3 id="target-market">Target Market</h3>
 <p>Unlike most other DeFi-focused initiatives, the DeFi Blockchain being built on top of Bitcoin can harness almost the entire crypto market without being limited to “smaller” chains like Ethereum etc. Thus, as of publication, the target market for the DeFi Blockchain are over 60-80 million cryptocurrency owners and we can expect that hundreds of millions of other users will join in the future. This group of investors is investing and holding cryptocurrency due to the returns as well as their belief in the future of the industry. As investors, they have widely done well with the rise in many of the cryptoassets, however, they are not able to use their holdings in order to get better returns. Providing DeFi services will allow these investors to hold the coins they believe in, and increase their holdings over time based on investments that go deeper than just currency trading.</p>
-<h3 id="gotomarket-strategy">Go-to-market Strategy</h3>
+<h3 id="go-to-market-strategy">Go-to-market Strategy</h3>
 <p>The initial DeFi Blockchain team is made up of some of the top names in the cryptocurrency industry, people who have made a name for themselves not just by delivering on their promises, but by creating a following. The team has built up a variety of marketing channels and has an established following on social media, wide distribution of books in the area of cryptocurrency, and deep contacts within the cryptocurrency industry.</p>
 <p>With the experience of building up social media followings of hundreds of thousands of users in the course of just a few years, the team plans to leverage their current followers and bring them onto specific channels that will be the domain of the DeFi Blockchain. The team will build up a complete marketing engine and staff, using the same proven competence they displayed in the past.</p>
 <p>Unlike other blockchains, the DeFi Blockchain will be balanced between marketing and technology expertise. Building the best network is only half of the job. DFI holders can rest assured that the marketing team has the proven experience in building up a marketing engine that is required for product success and that the tech team will be able to deliver on the roadmap.</p>
@@ -1079,7 +1081,7 @@ Of the 49% initially issued DFI tokens, 49% will be kept by the DeFi Foundation.
 <li>General marketing to get the word out about the availability of DeFi foundation grants to fund worthy projects.</li>
 </ul>
 <p>Every project on the DeFi Blockchain will naturally bring it its own users and put effort towards marketing of the project, adding users and hodlers to the DeFi Blockchain.</p>
-<p><a href="mailto:partners@defichain.io"><a href="mailto:partners@defichain.io">partners@defichain.io</a></a></p>
+<p><a href="mailto:partners@defichain.io">partners@defichain.io</a></p>
 <hr>
 <h2 id="roadmap-and-milestones">Roadmap and Milestones</h2>
 <p><img src="/img/white-paper/roadmap.png" alt="Roadmap"></p>
@@ -1092,34 +1094,34 @@ Of the 49% initially issued DFI tokens, 49% will be kept by the DeFi Foundation.
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p><a href="https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp">https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp</a><a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p><a href="https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp">https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2" role="doc-endnote">
-<p><a href="https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7">https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7</a><a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p><a href="https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7">https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3" role="doc-endnote">
-<p><a href="https://arxiv.org/pdf/1802.06038.pdf">https://arxiv.org/pdf/1802.06038.pdf</a><a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p><a href="https://arxiv.org/pdf/1802.06038.pdf">https://arxiv.org/pdf/1802.06038.pdf</a> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4" role="doc-endnote">
-<p><a href="https://cointelegraph.com/explained/blockchain-oracles-explained">https://cointelegraph.com/explained/blockchain-oracles-explained</a><a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p><a href="https://cointelegraph.com/explained/blockchain-oracles-explained">https://cointelegraph.com/explained/blockchain-oracles-explained</a> <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:5" role="doc-endnote">
-<p><a href="https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c">https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c</a><a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p><a href="https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c">https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c</a> <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:6" role="doc-endnote">
-<p><a href="https://en.wikipedia.org/wiki/Decentralized_exchange">https://en.wikipedia.org/wiki/Decentralized_exchange</a><a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Decentralized_exchange">https://en.wikipedia.org/wiki/Decentralized_exchange</a> <a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:7" role="doc-endnote">
-<p><a href="https://coinsutra.com/best-decentralized-exchanges-dex/">https://coinsutra.com/best-decentralized-exchanges-dex/</a><a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p><a href="https://coinsutra.com/best-decentralized-exchanges-dex/">https://coinsutra.com/best-decentralized-exchanges-dex/</a> <a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:8" role="doc-endnote">
-<p><a href="https://medium.com/@credits/tokenization-of-financial-assets-financial-blockchain-revolution-bc632e75c8">https://medium.com/@credits/tokenization-of-financial-assets-financial-blockchain-revolution-bc632e75c8</a><a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p><a href="https://medium.com/@credits/tokenization-of-financial-assets-financial-blockchain-revolution-bc632e75c8">https://medium.com/@credits/tokenization-of-financial-assets-financial-blockchain-revolution-bc632e75c8</a> <a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:9" role="doc-endnote">
-<p><a href="https://www.forbes.com/sites/laurencoleman/2019/04/25/heres-why-interest-in-tokenizing-assets-is-starting-to-surge/#2ddeec4640a5">https://www.forbes.com/sites/laurencoleman/2019/04/25/heres-why-interest-in-tokenizing-assets-is-starting-to-surge/#2ddeec4640a5</a><a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p><a href="https://www.forbes.com/sites/laurencoleman/2019/04/25/heres-why-interest-in-tokenizing-assets-is-starting-to-surge/#2ddeec4640a5">https://www.forbes.com/sites/laurencoleman/2019/04/25/heres-why-interest-in-tokenizing-assets-is-starting-to-surge/#2ddeec4640a5</a> <a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:10" role="doc-endnote">
-<p><a href="https://docs.dash.org/en/stable/governance/understanding.html">https://docs.dash.org/en/stable/governance/understanding.html</a><a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p><a href="https://docs.dash.org/en/stable/governance/understanding.html">https://docs.dash.org/en/stable/governance/understanding.html</a> <a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
@@ -1276,7 +1278,7 @@ Of the 49% initially issued DFI tokens, 49% will be kept by the DeFi Foundation.
   
   
   
-  <script src="/js/bundle-white-paper.0f563a5e02a8e55ad83a2a119b025baf5fe26457520b72b2c9b5f82247a11932.js" type="text/javascript"></script>
+  <script src="/js/bundle-white-paper.3083e173863ddc078c12cd8adbf4df6ee3dcaa6c39f4626818a8574861d0d380.js" type="text/javascript"></script>
   
   
 <script>
