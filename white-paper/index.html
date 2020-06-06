@@ -556,7 +556,7 @@ The DeFi Blockchain will provide a module specifically designed for asset tokeni
 <h4 id="proof-of-stake">Proof-of-Stake</h4>
 <p>DeFi Blockchain utilizes a Proof-of-Stake (PoS) algorithm similar to Bitcoin Core’s original Proof-of-Work (PoW) mining algorithm. While DeFi Blockchain is choosing PoS over PoW, at the same time, DeFi technology retains the best of the tested and proven technologies that were developed in the Bitcoin Core blockchain.</p>
 <h4 id="masternodes-for-staking">Masternodes for Staking</h4>
-<p>To run a masternode (staking node), stakers must hold a fixed amount of DFI, initially set at 100,000. Masternodes on the DeFi Blockchain participate in active transaction validations and block creations.</p>
+<p>To run a masternode (staking node), stakers must hold a fixed amount of DFI, initially set at 1,000,000. Masternodes on the DeFi Blockchain participate in active transaction validations and block creations. The staking amount is intended to be lowered with the stability and maturity of blockchain to encourage further decentralization.</p>
 <p>Each staking node can perform only 1 hash per second, with the nonce from Bitcoin Core PoW algorithm replaced by a staker’s UTXO.<br>
 A new block is mined if it satisfies the following condition:</p>
 <p><code>SHA256({staker’s UTXO}, {current timestamp, in seconds}, {stake modifier}) &lt; {target}</code></p>
@@ -576,7 +576,7 @@ To be able to verify future headers, the blockchain needs to apply an additional
 <p>During a block’s generation, a staker has the right to include the double-sign proofs into his block header in exchange for only half of the penalty.</p>
 <h4 id="double-sign-penalty">Double-sign Penalty</h4>
 <p>To be able to apply a penalty to stakers who double-sign, the DeFi Blockchain has to disallow immediate withdrawing of stake. Thus, when a deactivation transaction is confirmed, the DeFi Blockchain requires 3000 blocks to pass. At a block time of 30 seconds, 3000 blocks is equivalent to 25 hours.</p>
-<p>The double-sign penalty is 10 times the block rewards, deducted from the collateral. This also disqualifies the stakers from further staking immediately. The staker wanting to get back to staking has to re-put in fresh stake UTXO of 100,000 DFI. Running the official DeFi Blockchain node does not cause any unintentional or accidental double-sign. Double-sign happens only in cases of malicious intent.</p>
+<p>The double-sign penalty is 10 times the block rewards, deducted from the collateral. This also disqualifies the stakers from further staking immediately. The staker wanting to get back to staking has to re-put in fresh stake UTXO of 1,000,000 DFI. Running the official DeFi Blockchain node does not cause any unintentional or accidental double-sign. Double-sign happens only in cases of malicious intent.</p>
 <h4 id="time-drift-attack">Time Drift Attack</h4>
 <p>The chain uses a maximum future block time of only approx. 5 seconds, to protect the chain from time drift attacks, where stakers set a block time too far ahead in the future, in order to claim a reward for themselves. DeFi also uses NTP time synchronization to allow for ongoing adjustment to the block time.</p>
 <h3 id="bitcoin-anchoring">Bitcoin Anchoring</h3>
@@ -685,7 +685,7 @@ To be able to verify future headers, the blockchain needs to apply an additional
 <li>Guarantee: An optional additional amount in DBTC and/or DFI that is locked in the XCX that will provide an extra incentive for a lender as it resolves in either of the following  two outcomes:<br>
 a. Released back to the borrower should the BTC amount be paid up before expiry.<br>
 b. Release to the lender should the contract expire without the borrower making a payment thereby constituting an extra incentive.</li>
-<li>Expiry: Time when the contract expires. Unlike a PDC, a XCX has a mandatory expiry date. If the Guarantee is not paid up, the XCX expires as soon as it matched on the DEX.</li>
+<li>Expiry: Time when the contract expires, it can be set as a date in the past for immediate settlement, i.e. no lending, but straight-out swap.</li>
 <li>Native token address: Address to send BTC to for executing the contract.</li>
 </ul>
 <h4 id="first-example">First Example:</h4>
@@ -732,22 +732,22 @@ b. Release to the lender should the contract expire without the borrower making 
 <h4 id="leveraging-a-long-position">Leveraging a Long Position</h4>
 <ol>
 <li>Alice has 100k DFI. She likes the prospects of DFI and wants to leverage her position.</li>
-<li>Alice opens a PDC on the DeFi Blockchain and takes out a loan in DUSDT.</li>
+<li>Alice opens a loan contract on the DeFi Blockchain and takes out a loan in DUSDT.</li>
 <li>Alice sells DUSDT for more DFI.</li>
 </ol>
 <p>Thus Alice can obtain a compounded long position on DFI without putting in extra money.</p>
 <h4 id="shorting-a-coin">Shorting a Coin</h4>
 <ol>
 <li>Bob wishes to short coin XXX. Bob has DFI.</li>
-<li>Bob opens PDC on DeFi Blockchain, takes out a loan in DXXX.</li>
+<li>Bob opens a loan contract on DeFi Blockchain, takes out a loan in DXXX.</li>
 <li>Bob can now either sell DXXX for DFI or DUSDT on DeFi DEX, or convert DXXX via XCX to sell XXX on a non-DeFi-internal exchange.</li>
-<li>Once Bob wishes to close his short position, Bob buys back XXX (or DXRP) from the market, hopefully at a lower rate, closes his PDC and thus completes his short of XXX.</li>
+<li>Once Bob wishes to close his short position, Bob buys back XXX (or DXRP) from the market, hopefully at a lower rate, closes his loan contract and thus completes his short of XXX.</li>
 </ol>
 <h4 id="getting-a-loan-borrowing">Getting a Loan (Borrowing)</h4>
 <ol>
 <li>Charlie has DFI, but he needs short-term cashflow of another coin XXX. Charlies does not want to sell DFI for it nor does he want to spend fiat money to buy this coin.</li>
-<li>Charlie takes a loan via PDC on DeFi Blockchain for DXXX and converts it to XXX.</li>
-<li>Once he wishes to settle his loan, Charlie simply purchases XXX/DXXX and close his PDC.</li>
+<li>Charlie takes a loan via loan contract on DeFi Blockchain for DXXX and converts it to XXX.</li>
+<li>Once he wishes to settle his loan, Charlie simply purchases XXX/DXXX and close his loan contract.</li>
 </ol>
 <h4 id="lending-a-coin-for-cashflow">Lending a Coin for Cashflow</h4>
 <ol>
@@ -773,12 +773,12 @@ b. Release to the lender should the contract expire without the borrower making 
 <ul>
 <li>DEX fees</li>
 <li>XCX fees</li>
-<li>PDC interests payment</li>
+<li>Lending loan interests payment</li>
 <li>etc.</li>
 </ul>
 </li>
 <li>Collateral for borrowing of other cryptoassets on the DeFi Blockchain.</li>
-<li>100,000 DFI is required to run a staking node for the DeFI Blockchain.</li>
+<li>1,000,000 DFI is required to run a staking node for the DeFI Blockchain.</li>
 <li>1,000 DFI is required to create a DCT. This is refundable upon destruction of the DCT.</li>
 <li>500 DFI is required to submit a proposal for DFI the community budget. This is non-refundable.</li>
 </ul>
@@ -799,7 +799,7 @@ b. Release to the lender should the contract expire without the borrower making 
 <li>(Total token burned from block -1,036,800th to -777,600th block [Quarter -4]) / 4</li>
 </ol>
 <h3 id="masternodes">Masternodes</h3>
-<p>DeFi is a Proof of Stake blockchain. Initially, 100,000 DFI allow the owner to own a staking node. The returns for staking will decrease over time, as the volume and number of transactions compensates for the reduction in per-transaction staking rewards.</p>
+<p>DeFi is a Proof of Stake blockchain. Initially, 1,000,000 DFI allow the owner to own a staking node. The returns for staking will decrease over time, as the volume and number of transactions compensates for the reduction in per-transaction staking rewards.</p>
 <p>Nodes are entitled to:</p>
 <ul>
 <li>Periodic staking rewards as described later in this chapter.</li>
