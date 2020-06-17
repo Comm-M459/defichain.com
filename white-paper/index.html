@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
   <title>DeFi Blockchain white paper &ndash; DeFi Blockchain</title>
   
-  <link href="/scss/main.min.a287a8af876fb57be1efc6488223b1ec527f8578bd4564cab82af9b4a6459e6a.css" rel="stylesheet">
+  <link href="/scss/main.min.be6ade64b1a8ebb927c61197a9ccd5346b2dc71647894ae041279ac842ca7f70.css" rel="stylesheet">
   <link rel="canonical" href="https://www.defichain.io/white-paper/">
   
   <meta property="og:title" content="White paper">
@@ -141,7 +141,7 @@
         <li><a href="#decentralized-pricing-oracles">Decentralized Pricing Oracles</a></li>
         <li><a href="#decentralized-exchanges">Decentralized Exchanges</a></li>
         <li><a href="#transferable-debts-and-receivables">Transferable Debts and Receivables</a></li>
-        <li><a href="#decentralized-non-collateralized-debt">Decentralized Non-Collateralized Debt</a></li>
+        <li><a href="#decentralized-noncollateralized-debt">Decentralized Non-Collateralized Debt</a></li>
         <li><a href="#asset-tokenization">Asset Tokenization</a></li>
         <li><a href="#distribution-of-dividends">Distribution of Dividends</a></li>
       </ul>
@@ -156,13 +156,13 @@
     <li><a href="#defi-building-blocks">DeFi Building Blocks</a>
       <ul class='nav'>
         <li><a href="#tokenization-as-a-defi-standard-token-dst">Tokenization as a DeFi Standard Token (DST)</a></li>
-        <li><a href="#cross-chain-mechanics">Cross-chain Mechanics</a></li>
+        <li><a href="#crosschain-mechanics">Cross-chain Mechanics</a></li>
         <li><a href="#defi-custom-token-dct">DeFi Custom Token (DCT)</a></li>
         <li><a href="#defi-asset-token-dat">DeFi Asset Token (DAT)</a></li>
         <li><a href="#economic-pegging-of-dats">Economic Pegging of DATs</a></li>
         <li><a href="#loan-contract">Loan Contract</a></li>
         <li><a href="#decentralized-exchange-dex">Decentralized Exchange (DEX)</a></li>
-        <li><a href="#cross-chain-exchange-xcx">Cross-chain Exchange (XCX)</a></li>
+        <li><a href="#crosschain-exchange-xcx">Cross-chain Exchange (XCX)</a></li>
         <li><a href="#pricing-oracles">Pricing Oracles</a></li>
         <li><a href="#use-case-examples">Use Case Examples</a></li>
       </ul>
@@ -179,11 +179,11 @@
         <li><a href="#acquiring-dfi-tokens">Acquiring DFI Tokens</a></li>
       </ul>
     </li>
-    <li><a href="#defi-foundation">DeFi-Foundation</a></li>
+    <li><a href="#defifoundation">DeFi-Foundation</a></li>
     <li><a href="#marketing">Marketing</a>
       <ul class='nav'>
         <li><a href="#target-market">Target Market</a></li>
-        <li><a href="#go-to-market-strategy">Go-to-market Strategy</a></li>
+        <li><a href="#gotomarket-strategy">Go-to-market Strategy</a></li>
         <li><a href="#partnerships">Partnerships</a></li>
       </ul>
     </li>
@@ -197,10 +197,10 @@
 <p><strong>This Document is not a Prospectus</strong></p>
 <p>This document does not constitute nor imply a prospectus of any sort. No wording contained herein should be construed as a solicitation for investment. Accordingly, this whitepaper does not pertain in any way to an offering of securities in any jurisdiction worldwide whatsoever. Rather, this whitepaper constitutes a technical description of the functionality of the Cake products and the development and distribution of the DeFi Blockchain.</p>
 <p><strong>This Document is not a final technical specification</strong></p>
-<p>This document does not constitute nor imply a final technical specification of the DeFi Blockchain. Information presented on this whitepaper, technical or otherwise, is meant to outline the general idea of DeFi Blockchain, its design and its use-cases and is subject to change with or without notice. For the latest up-to-date technical specification, check out the updates and documentations on the official website <a href="https://defichain.io">https://defichain.io</a>.</p>
+<p>This document does not constitute nor imply a final technical specification of the DeFi Blockchain. Information presented on this whitepaper, technical or otherwise, is meant to outline the general idea of DeFi Blockchain, its design and its use-cases and is subject to change with or without notice. For the latest up-to-date technical specification, check out the updates and documentations on the official website <a href="https://defichain.io"><a href="https://defichain.io">https://defichain.io</a></a>.</p>
 <h2 id="executive-summary">Executive summary</h2>
 <p>The cryptocurrency industry is based on a simple premise: people should be fully in control of their finances. While it seems like a simple and obvious statement, the current systems are far from providing financial services that are truly under the control of the people who use them. The mission of the DeFi Blockchain is to give people (and in the future, machines, and devices) seamless access to decentralized financial services.</p>
-<p>For that purpose, we are introducing the DeFi Blockchain, a dedicated blockchain specifically for decentralized finance (DeFi) <a href="https://defichain.io">www.DeFiChain.io</a>.</p>
+<p>For that purpose, we are introducing the DeFi Blockchain, a dedicated blockchain specifically for decentralized finance (DeFi) <a href="https://defichain.io"><a href="http://www.DeFiChain.io">www.DeFiChain.io</a></a>.</p>
 <p>By dedicating the functionality of a blockchain specifically to decentralized finance, the DeFi Blockchain provides high transaction throughput, reduced risk of errors, and intelligent feature development specifically for the fulfillment of Satoshi’s original intent: To create a reliable alternative form of financial services built on top of Bitcoin.</p>
 <p>Bitcoin, as described in the original Satoshi whitepaper, is designed as a form of digital cash, as a store and exchange of value. The evolution to Ethereum and smart contracts has allowed for tremendous new functionalities to be built on top of a blockchain, yet this development has come at a cost. The concept of one global operating system for everything has created a system that requires a complex codebase for smart contracts, slow throughput, and difficulty around the governance of the system.</p>
 <p>The DeFi Blockchain approaches decentralized finance as a specific and critical segment of the blockchain community. DeFi is a dedicated blockchain that is optimized specifically for DeFi applications. The DeFi Blockchain is intentionally non-Turing-Complete and does not support any function, other than those needed for Decentralized Finance, resulting in a blockchain that provides higher throughput and better functionality specifically for dApps related to finance. The advantage of a non-Turing complete command set is that there is a much lower potential for coding errors of the type that have plagued Ethereum smart contracts such as with the DAO hack or the locked funds with Parity. While it is important that we have some smart contract languages that are Turing complete, in the area of finance, it is appropriate to restrict the capabilities of the language in favor of a more secure system with greatly-reduced attack vectors.</p>
@@ -392,7 +392,7 @@ The decentralized wrapping function is crucial in allowing people to hold any as
 <p>The DeFi Blockchain will offer a set of calls to work with transferable debts and receivables. In the centralized finance world, debts and accounts receivable can only be managed through financial institutions that handle loans. The lack of transparency of these transferable debts was one of the factors leading to the financial crisis of 2008.</p>
 <p>For small and medium enterprises, this can be a particularly powerful tool. For example, Jane’s widget factory supplies widgets to a large car manufacturer, but the car manufacturer pays for those widgets on a basis of invoice +60. Meanwhile, Jane has to pay for the materials to produce the widgets, and, of course, regular salaries to her workers on a monthly or weekly basis. The car manufacturer will pay the invoice, but not in time for Jane to pay all of her expenses. Without Defi, Jane needs to go to the bank and pay whatever interest rates they demand, because she has no alternatives. The transferable receivables function would allow anyone to offer Jane a loan based on the receivables. Since many people would be able to see that the car manufacturer is a low-risk customer, and that they will pay their invoices, anyone who wants can make an offer to Jane for a better rate than the bank, creating a competitive market for debts and receivables based on the real risk and market assessment of that risk. Jane now can get a loan with great rates, and the lenders, likewise get excellent returns on their loans, despite the fact that they are loaning the money for only 30-60 days.</p>
 <p>Blockchain adds transparency to the exchange of debts and loans based on receivables or other types of financial promises. The DeFi Blockchain will include the capability for organizations to create smart contracts that allow straightforward investment in such assets, so that peer-to-peer loans can be made without the need for a financial institution to guarantee these types of financial assets.</p>
-<h3 id="decentralized-non-collateralized-debt">Decentralized Non-Collateralized Debt</h3>
+<h3 id="decentralized-noncollateralized-debt">Decentralized Non-Collateralized Debt</h3>
 <p>In the future, it will be possible to provide non-collateralized loans based on the reputation and other factors about borrowers. Through different forms of verifiable credentials, and records of an individual’s borrowing and repayment history, non-collateralized systems can be developed. Many of the identity solutions being developed today are looking at anonymous and pseudonymous reputation-reporting systems, based on a Decentralized Identifier (DID) issued by the individual, and Verifiable Credentials (VC) issued by known authorities who are reputable to provide information about the individual’s credit history.</p>
 <p>The appropriate reputation based systems and risk assessment systems will need to be built out. While this will take time, perhaps years, it is foreseeable that this kind of system could supplement or replace today’s credit ratings scores.</p>
 <p>Another potential application of this feature would be the ability to create non-collateralized decentralized stablecoins. The success of DAI and MakerDAO show the desirability of pegged stablecoins, yet the high level of collateralization is a deterrent to creating more such projects. It is feasible that through market mechanisms and staking, decentralized non-collateralized stablecoins can be created.</p>
@@ -544,7 +544,7 @@ The DeFi Blockchain will provide a module specifically designed for asset tokeni
 </div>
 <h4 id="3-decentralized-consensus-mechanism">3. Decentralized Consensus Mechanism</h4>
 <p>Bitcoin Core is using Proof-of-Work (PoW) as the consensus mechanism. The DeFi Blockchain leverages the best aspects of PoW, that is, using hashing of the staking node’s ID for block creation while focusing the majority of the consensus on Proof-of-Stake (PoS). The major improvement in the PoW mechanism for DeFi Blockchain is that staking nodes can run without investing in high-end servers and ultra-fast bandwidth connections. Thus, DeFi Blockchain is creating the potential for easier and faster decentralization of the mode ownership and infrastructure.</p>
-<h4 id="4-non-turing-complete-smart-contracts">4. Non-Turing-complete Smart Contracts</h4>
+<h4 id="4-nonturingcomplete-smart-contracts">4. Non-Turing-complete Smart Contracts</h4>
 <p>Decentralized financial transactions are implemented through smart contracts. For example to ensure that borrowers repay lenders, smart contracts implement the conditions of lending in the code. For smart contract development, DeFi Blockchain will be adding opcode support for decentralized financial instruction sets. The DeFi opcode complements and works in tangent with the Script scripting language of the existing Bitcoin Core protocol.</p>
 <p>The DeFi scripting language is called Recipe, denoting the language’s role in describing and allowing for decentralized financial contracts.</p>
 <p>Bitcoin Script instruction words usually start with the prefix <code>OP_*</code>. Recipe instruction words carry the prefix <code>DF_*</code>.</p>
@@ -553,7 +553,7 @@ The DeFi Blockchain will provide a module specifically designed for asset tokeni
 <p>It takes time to amass significant miners or minters to make 51% attack costly enough that it is generally regarded as immutable, meaning that a new blockchain is automatically at a disadvantage when it comes to the immutability of the records. Some newer blockchains have been taking shortcuts to increase its immutability quality, typically by compromising on decentralization. For example, the chains may allow only delegated stakers chosen by the founders, or by making the blockchain permissioned instead of permissionless.</p>
 <p>DeFi Blockchain aims to maintain decentralization quality while maintaining immutability. To do so, the DeFi Blockchain will anchor its block to Bitcoin blockchain every few blocks. This further enhances the immutability of DeFi Blockchain without any compromise to the decentralized nature of the chain.</p>
 <h3 id="consensus-algorithm">Consensus Algorithm</h3>
-<h4 id="proof-of-stake">Proof-of-Stake</h4>
+<h4 id="proofofstake">Proof-of-Stake</h4>
 <p>DeFi Blockchain utilizes a Proof-of-Stake (PoS) algorithm similar to Bitcoin Core’s original Proof-of-Work (PoW) mining algorithm. While DeFi Blockchain is choosing PoS over PoW, at the same time, DeFi technology retains the best of the tested and proven technologies that were developed in the Bitcoin Core blockchain.</p>
 <h4 id="masternodes-for-staking">Masternodes for Staking</h4>
 <p>To run a masternode (staking node), stakers must hold a fixed amount of DFI, initially set at 1,000,000. Masternodes on the DeFi Blockchain participate in active transaction validations and block creations. The staking amount is intended to be lowered with the stability and maturity of blockchain to encourage further decentralization.</p>
@@ -571,10 +571,10 @@ To be able to verify future headers, the blockchain needs to apply an additional
 <h4 id="nothing-at-stake-protection">Nothing at Stake Protection</h4>
 <p>For PoS blockchains, there’s no limit to how many conflicting blocks a staker may sign. As a result, stakers may stake for every possible fork or branch, which weakens the finality of a PoS blockchain. This problem is known as a double-sign and is not possible in PoW blockchains, where a miner cannot mine all the possible branches without splitting mining capability. In PoW, this represents an intrinsic economic penalty. However, PoS blockchains cannot apply an inherent economic penalty for signing conflicting blocks on different branches.</p>
 <p>Therefore, in order to enhance the finality of DeFi Blockchain, in PoS, it’s necessary to detect double-signs and penalize them through an explicit mechanism.</p>
-<h4 id="detection-of-double-sign">Detection of Double-sign</h4>
+<h4 id="detection-of-doublesign">Detection of Double-sign</h4>
 <p>Each block header has a sequence number as a number of blocks that a particular staker has minted before a particular block. If two blocks are minted with the same sequence number, it means that a staker has double-signed, even if the blocks have different ancestors, i.e. across branches.</p>
 <p>During a block’s generation, a staker has the right to include the double-sign proofs into his block header in exchange for only half of the penalty.</p>
-<h4 id="double-sign-penalty">Double-sign Penalty</h4>
+<h4 id="doublesign-penalty">Double-sign Penalty</h4>
 <p>To be able to apply a penalty to stakers who double-sign, the DeFi Blockchain has to disallow immediate withdrawing of stake. Thus, when a deactivation transaction is confirmed, the DeFi Blockchain requires 3000 blocks to pass. At a block time of 30 seconds, 3000 blocks is equivalent to 25 hours.</p>
 <p>The double-sign penalty is 10 times the block rewards, deducted from the collateral. This also disqualifies the stakers from further staking immediately. The staker wanting to get back to staking has to re-put in fresh stake UTXO of 1,000,000 DFI. Running the official DeFi Blockchain node does not cause any unintentional or accidental double-sign. Double-sign happens only in cases of malicious intent.</p>
 <h4 id="time-drift-attack">Time Drift Attack</h4>
@@ -588,7 +588,7 @@ To be able to verify future headers, the blockchain needs to apply an additional
 <p>To achieve our goals of enabling decentralized finance transactions on DeFi Blockchain, the following build blocks will be included as a base <strong>native</strong> components on DeFi Blockchain.</p>
 <h3 id="tokenization-as-a-defi-standard-token-dst">Tokenization as a DeFi Standard Token (DST)</h3>
 <p>The implementation of the features described in this whitepaper is performed with the use of standardized tokens. This chapter describes the mechanics of the tokens, interaction with other cryptoassets (tokens), and how they are used in the DeFi Blockchain.</p>
-<h3 id="cross-chain-mechanics">Cross-chain Mechanics</h3>
+<h3 id="crosschain-mechanics">Cross-chain Mechanics</h3>
 <p>DeFi Blockchain uses token standards to bring in external tokens to DeFi Blockchain in a trustless manner and allow trustless financial contracts and trading of all major cryptoasset tokens. The token standards are similar to ERC20 on Ethereum and Omni on Bitcoin blockchain. Through this standard, DeFi Blockchain allows tokenization of any assets.</p>
 <p>On the DeFi Blockchain the standardized tokens are called DeFi Standard Token (DST). DST tokens are of two different types: DCT, created by users of the system, and DAT, which are asset-backed tokens created with the backing of cryptoassets.</p>
 <p><img src="/img/white-paper/custom-token.png" alt="Custom token"></p>
@@ -670,7 +670,7 @@ To be able to verify future headers, the blockchain needs to apply an additional
 <h3 id="decentralized-exchange-dex">Decentralized Exchange (DEX)</h3>
 <p>The DeFi internal DEX provides decentralized trading for all DeFi tokens and DFI itself, which means that all tokens: DFI and DCT (DAT and DCT) can be listed on the DeFi Blockchain DEX. DEX will initially launch with DFI as the base trading pair, providing markets such as DBTC/DFI, DETH/DFI, DUSDT/DFI, etc. With increasing volume, other base trading pairs can be introduced, subject to a DAO approval, providing markets such as DETH/DBTC, DFI/DUSDT, etc.</p>
 <p>DEX on DeFi Blockchain operates without the need to pass custody to any intermediaries. Users are able to trade on their own in a trustless manner. One of the key differentiator about DeFi Blockchain as compared to many other decentralized financial solutions is that DeFi Blockchain is not only a consensus protocol facilitating DeFi, it is also comes with a very simple to use client user interface (UI) that allows users to interact directly on the blockchain without any intermediaries.</p>
-<h3 id="cross-chain-exchange-xcx">Cross-chain Exchange (XCX)</h3>
+<h3 id="crosschain-exchange-xcx">Cross-chain Exchange (XCX)</h3>
 <p>A user holding DBTC might be interested in holding of actual BTC instead of a DeFi pegged BTC token (DBTC).</p>
 <p>The DeFi Cross-chain Exchange (XCX) allows anyone to do exactly that. XCX allows listing of DATs with its native tokens, e.g. DBTC for BTC, DETH for ETH, DXRP for XRP. Actual transaction is carried out through the trustless swap of both tokens commonly known as atomic swap. Atomic swap guarantees that either both parties receive their exchanged coins, or neither transactions go through – providing a strong cryptographic guarantee that no one party is able to cheat the other.</p>
 <p>We use the following terms to describe the parties in the XCX:</p>
@@ -1007,7 +1007,7 @@ Of the 49% initially issued DFI tokens, 49% will be kept by the DeFi Foundation.
 <li>The DeFi foundation gives grants to developers who are developing functionality for the DeFi Blockchain or dApps to run on the blockchain.</li>
 </ul>
 <hr>
-<h2 id="defi-foundation">DeFi-Foundation</h2>
+<h2 id="defifoundation">DeFi-Foundation</h2>
 <p>The DeFi Foundation is incorporated as a company limited by guarantee in Singapore, resembling a foundation structure.</p>
 <table class="table-plain members">
   <tr>
@@ -1068,7 +1068,7 @@ Of the 49% initially issued DFI tokens, 49% will be kept by the DeFi Foundation.
 <h2 id="marketing">Marketing</h2>
 <h3 id="target-market">Target Market</h3>
 <p>Unlike most other DeFi-focused initiatives, the DeFi Blockchain being built on top of Bitcoin can harness almost the entire crypto market without being limited to “smaller” chains like Ethereum etc. Thus, as of publication, the target market for the DeFi Blockchain are over 60-80 million cryptocurrency owners and we can expect that hundreds of millions of other users will join in the future. This group of investors is investing and holding cryptocurrency due to the returns as well as their belief in the future of the industry. As investors, they have widely done well with the rise in many of the cryptoassets, however, they are not able to use their holdings in order to get better returns. Providing DeFi services will allow these investors to hold the coins they believe in, and increase their holdings over time based on investments that go deeper than just currency trading.</p>
-<h3 id="go-to-market-strategy">Go-to-market Strategy</h3>
+<h3 id="gotomarket-strategy">Go-to-market Strategy</h3>
 <p>The initial DeFi Blockchain team is made up of some of the top names in the cryptocurrency industry, people who have made a name for themselves not just by delivering on their promises, but by creating a following. The team has built up a variety of marketing channels and has an established following on social media, wide distribution of books in the area of cryptocurrency, and deep contacts within the cryptocurrency industry.</p>
 <p>With the experience of building up social media followings of hundreds of thousands of users in the course of just a few years, the team plans to leverage their current followers and bring them onto specific channels that will be the domain of the DeFi Blockchain. The team will build up a complete marketing engine and staff, using the same proven competence they displayed in the past.</p>
 <p>Unlike other blockchains, the DeFi Blockchain will be balanced between marketing and technology expertise. Building the best network is only half of the job. DFI holders can rest assured that the marketing team has the proven experience in building up a marketing engine that is required for product success and that the tech team will be able to deliver on the roadmap.</p>
@@ -1081,7 +1081,7 @@ Of the 49% initially issued DFI tokens, 49% will be kept by the DeFi Foundation.
 <li>General marketing to get the word out about the availability of DeFi foundation grants to fund worthy projects.</li>
 </ul>
 <p>Every project on the DeFi Blockchain will naturally bring it its own users and put effort towards marketing of the project, adding users and hodlers to the DeFi Blockchain.</p>
-<p><a href="mailto:partners@defichain.io">partners@defichain.io</a></p>
+<p><a href="mailto:partners@defichain.io"><a href="mailto:partners@defichain.io">partners@defichain.io</a></a></p>
 <hr>
 <h2 id="roadmap-and-milestones">Roadmap and Milestones</h2>
 <p><img src="/img/white-paper/roadmap.png" alt="Roadmap"></p>
@@ -1094,34 +1094,34 @@ Of the 49% initially issued DFI tokens, 49% will be kept by the DeFi Foundation.
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p><a href="https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp">https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp">https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp</a><a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
 </li>
 <li id="fn:2" role="doc-endnote">
-<p><a href="https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7">https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7">https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7</a><a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
 </li>
 <li id="fn:3" role="doc-endnote">
-<p><a href="https://arxiv.org/pdf/1802.06038.pdf">https://arxiv.org/pdf/1802.06038.pdf</a> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://arxiv.org/pdf/1802.06038.pdf">https://arxiv.org/pdf/1802.06038.pdf</a><a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
 </li>
 <li id="fn:4" role="doc-endnote">
-<p><a href="https://cointelegraph.com/explained/blockchain-oracles-explained">https://cointelegraph.com/explained/blockchain-oracles-explained</a> <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://cointelegraph.com/explained/blockchain-oracles-explained">https://cointelegraph.com/explained/blockchain-oracles-explained</a><a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
 </li>
 <li id="fn:5" role="doc-endnote">
-<p><a href="https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c">https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c</a> <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c">https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c</a><a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
 </li>
 <li id="fn:6" role="doc-endnote">
-<p><a href="https://en.wikipedia.org/wiki/Decentralized_exchange">https://en.wikipedia.org/wiki/Decentralized_exchange</a> <a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Decentralized_exchange">https://en.wikipedia.org/wiki/Decentralized_exchange</a><a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
 </li>
 <li id="fn:7" role="doc-endnote">
-<p><a href="https://coinsutra.com/best-decentralized-exchanges-dex/">https://coinsutra.com/best-decentralized-exchanges-dex/</a> <a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://coinsutra.com/best-decentralized-exchanges-dex/">https://coinsutra.com/best-decentralized-exchanges-dex/</a><a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
 </li>
 <li id="fn:8" role="doc-endnote">
-<p><a href="https://medium.com/@credits/tokenization-of-financial-assets-financial-blockchain-revolution-bc632e75c8">https://medium.com/@credits/tokenization-of-financial-assets-financial-blockchain-revolution-bc632e75c8</a> <a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://medium.com/@credits/tokenization-of-financial-assets-financial-blockchain-revolution-bc632e75c8">https://medium.com/@credits/tokenization-of-financial-assets-financial-blockchain-revolution-bc632e75c8</a><a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
 </li>
 <li id="fn:9" role="doc-endnote">
-<p><a href="https://www.forbes.com/sites/laurencoleman/2019/04/25/heres-why-interest-in-tokenizing-assets-is-starting-to-surge/#2ddeec4640a5">https://www.forbes.com/sites/laurencoleman/2019/04/25/heres-why-interest-in-tokenizing-assets-is-starting-to-surge/#2ddeec4640a5</a> <a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://www.forbes.com/sites/laurencoleman/2019/04/25/heres-why-interest-in-tokenizing-assets-is-starting-to-surge/#2ddeec4640a5">https://www.forbes.com/sites/laurencoleman/2019/04/25/heres-why-interest-in-tokenizing-assets-is-starting-to-surge/#2ddeec4640a5</a><a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
 </li>
 <li id="fn:10" role="doc-endnote">
-<p><a href="https://docs.dash.org/en/stable/governance/understanding.html">https://docs.dash.org/en/stable/governance/understanding.html</a> <a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://docs.dash.org/en/stable/governance/understanding.html">https://docs.dash.org/en/stable/governance/understanding.html</a><a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
 </li>
 </ol>
 </section>
