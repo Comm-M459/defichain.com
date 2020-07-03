@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learns on DeFi Blockchain</title>
+    <link>https://www.defichain.io/learn/</link>
+    <description>Recent content in Learns on DeFi Blockchain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All Rights Reserved</copyright>
+    
+	<atom:link href="https://www.defichain.io/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run a masternode</title>
+      <link>https://www.defichain.io/learn/run-a-masternode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.defichain.io/learn/run-a-masternode/</guid>
+      <description>Introduction Setting up a masternode on Defichain allows you to participate in the consensus protocol and receive staking awards. One thing to note is that in order to set up a masternode, you must have a minimum of 1 million DFI tokens.
+ NOTE: This how-to expects some basic familiarity with the Linux terminal
+ Masternode roles There are two distinct roles: &amp;lsquo;masternode owner&amp;rsquo; and &amp;lsquo;masternode operator&amp;rsquo;. The owner holds the collateral and the primary activity (minting new coins, voting for anchors) is performed by operator.</description>
+    </item>
+    
+  </channel>
+</rss>
