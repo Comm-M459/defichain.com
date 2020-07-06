@@ -3,16 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Understand the DeFi Blockchain">
+  <meta name="description" content="Learn more and understand the DeFi Blockchain with videos and how-to guides">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
-  <title>Understand the DeFi Blockchain &ndash; DeFi Blockchain</title>
+  <title>Learn more and understand the DeFi Blockchain with videos and how-to guides &ndash; DeFi Blockchain</title>
   
-  <link href="/scss/main.min.907b8f48f94c5567a85ed1121dfec7fe8d23679d3b8c07f4888bb90b828bb8f5.css" rel="stylesheet">
+  <link href="/scss/main.min.90ae971250f323e7affb7d636a7bd6a4f362d37947a9fe377a5b88c5c90c00a1.css" rel="stylesheet">
   <link rel="canonical" href="https://www.defichain.io/learn/">
   
   <meta property="og:title" content="Token">
-  <meta property="og:description" content="Understand the DeFi Blockchain">
+  <meta property="og:description" content="Learn more and understand the DeFi Blockchain with videos and how-to guides">
   <meta property="og:site_name" content="DeFi Blockchain">
   <meta property="og:url" content="https://www.defichain.io/learn/">
   <meta property="og:image" content="https://www.defichain.io/img/og/ogimage-learn.png">
@@ -95,11 +95,112 @@
         <div class="row">
           <div id="hero" class="col col-lg-6 col-xl-5 offset-xl-1">
             <h1>Learn</h1>
-            <p class="lg">Understand the DeFi Blockchain.</p>
+            <p class="lg">Learn more and understand the DeFi Blockchain with videos and how-to guides.</p>
           </div>
         </div>
       </div>
       
+    </section>
+
+    <section class="defi-blockchain featured-video dark" id="">
+      <div class="container-flush">
+        <div class="row">
+          <div class="col col-lg-6">
+            <div class="video-player">
+              <div id="player-embed"></div>
+              <script>
+                var tag = document.createElement('script');
+                tag.src = "https://www.youtube.com/iframe_api";
+                var firstScriptTag = document.getElementsByTagName('script')[0];
+                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                var player;
+                function onYouTubeIframeAPIReady() {
+                  player = new YT.Player('player-embed', {
+                    height: '390',
+                    width: '640',
+                    videoId: 'qLW-vJd8mpk',
+                    events: {
+                      'onReady': onPlayerReady,
+                      'onStateChange': onPlayerStateChange
+                    },
+                    playerVars: {
+                      controls: 1,
+                      iv_load_policy: 3,
+                      modestbranding: 1,
+                      showinfo: 0
+                    }
+                  });
+                }
+                function onPlayerReady(event) {
+                  
+                }
+                var done = false;
+                function onPlayerStateChange(event) {
+                  if (event.data == YT.PlayerState.PLAYING && !done) {
+                    setTimeout(stopVideo, 6000);
+                    done = true;
+                  }
+                }
+                function stopVideo() {
+                  player.stopVideo();
+                }
+
+
+              </script>
+            </div>
+          </div>
+          <div class="col col-lg-6">
+            <div class="video-info">
+              <h2 class="lg">Videos on DeFi Blockchain</h2>
+              <div class="video-playlist">
+              
+                <div class="video-link" data-video="qLW-vJd8mpk">
+                  <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/qLW-vJd8mpk/hqdefault.jpg" alt="DeFiChain and DFI token explained in 2 minutes">
+                  </div>
+                  <div class="video-link-title">DeFiChain and DFI token explained in 2 minutes</div>
+                </div>
+              
+                <div class="video-link" data-video="Mn3sRQm4JvA">
+                  <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/Mn3sRQm4JvA/hqdefault.jpg" alt="DeFi Chain and DFI token explained in detail">
+                  </div>
+                  <div class="video-link-title">DeFi Chain and DFI token explained in detail</div>
+                </div>
+              
+                <div class="video-link" data-video="YuBR8bipazg">
+                  <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/YuBR8bipazg/hqdefault.jpg" alt="Decentralized Finance (DeFi) explained simply">
+                  </div>
+                  <div class="video-link-title">Decentralized Finance (DeFi) explained simply</div>
+                </div>
+              
+                <div class="video-link" data-video="sb-EnsxMh78">
+                  <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/sb-EnsxMh78/hqdefault.jpg" alt="DeFi Blockchain White Paper Walkthrough">
+                  </div>
+                  <div class="video-link-title">DeFi Blockchain White Paper Walkthrough</div>
+                </div>
+              
+                <div class="video-link" data-video="NH4bKfYEiSE">
+                  <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/NH4bKfYEiSE/hqdefault.jpg" alt="Difference between Ethereum and DeFiChain">
+                  </div>
+                  <div class="video-link-title">Difference between Ethereum and DeFiChain</div>
+                </div>
+              
+                <div class="video-link" data-video="f3d_6OUewis">
+                  <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/f3d_6OUewis/hqdefault.jpg" alt="Tech Details of the New DeFiChain">
+                  </div>
+                  <div class="video-link-title">Tech Details of the New DeFiChain</div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="faq" id="">
@@ -391,7 +492,7 @@
   
   
   
-  <script src="/js/bundle.9b04ab2c9ba46f50e7453cb6d6522cb42f991fdf4fbcf720ff39b25624eedfab.js" type="text/javascript"></script>
+  <script src="/js/bundle.c1b995f76880a5754565e668338584c85ddd361548f63b4b9a3844183906b398.js" type="text/javascript"></script>
   
   
 <script>
