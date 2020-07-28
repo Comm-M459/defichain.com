@@ -79,41 +79,6 @@ $(function () {
     $('.lang-switcher').toggleClass('active');
   });
 
-  // FAQ toggles
-  function storeAnswerHeights() {
-    $('.faq-a').css({
-      'height': 'auto'
-    }).each(function (i) {
-      $(this).attr('data-h', $(this).height());
-    });
-
-    $('.faq-q').not('.active').next('.faq-a').css('height', 0).removeClass('active');
-  }
-
-  storeAnswerHeights();
-
-  $(window).on("debouncedresize", function (event) {
-    storeAnswerHeights();
-  });
-
-  $('.faq-q').click(function() {
-    var $q = $(this);
-    var $a = $q.next();
-    if ($q.hasClass('active')) {
-      $a.animate({
-        height: 0
-      });
-      $q.removeClass('active');
-    } else {
-      console.log($a.attr('data-h'));
-      $a.animate({
-        height: $a.attr('data-h') + "px"
-      });
-      $q.addClass('active');
-    }
-    // $(this).toggleClass('active').siblings('.faq-q').removeClass('active');
-  });
-
   // Closer look carousel
   if ($(".latest-release-version").length) {
     $.ajax({
@@ -199,4 +164,46 @@ document.addEventListener('DOMContentLoaded', function () {
   scope.heroIn = function () {
     // play hero animation
   };
+});
+
+;
+$(function () {
+
+// FAQ toggles
+  function storeCollapsibleHeights() {
+    $('.collapsible-content').css({
+      'height': 'auto'
+    }).each(function (i) {
+      $(this).attr('data-h', $(this).height());
+    });
+    $('.collapsible-head').not('.active').next('.collapsible-content').css('height', 0).removeClass('active');
+  }
+
+  storeCollapsibleHeights();
+
+  $(window).on("debouncedresize", function (event) {
+    storeCollapsibleHeights();
+  });
+
+  // Handle collapsible toggles
+  $('.collapsible-head').click(function() {
+    var $ch = $(this);
+    var $cc = $ch.next();
+    if ($ch.hasClass('active')) {
+      // $cc.animate({
+      //   height: 0
+      // });
+      // $ch.removeClass('active');
+    } else {
+      $cc.animate({
+        height: $cc.attr('data-h') + "px"
+      });
+      $ch.addClass('active');
+      $ch.siblings('.collapsible-head').removeClass('active');
+      $cc.siblings('.collapsible-content').animate({
+        height: 0
+      });
+    }
+  });
+
 });

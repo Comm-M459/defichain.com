@@ -3,24 +3,23 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Learn more and understand the DeFi Blockchain with videos and how-to guides">
+  <meta name="description" content="Claim your DFI in the DFI Airdrop">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
-  <title>Learn more and understand the DeFi Blockchain with videos and how-to guides &ndash; DeFi Blockchain</title>
+  <title>Claim your DFI in the DFI Airdrop &ndash; DeFi Blockchain</title>
   
   <link href="/scss/main.min.01d1ab3075e281114ea045f9e4334e2cf16490272c3a48f93749ef75ee4db738.css" rel="stylesheet">
-  <link rel="canonical" href="https://www.defichain.io/learn/">
   
-  <meta property="og:title" content="Token">
-  <meta property="og:description" content="Learn more and understand the DeFi Blockchain with videos and how-to guides">
+  <meta property="og:title" content="Claim My DFI">
+  <meta property="og:description" content="Claim your DFI in the DFI Airdrop">
   <meta property="og:site_name" content="DeFi Blockchain">
-  <meta property="og:url" content="https://www.defichain.io/learn/">
-  <meta property="og:image" content="https://www.defichain.io/img/og/ogimage-learn.png">
+  <meta property="og:url" content="https://www.defichain.io/claim/">
+  <meta property="og:image" content="https://www.defichain.io/img/og/ogimage-claim.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:locale" content="en_US">
 </head>
 
-<body class="learn">
+<body class="claim">
 
   <header class="dark night">
  
@@ -50,11 +49,11 @@
             <a href="/media/">Media</a>
           </li>
           
-          <li class="">
+          <li class="active">
             <a href="/claim/">Claim My DFI</a>
           </li>
           
-          <li class="active">
+          <li class="">
             <a href="/learn/">Learn</a>
           </li>
           
@@ -94,128 +93,72 @@
 
   <main>
 
-    <section class="hero dark night">
+    <section class="hero dark night" data-scroll data-scroll-showCallback="heroIn()" data-scroll-hideCallback="heroOut()">
       <div class="container-fluid">
         <div class="row">
           <div id="hero" class="col col-lg-6 col-xl-5 offset-xl-1">
-            <h1>Learn</h1>
-            <p class="lg">Learn more and understand the DeFi Blockchain with videos and how-to guides.</p>
+            <h1 data-scroll="once">DFI Airdrop is happening now.</h1>
+            <p class="lg" data-scroll="once">Receive 500 DFI for every BTC you own, absolutely free.</p>
+            <a href="#claim-my-dfi" class="btn mtg1">
+              Claim My DFI
+            </a>
           </div>
         </div>
       </div>
       
     </section>
 
-    <section class="defi-blockchain featured-video dark" id="">
-      <div class="container-flush">
-        <div class="row">
-          <div class="col col-lg-6">
-            <div class="video-player">
-              <div id="player-embed"></div>
-              <script>
-                var tag = document.createElement('script');
-                tag.src = "https://www.youtube.com/iframe_api";
-                var firstScriptTag = document.getElementsByTagName('script')[0];
-                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-                var player;
-                function onYouTubeIframeAPIReady() {
-                  player = new YT.Player('player-embed', {
-                    height: '390',
-                    width: '640',
-                    videoId: 'qLW-vJd8mpk',
-                    events: {
-                      'onReady': onPlayerReady,
-                      'onStateChange': onPlayerStateChange
-                    },
-                    playerVars: {
-                      controls: 1,
-                      iv_load_policy: 3,
-                      modestbranding: 1,
-                      showinfo: 0
-                    }
-                  });
-                }
-                function onPlayerReady(event) {
-                  
-                }
-                var done = false;
-                function onPlayerStateChange(event) {
-                  if (event.data == YT.PlayerState.PLAYING && !done) {
-                    setTimeout(stopVideo, 6000);
-                    done = true;
-                  }
-                }
-                function stopVideo() {
-                  player.stopVideo();
-                }
-
-
-              </script>
-            </div>
-          </div>
-          <div class="col col-lg-6">
-            <div class="video-info">
-              <h2 class="lg">Videos on DeFi Blockchain</h2>
-              <div class="video-playlist">
-              
-                <div class="video-link" data-video="qLW-vJd8mpk">
-                  <div class="video-thumbnail">
-                    <img src="https://img.youtube.com/vi/qLW-vJd8mpk/hqdefault.jpg" alt="DeFiChain and DFI token explained in 2 minutes">
-                  </div>
-                  <div class="video-link-title">DeFiChain and DFI token explained in 2 minutes</div>
-                </div>
-              
-                <div class="video-link" data-video="Mn3sRQm4JvA">
-                  <div class="video-thumbnail">
-                    <img src="https://img.youtube.com/vi/Mn3sRQm4JvA/hqdefault.jpg" alt="DeFi Chain and DFI token explained in detail">
-                  </div>
-                  <div class="video-link-title">DeFi Chain and DFI token explained in detail</div>
-                </div>
-              
-                <div class="video-link" data-video="YuBR8bipazg">
-                  <div class="video-thumbnail">
-                    <img src="https://img.youtube.com/vi/YuBR8bipazg/hqdefault.jpg" alt="Decentralized Finance (DeFi) explained simply">
-                  </div>
-                  <div class="video-link-title">Decentralized Finance (DeFi) explained simply</div>
-                </div>
-              
-                <div class="video-link" data-video="sb-EnsxMh78">
-                  <div class="video-thumbnail">
-                    <img src="https://img.youtube.com/vi/sb-EnsxMh78/hqdefault.jpg" alt="DeFi Blockchain White Paper Walkthrough">
-                  </div>
-                  <div class="video-link-title">DeFi Blockchain White Paper Walkthrough</div>
-                </div>
-              
-                <div class="video-link" data-video="NH4bKfYEiSE">
-                  <div class="video-thumbnail">
-                    <img src="https://img.youtube.com/vi/NH4bKfYEiSE/hqdefault.jpg" alt="Difference between Ethereum and DeFiChain">
-                  </div>
-                  <div class="video-link-title">Difference between Ethereum and DeFiChain</div>
-                </div>
-              
-                <div class="video-link" data-video="f3d_6OUewis">
-                  <div class="video-thumbnail">
-                    <img src="https://img.youtube.com/vi/f3d_6OUewis/hqdefault.jpg" alt="Tech Details of the New DeFiChain">
-                  </div>
-                  <div class="video-link-title">Tech Details of the New DeFiChain</div>
-                </div>
-              
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="faq" id="">
+    <section class="how-much white">
       <div class="container-fluid">
         <div class="row">
-          <div class="col col-ul-5 offset-ul-1">
-            <h2>FAQ</h2>
+          <div class="col col-ul-4 offset-ul-1">
+            <h2 data-scroll="once">How much will I get?</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-ul-10 offset-ul-1">
+            <div class="row">
+              
+              <div class="example col col-sm-6 col-md-4" data-scroll="once">
+                <div class="example-icon">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M15 18a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h7zm2-5a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h7z" fill="#5B10FF" fill-rule="evenodd"/></svg>
+                  </div>
+                <div class="owned">If I own <strong class="text-purple">0.1 BTC</strong></div>
+                <div class="will-get">50 DFI</div>
+              </div>
+              
+              <div class="example col col-sm-6 col-md-4" data-scroll="once">
+                <div class="example-icon">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M15 18a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h7zm1-5a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h7zm-1-5a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h7zm1-5a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7z" fill="#5B10FF" fill-rule="evenodd"/></svg>
+                  </div>
+                <div class="owned">If I own <strong class="text-purple">1 BTC</strong></div>
+                <div class="will-get">500 DFI</div>
+              </div>
+              
+              <div class="example col col-sm-6 col-md-4" data-scroll="once">
+                <div class="example-icon">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M10 18a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h7zm11 0a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h7zm-10-5a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h7zm11 0a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h7zM9 8a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h7zm12 0a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h7zM11 3a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7z" fill="#5B10FF" fill-rule="evenodd"/></svg>
+                  </div>
+                <div class="owned">If I own <strong class="text-purple">100 BTC</strong></div>
+                <div class="will-get">50,000 DFI</div>
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>
-      
+    </section>
+
+    <section id="claim-my-dfi" class="claim-wizard day">
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-ul-4 offset-ul-1">
+            <h2 data-scroll="once">Claim your DFI now.</h2>
+          </div>
+        </div>
+      </div>
+
       <div class="collapsible-head active container-fluid">
         <div class="row">
           <div class="col col-ul-6 offset-ul-1">
@@ -223,18 +166,46 @@
               <div class="bar"></div>
               <div class="bar"></div>
             </div>
-            <h3>What is DeFi?</h3>
+            <h3>Step 1: Get a DFI Wallet</h3>
           </div>
         </div>
       </div>
-      <div class="collapsible-content container-flushed">
+      <div class="collapsible-content container-flushed" id="claim-step1">
         <div class="row">
-          <div class="col col-ul-6 offset-ul-1">
-            DeFi stands for Decentralized Finance. It describes the idea of not needing a trusted third-party to execute financial services, but with a blockchain in its place to enable people, and in the future, machines to become their own bank for these services, removing counterparty risks.
+          
+          <div class="col col-ul-5  offset-ul-1">
+            <div class="resource-image">
+              <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg"><path d="M29.32 41.89V6.11c7.703 2.3 13.334 9.45 13.334 17.89 0 8.44-5.631 15.59-13.334 17.89M23.987 0v20.228l-3.047-3.047-.39-7.604L23.729.013a23.884 23.884 0 0 0-5.89.812l-1.536 4.623-4.358-2.185a24.072 24.072 0 0 0-4.736 3.593l8.07 4.044.237 4.628-4.627-.237-4.045-8.07a24.084 24.084 0 0 0-3.593 4.736l2.186 4.359-4.625 1.536a23.947 23.947 0 0 0-.81 5.89l9.565-3.178 7.604.388L20.216 24l-3.046 3.048-7.604.388L0 24.259c.022 2.037.312 4.005.81 5.889l4.626 1.536-2.186 4.359a24.084 24.084 0 0 0 3.593 4.736l4.045-8.07 4.627-.237-.236 4.627-8.07 4.045a24.175 24.175 0 0 0 4.735 3.593l4.358-2.185 1.537 4.623c1.884.498 3.852.79 5.89.812l-3.178-9.564.39-7.604 3.046-3.047V48c13.255 0 24-10.745 24-24s-10.745-24-24-24" fill="#5B10FF" fill-rule="evenodd"/></svg>
+            </div>
+            <h4 data-scroll="once">DeFi Blockchain client</h4>
+            <a href="http://blah" target="_blank" class="cta-to" data-scroll="once">
+              Download
+              <span>&#10142;</span>
+            </a>
+          </div>
+          
+          <div class="col col-ul-5 ">
+            <div class="resource-image">
+              <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect id="a" y=".408" width="40" height="39.184" rx="4.5"/></defs><g transform="translate(4 4)" fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use fill="#5B10FF" xlink:href="#a"/><path d="M-70 31.02c19.998 0 19.998 9.796 39.996 9.796s19.998-9.796 39.996-9.796c20 0 20 9.796 40 9.796 20.002 0 20.002-9.796 40.004-9.796s20.002 9.796 40.004 9.796c19.998 0 19.998-9.796 39.996-9.796M-80 15.102c19.998 0 19.998 9.796 39.996 9.796s19.998-9.796 39.996-9.796c20 0 20 9.796 40 9.796 20.002 0 20.002-9.796 40.004-9.796S99.998 24.898 120 24.898c19.998 0 19.998-9.796 39.996-9.796M-90-.816c19.998 0 19.998 9.796 39.996 9.796S-30.006-.816-10.008-.816c20 0 20 9.796 40 9.796 20.002 0 20.002-9.796 40.004-9.796S89.998 8.98 110 8.98c19.998 0 19.998-9.796 39.996-9.796" stroke="#FFF" stroke-width="2.5" stroke-linecap="round" mask="url(#b)"/></g></svg>
+            </div>
+            <h4 data-scroll="once">Pool by Cake DFI wallet</h4>
+            <a href="https://pool.cakedefi.com/" target="_blank" class="cta-to" data-scroll="once">
+              Sign up
+              <span>&#10142;</span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col col-ul-6 offset-ul-1 mbg1">
+            <p>Make a note of the address of the DFI wallet you obtained, as you will need it in step 2.</p>
+            <button class="claim-wizard-next btn mtg1">
+              I’ve obtained a DFI wallet
+            </button>
           </div>
         </div>
       </div>
-      
+
       <div class="collapsible-head container-fluid">
         <div class="row">
           <div class="col col-ul-6 offset-ul-1">
@@ -242,18 +213,47 @@
               <div class="bar"></div>
               <div class="bar"></div>
             </div>
-            <h3>What DeFi Services are there?</h3>
+            <h3>Step 2: Enter details of your DFI and BTC wallets</h3>
           </div>
         </div>
       </div>
-      <div class="collapsible-content container-flushed">
-        <div class="row">
+      <div class="collapsible-content container-flushed" id="claim-step2">
+        <form action="/" class="row" data-parsley-validate>
           <div class="col col-ul-6 offset-ul-1">
-            Any service offered by a bank can be decentralized. The first and most common service is issuing money. Bitcoin is a prime example of that. There are many others like consensus verification i.e. mining and staking, lending, exchanging, investing and more.
+            <p class="lead">Enter your BTC wallet address to determine the amount of DFI you will receive, based on the amount of Bitcoins you have.</p>
+            <div class="form-field has-float-label mtg1">
+              <input type="text" id="dfi_add" name="dfi_add" autocomplete="off" autocorrect="off"
+                placeholder="DFI address"
+                required="required"
+                data-parsley-type="alphanum"
+                data-parsley-length="[26, 35]" />
+              <label for="dfi_add">DFI address</label>
+            </div>
+            <div class="form-field has-float-label">
+              <input type="text" id="btc_add" name="btc_add" autocomplete="off" autocorrect="off"
+                placeholder="BTC address"
+                required="required"
+                data-parsley-type="alphanum"
+                data-parsley-length="[26, 35]" />
+              <label for="btc_add">BTC address</label>
+            </div>
+            <div class="form-field">
+              <button class="claim-wizard-next btn" type="submit">
+                Continue to step 3
+              </button>
+              <div class="spinner">
+                <div class="b1"></div>
+                <div class="b2"></div>
+                <div class="b3"></div>
+              </div>
+            </div>
+            <div class="d-none" id="step2-error-alert">
+              <div class="alert error"></div>
+            </div>
           </div>
-        </div>
+        </form>
       </div>
-      
+
       <div class="collapsible-head container-fluid">
         <div class="row">
           <div class="col col-ul-6 offset-ul-1">
@@ -261,18 +261,44 @@
               <div class="bar"></div>
               <div class="bar"></div>
             </div>
-            <h3>What is the DeFi Chain?</h3>
+            <h3>Step 3: Signing mesage</h3>
           </div>
         </div>
       </div>
-      <div class="collapsible-content container-flushed">
+      <div class="collapsible-content container-flushed" id="claim-step3">
         <div class="row">
           <div class="col col-ul-6 offset-ul-1">
-            DeFi services run on blockchain technology. The DeFi Chain was created exactly for DeFi Services, while providing the optimal infrastructure for security, speed, and access, to name a few.
+            <div class="alert info" id="prev-incomplete-alert">
+              Please complete all previous steps before continuing.
+            </div>
+            <p class="lead">From your Bitcoin client, <em>Sign a Message</em> using the following values:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-ul-6 offset-ul-1">
+            <table class="table-plain mbg0">
+              <tr>
+                <th>Bitcoin address</th>
+                <td><em>Your bitcoin wallet private key</em></td>
+              </tr>
+              <tr>
+                <th>Message</th>
+                <td>
+                  <span class="claim-wizard-btc-message">Message</span>
+                  <button class="copy-btn btn btn-small btn-plain" data-clipboard-target=".claim-wizard-btc-message">Copy to clipboard</button>
+                </td>
+              </tr>
+            </table>
+            <p>Your Bitcoin client will generate a <em>Signature</em> after you sign the message. You will need this signature for the next step. If you need help, please refer to this <a href="#">help article</a>.</p>
+            <div class="form-field">
+              <button class="claim-wizard-next btn mtg1">
+                I&#39;ve done these steps
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      
+
       <div class="collapsible-head container-fluid">
         <div class="row">
           <div class="col col-ul-6 offset-ul-1">
@@ -280,75 +306,67 @@
               <div class="bar"></div>
               <div class="bar"></div>
             </div>
-            <h3>Why not use the Bitcoin blockchain?</h3>
+            <h3>Step 4: Signature</h3>
           </div>
         </div>
       </div>
-      <div class="collapsible-content container-flushed">
-        <div class="row">
+      <div class="collapsible-content container-flushed" id="claim-step4">
+        <form action="/" class="row" data-parsley-validate>
           <div class="col col-ul-6 offset-ul-1">
-            The Bitcoin blockchain was created for a single specific financial service – the decentralized and censorship-resistant store of value used as a medium of exchange, and perhaps a unit of account in the future. It does this better than other blockchains. However, beyond that, it lacks technical capabilities necessary for the infrastructure of other DeFi services.
-          </div>
-        </div>
-      </div>
-      
-      <div class="collapsible-head container-fluid">
-        <div class="row">
-          <div class="col col-ul-6 offset-ul-1">
-            <div class="toggle">
-              <div class="bar"></div>
-              <div class="bar"></div>
+            <p class="lead">Enter the signature generated by your Bitcoin client in step 3.</p>
+            <div class="form-field has-float-label">
+              <input type="text" id="message_signature" name="message_signature" autocomplete="off" autocorrect="off"
+                placeholder="Signature"
+                required="required" />
+              <label for="message_signature">Signature</label>
             </div>
-            <h3>Why not use the Ethereum blockchain?</h3>
-          </div>
-        </div>
-      </div>
-      <div class="collapsible-content container-flushed">
-        <div class="row">
-          <div class="col col-ul-6 offset-ul-1">
-            Ethereum was meant to be a general-purpose platform. In principle, one could do anything with Ethereum, rendering it the jack of all trades but master of none. Problems such as the DAO and parity hack reveal the challenge to keep smart contracts secure, due to their general and universal nature.
-          </div>
-        </div>
-      </div>
-      
-      <div class="collapsible-head container-fluid">
-        <div class="row">
-          <div class="col col-ul-6 offset-ul-1">
-            <div class="toggle">
-              <div class="bar"></div>
-              <div class="bar"></div>
+            <p>If you&#39;d like us to notify you about the details of your claim, please provide your email address.</p>
+            <div class="form-field has-float-label">
+              <input type="email" id="claim_email" name="claim_email" autocomplete="off" autocorrect="off"
+                placeholder="name@example.com"
+                required="required" />
+              <label for="claim_email">Email address (optional)</label>
             </div>
-            <h3>What is DFI?</h3>
-          </div>
-        </div>
-      </div>
-      <div class="collapsible-content container-flushed">
-        <div class="row">
-          <div class="col col-ul-6 offset-ul-1">
-            DFI is the DeFi chain native token needed to execute code. It is also used for governance.
-          </div>
-        </div>
-      </div>
-      
-      <div class="collapsible-head container-fluid">
-        <div class="row">
-          <div class="col col-ul-6 offset-ul-1">
-            <div class="toggle">
-              <div class="bar"></div>
-              <div class="bar"></div>
+            <div class="form-field">
+              <button type="submit" class="claim-wizard-next btn">
+                Complete Claiming My DFI
+              </button>
+              <div class="spinner">
+                <div class="b1"></div>
+                <div class="b2"></div>
+                <div class="b3"></div>
+              </div>
             </div>
-            <h3>Where can I learn more about DeFi, the DeFi Chain and DFI?</h3>
+            <div class="d-none" id="step4-error-alert">
+              <div class="alert error"></div>
+            </div>
+            <div class="d-none" id="step4-success-alert">
+              <div class="alert info">
+                Great! You’re all set! Your transaction details are as follows:
+                <table class="claim-response">
+                  <tr>
+                    <th>DFI value</th>
+                    <td id="dfi-value-value"></td>
+                  </tr>
+                  <tr>
+                    <th>Start date</th>
+                    <td id="requested-ts-value"></td>
+                  </tr>
+                  <tr>
+                    <th>Transaction date</th>
+                    <td id="initiated-ts-value"></td>
+                  </tr>
+                  <tr>
+                    <th>Transaction hash</th>
+                    <td id="hash-value"></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </div>
-        </div>
+        </form>
       </div>
-      <div class="collapsible-content container-flushed">
-        <div class="row">
-          <div class="col col-ul-6 offset-ul-1">
-            We publish informational and educational content on DeFi. Follow us on our social media or join our mailing list to be the first to receive new content.
-          </div>
-        </div>
-      </div>
-      
+
     </section>
 
     
@@ -461,7 +479,7 @@
             <a href="/media/">Media</a>
           </li>
           
-          <li class="active">
+          <li class="">
             <a href="/learn/">Learn</a>
           </li>
           
@@ -491,13 +509,18 @@
 </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery.localscroll@2.0.0/jquery.localScroll.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
   
   
   
   
   
   
-  <script src="/js/bundle-faq.8fe434a8ae1af505af3dfafb0f953bb744459fb4f4f7dbb5f30ad5aee907b04c.js" type="text/javascript"></script>
+  
+  <script src="/js/bundle-claim.1524ddfc6a364ad19fafd8ef6ce31925cf7976048d5cee401167c058ec131eca.js" type="text/javascript"></script>
   
   
 <script>
@@ -514,16 +537,6 @@
 <noscript><img height="1" width="1" style="display:none” src=“https://www.facebook.com/tr?id=752766698450397&ev=PageView&noscript=1" /></noscript>
 
   <script type="text/javascript"> _linkedin_partner_id = "2394801"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script><script type="text/javascript"> (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2394801&fmt=gif" /> </noscript>
-  
-<script>
-!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-
-twq('init','o41c7');
-twq('track','PageView');
-</script>
-
 </body>
 
 </html>
