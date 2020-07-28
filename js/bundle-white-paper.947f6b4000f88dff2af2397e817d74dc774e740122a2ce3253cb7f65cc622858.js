@@ -269,6 +269,41 @@ $(function () {
     $('.lang-switcher').toggleClass('active');
   });
 
+  // FAQ toggles
+  function storeAnswerHeights() {
+    $('.faq-a').css({
+      'height': 'auto'
+    }).each(function (i) {
+      $(this).attr('data-h', $(this).height());
+    });
+
+    $('.faq-q').not('.active').next('.faq-a').css('height', 0).removeClass('active');
+  }
+
+  storeAnswerHeights();
+
+  $(window).on("debouncedresize", function (event) {
+    storeAnswerHeights();
+  });
+
+  $('.faq-q').click(function() {
+    var $q = $(this);
+    var $a = $q.next();
+    if ($q.hasClass('active')) {
+      $a.animate({
+        height: 0
+      });
+      $q.removeClass('active');
+    } else {
+      console.log($a.attr('data-h'));
+      $a.animate({
+        height: $a.attr('data-h') + "px"
+      });
+      $q.addClass('active');
+    }
+    // $(this).toggleClass('active').siblings('.faq-q').removeClass('active');
+  });
+
   // Closer look carousel
   if ($(".latest-release-version").length) {
     $.ajax({
@@ -355,15 +390,3 @@ document.addEventListener('DOMContentLoaded', function () {
     // play hero animation
   };
 });
-
-;
-$(function() {
-  $('body').scrollspy({
-    target: '#TableOfContents',
-    offset: 154
-  });
-
-  $("#TableOfContents").stick_in_parent({
-    offset_top: 144
-  });
-})
