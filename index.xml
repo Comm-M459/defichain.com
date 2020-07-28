@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DeFi Blockchain</title>
+    <link>https://www.defichain.io/</link>
+    <description>Recent content on DeFi Blockchain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All Rights Reserved</copyright>
+    
+	<atom:link href="https://www.defichain.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DeFi Blockchain app how-to</title>
+      <link>https://www.defichain.io/learn/defi-app-how-to/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.defichain.io/learn/defi-app-how-to/</guid>
+      <description>Download the app    Platform Download links     macOS Download   Windows Download   Linux Download (AppImage), Download (Debian)    Minimum requirements    Requirement Minimum Required     Memory 2GB   OS macOS 10.14, Windows 10, Ubuntu LTS 18 and above    Installing on macOS Step 1: Installation Open the downloaded image defi-app-&amp;lt;version&amp;gt;.dmg, then drag defi-app into the Applications directory.</description>
+    </item>
+    
+    <item>
+      <title>Developers</title>
+      <link>https://www.defichain.io/developers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.defichain.io/developers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DFI Token</title>
+      <link>https://www.defichain.io/dfi-token/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.defichain.io/dfi-token/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Foundation</title>
+      <link>https://www.defichain.io/foundation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.defichain.io/foundation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learn</title>
+      <link>https://www.defichain.io/learn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.defichain.io/learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>https://www.defichain.io/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.defichain.io/media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Partners</title>
+      <link>https://www.defichain.io/partners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.defichain.io/partners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Run a masternode</title>
+      <link>https://www.defichain.io/learn/run-a-masternode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.defichain.io/learn/run-a-masternode/</guid>
+      <description>Introduction Setting up a masternode on Defichain allows you to participate in the consensus protocol and receive staking awards. One thing to note is that in order to set up a masternode, you must have a minimum of 1 million DFI tokens.
+ NOTE: This how-to expects some basic familiarity with the Linux terminal
+ Masternode roles There are two distinct roles: &amp;lsquo;masternode owner&amp;rsquo; and &amp;lsquo;masternode operator&amp;rsquo;. The owner holds the collateral and the primary activity (minting new coins, voting for anchors) is performed by operator.</description>
+    </item>
+    
+    <item>
+      <title>White paper</title>
+      <link>https://www.defichain.io/white-paper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.defichain.io/white-paper/</guid>
+      <description>Abstract: The DeFi Foundation, registered in Singapore, is developing the DeFi Blockchain, a blockchain specifically dedicated to decentralized financial applications. By focusing on the functionality of the blockchain and dedicating it specifically to decentralized finance, the DeFi Blockchain provides unparalleled high transaction throughput, reduced risk of errors, and intelligent feature development specifically for the fulfillment of financial services on the blockchain.
+This Document is not a Prospectus
+This document does not constitute nor imply a prospectus of any sort.</description>
+    </item>
+    
+  </channel>
+</rss>
