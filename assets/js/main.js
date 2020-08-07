@@ -12,15 +12,56 @@ $(function () {
     $('.lang-switcher').toggleClass('active');
   });
 
+  // FAQ toggles
+  function storeAnswerHeights() {
+    $('.faq-a').css({
+      'height': 'auto'
+    }).each(function (i) {
+      $(this).attr('data-h', $(this).height());
+    });
+
+    $('.faq-q').not('.active').next('.faq-a').css('height', 0).removeClass('active');
+  }
+
+  storeAnswerHeights();
+
+  $(window).on("debouncedresize", function (event) {
+    storeAnswerHeights();
+  });
+
+  $('.faq-q').click(function() {
+    var $q = $(this);
+    var $a = $q.next();
+    if ($q.hasClass('active')) {
+      $a.animate({
+        height: 0
+      });
+      $q.removeClass('active');
+    } else {
+      $a.animate({
+        height: $a.attr('data-h') + "px"
+      });
+      $q.addClass('active');
+    }
+    // $(this).toggleClass('active').siblings('.faq-q').removeClass('active');
+  });
+
   // Closer look carousel
-  if ($(".latest-release-version").length) {
+  if ($("body.home").length) {
     $.ajax({
       type: 'GET',
       url: 'https://api.github.com/repos/DeFiCh/ain/releases/latest',
       success: function (data) {
-        $(".latest-release-version").html(data.tag_name);
+        $(".latest-cli").html(data.tag_name);
       }
     });
+    // $.ajax({
+    //   type: 'GET',
+    //   url: 'https://api.github.com/repos/DeFiCh/defi-app/releases/latest',
+    //   success: function (data) {
+    //     $(".latest-app").html(data.tag_name);
+    //   }
+    // });
   }
 
   // Closer look carousel
@@ -89,7 +130,6 @@ document.addEventListener('DOMContentLoaded', function () {
     centerVertical: false,
     once: false,
   }, document.body, window);
-
   trigger.callScope = scope;
 
   scope.heroOut = function () {
