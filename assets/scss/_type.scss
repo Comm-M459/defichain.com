@@ -114,6 +114,16 @@ form {
   }
 }
 
+form {
+  p, .p {
+    margin-bottom: $body-md-line-height;
+
+    &:last-of-type {
+      margin-bottom: $body-md-line-height;
+    }
+  }
+}
+
 .lg {
   @include media(">md") {
     font-size: $body-lg-font-size;

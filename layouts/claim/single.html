@@ -29,8 +29,7 @@
 
   <main>
 
-    <section class="hero dark night" data-scroll data-scroll-showCallback="heroIn()"
-      data-scroll-hideCallback="heroOut()">
+    <section class="hero" data-scroll data-scroll-showCallback="heroIn()" data-scroll-hideCallback="heroOut()">
       <div class="container-fluid">
         <div class="row">
           <div id="{{ $.Param "content.sections.hero.name" }}" class="col col-lg-6 col-xl-5 offset-xl-1">
@@ -64,7 +63,7 @@
                   {{ readFile $example.icon  | safeHTML }}
                 </div>
                 <div class="owned">{{ $.Param "content.sections.how_much.prefix" }} <strong
-                    class="text-purple">{{ $example.btc }}</strong></div>
+                    class="text-pink">{{ $example.btc }}</strong></div>
                 <div class="will-get">{{ $example.dfi }}</div>
               </div>
               {{ end }}
@@ -74,7 +73,7 @@
       </div>
     </section>
 
-    <section id="claim-my-dfi" class="claim-wizard day">
+    <section id="claim-my-dfi" class="claim-wizard paper">
 
       <div class="container-fluid">
         <div class="row">
@@ -103,9 +102,8 @@
               {{ readFile $option.image | safeHTML }}
             </div>
             <h4 data-scroll="once">{{ $option.headline | markdownify }}</h4>
-            <a href="{{ $option.cta.url | relLangURL }}" target="_blank" class="cta-to" data-scroll="once">
+            <a href="{{ $option.cta.url | relLangURL }}" target="_blank" class="btn" data-scroll="once">
               {{ $option.cta.label }}
-              <span>&#10142;</span>
             </a>
           </div>
           {{ end }}

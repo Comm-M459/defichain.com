@@ -57,22 +57,24 @@ $(function () {
     });
   }
 
-  $('body').scrollspy({
-    target: '#TableOfContents',
-    offset: 154
-  });
+  // if ($("#TableOfContents").length) {
+  //   $('body').scrollspy({
+  //     target: '#TableOfContents',
+  //     offset: 154
+  //   });
 
-  $("#TableOfContents").stick_in_parent({
-    offset_top: 144
-  });
+  //   $("#TableOfContents").stick_in_parent({
+  //     offset_top: 144
+  //   });
 
-  $.localScroll({
-    duration: 500,
-    offset: {
-      top: -144
-    },
-    hash: true,
-  });
+  //   $.localScroll({
+  //     duration: 500,
+  //     offset: {
+  //       top: -144
+  //     },
+  //     hash: true,
+  //   });
+  // }
 
 });
 
@@ -91,10 +93,11 @@ document.addEventListener('DOMContentLoaded', function () {
   trigger.callScope = scope;
 
   scope.heroOut = function () {
-    // pause hero animation
+    $('body > header').addClass('sticky');
   };
 
   scope.heroIn = function () {
-    // play hero animation
+    $('body > header').removeClass('sticky');
+    console.log("hero in");
   };
 });
