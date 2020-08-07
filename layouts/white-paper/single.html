@@ -75,7 +75,7 @@
   {{ $sticky := resources.Get "js/jquery.sticky-kit.js" }}
   {{ $main := resources.Get "js/main.js" }}
   {{ $whitepaper := resources.Get "js/whitepaper.js" }}
-  {{ $js := slice $scrolltrigger $sticky $main $whitepaper | resources.Concat "js/bundle-white-paper.js" | resources.Fingerprint }}
+  {{ $js := slice $scrolltrigger $sticky $swiper $main $whitepaper | resources.Concat "js/bundle-white-paper.js" | resources.Fingerprint }}
   <script src="{{ $js.RelPermalink }}" type="text/javascript"></script>
   {{ template "_internal/google_analytics_async.html" . }}
   {{ partial "pixels/facebook.html" . }}

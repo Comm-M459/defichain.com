@@ -107,15 +107,15 @@ $(function () {
   //   $("#TableOfContents").stick_in_parent({
   //     offset_top: 144
   //   });
-
-  //   $.localScroll({
-  //     duration: 500,
-  //     offset: {
-  //       top: -144
-  //     },
-  //     hash: true,
-  //   });
   // }
+
+  $.localScroll({
+    duration: 500,
+    offset: {
+      top: -96
+    },
+    hash: true,
+  });
 
 });
 

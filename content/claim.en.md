@@ -5,7 +5,9 @@ long_title: Claim your DFI in the DFI Airdrop
 cta_to: Claim My DFI
 menu:
   main:
-    weight: 80
+    weight: 90
+  footer:
+    weight: 90
 meta:
   description: Claim your DFI in the DFI Airdrop
   og:
