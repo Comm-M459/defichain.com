@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
   <title>How to run a Defichain masternode on Linux/Mac OS &ndash; DeFi Blockchain</title>
   
-  <link href="/scss/main.min.9c4619d6a6bbed3d6fb6d5370c680cd5de54abc4e6eddd8fe94a057cd21e1c35.css" rel="stylesheet">
+  <link href="/scss/main.min.41192536b43274c8aa8f35c5faf58499743ab8566eaa4b00a794ffa5d82ce3d9.css" rel="stylesheet">
   <link rel="canonical" href="https://www.defichain.com/learn/run-a-masternode/">
   
   <meta property="og:title" content="Run a DeFiChain masternode">
   <meta property="og:description" content="How to run a DeFiChain masternode on Linux/Mac OS">
   <meta property="og:site_name" content="DeFi Blockchain">
   <meta property="og:url" content="https://www.defichain.com/learn/run-a-masternode/">
-  <meta property="og:image" content="https://www.defichain.com/img/og/ogimage-white-paper.png">
+  <meta property="og:image" content="https://www.defichain.com/img/og/ogimage_en.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:locale" content="en_US">
 </head>
@@ -115,19 +115,19 @@
     <li><a href="#masternode-roles">Masternode roles</a></li>
     <li><a href="#for-owners-who-operate-their-own-masternodes">For owners who operate their own masternodes</a>
       <ul class='nav'>
-        <li><a href="#step-1---download-and-extract-node-software">Step 1 - Download and extract node software</a></li>
-        <li><a href="#step-2---copy-binaries-to-user-directory">Step 2 - Copy binaries to user directory</a></li>
-        <li><a href="#step-3---setting-up-crontab-to-keep-our-node-running-in-the-background">Step 3 - Setting up crontab to keep our node running in the background</a></li>
-        <li><a href="#step-4---setting-up-owner-address-with-sufficient-funds">Step 4 - Setting up owner address with sufficient funds</a></li>
-        <li><a href="#step-5---register-as-a-masternode-on-the-network">Step 5 - Register as a masternode on the network</a></li>
-        <li><a href="#step-6---configure-the-masternode-and-restart">Step 6 - Configure the masternode and restart</a></li>
+        <li><a href="#step-1--download-and-extract-node-software">Step 1 - Download and extract node software</a></li>
+        <li><a href="#step-2--copy-binaries-to-user-directory">Step 2 - Copy binaries to user directory</a></li>
+        <li><a href="#step-3--setting-up-crontab-to-keep-our-node-running-in-the-background">Step 3 - Setting up crontab to keep our node running in the background</a></li>
+        <li><a href="#step-4--setting-up-owner-address-with-sufficient-funds">Step 4 - Setting up owner address with sufficient funds</a></li>
+        <li><a href="#step-5--register-as-a-masternode-on-the-network">Step 5 - Register as a masternode on the network</a></li>
+        <li><a href="#step-6--configure-the-masternode-and-restart">Step 6 - Configure the masternode and restart</a></li>
       </ul>
     </li>
     <li><a href="#for-owners-who-would-like-to-delegate-the-masternode-duties-to-another-node">For owners who would like to delegate the masternode duties to another node</a>
       <ul class='nav'>
-        <li><a href="#step-1-4---same-as-above">Step 1-4 - Same as above</a></li>
-        <li><a href="#step-5---register-as-a-masternode-on-the-network-1">Step 5 - Register as a masternode on the network</a></li>
-        <li><a href="#step-6---configure-the-masternode-and-restart-1">Step 6 - Configure the masternode and restart</a></li>
+        <li><a href="#step-14--same-as-above">Step 1-4 - Same as above</a></li>
+        <li><a href="#step-5--register-as-a-masternode-on-the-network1">Step 5 - Register as a masternode on the network</a></li>
+        <li><a href="#step-6--configure-the-masternode-and-restart1">Step 6 - Configure the masternode and restart</a></li>
       </ul>
     </li>
     <li><a href="#resigning-masternodes">Resigning masternodes</a></li>
@@ -144,8 +144,8 @@
 <h2 id="masternode-roles">Masternode roles</h2>
 <p>There are two distinct roles: &lsquo;masternode owner&rsquo; and &lsquo;masternode operator&rsquo;. The owner holds the collateral and the primary activity (minting new coins, voting for anchors) is performed by operator. In general, a node can play both roles.</p>
 <h2 id="for-owners-who-operate-their-own-masternodes">For owners who operate their own masternodes</h2>
-<p>In this scenario, operator&rsquo;s address will be equal to the owner&rsquo;s (collateral) address.</p>
-<h3 id="step-1---download-and-extract-node-software">Step 1 - Download and extract node software</h3>
+<p>In this scenario, operator's address will be equal to the owner's (collateral) address.</p>
+<h3 id="step-1--download-and-extract-node-software">Step 1 - Download and extract node software</h3>
 <p>The first step is to download the binaries. Here are links to binaries for Linux and Macosx:</p>
 <p><a href="https://github.com/DeFiCh/ain/releases/download/v1.0.0-rc1/defichain-1.0.0-rc1-x86_64-pc-linux-gnu.tar.gz">Linux v1.0.0-rc1</a><br>
 <a href="https://github.com/DeFiCh/ain/releases/download/v1.0.0-rc1/defichain-1.0.0-rc1-x86_64-apple-darwin11.tar.gz">Mac OSX v1.0.0-rc1</a></p>
@@ -153,29 +153,29 @@
 <pre><code>wget https://github.com/DeFiCh/ain/releases/download/v1.0.0-rc1/defichain-1.0.0-rc1-x86_64-pc-linux-gnu.tar.gz
 </code></pre><p>Following that we can extract the tar file by running:</p>
 <pre><code>tar -xvzf defichain-1.0.0-rc1-x86_64-pc-linux-gnu.tar.gz
-</code></pre><h3 id="step-2---copy-binaries-to-user-directory">Step 2 - Copy binaries to user directory</h3>
-<p>We would like the node software to be stored in a consistent and easily accessible directory, so let&rsquo;s create one in our home folder. This can be done by running:</p>
+</code></pre><h3 id="step-2--copy-binaries-to-user-directory">Step 2 - Copy binaries to user directory</h3>
+<p>We would like the node software to be stored in a consistent and easily accessible directory, so let's create one in our home folder. This can be done by running:</p>
 <pre><code>mkdir ~/.defi
 </code></pre><p>Now copy the binaries by running:</p>
 <pre><code>cp ./defichain-1.0.0-beta4/bin/* ~/.defi
-</code></pre><h3 id="step-3---setting-up-crontab-to-keep-our-node-running-in-the-background">Step 3 - Setting up crontab to keep our node running in the background</h3>
+</code></pre><h3 id="step-3--setting-up-crontab-to-keep-our-node-running-in-the-background">Step 3 - Setting up crontab to keep our node running in the background</h3>
 <p>Now we may directly run our node by running <code>~/.defi/defid</code> , but this would not be very convenient, as we would have to keep the terminal session open the whole time, and run this command every time we restart our computer or SSH session.</p>
-<p>Instead, we&rsquo;ll use crontab to keep the process running. Run <code>crontab -e</code>, and select an editor (I recommend Nano if you are unsure which to pick), afterwards paste:</p>
+<p>Instead, we'll use crontab to keep the process running. Run <code>crontab -e</code>, and select an editor (I recommend Nano if you are unsure which to pick), afterwards paste:</p>
 <pre><code>* * * * * pidof defid || ~/.defi/defid
 </code></pre><p>into the file and hit <code>Ctrl-X</code> then enter to save the file.</p>
-<h3 id="step-4---setting-up-owner-address-with-sufficient-funds">Step 4 - Setting up owner address with sufficient funds</h3>
-<p>In order to run a masternode, you must own atleast 1 million DFI tokens. Let&rsquo;s set up an address with sufficient funds to use as an owner. Masternodes currently only support legacy addresses, so create a masternode address using:</p>
+<h3 id="step-4--setting-up-owner-address-with-sufficient-funds">Step 4 - Setting up owner address with sufficient funds</h3>
+<p>In order to run a masternode, you must own atleast 1 million DFI tokens. Let's set up an address with sufficient funds to use as an owner. Masternodes currently only support legacy addresses, so create a masternode address using:</p>
 <pre><code>~/.defi/defi-cli getnewaddress &quot;&lt;label&gt;&quot; legacy
 </code></pre><p>where &ldquo;label&rdquo; is any label you would like to give the address.</p>
 <p>Now in order to transfer the funds to this address, you may use:</p>
 <pre><code>~/.defi/defi-cli sendtoaddress address
 </code></pre><p>where address is the new owner address you have created.</p>
-<h3 id="step-5---register-as-a-masternode-on-the-network">Step 5 - Register as a masternode on the network</h3>
+<h3 id="step-5--register-as-a-masternode-on-the-network">Step 5 - Register as a masternode on the network</h3>
 <p>In order to participate in the staking algorithm, you must broadcast to the network that you intend to participate, this can be done by running a command using the Defi CLI, the command is:</p>
 <pre><code>defi-cli createmasternode &quot;[]&quot; &quot;{\&quot;operatorAuthAddress\&quot;:\&quot;address\&quot;,\&quot;collateralAddress\&quot;:\&quot;address\&quot;}&quot;
 </code></pre><p>where &ldquo;address&rdquo; for both operator and collateral address should be the new legacy address you created.</p>
-<h3 id="step-6---configure-the-masternode-and-restart">Step 6 - Configure the masternode and restart</h3>
-<p>We&rsquo;re almost done, in order for the master node to operate correctly, we must make a couple of configuration changes. The configuration file will sit in <code>~/.defi/defi.conf</code>. Let&rsquo;s make sure the configuration file exists by running <code>touch ~/.defi/defi.conf</code>. Now open this configuration file in the editor of your choice and add the following:</p>
+<h3 id="step-6--configure-the-masternode-and-restart">Step 6 - Configure the masternode and restart</h3>
+<p>We're almost done, in order for the master node to operate correctly, we must make a couple of configuration changes. The configuration file will sit in <code>~/.defi/defi.conf</code>. Let's make sure the configuration file exists by running <code>touch ~/.defi/defi.conf</code>. Now open this configuration file in the editor of your choice and add the following:</p>
 <pre><code>gen=1
 masternode_operator=OPERATOR_ADDRESS
 masternode_owner=OWNER_ADDRESS
@@ -185,15 +185,15 @@ masternode_owner=OWNER_ADDRESS
 <pre><code>~/.defi/defi-cli listmasternodes
 </code></pre><p>look for your masternode address in the list of masternodes to confirm that you have successfully set everything up.</p>
 <h2 id="for-owners-who-would-like-to-delegate-the-masternode-duties-to-another-node">For owners who would like to delegate the masternode duties to another node</h2>
-<p>In this scenario, operator&rsquo;s address will be different to the owner&rsquo;s (collateral) address.</p>
-<h3 id="step-1-4---same-as-above">Step 1-4 - Same as above</h3>
+<p>In this scenario, operator's address will be different to the owner's (collateral) address.</p>
+<h3 id="step-14--same-as-above">Step 1-4 - Same as above</h3>
 <p>Perform steps 1-4 the same as the above section for operating your own masternodes. If you are also setting up the operator node yourself, then repeat steps 1-4 again for the operator node on a different machine.</p>
-<h3 id="step-5---register-as-a-masternode-on-the-network-1">Step 5 - Register as a masternode on the network</h3>
+<h3 id="step-5--register-as-a-masternode-on-the-network1">Step 5 - Register as a masternode on the network</h3>
 <p>In order to participate in the staking algorithm, you must broadcast to the network that you intend to participate, this can be done by running a command using the Defi CLI, the command is:</p>
 <pre><code>defi-cli createmasternode &quot;[]&quot; &quot;{\&quot;operatorAuthAddress\&quot;:\&quot;OPERATOR_ADDRESS\&quot;,\&quot;collateralAddress\&quot;:\&quot;OWNER_ADDRESS\&quot;}&quot;
 </code></pre><p>where <code>OPERATOR_ADDRESS</code> is the address for the operator and <code>OWNER_ADDRESS</code> is the address for the collateral/owner node.</p>
-<h3 id="step-6---configure-the-masternode-and-restart-1">Step 6 - Configure the masternode and restart</h3>
-<p>We&rsquo;re almost done, in order for the master node to operate correctly, we must make a couple of configuration changes. The configuration file will sit in <code>~/.defi/defi.conf</code>. Let&rsquo;s make sure the configuration file exists by running <code>touch ~/.defi/defi.conf</code>. Now open this configuration file on the owner node with editor of your choice and add the following:</p>
+<h3 id="step-6--configure-the-masternode-and-restart1">Step 6 - Configure the masternode and restart</h3>
+<p>We're almost done, in order for the master node to operate correctly, we must make a couple of configuration changes. The configuration file will sit in <code>~/.defi/defi.conf</code>. Let's make sure the configuration file exists by running <code>touch ~/.defi/defi.conf</code>. Now open this configuration file on the owner node with editor of your choice and add the following:</p>
 <pre><code>masternode_owner=OWNER_ADDRESS
 </code></pre><p>In this case <code>OWNER_ADDRESS</code> should be the address of the owner node you have set up. If you are also setting up the operator node yourself, make sure the configuration file exists and open this file on the operator machine, this time add the following:</p>
 <pre><code>gen=1
@@ -206,7 +206,7 @@ masternode_operator=OPERATOR_ADDRESS
 <p>If you decide to resign your masternode, you may run</p>
 <pre><code>~/.defi/defi-cli resignmasternode
 </code></pre><h2 id="masternode-states">Masternode states</h2>
-<p>Sending <code>createmasternode</code> (or &lsquo;resignmasternode&rsquo;) transaction doesn&rsquo;t mean that it acts immediately after submitting to the blockchain. There are special delays for each state.</p>
+<p>Sending <code>createmasternode</code> (or &lsquo;resignmasternode&rsquo;) transaction doesn't mean that it acts immediately after submitting to the blockchain. There are special delays for each state.</p>
 <p>Masternodes can exist in these states:</p>
 <pre><code>        PRE_ENABLED,
         ENABLED,
