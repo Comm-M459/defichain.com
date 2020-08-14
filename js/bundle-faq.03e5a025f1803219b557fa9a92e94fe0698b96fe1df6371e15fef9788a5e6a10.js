@@ -131,26 +131,54 @@ $(function () {
   //   });
   // }
 
-  // Closer look carousel
-  if ($(".closer-look").length) {
-    var closerLookCarousel = new Swiper('.carousel', {
+  // Carousel for timeline
+  if ($(".roadmap").length > 0) {
+    var roadmapCarousel = new Swiper('.roadmap .carousel', {
       slidesPerView: 'auto',
-      spaceBetween: 30,
+      initialSlide: 8,
+      roundLengths: true,
+      centeredSlides: true,
+      spaceBetween: 32,
       watchOverflow: true,
       mousewheel: {
         forceToAxis: true,
         invert: true
       },
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.roadmap .swiper-button-next',
+        prevEl: '.roadmap .swiper-button-prev',
       },
       breakpoints: {
         812: {
-          spaceBetween: 60
+          spaceBetween: 64
         },
         992: {
-          spaceBetween: 90
+          spaceBetween: 80
+        }
+      }
+    });
+  }
+
+  // Closer look carousel
+  if ($(".closer-look").length) {
+    var closerLookCarousel = new Swiper('.closer-look .carousel', {
+      slidesPerView: 'auto',
+      spaceBetween: 32,
+      watchOverflow: true,
+      mousewheel: {
+        forceToAxis: true,
+        invert: true
+      },
+      navigation: {
+        nextEl: '.closer-look .swiper-button-next',
+        prevEl: '.closer-look .swiper-button-prev',
+      },
+      breakpoints: {
+        812: {
+          spaceBetween: 64
+        },
+        992: {
+          spaceBetween: 80
         }
       }
     });
@@ -210,4 +238,46 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("hero in");
     // play hero animation
   };
+});
+
+;
+$(function () {
+
+// FAQ toggles
+  function storeCollapsibleHeights() {
+    $('.collapsible-content').css({
+      'height': 'auto'
+    }).each(function (i) {
+      $(this).attr('data-h', $(this).height());
+    });
+    $('.collapsible-head').not('.active').next('.collapsible-content').css('height', 0).removeClass('active');
+  }
+
+  storeCollapsibleHeights();
+
+  $(window).on("debouncedresize", function (event) {
+    storeCollapsibleHeights();
+  });
+
+  // Handle collapsible toggles
+  $('.collapsible-head').click(function() {
+    var $ch = $(this);
+    var $cc = $ch.next();
+    if ($ch.hasClass('active')) {
+      // $cc.animate({
+      //   height: 0
+      // });
+      // $ch.removeClass('active');
+    } else {
+      $cc.animate({
+        height: $cc.attr('data-h') + "px"
+      });
+      $ch.addClass('active');
+      $ch.siblings('.collapsible-head').removeClass('active');
+      $cc.siblings('.collapsible-content').animate({
+        height: 0
+      });
+    }
+  });
+
 });
