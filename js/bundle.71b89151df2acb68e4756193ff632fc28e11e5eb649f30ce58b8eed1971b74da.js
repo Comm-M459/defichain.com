@@ -81,6 +81,7 @@ $(function () {
 
   // Fetch DFI price
   if ($("#nav-token").length > 0) {
+    $("#nav-token a").append('<span class="dfi-price loading"><span class="spinner"><span class="b1"></span><span class="b2"></span><span class="b3"></span></span></span>');
     $.ajax({
       url: "https://poolapi.cakedefi.com/home",
       success: function (data) {
@@ -89,7 +90,7 @@ $(function () {
             var DFIPrice = data.coinPrices[i].priceUSD.avg;
           }
         }
-        $("#nav-token a").append('<span class="dfi-price">$' + parseFloat(DFIPrice).toFixed(2) + '</span>');
+        $(".dfi-price").removeClass("loading").empty().html('$' + parseFloat(DFIPrice).toFixed(2));
       }
     });
   }
@@ -254,46 +255,4 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("hero in");
     // play hero animation
   };
-});
-
-;
-$(function () {
-
-// FAQ toggles
-  function storeCollapsibleHeights() {
-    $('.collapsible-content').css({
-      'height': 'auto'
-    }).each(function (i) {
-      $(this).attr('data-h', $(this).height());
-    });
-    $('.collapsible-head').not('.active').next('.collapsible-content').css('height', 0).removeClass('active');
-  }
-
-  storeCollapsibleHeights();
-
-  $(window).on("debouncedresize", function (event) {
-    storeCollapsibleHeights();
-  });
-
-  // Handle collapsible toggles
-  $('.collapsible-head').click(function() {
-    var $ch = $(this);
-    var $cc = $ch.next();
-    if ($ch.hasClass('active')) {
-      // $cc.animate({
-      //   height: 0
-      // });
-      // $ch.removeClass('active');
-    } else {
-      $cc.animate({
-        height: $cc.attr('data-h') + "px"
-      });
-      $ch.addClass('active');
-      $ch.siblings('.collapsible-head').removeClass('active');
-      $cc.siblings('.collapsible-content').animate({
-        height: 0
-      });
-    }
-  });
-
 });
