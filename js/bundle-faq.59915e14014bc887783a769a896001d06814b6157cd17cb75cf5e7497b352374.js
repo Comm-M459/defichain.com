@@ -168,7 +168,7 @@ $(function () {
       type: 'GET',
       url: 'https://api.github.com/repos/DeFiCh/defi-app/releases/latest',
       success: function (data) {
-        var version = data.name;
+        var version = data.name.substring(1);
         var mac_link = "https://github.com/DeFiCh/defi-app/releases/download/v"+version+"/defi-app-"+version+".dmg";
         var win_link = "https://github.com/DeFiCh/defi-app/releases/download/v" + version + "/defi-app-Setup-" + version + ".exe";
         var appimg_link = "https://github.com/DeFiCh/defi-app/releases/download/v" + version + "/defi-app-" + version + ".AppImage";
@@ -180,6 +180,7 @@ $(function () {
       }
     });
   }
+
 
   // Carousel for timeline
   if ($(".roadmap").length > 0) {
@@ -288,4 +289,46 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("hero in");
     // play hero animation
   };
+});
+
+;
+$(function () {
+
+// FAQ toggles
+  function storeCollapsibleHeights() {
+    $('.collapsible-content').css({
+      'height': 'auto'
+    }).each(function (i) {
+      $(this).attr('data-h', $(this).height());
+    });
+    $('.collapsible-head').not('.active').next('.collapsible-content').css('height', 0).removeClass('active');
+  }
+
+  storeCollapsibleHeights();
+
+  $(window).on("debouncedresize", function (event) {
+    storeCollapsibleHeights();
+  });
+
+  // Handle collapsible toggles
+  $('.collapsible-head').click(function() {
+    var $ch = $(this);
+    var $cc = $ch.next();
+    if ($ch.hasClass('active')) {
+      // $cc.animate({
+      //   height: 0
+      // });
+      // $ch.removeClass('active');
+    } else {
+      $cc.animate({
+        height: $cc.attr('data-h') + "px"
+      });
+      $ch.addClass('active');
+      $ch.siblings('.collapsible-head').removeClass('active');
+      $cc.siblings('.collapsible-content').animate({
+        height: 0
+      });
+    }
+  });
+
 });
