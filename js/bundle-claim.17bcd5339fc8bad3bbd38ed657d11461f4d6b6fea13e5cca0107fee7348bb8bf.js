@@ -470,15 +470,17 @@ $(document).ready(function () {
           $('#reward-eligibility-claimDfiAmount').html(response.claimDfiAmount);
           $('#reward-eligibility-btcBalance').html(response.btcBalance);
           $('#reward-eligibility-txId').html(response.txId);
+          $('#reward-eligibility-next-button').show();
+          $('#btc_add').val($('#btc_address').val())
         }
         if (
           response.status === 'PENDING'
           || response.status === 'INPROGRESS'
         ) {
-          $('#claim-status-value').html(response.status);
-          $('#claim-status-claimDfiAmount').html(response.claimDfiAmount);
-          $('#claim-status-btcBalance').html(response.btcBalance);
-          $('#claim-status-txId').html(response.txId);
+          $('#reward-eligibility-value').html(response.status);
+          $('#reward-eligibility-claimDfiAmount').html(response.claimDfiAmount);
+          $('#reward-eligibility-btcBalance').html(response.btcBalance);
+          $('#reward-eligibility-txId').html(response.txId);
         }
         if (response.status === 'COMPLETED') {
           $('#reward-eligibility-btcBalance').html(response.btcBalance);
