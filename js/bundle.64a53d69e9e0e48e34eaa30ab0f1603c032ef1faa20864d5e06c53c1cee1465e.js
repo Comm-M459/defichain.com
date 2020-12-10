@@ -95,6 +95,30 @@ $(function () {
     });
   }
 
+  // Fetch LM APYs
+  if ($(".apy-eth-dfi").length > 0) {
+    var lpDailyReward;
+    var lpRewardPct;
+    var lpETHDFIRewardOct;
+    var lpBTCDFIRewardOct;
+    var lpUSDTDFIRewardOct;
+    $.ajax({
+      url: "https://api.defichain.io/v1/getgov?name=LP_DAILY_DFI_REWARD&network=mainnet",
+      success: function (data) {
+        lpDailyReward = data.LP_DAILY_DFI_REWARD;
+
+        $.ajax({
+          url: "https://api.defichain.io/v1/listpoolpairs?start=0&limit=500&network=mainnet&including_start=true",
+          success: function (data) {
+            lpETHDFIRewardOct = data[4].rewardPct;
+            lpBTCDFIRewardOct = data[5].rewardPct;
+            lpUSDTDFIRewardOct = data[6].rewardPct;
+          }
+        });
+      }
+    });
+  }
+
   // FAQ toggles
   function storeAnswerHeights() {
     $('.faq-a').css({
@@ -277,13 +301,13 @@ $(function () {
     });
 
     $("#TableOfContents").stick_in_parent({
-      offset_top: 144
+      offset_top: 192
     });
 
     $.localScroll({
       duration: 500,
       offset: {
-        top: -144
+        top: -192
       },
       hash: true,
     });
@@ -315,46 +339,4 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("hero in");
     // play hero animation
   };
-});
-
-;
-$(function () {
-
-// FAQ toggles
-  function storeCollapsibleHeights() {
-    $('.collapsible-content').css({
-      'height': 'auto'
-    }).each(function (i) {
-      $(this).attr('data-h', $(this).height());
-    });
-    $('.collapsible-head').not('.active').next('.collapsible-content').css('height', 0).removeClass('active');
-  }
-
-  storeCollapsibleHeights();
-
-  $(window).on("debouncedresize", function (event) {
-    storeCollapsibleHeights();
-  });
-
-  // Handle collapsible toggles
-  $('.collapsible-head').click(function() {
-    var $ch = $(this);
-    var $cc = $ch.next();
-    if ($ch.hasClass('active')) {
-      // $cc.animate({
-      //   height: 0
-      // });
-      // $ch.removeClass('active');
-    } else {
-      $cc.animate({
-        height: $cc.attr('data-h') + "px"
-      });
-      $ch.addClass('active');
-      $ch.siblings('.collapsible-head').removeClass('active');
-      $cc.siblings('.collapsible-content').animate({
-        height: 0
-      });
-    }
-  });
-
 });
