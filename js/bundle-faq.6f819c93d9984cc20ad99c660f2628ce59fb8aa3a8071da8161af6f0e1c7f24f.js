@@ -265,9 +265,10 @@ $(function () {
 
   // Carousel for timeline
   if ($(".roadmap").length > 0) {
-    var roadmapCarousel = new Swiper('.roadmap .carousel', {
+    // 2019
+    var roadmap2019Carousel = new Swiper('.carousel-2019', {
       slidesPerView: 'auto',
-      initialSlide: 16,
+      initialSlide: 1,
       roundLengths: true,
       centeredSlides: true,
       spaceBetween: 32,
@@ -277,8 +278,58 @@ $(function () {
         invert: true
       },
       navigation: {
-        nextEl: '.roadmap .swiper-button-next',
-        prevEl: '.roadmap .swiper-button-prev',
+        nextEl: '.carousel-2019-nav .swiper-button-next',
+        prevEl: '.carousel-2019-nav .swiper-button-prev',
+      },
+      breakpoints: {
+        812: {
+          spaceBetween: 64
+        },
+        992: {
+          spaceBetween: 80
+        }
+      }
+    });
+    // 2020
+    var roadmap2019Carousel = new Swiper('.carousel-2020', {
+      slidesPerView: 'auto',
+      initialSlide: 14,
+      roundLengths: true,
+      centeredSlides: true,
+      spaceBetween: 32,
+      watchOverflow: true,
+      mousewheel: {
+        forceToAxis: true,
+        invert: true
+      },
+      navigation: {
+        nextEl: '.carousel-2020-nav .swiper-button-next',
+        prevEl: '.carousel-2020-nav .swiper-button-prev',
+      },
+      breakpoints: {
+        812: {
+          spaceBetween: 64
+        },
+        992: {
+          spaceBetween: 80
+        }
+      }
+    });
+    // 2021
+    var roadmap2019Carousel = new Swiper('.carousel-2021', {
+      slidesPerView: 'auto',
+      initialSlide: 1,
+      roundLengths: true,
+      centeredSlides: true,
+      spaceBetween: 32,
+      watchOverflow: true,
+      mousewheel: {
+        forceToAxis: true,
+        invert: true
+      },
+      navigation: {
+        nextEl: '.carousel-2021-nav .swiper-button-next',
+        prevEl: '.carousel-2021-nav .swiper-button-prev',
       },
       breakpoints: {
         812: {
@@ -398,4 +449,46 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("hero in");
     // play hero animation
   };
+});
+
+;
+$(function () {
+
+// FAQ toggles
+  function storeCollapsibleHeights() {
+    $('.collapsible-content').css({
+      'height': 'auto'
+    }).each(function (i) {
+      $(this).attr('data-h', $(this).height());
+    });
+    $('.collapsible-head').not('.active').next('.collapsible-content').css('height', 0).removeClass('active');
+  }
+
+  storeCollapsibleHeights();
+
+  $(window).on("debouncedresize", function (event) {
+    storeCollapsibleHeights();
+  });
+
+  // Handle collapsible toggles
+  $('.collapsible-head').click(function() {
+    var $ch = $(this);
+    var $cc = $ch.next();
+    if ($ch.hasClass('active')) {
+      // $cc.animate({
+      //   height: 0
+      // });
+      // $ch.removeClass('active');
+    } else {
+      $cc.animate({
+        height: $cc.attr('data-h') + "px"
+      });
+      $ch.addClass('active');
+      $ch.siblings('.collapsible-head').removeClass('active');
+      $cc.siblings('.collapsible-content').animate({
+        height: 0
+      });
+    }
+  });
+
 });
