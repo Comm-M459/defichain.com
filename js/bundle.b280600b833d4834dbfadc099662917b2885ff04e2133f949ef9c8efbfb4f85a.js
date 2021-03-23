@@ -380,6 +380,16 @@ $(function () {
     });
   }
 
+  if ($(".bounty").length) {
+    $.localScroll({
+      duration: 500,
+      offset: {
+        top: -96
+      },
+      hash: true,
+    });
+  }
+
 });
 
 document.addEventListener('DOMContentLoaded', function () {
