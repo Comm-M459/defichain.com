@@ -98,7 +98,6 @@ $(function () {
   var DFIPrice;
   
   $(".buy-dfi-link").append('<span class="dfi-price loading"><span class="spinner"><span class="b1"></span><span class="b2"></span><span class="b3"></span></span></span>');
-  $(".bounty-value-usd").append('<span class="loading"><span class="spinner"><span class="b1"></span><span class="b2"></span><span class="b3"></span></span></span>');
 
   $.ajax({
     url: "https://poolapi.cakedefi.com/home",
@@ -109,18 +108,6 @@ $(function () {
         }
       }
       $(".dfi-price").removeClass("loading").empty().html('$' + parseFloat(DFIPrice).toFixed(2));
-
-      // USD value of bounty
-      if ($('.bounty').length > 0) {
-        $('.bounty-value-usd').each(function () {
-          $(this).empty().html(
-            parseFloat(
-              ($(this).data('dfi-value') * DFIPrice).toFixed(2)
-            )
-            .toLocaleString() + " USD"
-          );
-        });
-      }
     }
   });
 
@@ -415,46 +402,4 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("hero in");
     // play hero animation
   };
-});
-
-;
-$(function () {
-
-// FAQ toggles
-  function storeCollapsibleHeights() {
-    $('.collapsible-content').css({
-      'height': 'auto'
-    }).each(function (i) {
-      $(this).attr('data-h', $(this).height());
-    });
-    $('.collapsible-head').not('.active').next('.collapsible-content').css('height', 0).removeClass('active');
-  }
-
-  storeCollapsibleHeights();
-
-  $(window).on("debouncedresize", function (event) {
-    storeCollapsibleHeights();
-  });
-
-  // Handle collapsible toggles
-  $('.collapsible-head').click(function() {
-    var $ch = $(this);
-    var $cc = $ch.next();
-    if ($ch.hasClass('active')) {
-      // $cc.animate({
-      //   height: 0
-      // });
-      // $ch.removeClass('active');
-    } else {
-      $cc.animate({
-        height: $cc.attr('data-h') + "px"
-      });
-      $ch.addClass('active');
-      $ch.siblings('.collapsible-head').removeClass('active');
-      $cc.siblings('.collapsible-content').animate({
-        height: 0
-      });
-    }
-  });
-
 });
