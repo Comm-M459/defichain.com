@@ -254,7 +254,7 @@ $(function () {
       dots: false,
       draggable: false,
       infinite: false,
-      initialSlide: 10,
+      initialSlide: 13,
       mobileFirst: true,
       slidesToShow: 1,
       slidesToScroll: 1,
