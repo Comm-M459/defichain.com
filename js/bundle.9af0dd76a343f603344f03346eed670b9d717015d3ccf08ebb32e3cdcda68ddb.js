@@ -211,9 +211,9 @@ $(function () {
         var mac_link = "https://github.com/DeFiCh/ain/releases/download/v" + version + "/defichain-" + version + "-x86_64-apple-darwin11.tar.gz";
         var win_link = "https://github.com/DeFiCh/ain/releases/download/v" + version + "/defichain-" + version + "-x86_64-w64-mingw32.zip";
         var linux_link = "https://github.com/DeFiCh/ain/releases/download/v" + version + "/defichain-" + version + "-x86_64-pc-linux-gnu.tar.gz";
-        $('.download-cli-mac').attr('href', mac_link);
-        $('.download-cli-win').attr('href', win_link);
-        $('.download-cli-linux').attr('href', linux_link);
+        $('.download-cli-mac-dfc').attr('href', mac_link);
+        $('.download-cli-win-dfc').attr('href', win_link);
+        $('.download-cli-linux-dfc').attr('href', linux_link);
       }
     });
     $.ajax({
@@ -224,9 +224,9 @@ $(function () {
         var mac_link = "https://github.com/DeFiCh/app/releases/download/v"+version+"/DeFi-Wallet-"+version+".dmg";
         var win_link = "https://github.com/DeFiCh/app/releases/download/v" + version + "/DeFi-Wallet-Setup-" + version + ".exe";
         var appimg_link = "https://github.com/DeFiCh/app/releases/download/v" + version + "/DeFi-Wallet-" + version + ".AppImage";
-        $('.download-desktop-app-mac').attr('href', mac_link);
-        $('.download-desktop-app-win').attr('href', win_link);
-        $('.download-desktop-app-appimg').attr('href', appimg_link);
+        $('.download-desktop-app-mac-dfc').attr('href', mac_link);
+        $('.download-desktop-app-win-dfc').attr('href', win_link);
+        $('.download-desktop-app-appimg-dfc').attr('href', appimg_link);
       }
     });
   }
@@ -429,46 +429,4 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("hero in");
     // play hero animation
   };
-});
-
-;
-$(function () {
-
-// FAQ toggles
-  function storeCollapsibleHeights() {
-    $('.collapsible-content').css({
-      'height': 'auto'
-    }).each(function (i) {
-      $(this).attr('data-h', $(this).height());
-    });
-    $('.collapsible-head').not('.active').next('.collapsible-content').css('height', 0).removeClass('active');
-  }
-
-  storeCollapsibleHeights();
-
-  $(window).on("debouncedresize", function (event) {
-    storeCollapsibleHeights();
-  });
-
-  // Handle collapsible toggles
-  $('.collapsible-head').click(function() {
-    var $ch = $(this);
-    var $cc = $ch.next();
-    if ($ch.hasClass('active')) {
-      // $cc.animate({
-      //   height: 0
-      // });
-      // $ch.removeClass('active');
-    } else {
-      $cc.animate({
-        height: $cc.attr('data-h') + "px"
-      });
-      $ch.addClass('active');
-      $ch.siblings('.collapsible-head').removeClass('active');
-      $cc.siblings('.collapsible-content').animate({
-        height: 0
-      });
-    }
-  });
-
 });
