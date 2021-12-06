@@ -112,60 +112,14 @@ $(function () {
   });
 
   // Fetch LM APRs
-  if ($(".apr-eth-dfi").length > 0) {
-    let lpETHDFIAPR;
-    let lpBTCDFIAPR;
-    let lpUSDTDFIAPR;
-    let lpBCHDFIAPR;
-    let lpDOGEDFIAPR;
-    let lpLTCDFIAPR;
-    let lpUSDCDFIAPR;
-
-    $.ajax({
-      url: "https://ocean.defichain.com/v0/mainnet/poolpairs",
-      success: function (data) {
-        data.data.forEach((lp) => {
-          switch (lp.id) {
-            case '5': {
-              lpBTCDFIAPR = (lp.apr.total * 100).toFixed(2) + "%"
-              $('.apr-btc-dfi .apr-value').removeClass('loading').prepend(lpBTCDFIAPR);
-              break
-            }
-            case '4': {
-              lpETHDFIAPR = (lp.apr.total * 100).toFixed(2) + "%"
-              $('.apr-eth-dfi .apr-value').removeClass('loading').prepend(lpETHDFIAPR);
-              break
-            }
-            case '6': {
-              lpUSDTDFIAPR = (lp.apr.total * 100).toFixed(2) + "%"
-              $('.apr-usdt-dfi .apr-value').removeClass('loading').prepend(lpUSDTDFIAPR);
-              break
-            }
-            case '10': {
-              lpLTCDFIAPR = (lp.apr.total * 100).toFixed(2) + "%"
-              $('.apr-ltc-dfi .apr-value').removeClass('loading').prepend(lpLTCDFIAPR);
-              break
-            }
-            case '12': {
-              lpBCHDFIAPR = (lp.apr.total * 100).toFixed(2) + "%"
-              $('.apr-bch-dfi .apr-value').removeClass('loading').prepend(lpBCHDFIAPR);
-              break
-            }
-            case '8': {
-              lpDOGEDFIAPR = (lp.apr.total * 100).toFixed(2) + "%"
-              $('.apr-doge-dfi .apr-value').removeClass('loading').prepend(lpDOGEDFIAPR);
-              break
-            }
-            case '14': {
-              lpUSDCDFIAPR = (lp.apr.total * 100).toFixed(2) + "%"
-              $('.apr-usdc-dfi .apr-value').removeClass('loading').prepend(lpUSDCDFIAPR);
-              break
-            }
-          }
-        })
-      }
-    });
-  }
+  $.ajax({
+    url: "https://ocean.defichain.com/v0/mainnet/poolpairs",
+    success: function (data) {
+      data.data.forEach((lp) => {
+        const apr_value = (lp.apr.total * 100).toFixed(2) + "%"
+        $('#apr-' + lp.displaySymbol).removeClass('loading').prepend(apr_value);
+      })
+    }})
 
   // FAQ toggles
   function storeAnswerHeights() {
@@ -429,4 +383,46 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("hero in");
     // play hero animation
   };
+});
+
+;
+$(function () {
+
+// FAQ toggles
+  function storeCollapsibleHeights() {
+    $('.collapsible-content').css({
+      'height': 'auto'
+    }).each(function (i) {
+      $(this).attr('data-h', $(this).height());
+    });
+    $('.collapsible-head').not('.active').next('.collapsible-content').css('height', 0).removeClass('active');
+  }
+
+  storeCollapsibleHeights();
+
+  $(window).on("debouncedresize", function (event) {
+    storeCollapsibleHeights();
+  });
+
+  // Handle collapsible toggles
+  $('.collapsible-head').click(function() {
+    var $ch = $(this);
+    var $cc = $ch.next();
+    if ($ch.hasClass('active')) {
+      // $cc.animate({
+      //   height: 0
+      // });
+      // $ch.removeClass('active');
+    } else {
+      $cc.animate({
+        height: $cc.attr('data-h') + "px"
+      });
+      $ch.addClass('active');
+      $ch.siblings('.collapsible-head').removeClass('active');
+      $cc.siblings('.collapsible-content').animate({
+        height: 0
+      });
+    }
+  });
+
 });
