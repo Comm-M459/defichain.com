@@ -1,7 +1,7 @@
 ---
-title: White paper
+title: Livre blanc
 type: article
-long_title: DeFiChain white paper
+long_title: DeFiChain livre blanc
 cta_to: Read
 theme:
   subscribe: white
@@ -9,10 +9,10 @@ menu:
   footer:
     weight: 1100
 meta:
-  description: DeFiChain white paper
+  description: DeFiChain livre blanc
   og:
-    title: White paper
-    description: DeFiChain white paper
+    title: Livre blanc
+    description: DeFiChain livre blanc
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -21,7 +21,7 @@ content:
   sections:
     hero:
       name: hero
-      headline: White paper
+      headline: Livre blanc
       subhead: Everything about DeFiChain.
     white_paper:
       headline: White Paper Public Draft
@@ -34,9 +34,9 @@ content:
     #closer_look in /
 ---
 
-**Abstract**: The DeFiChain Foundation is developing DeFiChain, a blockchain specifically dedicated to decentralized financial applications. By focusing on the functionality of the blockchain and dedicating it specifically to decentralized finance, DeFiChain provides unparalleled high transaction throughput, reduced risk of errors, and intelligent feature development specifically for the fulfillment of financial services on the blockchain.
+**Synthèse**: La Fondation DeFiChain développe DeFiChain, une blockchain spécifiquement dédiée aux applications financières décentralisées. En se concentrant sur la fonctionnalité de la blockchain et en la dédiant spécifiquement à la finance décentralisée, DeFiChain fournit un débit de transaction élevé et inégalé, une réduction du risque d'erreurs et un développement spécifique de fonctionnalités intelligentes pour l'accomplissement de services financiers sur la blockchain.
 
-**This Document is not a Prospectus**
+**Ce document n'est pas prospectif**
 
 This document does not constitute nor imply a prospectus of any sort. No wording contained herein should be construed as a solicitation for investment. Accordingly, this whitepaper does not pertain in any way to an offering of securities in any jurisdiction worldwide whatsoever. Rather, this whitepaper constitutes a technical description of the functionality of the Cake products and the development and distribution of DeFiChain.
 
