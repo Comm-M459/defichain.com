@@ -1,7 +1,7 @@
 ---
-title: Whitepaper
+title: White paper
 type: article
-long_title: DeFiChain White Paper
+long_title: DeFiChain white paper
 cta_to: Read
 theme:
   subscribe: white
@@ -9,10 +9,10 @@ menu:
   footer:
     weight: 1100
 meta:
-  description: DeFiChain White Paper
+  description: DeFiChain white paper
   og:
     title: White paper
-    description: DeFiChain White Paper
+    description: DeFiChain white paper
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -21,28 +21,28 @@ content:
   sections:
     hero:
       name: hero
-      headline: White Paper
-      subhead: Alles über die DeFiChain.
+      headline: White paper
+      subhead: Everything about DeFiChain.
     white_paper:
-      headline: Öffentlicher Entwurf des White Paper
-      subhead: Unser White Paper liegt zur öffentlichen Einsichtnahme bereit. Wir bitten auch um Kommentare aus unserer Community und der Öffentlichkeit. Folgen Sie dem Google Drive-Link, um das Dokument zu lesen oder zu kommentieren.
+      headline: White Paper Public Draft
+      subhead: Our white paper is ready for public review. We are also enlisting comments from our community and the public. Follow the Google Drive link to read or comment on the paper.
       cta:
         url: https://docs.google.com/document/d/1XYUtdsf9AJrfDXgwZbC0o96WYOwzf1JmGNLje5mpusM/edit?usp=sharing
-        label: Lesen Sie das White Paper
+        label: Read the white paper
 
     #subscribe in /
     #closer_look in /
 ---
 
-**Zusammenfassung**: Die DeFiChain Foundation entwickelt DeFiChain, eine Blockchain, die speziell für dezentrale Finanzanwendungen entwickelt wurde. DeFiChain konzentriert sich auf die Funktionalität der Blockchain und entwickelt sie speziell für dezentrale Finanzanwendungen. Dadurch bietet DeFiChain einen beispiellos hohen Transaktionsdurchsatz, ein geringeres Fehlerrisiko und intelligente Funktionen, die speziell für die Erbringung von Finanzdienstleistungen auf der Blockchain entwickelt wurden.
+**Abstract**: The DeFiChain Foundation is developing DeFiChain, a blockchain specifically dedicated to decentralized financial applications. By focusing on the functionality of the blockchain and dedicating it specifically to decentralized finance, DeFiChain provides unparalleled high transaction throughput, reduced risk of errors, and intelligent feature development specifically for the fulfillment of financial services on the blockchain.
 
-**Dieses Dokument ist kein Verkaufsprospekt.**
+**This Document is not a Prospectus**
 
-Dieses Dokument stellt weder einen Prospekt dar noch beinhaltet es einen solchen. Keine der hierin enthaltenen Formulierungen sollte als Aufforderung zur Investition verstanden werden. Dementsprechend bezieht sich dieses Whitepaper in keiner Weise auf ein Angebot von Wertpapieren in irgendeiner Rechtsordnung weltweit. Vielmehr stellt dieses Whitepaper eine technische Beschreibung der Funktionsweise der Cake-Produkte und der Entwicklung und des Vertriebs von DeFiChain dar.
+This document does not constitute nor imply a prospectus of any sort. No wording contained herein should be construed as a solicitation for investment. Accordingly, this whitepaper does not pertain in any way to an offering of securities in any jurisdiction worldwide whatsoever. Rather, this whitepaper constitutes a technical description of the functionality of the Cake products and the development and distribution of DeFiChain.
 
-**Dieses Dokument ist keine vollständige technische Dokumentation.**
+**This Document is not a final technical specification**
 
-Dieses Dokument stellt keine vollständige technische Dokumentation von DeFiChain dar und ist auch nicht als solche zu verstehen. Die in diesem Whitepaper enthaltenen technischen oder sonstigen Informationen sollen einen Überblick über DeFiChain, ihr Design und ihre Anwendungsfälle geben und können sich mit oder ohne vorherige Ankündigung ändern. Die neuesten technischen Informationen finden Sie in den Updates und Dokumentationen auf der offiziellen Website [https://defichain.com](https://defichain.com).
+This document does not constitute nor imply a final technical specification of DeFiChain. Information presented on this whitepaper, technical or otherwise, is meant to outline the general idea of DeFiChain, its design and its use-cases and is subject to change with or without notice. For the latest up-to-date technical specification, check out the updates and documentations on the official website [https://defichain.com](https://defichain.com).
 
 ## Executive summary
 
@@ -1031,37 +1031,37 @@ $DFI coins will be issued only to the users of DeFiChain or partners with an int
 
 ---
 
-## DeFiChain Foundation (Stiftung)
+## DeFiChain Foundation
 
-Die DeFiChain Foundation ist als Gesellschaft mit beschränkter Haftung gegründet worden und ähnelt einer Stiftungsstruktur, die die DeFiChain-Marken und -Domains hält und sicherstellt, dass die DFI-Stiftungsgelder wie von den Masternodes angewiesen verwendet werden.
+The DeFiChain Foundation is incorporated as a company limited by guarantee, resembling a foundation structure which holds the DeFiChain Trademarks, Domains and makes sure the DFI foundation funds are used as instructed by the masternodes.
 
 ---
 
 ## Marketing
 
-### Zielmarkt
+### Target Market
 
-Im Gegensatz zu den meisten anderen auf DeFi-fokussierten Projekten kann die DeFiChain, die auf Bitcoin aufbaut, fast den gesamten Kryptomarkt nutzen, ohne auf "kleinere" Chains wie Ethereum usw. beschränkt zu sein. Zum Zeitpunkt der Veröffentlichung sind mehr als 60-80 Millionen Kryptowährungsbesitzer der Zielmarkt für DeFiChain und wir können davon ausgehen, dass sich in Zukunft Hunderte von Millionen weiterer Nutzer anschließen werden. Diese Gruppe von Anlegern investiert und hält Kryptowährungen aufgrund der Rendite und ihres Glaubens an die Zukunft der Branche. Als Anleger haben sie mit dem Anstieg vieler Kryptowährungen weitgehend gut verdient, sind aber nicht in der Lage, ihre Bestände zu nutzen, um bessere Renditen zu erzielen. Die Bereitstellung von DeFi-Diensten ermöglicht es diesen Anlegern, die Coins oder Token zu halten, an die sie glauben, und ihre Bestände im Laufe der Zeit auf der Grundlage von Investitionen zu steigern, die über den reinen Währungshandel hinausgehen. 
+Unlike most other DeFi-focused initiatives, DeFiChain being built on top of Bitcoin can harness almost the entire crypto market without being limited to “smaller” chains like Ethereum etc. Thus, as of publication, the target market for DeFiChain are over 60-80 million cryptocurrency owners and we can expect that hundreds of millions of other users will join in the future. This group of investors is investing and holding cryptocurrency due to the returns as well as their belief in the future of the industry. As investors, they have widely done well with the rise in many of the cryptoassets, however, they are not able to use their holdings in order to get better returns. Providing DeFi services will allow these investors to hold the coins they believe in, and increase their holdings over time based on investments that go deeper than just currency trading.
 
-### Markteinführungsstrategie
+### Go-to-market Strategy
 
-Das anfängliche DeFiChain-Team besteht aus einigen der größten Namen in der Kryptowährungsbranche, die sich nicht nur durch die Einhaltung ihrer Versprechen, sondern auch durch den Aufbau einer Anhängerschaft einen Namen gemacht haben. Das Team hat eine Vielzahl von Marketingkanälen aufgebaut und verfügt über eine etablierte Fangemeinde in den sozialen Medien, eine weite Verbreitung von Büchern im Bereich der Kryptowährungen und weitreichende Kontakte innerhalb der Kryptowährungsbranche.
+The initial DeFiChain team is made up of some of the top names in the cryptocurrency industry, people who have made a name for themselves not just by delivering on their promises, but by creating a following. The team has built up a variety of marketing channels and has an established following on social media, wide distribution of books in the area of cryptocurrency, and deep contacts within the cryptocurrency industry.
 
-Mit der Erfahrung, in nur wenigen Jahren eine Fangemeinde von Hunderttausenden von Nutzern in den sozialen Medien aufgebaut zu haben, plant das Team, seine derzeitigen Follower zu nutzen und sie auf spezielle Kanäle zu bringen, die die Domäne von DeFiChain sein werden. Das Team wird eine komplette Marketing-Engine und einen Mitarbeiterstab aufbauen und dabei die gleiche bewährte Kompetenz einsetzen, die es in der Vergangenheit bewiesen hat.
+With the experience of building up social media followings of hundreds of thousands of users in the course of just a few years, the team plans to leverage their current followers and bring them onto specific channels that will be the domain of DeFiChain. The team will build up a complete marketing engine and staff, using the same proven competence they displayed in the past.
 
-Im Gegensatz zu anderen Blockchains wird DeFiChain ein ausgewogenes Verhältnis zwischen Marketing- und Technologiekompetenz aufweisen. Der Aufbau des besten Netzwerks ist nur die Hälfte der Arbeit. Die Eigentümer von DFI können sich darauf verlassen, dass das Marketingteam über die für den Erfolg des Produkts erforderliche Erfahrung beim Aufbau eines Marketingmotors verfügt und dass das Technikteam in der Lage sein wird, den Fahrplan einzuhalten.
+Unlike other blockchains, DeFiChain will be balanced between marketing and technology expertise. Building the best network is only half of the job. DFI holders can rest assured that the marketing team has the proven experience in building up a marketing engine that is required for product success and that the tech team will be able to deliver on the roadmap.
 
-### Partnerschaften
+### Partnerships
 
-Die DeFiChain Foundation wird die Aufgabe haben, Anträge von Partnern aus dem Ökosystem zu bewerten und Fördermittel in Form von $DFI-Tokens an Entwickler und Mitwirkende von DeFiChain zu vergeben. Viele Open-Source-Projekte und Blockchain-Entwickler sind heute auf der Suche nach dem richtigen Blockchain-Projekt, um ihre DeFi-Anwendungen zu entwickeln, und die Aussicht auf eine eigene DeFiChain, die von Branchenführern unterstützt wird, ist verlockend.
+The DeFiChain Foundation will be tasked with assessing applications from ecosystem partners and providing foundation grants in the form of $DFI coins to developers and contributors to DeFiChain. Many open source projects and blockchain developers today are looking for the right blockchain project in order to develop their DeFi applications, and the prospect of a dedicated DeFiChain, backed by industry leaders is appealing.
 
-Die DeFiChain Foundation wird eine Reihe von Maßnahmen ergreifen, um die besten Projekte für die Erweiterung von DeFiChain auszuwählen:
+The DeFiChain Foundation will undertake a variety of efforts to choose the best projects for the expansion of DeFiChain:
 
-- Schaffung eines formellen Bewerbungsverfahrens, damit sich förderungswürdige Projekte um Airdrop- oder Fördermittel für ihre Entwicklung bewerben können.
-- Kontaktaufnahme mit Entwicklern im Ökosystem, die DeFi-dApps auf anderen Blockchains entwickeln, und Bereitstellung von Zuschüssen für die Entwicklung ihrer dApps für DeFi.
-- Allgemeines Marketing, um die Verfügbarkeit von Fördermitteln der DeFiChain Foundation zur Finanzierung lohnender Projekte bekannt zu machen.
+- Creation of a formal application process so that worthy projects can apply for airdrop or foundation grants for their development
+- Approaching developers in the ecosystem who are doing DeFi dApps on other blockchains, and providing grants for them to develop their dApps on DeFi.
+- General marketing to get the word out about the availability of DeFiChain Foundation grants to fund worthy projects.
 
-Jedes Projekt aufbauend auf der DeFiChain wird natürlich seine eigenen Nutzer mitbringen und sich um die Vermarktung des Projekts bemühen, um Nutzer und Hodler für DeFiChain zu gewinnen.
+Every project on DeFiChain will naturally bring it its own users and put effort towards marketing of the project, adding users and hodlers to DeFiChain.
 
 [partners@defichain.com](mailto:partners@defichain.com)
 
@@ -1080,4 +1080,3 @@ Anna creates a group of local businesspeople, and together they pool funds to he
 Now, 5 years after her initial use of DeFi, Anna is able to take out a loan with no collateral, based on her long-term record of smart investments and returning loans on time, as well as assessment of her industry from trusted oracles. It’s a win-win situation. The lenders come from all over the globe, from people who want to diversify their investment portfolio to developing economies. The lenders don’t have to worry about the complexity of cross-border transactions or legal requirements. They escape the banking systems of their own countries, which moved to zero and negative-interest rates on savings. Now, these regular investors can be assured of returns on investments based on Anna and people like her, who run great businesses and can provide returns on people’s investments.
 
 **This is what DeFiChain is all about - To make the world a better place!**
-
