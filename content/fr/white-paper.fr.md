@@ -562,113 +562,113 @@ Les tokens DCT ne sont pas soutenus intrinsèquement par DeFiChain. Ils peuvent 
 
 #### Paramètres des DCT :
 
-- DCT ID: <UDID> Unique blockchain identifier for the token.
-- Name: <Token name> Name of the tokens.
-- Symbol: The ticker symbol for the tokens. The DCT protocol will provide a reference for ensuring the choice will be a unique symbol.
-- Decimal places: Divisible number of decimal places for the tokens. This cannot be changed once it is set. 
-- Total initial supply: Initial issue of tokens during the event generated.
-- Initial distribution list: List of addresses for distribution of tokens. 
-- Minting support: yes/no
-- Final supply limit (optional): Immutable total supply limit. If minting is supporting this will define the ceiling on how many tokens the token owner can mint in total (some may be reserved at this time). If this parameter is left blank, this is an unlimited supply token. This cannot be changed after the initial definition of the token. 
-- Tradeability: yes/no. This is a one-way switch allowing the token owner to transfer tokens during initial distribution period and also to decide when a token is tradeable/movable. To ensure the decentralized nature of DCT, once “tradeability” is set to yes, the owner is no longer able to reverse the tradability of a token. Typically, when creating a token, this should be turned to “no” until the initial distribution is confirmed to be accurate.
+- DCT ID: <UDID> Identifiant unique de la blockchain pour le token ;
+- Name: <Token name> Nom du token ;
+- Symbole : Le symbole des tokens. Le protocole DCT fournira une référence pour garantir que le choix sera un symbole unique ;
+- Décimales : Nombre de décimales divisible pour les jetons. Ce nombre ne peut pas être modifié une fois qu'il est fixé ;
+- Offre initiale totale : L'émission initiale de tokens pendant l'événement généré ;
+- Liste de distribution initiale : Liste d'adresses pour la distribution des tokens ;
+- Assistance au minting : oui/non ;
+- Limite d'approvisionnement final (facultatif) : Limite d'offre totale immutable. Si le minting est pris en charge, cela définira le plafond du nombre de tokens que le propriétaire du token peut minter au total (certains peuvent être réservés à ce moment-là). Si ce paramètre est laissé vide, il s'agit d'un token à approvisionnement illimité. Ce paramètre ne peut pas être modifié après la définition initiale du token.
+- Échangeabilité : oui/non. Il s'agit d'un commutateur à sens unique permettant au propriétaire du token de transférer des tokens pendant la période de distribution initiale et également de décider quand un token est échangeable/transférable. Pour garantir la nature décentralisée des DCT, une fois que l' "échangeabilité" est définie sur oui, le propriétaire ne peut plus inverser l'échangeabilité d'un token. En général, lors de la création d'un token, cette option doit être désactivée jusqu'à ce que la distribution initiale soit confirmée comme exacte.
 
-Using this interface, there is no need to have a smart contract developer, and there is no need for a security audit.
+En utilisant cette interface, il n'est pas nécessaire d'avoir un développeur de contrat intelligent, et il n'y a pas besoin d'un audit de sécurité.
 
-### DeFi Asset Token (DAT)
+### DeFi Token d'actif (DAT)
 
-DeFi Asset Tokens (DATs) are backed in a decentralized manner. DATs on DeFiChain are tokens and crypto assets external of DeFiChain, such as:
+Les DeFi Asset Tokens (DATs) sont soutenus d'une manière décentralisée. Les DAT sur DeFiChain sont des tokens et des crypto actifs externes à DeFiChain, tels que :
 
-- DBTC, backed by BTC
-- DETH, backed by ETH
-- DXRP, backed by XRP
-- DUSDT, backed by USDT
-- DBCH, backed by BCH, etc.
+- dBTC, soutenu par BTC ;
+- dETH, soutenu par ETH ;
+- dXRP, soutenu par XRP ;
+- dUSDT, soutenu par USDT ;
+- dBCH, soutenu par BCH, etc.
 
-New DATs are introduced to the system through voting by masternodes. This ensures that only assets that gather the most interest amongst DeFiChain users get introduced.
+Les nouveaux DAT sont introduits dans le système par le vote des masternodes. Cela garantit que seuls les actifs qui suscitent le plus d'intérêt parmi les utilisateurs de DeFiChain sont introduits.
 
-### Economic Pegging of DATs
+### Rattachement des DAT à l'économie
 
-The goal of DAT is to have it represent the native asset on the other blockchains, e.g. 1 DBTC should represent 1 BTC. 
+Le but des DAT est qu'il représente l'actif natif sur les autres blockchains, par exemple 1 dBTC devrait représenter 1 BTC.
 
-There are two approaches to this:
+Il y a deux approches pour cela :
 
-1. Stablecoin approach
-    - For every single issued 1 DBTC, 1 BTC has to be locked up in an address or a smart contract. 
-    - While this would help to build a guarantee to DBTC, it introduces some other issues – country-party risks and affect the decentralized nature of DeFi. 
+1. L'approche Stablecoin
+    - Pour chaque dBTC émis, 1 BTC doit être bloqué dans une adresse ou un contrat intelligent.
+    - Bien que cette approche permette d'établir une garantie pour les dBTC, elle introduit d'autres problèmes - les risques liés aux règles locales, et affecte la nature décentralisée de DeFiChain.
 
-2. Economic pegging
-    - By providing a strong guarantee that the DAT representing an asset has its price closely tracking the native asset, i.e. by holding DBTC, one can have a good confidence that the value of DBTC will track that of BTC.
+2. Rattachement à l'économie
+    - En fournissant une garantie forte que le DAT représentant un actif a son prix qui suit de près l'actif natif, c'est-à-dire en détenant le dBTC, on peut avoir une bonne confiance que la valeur du DBTC suivra celle de BTC.
 
 
-In order for us to achieve economic pegging, the following building blocks are built natively on DeFiChain:
+Afin que nous puissions réaliser le rattachement économique, les blocs de construction suivants sont construits nativement sur DeFiChain :
 
-1. Loan Contract
-2. Decentralized Exchange (DEX)
-3. Cross-chain Exchange (XCX)
-4. Pricing Oracles
+1. Contrat de prêt
+2. Bourse décentralisée (DEX)
+3. Bourse inter-chaînes (XCX)
+4. Oracles de prix
 
-![DAT overview](/img/white-paper/dat-overview.png)
+![Aperçu conceptuel des DAT](/img/white-paper/dat-overview.png)
 
-### Loan Contract
+### Contrat de prêt
 
-Loan Contract is designed to allow the owner of the contract to take a collateralized loan against collateral locked in the contract. Each loan contract is unique to every owner (address) on DeFiChain. 
+Le contrat de prêt est conçu pour permettre au propriétaire du contrat de prendre un prêt garanti contre la collatéralisation bloquée dans le contrat. Chaque contrat de prêt est unique pour chaque propriétaire (adresse) sur DeFiChain. 
 
-Any user can open a loan contract on DeFiChain, free of charge. The user who opens a loan contract owns the specific contract. This ownership, however, is transferable.
+Tout utilisateur peut ouvrir un contrat de prêt sur DeFiChain, gratuitement. L'utilisateur qui ouvre un contrat de prêt est propriétaire du contrat spécifique. Cette propriété, cependant, est transférable.
 
-Once a loan contract is opened, DFI can be sent to fund the loan collateral. Once a loan contract is funded, it allows the owner to take out a loan by minting DATs up to a certain collateralization ratio. The minimum collateralization ratio can be adjusted by DeFiChain DAO and starts at 150%. In other words, $1,500 worth of collateral (in DFI), allows the loan contract owner to take out a maximum of $1,000 in loans.
+Une fois qu'un contrat de prêt est ouvert, des DFI peuvent être envoyés pour financer la garantie du prêt. Une fois qu'un contrat de prêt est financé, il permet au propriétaire de contracter un prêt en mintant des DAT jusqu'à un certain ratio de garantie. Le ratio de garantie minimum peut être ajusté par le DAO DeFiChain et commence à 150%. En d'autres termes, une garantie de 1 500 $ (en DFI) permet au propriétaire du contrat de prêt de contracter un prêt de 1 000 $ maximum.
 
-Minted DATs are subject to a floating borrowing rate. A loan contract has no expiry date. The owner is able to take out a loan for as long as they desire, as long as the collateralization ratio stays above 150% at all times.
+Les DAT sont soumis à un taux d'emprunt variable. Un contrat de prêt n'a pas de date d'expiration. Le propriétaire peut contracter un prêt aussi longtemps qu'il le souhaite, à condition que le ratio de garantie reste supérieur à 150 % à tout moment.
 
 ```
-Collateralization ratio = Collateral / (Loan + accrued interest)
+Ratio de garantie = Garantie / (Prêt + intérêts courus)
 ```
 
-If a loan contract falls below the 150% collateralization ratio at any point in time, its collateral is liquidated via Decentralized Exchange (DEX) to pay off accrued interest. There will be an additional 15% liquidation penalty to discourage loan contracts from having to be liquidated. It is the responsibility of the loan contract owners to monitor the collateralization ratio to prevent an unwanted liquidation. 
+Si un contrat de prêt tombe en dessous du ratio de collatéralisation de 150% à un moment donné, sa garantie est liquidée via le Decentralized Exchange (DEX) pour payer les intérêts courus. Une pénalité de liquidation supplémentaire de 15 % sera appliquée afin de dissuader les contrats de prêt d'être liquidés. Il est de la responsabilité des propriétaires de contrats de prêt de surveiller le ratio de garantie afin d'éviter une liquidation non désirée. 
 
-If a loan contract is close to minimum collateralization ratio, the owner must take one of the following steps to prevent liquidation and having to incur 15% liquidation penalty:
+Si un contrat de prêt est proche du ratio de garantie minimum, le propriétaire doit prendre l'une des mesures suivantes pour éviter la liquidation et l'imposition d'une pénalité de liquidation de 15 % :
 
-1. Deposit more DFI into the loan contract, thereby increasing its collateral and collateralization ratio.
-2. Pay back some of the loan (or accrued interest), thereby decreasing the loan contract’s loan amount and increasing its collateralization ratio.
+1. Déposer plus de DFI dans le contrat de prêt, augmentant ainsi sa garantie et son ratio de garantie ;
+2. Rembourser une partie du prêt (ou des intérêts courus), diminuant ainsi le montant du prêt du contrat et augmentant son ratio de garantie.
 
-Closing a loan contract entitles its owner to get back all 100% of its collateral. To close a loan contract, the owner has to pay back the loan in full, plus the accrued interest in its entity in the DAT (e.g. DBTC). Upon liquidation of the loan, the minted DAT is burned, and the initial minted DAT and the interest will be converted into DFI via the DeFi DEX described in this paper.
+La clôture d'un contrat de prêt permet à son propriétaire de récupérer la totalité de sa garantie. Pour clôturer un contrat de prêt, le propriétaire doit rembourser l'intégralité du prêt, plus les intérêts courus dans son entité en DAT (par exemple, dBTC). Lors de la liquidation du prêt, le DAT minté est détruit (burnt), et le DAT initial minté et les intérêts seront convertis en DFI via le DEX décrit dans ce document.
 
-While this concept is not new to the DeFi system, what is novel is the possibility to collateralize any asset due to DeFiChain’s nature.
+Bien que ce concept ne soit pas nouveau dans la DeFi, ce qui est nouveau est la possibilité de garantir n'importe quel actif en raison de la nature de DeFiChain.
 
-1. Alice opens a loan contract and funds it with 150k DFI.
-2. With DFI at $0.10 spot rate, Alice’s loan contract now has $15,000 worth of collateral.
-3. At the minimum collateralization ratio of 150% she can take out a maximum of $10,000 worth of DBTC, which is pegged to BTC spot price.
-4. Since the DBTC loan via loan contract accrues interest, and DBTC and the DFI price fluctuate, Alice decides to only take out $5,000 worth of DBTC, i.e. 0.5 DBTC, giving her loan contract a collateralization ratio of: 15000/5000 = 300%, well above 150%.
-5. Over-collateralization allows for some room for price movements of DBTC. If the BTC price increases to $15,000, Alice’s loan of 0.5 DBTC would now be worth $7,500. Her loan contract now has a collateralization ratio of: 15000/7500 = 200%, still above 150%, so liquidation would not be triggered even in the case of this type of price shift.
-6. The interest rate for each DAT loan differs. Assuming the DBTC loan rate is 5% annually, taking out a loan for a year, in order to close her loan contract and to fully redeem her initial 150k DFI, Alice has to pay back 0.5 DBTC * 1.05 = 0.525 DBTC by the end of the year.
+1. Alice ouvre un contrat de prêt et le finance avec 150k DFI ;
+2. Avec un DFI valant au comptant 0,10$, le contrat de prêt d'Alice a maintenant 15 000$ de garantie ;
+3. Avec un ratio de garantie minimum de 150 %, elle peut emprunter un maximum de 10 000 $ en dBTC, qui est lié au prix au comptant de la BTC ;
+4. Étant donné que le prêt dBTC via le contrat de prêt produit des intérêts, et que le prix du dBTC et du DFI fluctue, Alice décide de ne prendre que 5 000 $ de dBTC, soit 0,5 dBTC, ce qui donne à son contrat de prêt un taux de garantie de : 15000/5000 = 300%, bien supérieur à 150% ;
+5. Le surdimensionnement permet une certaine marge de manœuvre pour les mouvements de prix du dBTC. Si le prix du BTC passe à 15 000 $, le prêt de 0,5 dBTC d'Alice vaudra désormais 7 500 $. Son contrat de prêt a maintenant un ratio de garantie de : 15000/7500 = 200%, toujours supérieur à 150%, de sorte que la liquidation ne serait pas déclenchée même dans le cas de ce type de changement de prix ;
+6. Le taux d'intérêt de chaque prêt DAT est différent. En supposant que le taux d'intérêt des prêts dBTC est de 5% par an, en contractant un prêt pour un an, afin de clôturer son contrat de prêt et de racheter intégralement ses 150k DFI initiaux, Alice doit rembourser 0,5 dBTC * 1,05 = 0,525 dBTC avant la fin de l'année.
 
-![loan contract](/img/white-paper/alice-pdc.png)
+![Contrat de prêt](/img/white-paper/alice-pdc.png)
 
-### Decentralized Exchange (DEX)
+### Échange décentralisé (DEX, Decentralized Exchange)
 
-The DeFi internal DEX provides decentralized trading for all DeFi tokens and DFI itself, which means that all tokens: DFI and DCT (DAT and DCT) can be listed on DeFiChain DEX. DEX will initially launch with DFI as the base trading pair, providing markets such as DBTC/DFI, DETH/DFI, DUSDT/DFI, etc. With increasing volume, other base trading pairs can be introduced, subject to a DAO approval, providing markets such as DETH/DBTC, DFI/DUSDT, etc.
+Le DEX interne de DeFiChain fournit des échanges décentralisés pour tous les tokens DeFiChain et DFI lui-même, ce qui signifie que tous les tokens DFI et DCT (DAT et DCT) peuvent être listés sur le DEX de DeFiChain. Le DEX sera initialement lancé avec le DFI comme référence de négociation, fournissant des marchés tels que dBTC/DFI, dETH/DFI, dUSDT/DFI, etc. Avec l'augmentation du volume, d'autres référence peuvent être introduites, sous réserve de l'approbation de la DAO, fournissant des marchés tels que dETH/dBTC, DFI/dUSDT, etc.
 
-DEX on DeFiChain operates without the need to pass custody to any intermediaries. Users are able to trade on their own in a trustless manner. One of the key differentiator about DeFiChain as compared to many other decentralized financial solutions is that DeFiChain is not only a consensus protocol facilitating DeFi, it is also comes with a very simple to use client user interface (UI) that allows users to interact directly on the blockchain without any intermediaries.
+Le DEX de DeFiChain fonctionne sans avoir besoin de passer la tutelle à un quelconque intermédiaire. Les utilisateurs sont en mesure d'effectuer des transactions de manière autonome et en toute confiance. Une des caractéristiques différenciantes de DeFiChain par rapport à de nombreuses autres solutions financières décentralisées est que DeFiChain n'est pas seulement un protocole de consensus facilitant la DeFi, il est également livré avec une interface utilisateur client (UI) très simple à utiliser qui permet aux utilisateurs d'interagir directement sur la blockchain sans aucun intermédiaire.
 
-### Cross-chain Exchange (XCX)
+### Échange inter-chaînes (XCX)
 
-A user holding DBTC might be interested in holding of actual BTC instead of a DeFi pegged BTC token (DBTC).
+Un utilisateur détenant des dBTC pourrait être intéressé par la détention de BTC réels au lieu d'un token BTC (dBTC) ancré sur DeFiChain.
 
-The DeFi Cross-chain Exchange (XCX) allows anyone to do exactly that. XCX allows listing of DATs with its native tokens, e.g. DBTC for BTC, DETH for ETH, DXRP for XRP. Actual transaction is carried out through the trustless swap of both tokens commonly known as atomic swap. Atomic swap guarantees that either both parties receive their exchanged coins, or neither transactions go through – providing a strong cryptographic guarantee that no one party is able to cheat the other.
+L' échange inter-chaînes (Cross-chain Exchange, XCX) de DeFiChain permet à quiconque de faire exactement cela. Le XCX permet de lister les DATs avec leurs tokens natifs, par exemple dBTC pour BTC, dETH pour ETH, dXRP pour XRP. La transaction réelle est effectuée par l'échange sans tiers de confiance des deux tokens, communément appelé échange atomique (atomic swap). L'atomic swap garantit que soit les deux parties reçoivent les tokens échangés, soit aucune transaction n'est effectuée, ce qui constitue une garantie cryptographique solide qu'aucune partie n'est en mesure de tromper l'autre.
 
-We use the following terms to describe the parties in the XCX:
+Nous utilisons les termes suivants pour décrire les parties dans le XCX :
 
-- Borrower: a person owning a DAT and wanting to get a native coin, e.g, a person who has DBTC and wanting to obtain BTC through the XCX.
-- Lender: a person owning BTC and receiving a DAT through the XCX, either temporarily for the duration of the XCX, or permanently, if the XCX expires.
+- Emprunteur : une personne possédant un DAT et souhaitant obtenir un token natif, par exemple, une personne possédant un dBTC et souhaitant obtenir un BTC via le XCX ;
+- Prêteur : une personne possédant des BTC et recevant un DAT par le biais du XCX, soit temporairement pour la durée du XCX, soit définitivement, si le XCX expire.
 
-XCX orders contain several parameters that can be freely decided by the market marker (first lister of an order). For selling of DBTC for BTC (i.e. someone who’s interested in receiving actual BTC), the parameters are:
+Les ordres XCX contiennent plusieurs paramètres qui peuvent être librement décidés par le marqueur de marché (premier listage d'un ordre). Pour la vente de dBTC contre des BTC (c'est-à-dire quelqu'un qui est intéressé pour recevoir des BTC réels), les paramètres sont :
 
-- Amount: Amount of coin/DAT a seller is looking for and how much DAT is locked up.
-- Premium: Amount of additional fee a coin seller stands to make from this trade (Premium is listed per unit amount, thus allowing for partial fulfillment of trade orders). Together with expiry, it can also be considered as lending interest to the buyer. The Premium is paid instantly once an XCX is matched, before expiry of the lending contract. Premium can be positive (+) or negative (-) depending on supply and demand.
-- Guarantee: An optional additional amount in DBTC and/or DFI that is locked in the XCX that will provide an extra incentive for a lender as it resolves in either of the following  two outcomes:
-  a. Released back to the borrower should the BTC amount be paid up before expiry.
-  b. Release to the lender should the contract expire without the borrower making a payment thereby constituting an extra incentive.
-- Expiry: Time when the contract expires, it can be set as a date in the past for immediate settlement, i.e. no lending, but straight-out swap.
-- Native token address: Address to send BTC to for executing the contract.
+- Montant : La quantité de tokens/DAT recherchée par le vendeur et la quantité de DAT bloquée ;
+- Prime : Montant des frais supplémentaires qu'un vendeur de tokens peut gagner sur cette transaction (la prime est indiquée par montant unitaire, ce qui permet une exécution partielle des ordres de transaction). Avec l'expiration, elle peut également être considérée comme un prêt avec intérêts pour l'acheteur. La prime est payée instantanément dès qu'un XCX est apparié, avant l'expiration du contrat de prêt. La prime peut être positive (+) ou négative (-) selon l'offre et la demande ;
+- Garantie : Un montant supplémentaire optionnel en dBTC et/ou DFI qui est verrouillé dans le XCX et qui fournira une incitation supplémentaire pour un prêteur car il se résout dans l'un des deux résultats suivants :
+  a. Libéré à l'emprunteur si le montant BTC est payé avant l'expiration ;
+  b. Libération au profit du prêteur si le contrat expire sans que l'emprunteur ait effectué un paiement, ce qui constitue une incitation supplémentaire.
+- Expiration : Moment où le contrat expire, il peut être défini comme une date dans le passé pour un règlement immédiat, c'est-à-dire pas de prêt, mais un échange pur et simple.
+- Adresse du jeton natif : Adresse à laquelle envoyer les dBTC pour exécuter le contrat.
 
 #### First Example:
 
