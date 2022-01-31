@@ -753,58 +753,58 @@ Ainsi, Alice peut obtenir une position longue cumulée en DFI sans investir d'ar
 
 ---
 
-## $DFI coin
+## Le Coin $DFI
 
-The $DFI coin will be the integral unit of account in DeFiChain ecosystem.
+Le $DFI sera l'unité de compte intégrale dans l'écosystème DeFiChain.
 
-The DeFiChain Foundation will be issuing the DeFi utility token, DFI, capped at 1,200,000,000 (1.2 billion) for throughout its lifetime. There will only ever be 1.2 billion DFIs created.
+La Fondation DeFiChain émettra le token utilitaire DeFi, DFI, plafonné à 1,200,000,000 (1.2 milliards) pendant toute sa durée de vie. Il n'y aura jamais plus que 1,2 milliard de DFI créés.
 
-DFI is divisible up to 8 decimal places.
+DFI est divisible jusqu'à 8 décimales.
 
-### $DFI coin Utility
+### Utilité du $DFI
 
-- DFI is used for fee payment for all transactions and smart contracts on DeFiChain.
-  - Fee payment for decentralized exchange transactions
-  - Fee payment for token transfers
-- Fees payment for DeFi activities:
-  - DEX fees
-  - XCX fees
-  - Lending loan interests payment
+- Le DFI est utilisé pour le paiement des frais pour toutes les transactions et les smart contracts sur DeFiChain.
+  - Paiement de frais pour les transactions d'échange décentralisées
+  - Paiement de frais pour les transferts de tokens
+- Paiement de frais pour les activités de DeFi :
+  - Frais DEX
+  - Frais XCX
+  - Paiement des intérêts des prêts
   - etc.
-- Collateral for borrowing of other cryptoassets on DeFiChain.
-- 1,000,000 DFI is required to run a staking node for DeFiChain.
-- 1,000 DFI is required to create a DCT. This is refundable upon destruction of the DCT.
-- 500 DFI is required to submit a proposal for DFI the community budget. This is non-refundable.
+- Garantie pour l'emprunt d'autres cryptoactifs sur DeFiChain.
+- 1.000.000 DFI est requis pour exécuter un masternode de DeFiChain.
+- 1.000 DFI est nécessaire pour créer un DCT. Cette somme est remboursée lors de la destruction du DCT.
+- 500 DFI sont nécessaires pour soumettre une proposition de budget de la communauté DFI. Ce montant n'est pas remboursable.
 
-### Fees from DeFi Activities
+### Frais d'activités du DFI
 
-Fees from DeFi activities on DeFiChain are burned and redistributed through new token minting over a period of time as laid out below. This ensures that DeFi stakers enjoy the benefits of earning rewards from facilitating trustless DeFi trades on DeFiChain in a fair manner.
+Les frais provenant des activités de DeFi sur DeFiChain sont détruit par le burning et redistribués par le minting de nouveaux tokens sur une période de temps comme indiqué ci-dessous. Cela garantit que les dépositaires de DeFi bénéficient des avantages de gagner des récompenses en facilitant les transactions DeFi sans tiers de confiance sur DeFiChain d'une manière équitable.
 
-**Rewards from minting a block on DeFiChain are calculated as**:
+**Les récompenses du minting d'un bloc sur DeFiChain sont calculées comme suit :**:
 
-1. Underlying block reward schedule (see distribution schedule) +
-2. Burned token redistribution schedule
+1. Schéma de récompense du bloc sous-jacent (voir le schéma de distribution) +
+2. Programme de redistribution des tokens brûlés (burnt)
 
-The burned token redistribution schedule is determined automatically every 259,200 blocks (approx. every 90 days) and works as follows:
+Le programme de redistribution des tokens brûlés est déterminé automatiquement tous les 259 200 blocs (environ tous les 90 jours) et fonctionne comme suit :
 
-![Burned token distribution](/img/white-paper/burn.png)
+![Programme de redistriution des tokens brûlés ](/img/white-paper/burn.png)
 
-Burned token redistribution for the next 259,200 blocks = 
+Redistribution des tokens brûlés pour les 259 200 prochains blocs =
 
-1. (Total token burned from the last 259,200 blocks [Quarter -1]) / 4 + 
-2. (Total token burned from block -518,400th to -259,200th block [Quarter -2]) / 4 + 
-3. (Total token burned from block -777,600th to -518,400th block [Quarter -3]) / 4 + 
-4. (Total token burned from block -1,036,800th to -777,600th block [Quarter -4]) / 4
+1. (Total des tokens brûlés des 259 200 derniers blocs [trimestre -1]) / 4 +
+2. (Total des tokens brûlés du bloc courant B - 518 400 au bloc B - 259 200 [trimestre -2]) / 4 +
+3. (Total des tokens brûlés du bloc B - 777 600 au bloc B - 518 400 [trimestre 3]) / 4 +
+4. (Total des tokens brûlés du bloc B - 1 036 800 au bloc B - 777 600 [trimestre -4]) / 4
 
 ### Masternodes
 
-DeFi is a Proof of Stake blockchain. Initially, 1,000,000 DFI allow the owner to own a staking node. The returns for staking will decrease over time, as the volume and number of transactions compensates for the reduction in per-transaction staking rewards.
+DeFiChain est une blockchain basée sur la preuve d'enjeu. Initialement, posséder 1 000 000 DFI permet d'avoir un masternode. Le rendement du staking diminuera avec le temps, car le volume et le nombre de transactions compensent la réduction des récompenses de staking par transaction.
 
-Nodes are entitled to:
+Les masternodes ont droit à :
 
-- Periodic staking rewards as described later in this chapter.
-- Submission of votes to key decisions that govern DeFiChain in the governance system.
-- Submission of votes on how the DFI community budget is being allocated and distributed. 
+- PDes récompenses périodiques de staking comme décrit plus loin dans ce chapitre.
+- Soumission de votes pour les décisions clés qui gouvernent DeFiChain dans le système de gouvernance.
+- Soumission de votes sur la façon dont le budget de la communauté DFI est alloué et distribué.
 
 ### Governance
 
