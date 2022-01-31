@@ -668,88 +668,88 @@ Les ordres XCX contiennent plusieurs paramètres qui peuvent être librement dé
   a. Libéré à l'emprunteur si le montant BTC est payé avant l'expiration ;
   b. Libération au profit du prêteur si le contrat expire sans que l'emprunteur ait effectué un paiement, ce qui constitue une incitation supplémentaire.
 - Expiration : Moment où le contrat expire, il peut être défini comme une date dans le passé pour un règlement immédiat, c'est-à-dire pas de prêt, mais un échange pur et simple.
-- Adresse du jeton natif : Adresse à laquelle envoyer les dBTC pour exécuter le contrat.
+- Adresse du token natif : Adresse à laquelle envoyer les dBTC pour exécuter le contrat.
 
-#### First Example:
+#### Premier exemple :
 
-Alice has 1 DBTC and wants 1 BTC so she can trade on a centralized exchange.
+Alice a 1 dBTC et veut 1 BTC pour trader sur une bourse centralisée.
 
-Bob has 1 BTC that he does not need for 1 month, hoping to generate some lending interest during that period of time.
+Bob a 1 BTC dont il n'a pas besoin pendant 1 mois, et espère générer un intérêt sur prêt pendant cette période.
 
-1. Alice lists the following XCX order:
-- Amount: 1 DBTC/BTC
-- Premium: 8,000 DFI
-- Guarantee: 0.1 DBTC
-- Expiry: December 31, 2019 – approx. 1 month.
-- Address: Alice lists her BTC deposit address
-2. Bob accepts the offer by sending a transaction on DeFiChain.
-3. Bob receives a confirmation on DeFiChain that his order is accepted. In case there are multiple order acceptance transactions.
-4. Bob sends 1 BTC to Alice’s BTC deposit address as listed in the XCX order and sends a transaction on DeFiChain with the BTC txid as receipt. Bob also specifies a receiving BTC address on the same transaction for Alice to repay the 1 BTC later on. 
-5. Multiple DeFiChain stakers with BTC bridges confirm that Bob has indeed sent the amount as agreed and the that the txid is valid.
-6. XCX’s premium of 8000 DFI is instantly released to Bob. Bob can do what he wants with the DFI straight away with no strings attached. It is Bob’s to keep for this trade.
+1. Alice passe l'ordre XCX suivant :
+- Montant : 1 dBTC/BTC ;
+- Prime : 8 000 DFI ;
+- Garantie : 0,1 dBTC ;
+- Expiration : 31 décembre 2019 - environ 1 mois.
+- Adresse : Alice indique son adresse de dépôt BTC
+2. Bob accepte l'offre en envoyant une transaction sur DeFiChain ;
+3. Bob reçoit une confirmation sur DeFiChain que sa commande est acceptée, dans le cas où il y a plusieurs transactions d'acceptation de commande.
+4. Bob envoie 1 BTC à l'adresse de dépôt BTC d'Alice comme indiqué dans la commande XCX et envoie une transaction sur DeFiChain avec le BTC txid comme reçu. Bob spécifie également une adresse de réception de BTC sur la même transaction pour qu'Alice puisse rembourser les 1 BTC plus tard.
+5. De multiples stakers de DeFiChain avec des passerelles BTC confirment que Bob a bien envoyé le montant comme convenu et que le txid est valide.
+6. La prime de XCX de 8 000 DFI est instantanément libérée pour Bob. Bob peut faire ce qu'il veut avec les DFI immédiatement, sans aucune condition. C'est à Bob de la garder pour cette transaction.
 
-Now, Alice has 1 BTC and Bob has 8000 DFI. Alice also has 1 DBTC locked up on XCX order and Bob is the beneficiary of that BTC. Note that the beneficiary of an XCX is transferable, i.e. Bob is able to sell the XCX with Alice to a third party (this allows for decentralized debt selling and tokenization of receivables).
+Maintenant, Alice a 1 BTC et Bob a 8000 DFI. Alice a également 1 dBTC bloqué sur l'ordre XCX et Bob est le bénéficiaire de ce BTC. Notez que le bénéficiaire d'un XCX est transférable, c'est-à-dire que Bob peut vendre le XCX avec Alice à un tiers (cela permet la vente décentralisée de dettes et la tokenisation des créances).
 
-Should Alice wish to redeem her 1 DBTC from the XCX before the time is up, Alice will send Bob the 1 BTC she borrowed earlier to Bob’s address specified in the XCX and send the acknowledgment on DeFiChain. Upon confirmation by stakers with a BTC bridge, the XCX contract now closes and Alice gets her 1 DBTC back, having paid 8,000 DFIs as interest.
+Si Alice souhaite racheter son dBTC du XCX avant la date d'expiration, Alice enverra à Bob le BTC qu'elle a emprunté plus tôt à l'adresse de Bob spécifiée dans le XCX et enverra l'accusé de réception sur DeFiChain. Après confirmation par les stakers avec une passerelle BTC, le contrat XCX se ferme maintenant et Alice récupère son dBTC, ayant payé 8 000 DFIs comme intérêt.
 
-Bob gets his 1 BTC back (keeping his 8000 DFI as lending interest).
+Bob récupère son BTC (en gardant ses 8 000 DFI comme intérêt de prêt).
 
-Should Alice wish not to redeem the XCX before the expiry, Bob gets to keep Alice’s 1 DBTC.
+Si Alice ne souhaite pas racheter le XCX avant l'expiration, Bob conserve le dBTC d'Alice.
 
-Alice gets to keep the 1 BTC (minus 8000 DFI interest) and Bob now gets 1 DBTC (plus 8000 DFI interest). Additionally Bob received the Guarantee of 0.1 DBTC providing him with an extra 10%.
+Alice garde le BTC (moins les 8 000 DFI d'intérêts) et Bob reçoit maintenant 1 dBTC (plus les 8 000 DFI d'intérêts). De plus, Bob a reçu la garantie de 0,1 dBTC, ce qui lui procure un supplément de 10%.
 
 ![XCX](/img/white-paper/alice-bob-xcx.png)
 
-#### Second Example:
+#### Deuxième exemple :
 
-In a second scenario Charlie has 1 DBTC and wants 1 BTC. He has no intention of paying it back and getting his DBTC back. He also does not want to include an additional guarantee, so he adds a higher Premium and an immediate Expiry. Charlie would list the following XCX order:
+Dans un deuxième scénario, Charlie a 1 dBTC et veut 1 BTC. Il n'a pas l'intention de le rembourser et de récupérer son dBTC. Il ne veut pas non plus inclure une garantie supplémentaire, il ajoute donc une prime plus élevée et une expiration immédiate. Charlie inscrit l'ordre XCX suivant :
 
-- Amount: 1 DBTC/BTC
-- Premium: 12000 DFI
-- Guarantee: None
-- Expiry: Immediate
+- Montant : 1 dBTC/BTC ;
+- Prime : 12 000 DFI ;
+- Garantie : Aucune ;
+- Expiration : Immédiate.
 
-Dave, notices the order has no guarantee and an immediate expiry and knows that this XCX order expires instantly. He happily provides the counter-trade to Charlie, giving him 1 BTC and receiving immediately 1 DBTC + 12000 DFI.
+Dave remarque que l'ordre n'a aucune garantie et une expiration immédiate et sait que cet ordre XCX expire instantanément. Il fournit volontiers la contre-opération à Charlie, lui donnant 1 BTC et recevant immédiatement 1 dBTC + 12000 DFI.
 
-A Guarantee is therefore not a must, but a potential incentive for the lender to know whether he/she has to exchange the received funds afterwards or whether he/she will get the original native coins back.
+Une garantie n'est donc pas une obligation, mais une incitation potentielle pour le prêteur à savoir s'il doit échanger les fonds reçus par la suite ou s'il récupérera les tokens natifs originaux.
 
-### Pricing Oracles
+### Oracles de tarification
 
-A Pricing Contract is a smart contract on DeFiChain allowing multiple trusted and appointed parties to submit periodic price feeds of DATs and DFI. 
+Un oracle est un smart contract sur DeFiChain permettant à plusieurs parties de confiance et désignées de soumettre des flux de prix périodiques de DATs et DFIs. 
 
-Multiple Pricing Contract oracles are chosen by the DeFi DAO (explained in the next chapter).
+Plusieurs oracles sont choisis par le DAO de DeFiChain (expliqué dans le chapitre suivant).
 
-### Use Case Examples
+### Cas d'usage
 
-Following are examples of how the technical implementations of DeFiChain can be used. This is just a list of examples. Many other applications can be implemented as well. 
+Les exemples suivants montrent comment les implémentations techniques de DeFiChain peuvent être utilisées. Il ne s'agit que d'exemples. Beaucoup d'autres applications peuvent être mises en œuvre également.
 
-#### Leveraging a Long Position
+#### L'effet de levier à long terme
 
-1. Alice has 100k DFI. She likes the prospects of DFI and wants to leverage her position.
-2. Alice opens a loan contract on DeFiChain and takes out a loan in DUSDT.
-3. Alice sells DUSDT for more DFI.
+1. Alice a 100k DFI. Elle aime les perspectives de DFI et veut tirer parti de sa position.
+2. Alice ouvre un contrat de prêt sur DeFiChain et prend un prêt en dUSDT.
+3. Alice vend ses dUSDT pour plus de DFI.
 
-Thus Alice can obtain a compounded long position on DFI without putting in extra money.
+Ainsi, Alice peut obtenir une position longue cumulée en DFI sans investir d'argent supplémentaire.
 
-#### Shorting a Coin
+#### Faire un short / vendre à découvert
 
-1. Bob wishes to short coin XXX. Bob has DFI.
-2. Bob opens a loan contract on DeFiChain, takes out a loan in DXXX.
-3. Bob can now either sell DXXX for DFI or DUSDT on DeFi DEX, or convert DXXX via XCX to sell XXX on a non-DeFi-internal exchange.
-4. Once Bob wishes to close his short position, Bob buys back XXX (or DXXX) from the market, hopefully at a lower rate, closes his loan contract and thus completes his short of XXX.
+1. Bob souhaite vendre à découvert la pièce XXX. Il dispose de DFI.
+2. Il ouvre un contrat de prêt sur DeFiChain et contracte un prêt en dXXX.
+3. Bob peut maintenant soit vendre des dXXX pour des DFI ou dUSDT sur le DEX, soit convertir des dXXX via le XCX pour vendre XXX sur un marché externe à DeFiChain.
+4. Lorsque Bob souhaite clôturer sa position courte, il rachète des XXX (ou des dXXX) sur le marché, si possible à un taux plus bas, clôt son contrat de prêt et termine ainsi sa position courte de XXX.
 
-#### Getting a Loan (Borrowing)
+#### Obtenir un prêt
 
-1. Charlie has DFI, but he needs short-term cashflow of another coin XXX. Charlies does not want to sell DFI for it nor does he want to spend fiat money to buy this coin.
-2. Charlie takes a loan via loan contract on DeFiChain for DXXX and converts it to XXX.
-3. Once he wishes to settle his loan, Charlie simply purchases XXX/DXXX and close his loan contract.
+1. Charlie possède des DFI, mais il a besoin de liquidités à court terme pour une autre pièce XXX. Charlie ne veut pas vendre de DFI pour l'obtenir et ne veut pas non plus dépenser de la monnaie fiduciaire pour acheter cette pièce.
+2. Charlie prend un prêt via un contrat de prêt sur DeFiChain pour des dXXX et les convertit en XXX.
+3. Lorsqu'il souhaite régler son prêt, Charlie achète simplement XXX/dXXX et clôture son contrat de prêt.
 
-#### Lending a Coin for Cashflow
+#### Prêter pour générer du cashflow
 
-1. Dave has BTC that he does not need in the short-term. Dave wishes to generate some interest (cashflow) by lending BTC.
-2. Dave lists BTC on XCX specifying his BTC amount, desired premium (interest rate) and expiry (period that he does not need his BTC).
-3. Once a counterparty takes up Dave’s listing, Dave receives an instant premium in DFI.
-4. Upon expiry, Dave would either receive his BTC back, or receive DFI with an additional Guarantee thereby netting more than his original BTC.
+1. Dave possède des BTC dont il n'a pas besoin à court terme. Il souhaite générer des intérêts (cashflow) en prêtant des BTC.
+2. Dave met en vente des BTC sur le XCX en précisant le montant de ses BTC, la prime souhaitée (taux d'intérêt) et l'échéance (période pendant laquelle il n'a pas besoin de ses BTC).
+3. Dès qu'une contrepartie accepte l'inscription de Dave, ce dernier reçoit une prime instantanée en DFI.
+4. À l'expiration, Dave peut soit récupérer ses BTC, soit recevoir des DFI avec une garantie supplémentaire, ce qui lui rapporte plus que ses BTC initiaux.
 
 ---
 
