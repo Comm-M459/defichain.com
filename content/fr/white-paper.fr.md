@@ -109,7 +109,7 @@ Malgré les promesses de la finance décentralisée, la technologie en est encor
 
 Aujourd'hui, presque universellement, les investisseurs en crypto-monnaies n'ont qu'un seul moyen de gagner de l'argent sur leur capital : la hausse de l'actif en crypto-monnaies. Si, à court terme, cela peut constituer un bon investissement, ce n'est pas ainsi que la monnaie est censée fonctionner. L'investissement de capitaux doit fournir un retour sur investissement, et les crypto-monnaies sont conçues pour être comme toute autre forme de monnaie. Les investisseurs d'aujourd'hui veulent avoir la possibilité de prêter, d'investir et de recevoir des retours sur leurs investissements en crypto-monnaies. Des plateformes DeFi bien conçues devraient permettre le développement d'une variété d'instruments financiers sûrs et sécurisés pour l'investissement en crypto-monnaies.
 
-![Soyez votre propre banque](/img/white-paper/be-your-own-bank.png)
+![Sois ta propre banque](/img/white-paper/be-your-own-bank.png)
 
 ### Etat des lieux de la DeFi
 
@@ -163,7 +163,7 @@ Le deuxième problème réside principalement au sein d'Ethereum, à savoir que 
 
 [^3]: https://arxiv.org/pdf/1802.06038.pdf
 
-![Soyez votre propre banque](/img/white-paper/graph.png)
+![Sois ta propre banque](/img/white-paper/graph.png)
 
 ---
 
@@ -542,23 +542,23 @@ Les nœuds de DeFiChain comprendront un client intégré de vérification simpli
 
 Pour atteindre nos objectifs de permettre des transactions financières décentralisées sur DeFiChain, les blocs de construction suivants seront inclus comme composants natifs de base sur DeFiChain.
 
-### Tokenisation sous forme de jetons standards (DST)
+### Tokenisation sous forme de tokens standards (DST)
 
-La mise en œuvre des fonctionnalités décrites dans ce livre blanc est réalisée à l'aide de jetons standards. Ce chapitre décrit les mécanismes des tokens, l'interaction avec d'autres cryptoactifs (tokens), et comment ils sont utilisés dans DeFiChain.
+La mise en œuvre des fonctionnalités décrites dans ce livre blanc est réalisée à l'aide de jetons standards. (JETON ci-après et dans les applications DiFiChain, appelé TOKEN pour éviter toute confusion avec UXTO, NDT). Ce chapitre décrit les mécanismes des tokens, l'interaction avec d'autres cryptoactifs (tokens), et comment ils sont utilisés dans DeFiChain.
 
 ### Mécanique des chaînes croisées
 
-DeFiChain utilise des tokens standards pour introduire des tokens externes dans DeFiChain de manière transparente et permettre des contrats financiers et des échanges transparents de tous les principaux cryptoactifs. Les jetons standards sont similaires à ERC20 sur Ethereum et Omni sur la blockchain Bitcoin. Grâce à cette norme, DeFiChain permet la tokenisation de tous les actifs.
+DeFiChain utilise des tokens standards pour introduire des tokens externes dans DeFiChain de manière transparente et permettre des contrats financiers et des échanges transparents de tous les principaux cryptoactifs. Les tokens standards sont similaires à ERC20 sur Ethereum et Omni sur la blockchain Bitcoin. Grâce à cette norme, DeFiChain permet la tokenisation de tous les actifs.
 
-Sur DeFiChain, les jetons standards sont appelés DeFi Standard Token (DST). Les DST sont de deux types différents : DCT, créés par les utilisateurs du système, et DAT, qui sont des jetons adossés à des actifs créés avec le soutien de cryptoactifs.
+Sur DeFiChain, les tokens standards sont appelés DeFi Standard Token (DST). Les DST sont de deux types différents : DCT, créés par les utilisateurs du système, et DAT, qui sont des tokens adossés à des actifs créés avec le soutien de cryptoactifs.
 
 ![Illustration des catégories de DST](/img/white-paper/custom-token.png)
 
-### Jetons personnalisés (DCT)
+### Tokens personnalisés (DCT)
 
-Les DCTs sont des tokens personnalisés qui peuvent être créés par n'importe quel utilisateur pour représenter n'importe quel projet ou ensemble de smart contracts implémentés sur DeFiChain. Tout utilisateur peut créer un tel DCT. Pour éviter les abus, la création de tout DCT propriétaire exige que l'utilisateur verrouille 1,000 DFI pour le temps que les jetons sont émis. Les DFI sont restitués lorsque les tokens sont révoqués et que le DCT est annulé.
+Les DCTs sont des tokens personnalisés qui peuvent être créés par n'importe quel utilisateur pour représenter n'importe quel projet ou ensemble de smart contracts implémentés sur DeFiChain. Tout utilisateur peut créer un tel DCT. Pour éviter les abus, la création de tout DCT propriétaire exige que l'utilisateur verrouille 1,000 DFI pour le temps que les tokens sont émis. Les DFI sont restitués lorsque les tokens sont révoqués et que le DCT est annulé.
 
-Les jetons DCT ne sont pas soutenus intrinsèquement par DeFiChain. Ils peuvent être soutenus par un mécanisme externe, mais il est essentiel de noter que DeFiChain ne les soutient pas intrinsèquement. Un exemple sur la blockchain Ethereum serait DGX, qui est un jeton ERC20 soutenu par de l'or. Ethereum ne soutient pas DGX, bien que le jeton soit créé par ERC20. La Fondation Digix est responsable de la valeur de ce jeton. De même, les DCT sont à la DeFiChain ce que ERC20 est à l'Ethereum. La création et l'émission de jetons sur DeFiChain est simplifiée et le potentiel d'erreurs dans le contrat intelligent est éliminé, parce que les créateurs de DCT peuvent définir uniquement les paramètres ci-dessous, en utilisant une interface de script facile à utiliser.
+Les tokens DCT ne sont pas soutenus intrinsèquement par DeFiChain. Ils peuvent être soutenus par un mécanisme externe, mais il est essentiel de noter que DeFiChain ne les soutient pas intrinsèquement. Un exemple sur la blockchain Ethereum serait DGX, qui est un jeton ERC20 soutenu par de l'or. Ethereum ne soutient pas DGX, bien que le jeton soit créé par ERC20. La Fondation Digix est responsable de la valeur de ce jeton. De même, les DCT sont à la DeFiChain ce que ERC20 est à l'Ethereum. La création et l'émission de tokens sur DeFiChain est simplifiée et le potentiel d'erreurs dans le contrat intelligent est éliminé, parce que les créateurs de DCT peuvent définir uniquement les paramètres ci-dessous, en utilisant une interface de script facile à utiliser.
 
 #### Paramètres des DCT :
 
