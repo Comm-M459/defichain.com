@@ -139,35 +139,35 @@ content:
           status: En bonne voie
           événements:
             - mois: T1
-              status: futur
+              status: future
               title: Gouvernance sur la chaîne
               image:
                 x1: /img/timeline/2022/On-Chain-governance2x.png
                 x2: /img/timeline/2022/On-Chain-governance2x.png
                 alt: Gouvernance sur la chaîne
             - month: T2
-              status: futur
+              status: future
               title: Portefeuille léger de bureau
               image:
                 x1: /img/timeline/2022/Desktop-Light-Wallet2x.png
                 x2: /img/timeline/2022/Desktop-Light-Wallet2x.png
                 alt: Portefeuille léger de bureau
             - month: T2
-              status: futur
+              status: future
               title: Portefeuille d'extension de navigateur
               image:
                 x1: /img/timeline/2022/Browser-Extension-Wallet2x.png
                 x2: /img/timeline/2022/Browser-Extension-Wallet2x.png
                 alt: Portefeuille d'extension de navigateur
             - month: T2
-              status: futur
+              status: future
               title: Produits dérivés (futures et options)
               image:
                 x1: /img/timeline/2021/futures-trading.png
                 x2: /img/timeline/2021/futures-trading@2x.png
                 alt: Produits dérivés (futures et options)
             - month: T3-4
-              status: futur
+              status: future
               title: Support de la machine virtuelle Ethereum sur DeFiChain
               url: https://github.com/DeFiCh/dfips/issues/96
               image:
@@ -175,14 +175,14 @@ content:
                 x2: /img/timeline/2022/EVM2x.png
                 alt: Support de la machine virtuelle Ethereum sur DeFiChain
             - month: T3-4
-              status: futur
+              status: future
               title: Support des tokens non fongibles (NFT)
               image:
                 x1: /img/timeline/2022/NFTs2x.png
                 x2: /img/timeline/2022/NFTs2x.png
                 alt: Support des tokens non fongibles (NFT)
             - month: T3-T4
-              status: futur
+              status: future
               title: Soutien du Ledger pour le portefeuille léger.
               image:
                 x1: /img/timeline/2021/ledger.png
@@ -192,7 +192,7 @@ content:
           title: 2021
           status: Réalisé
           events:
-            - month: Janv.
+            - month: JAN
               status: passé
               titre: Les DFIP 3, 4, 5 et 6 sont approuvés par la communauté.
               url: https://defiblockchain.medium.com/voting-results-defichain-improvement-community-proposals-45f5e81436b1
@@ -200,162 +200,162 @@ content:
                 x1: /img/timeline/2021/dfips3456.png
                 x2: /img/timeline/2021/dfips3456@2x.png
                 alt: DFIP 3, 4, 5, 6
-            - month: Janv.
-              status: passé
+            - month: JAN
+              status: past
               title: Publication du rapport de transparence T4 2020.
               url: https://defichain.ghost.io/defichain-transparency-report-q4-2020/
               image:
                 x1: /img/timeline/2021/transparency-report.png
                 x2: /img/timeline/2021/transparency-report@2x.png
                 alt: Rapport de transparence T1
-            - month: Janv.
-              status: passé
+            - month: JAN
+              status: past
               title: DeFiChain listé sur Messari.
               url: https://messari.io/asset/defi
               image:
                 x1: /img/timeline/2021/messari.png
                 x2: /img/timeline/2021/messari@2x.png
                 alt: Listage sur Messari
-            - month: Janv.
-              status: passé
+            - month: JAN
+              status: past
               title: DeFiChain listé sur KuCoin.
               url: https://www.kucoin.com/news/en-defichain-gets-listed-on-kucoin?utm_source=DFI
               image:
                 x1: /img/timeline/2021/kucoin.png
                 x2: /img/timeline/2021/kucoin@2x.png
-                alt: KuCoin listing
-            - month: Jan
+                alt: Listage sur KuCoin
+            - month: JAN
               status: past
-              title: DFIP 3 (liquidity mining bonus rewards extended) in Clarke Quay hard fork.
+              title: DFIP 3 (liquidity mining récompenses bonus étendues) dans le hard fork de Clarke Quay.
               url: https://defichain.ghost.io/voting-results-defichain-improvement-community-proposals/
               image:
                 x1: /img/timeline/2021/lm-bonus.png
                 x2: /img/timeline/2021/lm-bonus@2x.png
-                alt: Liquidity mining bonus extended
-            - month: Jan
+                alt: Extension du bonus de liquidity mining
+            - month: JAN
               status: past
-              title: LTC-DFI pool pair added to DEX.
+              title: La paire de pool LTC-DFI a été ajoutée au DEX.
               url: https://defichain.ghost.io/litecoin-liquidity-mining-on-defichain/
               image:
                 x1: /img/timeline/2021/bch-ltc-pairs.png
                 x2: /img/timeline/2021/bch-ltc-pairs@2x.png
-                alt: New LTC-DFI pool pair
-            - month: Jan
+                alt: Nouvelle paire de pool LTC-DFI
+            - month: JAN
               status: past
-              title: DOGE-DFI pool pair added to DEX.
+              title: Paire de pool DOGE-DFI ajoutée au DEX.
               url: https://defichain.ghost.io/doge-420-liquidity-mining/
               image:
                 x1: /img/timeline/2021/doge-pair.png
                 x2: /img/timeline/2021/doge-pair@2x.png
-                alt: New DOGE-DFI pool pair
-            - month: Feb
+                alt: Nouvelle paire de pool DOGE-DFI
+            - month: FÉV
               status: past
-              title: Further decentralization via Dakota upgrade.
+              title: Une décentralisation plus poussée grâce à la mise à niveau de Dakota.
               url: https://defichain.ghost.io/dakota-upgrade/
               image:
                 x1: /img/timeline/2021/dakota-upgrade.png
                 x2: /img/timeline/2021/dakota-upgrade@2x.png
-                alt: Dakota upgrade
-            - month: Feb
+                alt: Mise à niveau de Dakota
+            - month: FÉV
               status: past
-              title: Collateral required to start a masternode lowered to 20k DFI.
+              title: La garantie requise pour démarrer un masternode a été réduite à 20k DFI.
               url: https://defichain.ghost.io/dakota-upgrade/
               image:
                 x1: /img/timeline/2021/lower-masternode-collateral.png
                 x2: /img/timeline/2021/lower-masternode-collateral@2x.png
-                alt: Lower masternode collateral
-            - month: Mar
+                alt: Garantie inférieure du masternode
+            - month: MAR
               status: past
-              title: BCH-DFI pool pair added to DEX.
+              title: La paire de pool BCH-DFI a été ajoutée au DEX.
               url: https://defichain.ghost.io/new-liquidity-mining-pool-pair-bitcoin-cash-dfi/
               image:
                 x1: /img/timeline/2021/bch-ltc-pairs.png
                 x2: /img/timeline/2021/bch-ltc-pairs@2x.png
-                alt: New BCH-DFI pool pair
-            - month: Mar
+                alt: Nouvelle paire de pool BCH-DFI
+            - month: MAR
               status: past
-              title: Bitcoin anchoring implemented.
+              title: Mise en œuvre de l'ancrage à Bitcoin.
               url: https://defichain.ghost.io/100-grand-in-less-than-100-seconds/
               image:
                 x1: /img/timeline/2021/bitcoin-anchoring.png
                 x2: /img/timeline/2021/bitcoin-anchoring@2x.png
-                alt: Bitcoin anchoring
-            - month: Apr
+                alt: Ancrage à Bitcoin
+            - month: AVR
               status: past
-              title: DeFiChain listed on Transak.
+              title: DeFiChain listé sur Transak.
               image:
                 x1: /img/timeline/2021/Tranak_April.jpeg
                 x2: /img/timeline/2021/Tranak_April.jpeg
-                alt: DeFiChain listed on Transak
-            - month: Apr
+                alt: DeFiChain listé sur Transak.
+            - month: AVR
               status: past
-              title: Pink paper on stocks trading, loan and decentralized BTC.
+              title: Livre rose sur le commerce des actions, le prêt et le BTC décentralisé.
               url: https://github.com/defich/pinkpaper/
               image:
                 x1: /img/timeline/2021/pink-paper-q1.png
                 x2: /img/timeline/2021/pink-paper-q1@2x.png
-                alt: Q1 pink paper
-            - month: May
+                alt: T1 livre rose
+            - month: MAI
               status: past
-              title: Introduced Atomic Swap via Eunos Upgrade
+              title: Introduction du Atomic Swap via la mise à niveau Eunos
               image:
                 x1: /img/timeline/2021/Eunos-Upgrade.png
                 x2: /img/timeline/2021/Eunos-Upgrade.png
-                alt: Introduced Atomic Swap via Eunos Upgrade
-            - month: June
+                alt: Introduction du atomic swap via la mise à niveau Eunos
+            - month: JUN
               status: past
-              title: Release of open-source DeFiChain JS library.
+              title: Publication de la bibliothèque open-source DeFiChain JS.
               url: https://github.com/defich/jellyfish/
               image:
                 x1: /img/timeline/2021/js-library.png
                 x2: /img/timeline/2021/js-library@2x.png
-                alt: JS library
-            - month: June
+                alt: Bibliothèque JS
+            - month: JUN
               status: past
-              title: Decentralized cross-chain asset bridge via atomic swap.
+              title: Bridge cross-chain décentralisée d'actifs via atomic swap.
               url: https://github.com/DeFiCh/ain/wiki/Interchain-Exchange-Tutorial/
               image:
                 x1: /img/timeline/2021/atomic-swap.png
                 x2: /img/timeline/2021/atomic-swap@2x.png
                 alt: Atomic swap
-            - month: June
+            - month: JUN
               status: past
-              title: Struck off the DeFiChain Foundation
+              title: Rayé de la Fondation DeFiChain
               url: https://blog.defichain.com/we-struck-off-the-foundation-long-live-the-decentralization/
               image:
                 x1: /img/timeline/2021/DFC-Foundation.png
                 x2: /img/timeline/2021/DFC-Foundation.png
-                alt: Struck off the DeFiChain Foundation
-            - month: Aug
+                alt: Rayé de la Fondation DeFiChain
+            - month: AOÛ
               status: past
-              title: Release of the DeFiChain Light Wallet Mobile App on iOS and Android.
+              title: Sortie de l'application mobile du portefeuille léger de DeFiChain sur iOS et Android.
               url: https://defichain.com/downloads/
               image:
                 x1: /img/timeline/2021/mobile-app.png
                 x2: /img/timeline/2021/mobile-app@2x.png
-                alt: Mobile app
-            - month: Sep
+                alt: Application mobile
+            - month: SEP
               status: past
-              title: Release of DeFi Scan, the block explorer for DeFiChain.
+              title: Sortie de DeFi Scan, l'explorateur de blocs pour DeFiChain.
               url: https://defiscan.live/
               image:
                 x1: /img/timeline/2021/DeFi-Scan.png
                 x2: /img/timeline/2021/DeFi-Scan.png
-                alt: Release of DeFi Scan, the block explorer for DeFiChain.
-            - month: Oct
+                alt: Sortie de DeFi Scan, l'explorateur de blocs pour DeFiChain.
+            - month: OCT
               status: past
-              title: 100% carbon neutral blockchain.
+              title: Blockchain 100% neutre en carbone.
               image:
                 x1: /img/timeline/2021/Carbon-neutral.png
                 x2: /img/timeline/2021/Carbon-neutral.png
-                alt: 100% carbon neutral blockchain.
-            - month: Nov
+                alt: Blockchain 100% neutre en carbone.
+            - month: NOV
               status: past
-              title: Decentralized Assets and Liquidity Mining with dTokens via Fort Canning Upgrade.
+              title: Actifs décentralisés et liquidity mining avec dTokens via Fort Canning Upgrade.
               image:
                 x1: /img/timeline/2021/Fort-Canning-Update-blank.png
                 x2: /img/timeline/2021/Fort-Canning-Update-blank.png
-                alt: Decentralized Assets and Liquidity Mining with dTokens via Fort Canning Upgrade.
+                alt: Actifs décentralisés et liquidity mining avec dTokens via Fort Canning Upgrade.
         - year: 3y
           title: Within the next 3, 5 and 10 years
           events:
