@@ -1,126 +1,126 @@
 ---
 title: DeFiChain
-long_title: Native Decentralized Finance for Bitcoin
+long_title: Finance décentralisée native sur Bitcoin
 meta:
-  description: A blockchain dedicated to fast, intelligent and transparent decentralized financial services, accessible by everyone.
+  description: Une blockchain dédiée aux services financiers décentralisés rapides, intelligents et transparents, accessibles à tous.
   og:
     title: DeFiChain
-    description: A blockchain dedicated to fast, intelligent and transparent decentralized financial services, accessible by everyone, and enabled on Bitcoin.
+    description: Une blockchain dédiée aux services financiers décentralisés rapides, intelligents et transparents, accessibles à tous, et activés sur Bitcoin.
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
     locale: en_US
-theme: dark night
+theme: nuit noire
 content:
   sections:
     hero:
-      headline: Native Decentralized Finance for Bitcoin
-      subhead: A blockchain dedicated to fast, intelligent and transparent decentralized financial services, accessible by everyone.
+      headline: Finance décentralisée native sur Bitcoin
+      subhead: Une blockchain dédiée aux services financiers décentralisés rapides, intelligents et transparents, accessibles à tous.
       quick_links:
         cards:
-          - label: LATEST FEATURE
-            title: Decentralized Assets
-            desc: Access decentralized assets with collateral in your vault.
-            button_text: Learn more
+          - label: DERNIÈRES NOUVELLES
+            title: Actifs décentralisés
+            desc: Accédez à des actifs décentralisés avec des garanties dans votre vault.
+            button_text: En savoir plus
             button_type: full
             url: https://blog.defichain.com/what-are-decentralised-stock-tokens-and-how-do-they-work/
-          - label: FEATURED DOWNLOAD
-            title: DeFiChain Wallet
-            desc: Experience DeFiChain with wallet apps built for both desktop and mobile.
-            button_text: Go to Downloads
+          - label: TÉLÉCHARGEMENT EN VEDETTE
+            title: Portefeuille DeFiChain
+            desc: Faites l'expérience de DeFiChain avec des applications de portefeuille conçues pour le bureau et le mobile.
+            button_text: Aller aux téléchargements
             button_type: full
             url: https://defichain.com/downloads/
-          - label: HOW-TO GUIDE
-            title: Buy $DFI
-            desc: Learn about and acquire the $DFI coin from various crypto exchanges.
-            button_text: Learn more
+          - label: GUIDE D'UTILISATION
+            title: Acheter $DFI
+            desc: Apprenez à connaître et à acquérir du coin $DFI à partir de divers échanges de crypto.
+            button_text: En savoir plus
             button_type: outline
             url: https://blog.defichain.com/where-and-how-to-buy-dfi-defichain/
-          - label: ECOSYSTEM
-            title: Explore community projects
-            desc: Comprehensive list of all things DeFiChain
-            button_text: Explore
+          - label: ÉCOSYSTÈME
+            title: Explorer les projets communautaires
+            desc: Liste complète de tout ce qui concerne DeFiChain
+            button_text: Explorez
             button_type: outline
             url: https://defilinks.io/
     problem_solution:
-      headline: The Post-Fintech Revolution
-      subhead: From trust-based to trust-less, decentralized finance overcomes what Fintech could not solve in traditional finance.
+      headline: La révolution post-Fintech
+      subhead: De la confiance à l'absence de confiance, la finance décentralisée surmonte ce que la Fintech n'a pas pu résoudre dans la finance traditionnelle.
       graph:
         traditional:
-          label: Traditional finance
+          label: Finance traditionnelle
           top:
             percent: 75
-            label: Bureaucracy
+            label: Bureaucratie
           bottom:
             percent: 25
-            label: Trust-based software
+            label: Logiciel basé sur la confiance
         fintech:
           label: Fintech
           top:
             percent: 50
-            label: Bureaucracy
+            label: Bureaucratie
           bottom:
             percent: 50
-            label: Trust-based software
+            label: Logiciel basé sur la confiance
         defi:
           label: DeFi
           top:
             percent: 25
-            label: Bureaucracy
+            label: Bureaucratie
           bottom:
             percent: 75
-            label: Trust-minimized software
+            label: Logiciel à confiance minimisée
     benefits:
-      headline: Benefits of DeFiChain.
+      headline: Avantages de DeFiChain.
       benefits_list:
         - icon: /static/svg/icons/benefits/variety.svg
-          title: Variety
-          description: Wide range of crypto-economic financial operations.
+          title: Variété
+          description: Large éventail d'opérations financières crypto-économiques.
         - icon: /static/svg/icons/benefits/throughput.svg
-          title: Throughput
-          description: Unparalleled high transaction throughput for all transactions
+          title: Débit
+          description: Débit élevé inégalé pour toutes les transactions
         - icon: /static/svg/icons/benefits/security.svg
-          title: Security
-          description: Turing-incomplete for reduced attack vectors.
+          title: Sécurité
+          description: Turing-incomplet pour les vecteurs d'attaque réduits.
         - icon: /static/svg/icons/benefits/development.svg
-          title: Development
-          description: Rapidly create a variety of DeFi apps on one chain.
+          title: Développement
+          description: Créez rapidement une variété d'applications DeFi sur une seule chaîne.
         - icon: /static/svg/icons/benefits/governance.svg
-          title: Governance
-          description: Reliable decentralized governance, on and off-chain.
+          title: Gouvernance
+          description: Une gouvernance décentralisée fiable, sur et hors chaîne.
         - icon: /static/svg/icons/benefits/immutability.svg
-          title: Immutability
-          description: Immutable by anchoring to the Bitcoin blockchain.
+          title: Immutabilité
+          description: Immuable grâce à l'ancrage à la blockchain Bitcoin.
     function_set:
-      headline: Designed and engineered for decentralized finance dApps.
+      headline: Conçu et développé pour les dApps de finance décentralisée.
       functions_list:
         - icon: /static/svg/icons/functions/loan.svg
-          title: Lending
-          description: Borrow and lend through collateralized systems.
+          title: Prêts
+          description: Emprunter et prêter par le biais de systèmes garantis.
         - icon: /static/svg/icons/functions/wrapping.svg
-          title: Wrapping of tokens
-          description: Work with a variety of cryptoassets, directly, on-chain. 
+          title: Encapsulation (wrapping) de tokens 
+          description: Travaillez avec une variété de crypto-monnaies, directement, on-chain. 
         - icon: /static/svg/icons/functions/oracle.svg
-          title: Pricing oracles
-          description: Collect data from other chains and non-crypto markets.
+          title: Oracles de prix
+          description: Recueillir des données provenant d'autres chaînes et de marchés non cryptographiques.
         - icon: /static/svg/icons/functions/exchange.svg
-          title: Exchanges
-          description: Direct peer-to-peer trading between cryptocurrencies.
+          title: Échanges
+          description: Échange direct de pair à pair entre les crypto-monnaies.
         - icon: /static/svg/icons/functions/transfer.svg
-          title: Transferable debts and receivables
-          description: Work with transparency not possible with institutions.
+          title: Dettes et créances transférables
+          description: Travailler en toute transparence, ce qui n'est pas possible avec les institutions.
         - icon: /static/svg/icons/functions/debt.svg
-          title: Non-collateralized debt
-          description: Loans based on reputation and verifiable credentials.
+          title: Dettes non collatéralisées
+          description: Prêts basés sur la réputation et les références vérifiables.
         - icon: /static/svg/icons/functions/tokens.svg
-          title: Asset tokenization
-          description: Tokenize equity, real estate, and other holdings.
+          title: Tokenisation d'actifs
+          description: Tokeniser des actions, des biens immobiliers et d'autres avoirs.
         - icon: /static/svg/icons/functions/dividends.svg
-          title: Distribution of dividends
-          description: Automatic investment payouts with smart contracts.
+          title: Distribution de dividendes
+          description: Paiements automatiques des investissements avec des contrats intelligents.
     built_on_bitcoin:
-      headline: Built-on-Bitcoin
-      subhead: DeFiChain marries the best of Proof-of-Stake, with the security and immutability of Bitcoin.
+      headline: Construite sur le Bitcoin
+      subhead: DeFiChain marie le meilleur de preuve d'enjeu, avec la sécurité et l'immuabilité de Bitcoin.
       link:
         label: Learn more
         url: /white-paper
