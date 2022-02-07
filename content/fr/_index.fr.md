@@ -122,103 +122,103 @@ content:
       headline: Construite sur le Bitcoin
       subhead: DeFiChain marie le meilleur de preuve d'enjeu, avec la sécurité et l'immuabilité de Bitcoin.
       link:
-        label: Learn more
+        label: En savoir plus
         url: /white-paper
       image: /static/svg/built-on-bitcoin.svg
     decentralized_nodes:
-      headline: Decentralized and distributed
-      subhead: DeFiChain nodes are distributed globally across datacenters in the US, Canada, Europe, India, Singapore and Australia.
+      headline: Décentralisé et distribué
+      subhead: Les nœuds de DeFiChain sont distribués mondialement à travers des centres de données aux États-Unis, au Canada, en Europe, en Inde, à Singapour et en Australie.
       map:
         image: /static/svg/nodes-map.svg
     roadmap:
-      headline: Roadmap
-      subhead: Achievements and what to look forward to.
-      timeline:
+      headline: Feuille de route
+      subhead: Réalisations et ce qui vous attend.
+      ligne du temps:
         - year: 2022
           title: 2022
-          status: On track
-          events:
-            - month: Q1
-              status: future
-              title: On-chain Governance
+          status: En bonne voie
+          événements:
+            - mois: T1
+              status: futur
+              title: Gouvernance sur la chaîne
               image:
                 x1: /img/timeline/2022/On-Chain-governance2x.png
                 x2: /img/timeline/2022/On-Chain-governance2x.png
-                alt: On-chain Governance
-            - month: Q2
-              status: future
-              title: Desktop Light Wallet
+                alt: Gouvernance sur la chaîne
+            - month: T2
+              status: futur
+              title: Portefeuille léger de bureau
               image:
                 x1: /img/timeline/2022/Desktop-Light-Wallet2x.png
                 x2: /img/timeline/2022/Desktop-Light-Wallet2x.png
-                alt: Desktop Light Wallet
-            - month: Q2
-              status: future
-              title: Browser Extension Wallet
+                alt: Portefeuille léger de bureau
+            - month: T2
+              status: futur
+              title: Portefeuille d'extension de navigateur
               image:
                 x1: /img/timeline/2022/Browser-Extension-Wallet2x.png
                 x2: /img/timeline/2022/Browser-Extension-Wallet2x.png
-                alt: Browser Extension Wallet
-            - month: Q2
-              status: future
-              title: Derivatives (Futures and options)
+                alt: Portefeuille d'extension de navigateur
+            - month: T2
+              status: futur
+              title: Produits dérivés (futures et options)
               image:
                 x1: /img/timeline/2021/futures-trading.png
                 x2: /img/timeline/2021/futures-trading@2x.png
-                alt: Derivatives (Futures and options)
-            - month: Q3-4
-              status: future
-              title: Ethereum Virtual Machine Support on DeFiChain
+                alt: Produits dérivés (futures et options)
+            - month: T3-4
+              status: futur
+              title: Support de la machine virtuelle Ethereum sur DeFiChain
               url: https://github.com/DeFiCh/dfips/issues/96
               image:
                 x1: /img/timeline/2022/EVM2x.png
                 x2: /img/timeline/2022/EVM2x.png
-                alt: Ethereum Virtual Machine Support on DeFiChain
-            - month: Q3-4
-              status: future
-              title: Non-fungible Token (NFT) Support
+                alt: Support de la machine virtuelle Ethereum sur DeFiChain
+            - month: T3-4
+              status: futur
+              title: Support des tokens non fongibles (NFT)
               image:
                 x1: /img/timeline/2022/NFTs2x.png
                 x2: /img/timeline/2022/NFTs2x.png
-                alt: Non-fungible Token (NFT) Support
-            - month: Q3-Q4
-              status: future
-              title: Ledger support for Light Wallet.
+                alt: Support des tokens non fongibles (NFT)
+            - month: T3-T4
+              status: futur
+              title: Soutien du Ledger pour le portefeuille léger.
               image:
                 x1: /img/timeline/2021/ledger.png
                 x2: /img/timeline/2021/ledger@2x.png
-                alt: Ledger integration
+                alt: Intégration du Ledger
         - year: 2021
           title: 2021
-          status: Achieved
+          status: Réalisé
           events:
-            - month: Jan
-              status: past
-              title: DFIP 3, 4, 5 and 6 are approved by the community.
+            - month: Janv.
+              status: passé
+              titre: Les DFIP 3, 4, 5 et 6 sont approuvés par la communauté.
               url: https://defiblockchain.medium.com/voting-results-defichain-improvement-community-proposals-45f5e81436b1
               image:
                 x1: /img/timeline/2021/dfips3456.png
                 x2: /img/timeline/2021/dfips3456@2x.png
                 alt: DFIP 3, 4, 5, 6
-            - month: Jan
-              status: past
-              title: Q4 2020 transparency report released.
+            - month: Janv.
+              status: passé
+              title: Publication du rapport de transparence T4 2020.
               url: https://defichain.ghost.io/defichain-transparency-report-q4-2020/
               image:
                 x1: /img/timeline/2021/transparency-report.png
                 x2: /img/timeline/2021/transparency-report@2x.png
-                alt: Q1 transparency report
-            - month: Jan
-              status: past
-              title: DeFiChain listed on Messari.
+                alt: Rapport de transparence T1
+            - month: Janv.
+              status: passé
+              title: DeFiChain listé sur Messari.
               url: https://messari.io/asset/defi
               image:
                 x1: /img/timeline/2021/messari.png
                 x2: /img/timeline/2021/messari@2x.png
-                alt: Messari listing
-            - month: Jan
-              status: past
-              title: DeFiChain listed on KuCoin.
+                alt: Listage sur Messari
+            - month: Janv.
+              status: passé
+              title: DeFiChain listé sur KuCoin.
               url: https://www.kucoin.com/news/en-defichain-gets-listed-on-kucoin?utm_source=DFI
               image:
                 x1: /img/timeline/2021/kucoin.png
