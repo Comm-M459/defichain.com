@@ -806,81 +806,81 @@ Les masternodes ont droit à :
 - Soumission de votes pour les décisions clés qui gouvernent DeFiChain dans le système de gouvernance.
 - Soumission de votes sur la façon dont le budget de la communauté DFI est alloué et distribué.
 
-### Governance
+### Gouvernance
 
-The DeFiChain Foundation is responsible for issuance of tokens and is governed by an independent board. This board will be governed by the DeFi masternodes voting on its members and also by giving directives on key decisions.
+La Fondation DeFiChain est responsable de l'émission de tokens et est gouvernée par un conseil indépendant. Ce conseil sera gouverné par les masternodes lors de votes par ses membres et aussi en donnant des directives sur les décisions clés.
 
-The DeFiChain Foundation awards tokens to users and groups to speed up adoption (see the section on initial token distribution and marketing). The Foundation is tasked with boosting the ecosystem, bringing in ecosystem partners, directing the development of the tools for ecosystem partners, and other activities to increase the number of ecosystem partners.
+La Fondation DeFiChain attribue des tokens aux utilisateurs et aux groupes pour accélérer l'adoption (voir la section sur la distribution initiale de tokens et le marketing). La Fondation a pour mission de dynamiser l'écosystème, de faire venir des partenaires dans l'écosystème, de diriger le développement des outils pour les partenaires de l'écosystème et d'autres activités visant à augmenter le nombre de partenaires de l'écosystème.
 
-![Governance](/img/white-paper/governance.png)
+![Gouvernance de DeFiChain](/img/white-paper/governance.png)
 
-For clarification and transparency, Cake Pte Ltd is a private company located in Singapore. Cake Pte Ltd is an initial contributor as part of the ecosystem’s partners to creating services on DeFiChain.
+Pour des raisons de clarification et de transparence, Cake Pte Ltd est une société privée située à Singapour. Cake Pte Ltd est un contributeur initial dans le cadre des partenariats à l'écosystème pour créer des services sur DeFiChain.
 
-### Community Development Fund
+### Fonds de développement de la communauté
 
-The DeFiChain Foundation will create a community development fund with up to 10% of the block rewards under management. This percentage can be updated by submitting a DAO proposal that will be voted on by all masternodes. Community development funds were popularized by DASH[^10] and are used in some selective DAOs today. The community will determine the use of these funds for development, marketing, or research that forwards the DeFi community. DFI masternodes vote for projects they like and the highest voted proposals every month will be funded.
+La Fondation DeFiChain créera un fonds de développement de la communauté avec une gestion allant jusqu'à 10% des récompenses du bloc. Ce pourcentage peut être mis à jour en soumettant une proposition de DAO qui sera votée par tous les masternodes. Les fonds de développement communautaires ont été popularisés par DASH et sont utilisés aujourd'hui dans certaines DAO sélectives. La communauté déterminera l'utilisation de ces fonds pour le développement, le marketing ou la recherche au profit de la communauté DeFiChain. Les masternodes DFI votent pour les projets qu'ils aiment et les propositions les plus votées chaque mois seront financées.
 
-It costs 500 DFI to submit a budget proposal and a proposal can be submitted by anyone. This fee is burned and non-refundable regardless of whether the budget is approved. Budgets are proposals which receive a net total of yes votes equal to or greater than 10% of the total possible votes (for example over 448 out of 4480). Budgets can be nullified at any time if vote totals (cast or re-cast) fall below the approval threshold. Budgets are processed (paid) in order of yes minus no votes. More popular budgets get payment priority. Voting happens on a monthly basis but can be changed by a masternode vote.
+Il en coûte 500 DFI de soumettre une proposition de budget, et une proposition peut être soumise par n'importe qui. Ces frais sont brûlés et non remboursables, que le budget soit approuvé ou non. Les budgets sont des propositions qui reçoivent un total net de votes positifs égal ou supérieur à 10% du total des votes possibles (par exemple plus de 448 sur 4480). Les budgets peuvent être annulés à tout moment si le total des votes (exprimés ou renouvelés) tombe sous le seuil d'approbation. Les budgets sont traités (financés) dans l'ordre des votes positifs moins les votes négatifs. Les budgets les plus populaires sont financés en priorité. Les votes ont lieu sur une base mensuelle mais peuvent être modifiés par un vote du masternode.
 
-For governance decisions, only the Foundation may submit proposals. Proposals are voted in similar way as DAO budget proposals except that decisions will be honored via simple majority vote.
+Pour les décisions de gouvernance, seule la Fondation peut soumettre des propositions. Les propositions sont votées de la même manière que les propositions de budget de la DAO, sauf que les décisions seront honorées par un vote à la majorité simple.
 
 [^10]: https://docs.dash.org/en/stable/governance/understanding.html
 
-### Initial Token Distribution
+### Distribution initiale des tokens
 
-Of the roughly 1.2 billion $DFI coins 49% will be issued to the DeFiChain Foundation at the start. The rest will be issued to Masternode holders over time.
-Of the 49% initially issued $DFI coins, 49% will be kept by the DeFiChain Foundation. The rest may be distributed to accredited investors, large funds and institutions, collectively known as external partners, to fund the initial development of DeFiChain. In order to decentralize the holdings of DFIs as much as possible the DeFiChain Foundation may not keep more than 49% of all initially issued tokens. The use of potential proceedings of the tokens will be decided by the DeFiChain Foundation board but will exclusively be directed towards the adoption and development of DeFiChain.
+Sur les 1.2 milliards de tokens $DFI, 49% seront émis à la Fondation DeFiChain au démarrage. Le reste sera émis aux détenteurs de masternodes au fil du temps.
+Des 49% de tokens $DFI initialement émises, 49% seront conservées par la Fondation DeFiChain. Le reste peut être distribué aux investisseurs accrédités, aux grands fonds et aux institutions, collectivement connus comme partenaires externes, pour financer le développement initial de DeFiChain. Afin de décentraliser autant que possible les avoirs de DFI, la Fondation DeFiChain ne peut pas conserver plus de 49% de tous les tokens initialement émis. L'utilisation potentielle des tokens sera décidée par le conseil de la Fondation DeFiChain mais sera exclusivement dirigée vers l'adoption et le développement de DeFiChain.
 
-For any avoidance of doubt, there will NOT be a public ICO.
+Pour éviter tout doute, il n'y aura PAS d'ICO publique.
 
-![Initial Token Distribution](/img/white-paper/initial-token-distribution.png)
+![Schéma de la distribution initiale de tokens](/img/white-paper/initial-token-distribution.png)
 
-Further tokens will only ever be received through staking, which is described in the next chapter.
+D'autres tokens seront uniquement reçus que par le biais du staking, qui est décrit dans le chapitre suivant.
 
-### Token Issuance Schedule via Staking
+### Calendrier d'émission de jetons par le staking
 
-DeFiChain is initially launched with a 200 DFI block reward, of which 10% goes to the community fund. The Foundation pledges to guarantee this 200 DFI block reward for at least 1,050,000 blocks since the the first genesis block, so approximately 1 year.
+DeFiChain est initialement lancée avec une récompense de 200 DFI par bloc, dont 10% vont au fonds communautaire. La Fondation s'engage à garantir cette récompense de 200 DFI pour au moins 1 050 000 blocs depuis le premier bloc de genèse, soit environ 1 an.
 
-Subsequently, block rewards will be adjusted through governance vote. The Foundation also further pledges that there will never be more than 1,200,000,000 (1.2 billion) DFI in circulation, unless until the DAO governance votes to change this limit. Therefore DFI is a deflationary utility token.
+Par la suite, les récompenses par bloc seront ajustées par un vote de la gouvernance. La Fondation s'engage également à ce qu'il n'y ait jamais plus de 1 200 000 000 (1,2 milliard) de DFI en circulation, à moins que la gouvernance de la DAO ne vote pour modifier cette limite. Par conséquent, le DFI est un token utilitaire déflationniste.
 
-The proposed staking schedule for the first 10 years is according to the following table:
+Le programme de staking proposé pour les 10 premières années est conforme au tableau suivant :
 
 <div class="table-responsive">
   <table>
     <thead>
       <tr>
         <th scope="col">
-          Year
+          Année
         </th>
         <th scope="col">
-          Start of year token in circulation
+          Tokens en circulation au début de l'année
         </th>
         <th scope="col">
-          % of supply staked
+          Volume de tokens en staking
         </th>
         <th scope="col">
-          Block reward
+          Récompense de bloc (DFI)
         </th>
         <th scope="col">
-          Targeted new token %
+          Objectif de nouveaux tokens
         </th>
         <th scope="col">
-          Targeted new token
+          Objectif de nouveaux tokens (nb)
         </th>
         <th scope="col">
-          Staking return %
+          Intérêts de staking
         </th>
         <th scope="col">
-          Actual new token
+          Nouveaux tokens effectifs
         </th>
         <th scope="col">
-          End of year token in circulation
+          Tokens en circulation en fin d'année
         </th>
         <th scope="col">
-          % of cap
+          % de la capitalisation
         </th>
         <th scope="col">
-          New token for year
+          Nouveaux tokens sur l'année
         </th>
       </tr>
     </thead>
@@ -1019,63 +1019,63 @@ The proposed staking schedule for the first 10 years is according to the followi
   </table>
 </div>
 
-### Acquiring $DFI coins
+### Acquérir des $DFI
 
-$DFI coins will be issued only to the users of DeFiChain or partners with an interest in utilizing and participating in the ecosystem. There will be NO public sale or public token offering. Following are the only ways to get $DFI coins:
+Les coins $DFI seront émis uniquement aux utilisateurs de DeFiChain ou aux partenaires ayant un intérêt à utiliser et à participer à l'écosystème. Il n'y aura PAS de vente publique ou d'offre publique de tokens. Voici les seules façons d'obtenir des $DFI :
 
-- Institutional investors, accredited investors and funds who are interested in the use of DeFiChain can contact the DeFi founders at (partners@defichain.com).
-- Over time, DFI will be available on staking platforms (such as www.CakeDeFi.com) and on selected exchanges.
-- The DeFiChain Foundation will issue airdrop tokens for users of DeFiChain. (Hodlers and other market makers).
-- The DeFiChain Foundation gives grants to developers who are developing functionality for DeFiChain or dApps to run on the blockchain.
+- Les investisseurs institutionnels, les investisseurs accrédités et les fonds qui sont intéressés par l'utilisation de DeFiChain peuvent contacter les fondateurs à  (partners@defichain.com).
+- Au fil du temps, le DFI sera disponible sur des plateformes de staking (comme www.CakeDeFi.com) et sur des bourses sélectionnées.
+- La Fondation DeFiChain effectuera des airdrop pour les utilisateurs de DeFiChain. (Hodlers et autres faiseurs de marché).
+- La Fondation DeFiChain accorde des subventions aux développeurs qui développent des fonctionnalités pour DeFiChain ou des dApps à exécuter sur la blockchain.
 
 ---
 
-## DeFiChain Foundation
+## La Fondation DeFiChain
 
-The DeFiChain Foundation is incorporated as a company limited by guarantee, resembling a foundation structure which holds the DeFiChain Trademarks, Domains and makes sure the DFI foundation funds are used as instructed by the masternodes.
+La Fondation DeFiChain est une société à responsabilité limitée ("company limited by guarantee" dans l'original), ressemblant à une structure de fondation qui détient les marques commerciales DeFiChain, les domaines et s'assure que les fonds de la fondation DFI sont utilisés selon les instructions des masternodes.
 
 ---
 
 ## Marketing
 
-### Target Market
+### Marché cible
 
-Unlike most other DeFi-focused initiatives, DeFiChain being built on top of Bitcoin can harness almost the entire crypto market without being limited to “smaller” chains like Ethereum etc. Thus, as of publication, the target market for DeFiChain are over 60-80 million cryptocurrency owners and we can expect that hundreds of millions of other users will join in the future. This group of investors is investing and holding cryptocurrency due to the returns as well as their belief in the future of the industry. As investors, they have widely done well with the rise in many of the cryptoassets, however, they are not able to use their holdings in order to get better returns. Providing DeFi services will allow these investors to hold the coins they believe in, and increase their holdings over time based on investments that go deeper than just currency trading.
+Contrairement à la plupart des autres initiatives axées sur la DeFi, DeFiChain est construite sur le Bitcoin et peut exploiter la quasi-totalité du marché des crypto-monnaies sans être limitée aux chaînes "plus petites" comme Ethereum, etc. Ainsi, au moment de la publication, le marché cible de DeFiChain est de plus de 60-80 millions de propriétaires de crypto-monnaies et nous pouvons nous attendre à ce que des centaines de millions d'autres utilisateurs nous rejoignent dans le futur. Ce groupe d'investisseurs investit et détient des crypto-monnaies en raison des rendements ainsi que de leur croyance dans l'avenir de l'industrie. En tant qu'investisseurs, ils ont largement profité de la hausse de nombreuses crypto-monnaies, mais ils ne sont pas en mesure d'utiliser leurs avoirs pour obtenir de meilleurs rendements. Les services DeFi permettront à ces investisseurs de détenir les tokens auxquels ils croient et d'augmenter leurs avoirs au fil du temps grâce à des investissements qui vont au-delà du simple trading de devises.
 
-### Go-to-market Strategy
+### Stratégie de mise sur le marché
 
-The initial DeFiChain team is made up of some of the top names in the cryptocurrency industry, people who have made a name for themselves not just by delivering on their promises, but by creating a following. The team has built up a variety of marketing channels and has an established following on social media, wide distribution of books in the area of cryptocurrency, and deep contacts within the cryptocurrency industry.
+L'équipe initiale de DeFiChain est composée de certains des plus grands noms de l'industrie des crypto-monnaies, des personnes qui se sont fait un nom non seulement en tenant leurs promesses, mais aussi en créant une dynamique. L'équipe a mis en place une variété de canaux de marketing et dispose d'un public établi sur les médias sociaux, d'une large distribution de livres dans le domaine de la crypto-monnaie et de contacts robustes dans l'industrie de la crypto-monnaie.
 
-With the experience of building up social media followings of hundreds of thousands of users in the course of just a few years, the team plans to leverage their current followers and bring them onto specific channels that will be the domain of DeFiChain. The team will build up a complete marketing engine and staff, using the same proven competence they displayed in the past.
+Ayant l'expérience de construire des communautés sur les réseaux sociaux de centaines de milliers d'utilisateurs en quelques années seulement, l'équipe prévoit de tirer parti de ses adeptes actuels et de les amener sur des canaux spécifiques qui seront le domaine de DeFiChain. L'équipe mettra en place une équipe dirigeante de marketing transversal, en utilisant les mêmes compétences éprouvées qu'elle a montrées dans le passé.
 
-Unlike other blockchains, DeFiChain will be balanced between marketing and technology expertise. Building the best network is only half of the job. DFI holders can rest assured that the marketing team has the proven experience in building up a marketing engine that is required for product success and that the tech team will be able to deliver on the roadmap.
+Contrairement aux autres blockchains, DeFiChain sera équilibrée entre l'expertise marketing et technologique. Construire le meilleur réseau n'est que la moitié du travail. Les détenteurs de DFI peuvent être assurés que l'équipe de marketing a l'expérience éprouvée dans la construction d'un programme marketing nécessaire au succès du produit et que l'équipe technique sera en mesure de respecter la feuille de route.
 
-### Partnerships
+### Partenariats
 
-The DeFiChain Foundation will be tasked with assessing applications from ecosystem partners and providing foundation grants in the form of $DFI coins to developers and contributors to DeFiChain. Many open source projects and blockchain developers today are looking for the right blockchain project in order to develop their DeFi applications, and the prospect of a dedicated DeFiChain, backed by industry leaders is appealing.
+La Fondation DeFiChain sera chargée d'évaluer les demandes des partenaires de l'écosystème et de fournir des subventions de la fondation sous forme de $DFI aux développeurs et aux contributeurs de DeFiChain. De nombreux projets open source et développeurs de blockchain recherchent aujourd'hui le bon projet de blockchain afin de développer leurs applications DeFi, et la perspective d'une DeFiChain dédiée, soutenue par les leaders de l'industrie est séduisante.
 
-The DeFiChain Foundation will undertake a variety of efforts to choose the best projects for the expansion of DeFiChain:
+La Fondation DeFiChain va entreprendre divers efforts pour choisir les meilleurs projets pour l'expansion de DeFiChain :
 
-- Creation of a formal application process so that worthy projects can apply for airdrop or foundation grants for their development
-- Approaching developers in the ecosystem who are doing DeFi dApps on other blockchains, and providing grants for them to develop their dApps on DeFi.
-- General marketing to get the word out about the availability of DeFiChain Foundation grants to fund worthy projects.
+- Création d'un processus de demande formel afin que les projets valables puissent demander des subventions pour leur développement (airdrop ou fondation)
+- Approcher les développeurs dans l'écosystème qui font des dApps DeFi sur d'autres blockchains, et leur fournir des subventions pour qu'ils développent leurs dApps sur DeFiChain.
+- Marketing général pour faire passer le mot sur la disponibilité des subventions de la Fondation DeFiChain pour financer des projets valables.
 
-Every project on DeFiChain will naturally bring it its own users and put effort towards marketing of the project, adding users and hodlers to DeFiChain.
+Chaque projet sur DeFiChain apportera naturellement ses propres utilisateurs et fera des efforts pour le marketing du projet, ajoutant des utilisateurs et des hébergeurs à DeFiChain.
 
 [partners@defichain.com](mailto:partners@defichain.com)
 
 ---
 
-## Roadmap and Milestones
+## Feuille de route et points d'avancement
 
 ![Roadmap](/img/white-paper/roadmap.png)
 
-## A Glimpse into the Future
+## Un aperçu de l'avenir
 
-Building on top of DeFiChain will lead to some of the most exciting benefits not only for first-world areas, but moreover also all those that need decentralized finance the most. For example, imagine Anna, who owns a small business in a developing economy, but who doesn’t have a traditional bank account. She uses mobile money and digital currencies to run her business, accepting payments through mobile--which makes perfect sense, because nobody in her province uses cash or credit cards. Anna uses DeFiChain to take out a loan when one of her suppliers pays late, saving her business. In the old days, she would have simply gone out of business, because no bank would loan money to her. Anna also invests wisely. When she is paid by the supplier, she immediately moves the cash into various tokenized assets to avoid the hyperinflation and instability of her national government’s currency, and on top of that, she is able to earn interest.
+Construire à partir de DeFiChain conduira à certains des avantages les plus excitants, non seulement pour les régions les plus dévelopées, mais aussi pour ceux qui ont le plus besoin de finances décentralisées. Par exemple, imaginez Anna, qui possède une petite entreprise dans une économie en développement, mais qui n'a pas de compte bancaire traditionnel. Elle utilise l'argent mobile et les monnaies numériques pour gérer son entreprise, acceptant les paiements par mobile - ce qui est parfaitement logique, car personne dans sa province n'utilise d'argent liquide ou de cartes de crédit. Anna utilise DeFiChain pour contracter un prêt lorsqu'un de ses fournisseurs paie en retard, sauvant ainsi son entreprise. Autrefois, elle aurait tout simplement fait faillite, car aucune banque ne voulait lui prêter de l'argent. Anna investit également de manière judicieuse. Lorsqu'elle est payée par le fournisseur, elle transfère immédiatement l'argent dans divers actifs symboliques pour éviter l'hyperinflation et l'instabilité de la monnaie de son gouvernement national, et en plus de cela, elle peut gagner des intérêts.
 
-Anna creates a group of local businesspeople, and together they pool funds to help other entrepreneurs in their village. They purchase office space, solar panels, and a satellite to create a business center. The group uses DeFi to eliminate the overhead of complex legal contracts between them. They receive automatic dividends when the business center profits. Some of them reinvest in a delivery drone which charges for its services, and distributes the income to the investors. Others invest in sensor equipment that test local soil conditions, and sell the data to commodity markets. All of the sensors work independently and charge independently, and the investors simply reap the profits, all calculated automatically on DeFiChain.
+Anna crée un groupe d'entrepreneurs locaux et, ensemble, ils mettent les fonds en commun pour aider d'autres entrepreneurs de leur village. Ils achètent des bureaux, des panneaux solaires et un satellite pour créer un centre d'affaires. Le groupe utilise DeFiChain pour éliminer les frais généraux des contrats juridiques complexes entre eux. Ils reçoivent des dividendes automatiques lorsque le centre d'affaires réalise des bénéfices. Certains d'entre eux réinvestissent dans un drone de livraison qui facture ses services et distribue les revenus aux investisseurs. D'autres investissent dans des équipements de capteurs qui testent les conditions du sol local, et vendent les données aux marchés de matières premières. Tous les capteurs fonctionnent indépendamment et sont facturés indépendamment, et les investisseurs récoltent simplement les bénéfices, tous calculés automatiquement sur DeFiChain.
 
-Now, 5 years after her initial use of DeFi, Anna is able to take out a loan with no collateral, based on her long-term record of smart investments and returning loans on time, as well as assessment of her industry from trusted oracles. It’s a win-win situation. The lenders come from all over the globe, from people who want to diversify their investment portfolio to developing economies. The lenders don’t have to worry about the complexity of cross-border transactions or legal requirements. They escape the banking systems of their own countries, which moved to zero and negative-interest rates on savings. Now, these regular investors can be assured of returns on investments based on Anna and people like her, who run great businesses and can provide returns on people’s investments.
+Aujourd'hui, 5 ans après son utilisation initiale de DeFiChain, Anna est en mesure de contracter un prêt sans garantie, en se basant sur son historique d'investissements intelligents et de remboursements de prêts à temps, ainsi que sur l'évaluation de son secteur par des oracles de confiance. C'est une situation gagnant-gagnant. Les prêteurs viennent du monde entier, qu'il s'agisse de personnes souhaitant diversifier leur portefeuille d'investissements ou d'économies en développement. Les prêteurs n'ont pas à se soucier de la complexité des transactions transfrontalières ou des exigences juridiques. Ils échappent aux systèmes bancaires de leurs propres pays, qui sont passés à des taux d'intérêt nuls ou négatifs sur l'épargne. Maintenant, ces investisseurs réguliers peuvent être assurés de retours sur les investissements basés sur Anna et des personnes comme elle, qui dirigent de grandes entreprises et peuvent fournir des retours sur les investissements des gens.
 
-**This is what DeFiChain is all about - To make the world a better place!**
+**C'est la raison d'être de DeFiChain - Faire du monde un meilleur endroit !**
