@@ -78,7 +78,7 @@ content:
   <tr>
     <th>Rapport d'audit</th>
     <td>
-      <a href="/downloads/defichain-security-audit-slowmist.pdf" target="_blank">Download</a>
+      <a href="/downloads/defichain-security-audit-slowmist.pdf" target="_blank">Télécharger</a>
     </td>
   </tr>
 </table>
