@@ -9,8 +9,8 @@ meta:
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
-    locale: en_US
-theme: nuit noire
+    locale: fr
+theme: dark night
 content:
   sections:
     hero:
@@ -138,7 +138,7 @@ content:
           title: 2022
           status: En bonne voie
           événements:
-            - mois: T1
+            - month: T1
               status: future
               title: Gouvernance sur la chaîne
               image:
@@ -194,7 +194,7 @@ content:
           events:
             - month: JAN
               status: passé
-              titre: Les DFIP 3, 4, 5 et 6 sont approuvés par la communauté.
+              title: Les DFIP 3, 4, 5 et 6 sont approuvés par la communauté.
               url: https://defiblockchain.medium.com/voting-results-defichain-improvement-community-proposals-45f5e81436b1
               image:
                 x1: /img/timeline/2021/dfips3456.png
@@ -357,60 +357,60 @@ content:
                 x2: /img/timeline/2021/Fort-Canning-Update-blank.png
                 alt: Actifs décentralisés et liquidity mining avec dTokens via Fort Canning Upgrade.
         - year: 3y
-          title: Within the next 3, 5 and 10 years
+          title: Dans les 3, 5 et 10 prochaines années
           events:
-            - month: 3 years
+            - month: 3 années
               status: future
-              title: Decentralized leveraged trading (10x or 50x leverage of collateral).
+              title: Négociation décentralisée à effet de levier (effet de levier 10x ou 50x de la garantie).
               image:
                 x1: /img/timeline/3y/decentralized-leverage.png
                 x2: /img/timeline/3y/decentralized-leverage@2x.png
                 alt: Decentralized leveraged trading
-            - month: 3 years
+            - month: 3 années
               status: future
-              title: Decentralized options.
+              title: Options décentralisées.
               image:
                 x1: /img/timeline/3y/options.png
                 x2: /img/timeline/3y/options@2x.png
                 alt: Decentralized Options
-            - month: 3 years
+            - month: 3 années
               status: future
-              title: Secondary market.
+              title: Marché secondaire.
               image:
                 x1: /img/timeline/3y/secondary-market.png
                 x2: /img/timeline/3y/secondary-market@2x.png
                 alt: Secondary market
-            - month: 3 years
+            - month: 3 années
               status: future
-              title: Financial derivatives implemented as native onchain transactions.
+              title: Produits financiers dérivés mis en œuvre en tant que transactions natives sur la chaîne.
               image:
                 x1: /img/timeline/3y/derivatives.png
                 x2: /img/timeline/3y/derivatives@2x.png
                 alt: Financial derivatives
-            - month: 3 years
+            - month: 3 années
               status: future
-              title: The de-facto blockchain for peer-to-peer financial transactions.
+              title: La blockchain de facto pour les transactions financières de pair à pair.
               image:
                 x1: /img/timeline/3y/p2p.png
                 x2: /img/timeline/3y/p2p@2x.png
                 alt: De-facto blockchain for peer-to-peer financial transactions
-            - month: 5 years
+            - month: 5 années
               status: future
-              title: On-chain Automated Clearing House (ACH) and Real-time Gross Settlement (RTGS).
+              title: Chambre de compensation automatisée (ACH) sur la chaîne et règlement brut en temps réel (RTGS).
               image:
                 x1: /img/timeline/5y/ach.png
                 x2: /img/timeline/5y/ach@2x.png
                 alt: ACH and RTGS
-            - month: 5 years
+            - month: 5 années
               status: future
-              title: The de-facto blockchain for transactions across financial institutions.
+              title: La blockchain de facto pour les transactions entre institutions financières.
               image:
                 x1: /img/timeline/5y/xfi-txns.png
                 x2: /img/timeline/5y/xfi-txns@2x.png
                 alt: De-facto blockchain for cross-financial institutional transactions
-            - month: 10 years
+            - month: 10 années
               status: future
-              title: The de-facto blockchain for transactions between countries and sovereign states.
+              title: La blockchain de facto pour les transactions entre pays et états souverains.
               image:
                 x1: /img/timeline/10y/x-border-txns.png
                 x2: /img/timeline/10y/x-border-txns@2x.png
@@ -419,120 +419,120 @@ content:
           title: 2020
           status: Achieved
           events:
-            - month: May
+            - month: MAI
               status: past
-              title: DeFiChain launch and DFI airdrops.
+              title: Lancement de DeFiChain et airdrops DFI.
               url: https://github.com/DeFiCh/ain
               image:
                 x1: /img/timeline/2020/blockchain-launch.png
                 x2: /img/timeline/2020/blockchain-launch@2x.png
                 alt: DeFi logo
-            - month: Jun
+            - month: JUN
               status: past
-              title: $DFI coin started trading on LATOKEN.
+              title: Le coin $DFI a commencé à s'échanger sur LATOKEN.
               url: https://exchange.latoken.com/exchange/DFI-USDT
               image:
                 x1: /img/timeline/2020/dfi-latoken.png
                 x2: /img/timeline/2020/dfi-latoken@2x.png
                 alt: DFI on LATOKEN
-            - month: Jun
+            - month: JUN
               status: past
-              title: $DFI is listed on CoinPaprika.
+              title: $DFI est listé sur CoinPaprika.
               url: https://coinpaprika.com/coin/dfi-defi-chain/
               image:
                 x1: /img/timeline/2019/dfi-coinpaprika.png
                 x2: /img/timeline/2019/dfi-coinpaprika@2x.png
                 alt: DFI on CoinPaprika
-            - month: Jul
+            - month: JUL
               status: past
-              title: CoinGecko lists DFI.
+              title: CoinGecko liste DFI.
               url: https://www.coingecko.com/en/coins/defichain
               image:
                 x1: /img/timeline/2020/dfi-coingecko.png
                 x2: /img/timeline/2020/dfi-coingecko@2x.png
                 alt: DFI on CoinGecko
-            - month: Jul
+            - month: JUL
               status: past
-              title: Indoex lists DFI.
+              title: Indoex liste DFI.
               url: https://international.indoex.io/trade/DFI_USDT
               image:
                 x1: /img/timeline/2020/dfi-indoex.png
                 x2: /img/timeline/2020/dfi-indoex@2x.png
                 alt: DFI on Indoex
-            - month: Jul
+            - month: JUL
               status: past
-              title: DeFiChain desktop app (GUI) launch.
+              title: Lancement de l'application de bureau DeFiChain (GUI).
               url: https://github.com/DeFiCh/defi-app
               image:
                 x1: /img/timeline/2020/defi-app.png
                 x2: /img/timeline/2020/defi-app@2x.png
                 alt: DeFiChain client app
-            - month: Aug
+            - month: AOÛ
               status: past
-              title: DFI officially listed on HotBit.
+              title: DFI officiellement listé sur HotBit.
               url: https://www.hotbit.io/exchange?symbol=DFI_USDT
               image:
                 x1: /img/timeline/2020/dfi-hotbit.png
                 x2: /img/timeline/2020/dfi-hotbit@2x.png
                 alt: DFI on HotBit
-            - month: Aug
+            - month: AOÛ
               status: past
-              title: DeFiChain brand refresh.
+              title: Rafraîchissement de la marque DeFiChain.
               image:
                 x1: /img/timeline/2020/dechain-site-redesign.png
                 x2: /img/timeline/2020/dechain-site-redesign@2x.png
                 alt: DeFiChain.com redesign
-            - month: Aug
+            - month: AOÛ
               status: past
-              title: DeFiChain listed on CoinMarketCap.
+              title: DeFiChain est listé sur CoinMarketCap.
               url: https://coinmarketcap.com/currencies/defichain/markets/
               image:
                 x1: /img/timeline/2020/dfi-coinmarketcap.png
                 x2: /img/timeline/2020/dfi-coinmarketcap@2x.png
                 alt: DeFiChain.com redesign
-            - month: Sep
+            - month: SEP
               status: past
-              title: DFIP 1 & 2 are approved by the DeFiChain community.
+              title: DFIP 1 & 2 sont approuvés par la communauté DeFiChain.
               url: https://defiblockchain.medium.com/dfip-1-2-voting-results-29bfc8c7a608
               image:
                 x1: /img/timeline/2020/dfips-approved.png
                 x2: /img/timeline/2020/dfips-approved@2x.png
                 alt: DFIP 1 & 2 approved
-            - month: Oct
+            - month: OCT
               status: past
-              title: DeFiChain listed on Bitrue.
+              title: DeFiChain listé sur Bitrue.
               url: https://www.bitrue.com/trade/dfi_btc
               image:
                 x1: /img/timeline/2020/bittrue.png
                 x2: /img/timeline/2020/bittrue@2x.png
                 alt: DeFiChain listed on Bittrue
-            - month: Oct
+            - month: OCT
               status: past
-              title: Ang Mo Kio hardfork with asset tokenization support.
+              title: Ang Mo Kio hardfork avec support de la tokenisation des actifs.
               url: https://defiblockchain.medium.com/defichain-hardfork-successful-everything-you-need-to-know-5aa4ea92438b
               image:
                 x1: /img/timeline/2020/amk-hardfork.png
                 x2: /img/timeline/2020/amk-hardfork@2x.png
                 alt: Ang Mo Kio hardfork with asset tokenization support
-            - month: Oct
+            - month: OCT
               status: past
-              title: DeFiChain listed on Bittrex.
+              title: DeFiChain listé sur Bittrex.
               url: https://global.bittrex.com/Market/Index?MarketName=BTC-DFI
               image:
                 x1: /img/timeline/2020/bittrex.png
                 x2: /img/timeline/2020/bittrex@2x.png
                 alt: DeFiChain listed on Bittrex
-            - month: Nov
+            - month: NOV
               status: past
-              title: Bayfront hard fork with liquidity pool support.
+              title: Bayfront hard fork avec support de pools de liquidité.
               url: https://www.reddit.com/r/defiblockchain/comments/jem20f/defichain_version_130_for_bayfront_with_liquidity/
               image:
                 x1: /img/timeline/2020/bayfront-hardfork.png
                 x2: /img/timeline/2020/bayfront-hardfork@2x.png
                 alt: Bayfront hard fork
-            - month: Dec
+            - month: DÉC
               status: past
-              title: Swap, Liquidity Pool and Yield Farming.
+              title: Échange, pool de liquidité et yield farming.
               url: https://www.youtube.com/watch?v=0uBwWK85BLU
               image:
                 x1: /img/timeline/2020/liquidity-pool.png
@@ -544,7 +544,7 @@ content:
           events:
             - month: Sep
               status: past
-              title: Conceptualization of DeFiChain.
+              title: Conceptualisation de DeFiChain.
               url: https://cryptopotato.com/defichain-the-story-from-the-co-founders/
               image:
                 x1: /img/timeline/2019/concept.jpg
@@ -552,32 +552,32 @@ content:
                 alt: Conceptualization of DeFiChain
             - month: Oct
               status: past
-              title: DeFiChain White paper released.
+              title: Publication du livre blanc de DeFiChain.
               url: /white-paper/
               image:
                 x1: /img/timeline/2019/white-paper.png
                 x2: /img/timeline/2019/white-paper@2x.png
                 alt: DeFi logo
     subscribe:
-      headline: "Join our mailing list to get the latest DeFiChain announcements:"
+      headline: "Rejoignez notre liste de diffusion pour recevoir les dernières annonces de DeFiChain :"
       form:
         textfield:
           first_name:
-            label: First name
-            placeholder: John
+            label: Prénom
+            placeholder: Jean
           email:
-            label: Email address
-            placeholder: name@example.com
+            label: Adresse e-mail
+            placeholder: nom@exemple.com
         button:
-          label: Join now
-        helper: We hate spam too, so only occasional updates.
+          label: Rejoignez-nous maintenant
+        helper: Nous détestons aussi le spam, donc seulement des mises à jour occasionnelles.
         messages:
-          success: Thank you for subscribing!
+          success: Merci de vous être abonné !
           error: 
-            general: Oops! That didn't go through.
-            blank_field: This field cannot be left blank.
+            general: Oups ! Cela n'est pas passé.
+            blank_field: Ce champ ne peut pas être laissé vide.
     closer_look:
-      headline: Learn more
-      subhead: Discover DeFiChain.
+      headline: En savoir plus
+      subhead: Découvrez DeFiChain.
 
 ---
