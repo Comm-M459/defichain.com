@@ -12,7 +12,7 @@ menu:
   footer:
     weight: 1000
 meta:
-  description: Programme de primes aux bugs de DeFiChain
+  description: Programme de primes aux bogues de DeFiChain
   og:
     title: Programme de primes aux bogues de DeFiChain
     description: Bounty hunters wanted for wanted bugs
