@@ -1,7 +1,7 @@
 ---
-title: Bug bounty
+title: Prime aux bogues
 type: bug-bounty
-long_title: DeFiChain Bug Bounty Program
+long_title: Programme de primes aux bogues de DeFiChain
 aliases:
     - /bounty
     - /bounty-program
@@ -12,29 +12,29 @@ menu:
   footer:
     weight: 1000
 meta:
-  description: DeFiChain Bug Bounty Program
+  description: Programme de primes aux bugs de DeFiChain
   og:
-    title: DeFiChain Bug Bounty Program
+    title: Programme de primes aux bogues de DeFiChain
     description: Bounty hunters wanted for wanted bugs
     site_name: DeFiChain
     image: /img/og/ogimage_bounty_en.png
     image_type: image/png
-    locale: en_US
+    locale: fr
 theme:
   footer: day
 content:
   sections:
     hero:
       name: hero
-      headline: DeFiChain Bug Bounty Program
-      subhead: DeFiChain is engaging with security experts as well as the community to hunt down vulnerabilities. Our bounty program rewards up to USD 50,000.
+      headline: Programme de primes aux bogues de DeFiChain
+      subhead: DeFiChain s'engage avec des experts du domaine de la sécurité ainsi qu'avec la communauté pour traquer les vulnérabilités. Notre programme de primes récompense jusqu'à 50 000 USD.
       cta:
-        label: Submit vulnerability
+        label: Soumettre la vulnérabilité
       sub_cta:
-        label: How to participate
+        label: Comment participer
     leaderboard:
-      headline: Leaderboard
-      subhead: DeFiChain thanks the following bounty hunters in their efforts to keep DeFiChain secure.
+      headline: Tableau des leaders
+      subhead: DeFiChain remercie les chasseurs de primes suivants dans leurs efforts pour garder DeFiChain sécurisé.
       hunters:
         - name: Dr. Daniel Cagara
           github: muirglacier
@@ -64,22 +64,22 @@ content:
               value_dfi: 4000
               value_usd: 12000
               txid: 3e8bef9fc348183d6f7f685d105ced7693dfa6bc5f94431c3abba7d47271eb08
-      total_bounty: Total bounty
+      total_bounty: Prime totale
     participation:
-      headline: How to participate
+      headline: Comment participer
       description:
-        p1: There are many ways to get started finding a bug bounty. You can start by connecting to the DeFiChain testnet by running `defid -testnet`. Alternatively, you could study our source code at [GitHub](https://github.com/defich/ain).
-        p2: If you find a bug through interacting with our program and/or studying our source code, we can offer a bug bounty of up to _USD 50,000 worth of DFI_ provided that we find the bug significant, and you are able to provide useful info in regards to fixing or reproducing the issue.
-        p3: "**Be sure to study the code that is tagged for official releases, not the master branch or other code that is still currently under development.**"
+        p1: Il existe de nombreuses façons de commencer à trouver un bougue. Vous pouvez commencer par vous connecter au testnet de DeFiChain en exécutant `defid -testnet`. Alternativement, vous pouvez étudier notre code source à l'adresse suivante [GitHub](https://github.com/defich/ain).
+        p2: Si vous trouvez un bogue en interagissant avec notre programme et/ou en étudiant notre code source, nous pouvons offrir une prime de bogue allant jusqu'à _50 000 USD de DFI_, à condition que nous trouvions le bogue significatif et que vous soyez en mesure de fournir des informations utiles concernant la correction ou la reproduction du problème.
+        p3: "**Assurez-vous d'étudier le code qui est marqué pour les versions officielles, et non la branche master ou tout autre code qui est encore en cours de développement.**"
     submission:
-      headline: Submission process
+      headline: Processus de soumission
       description:
-        p1: As security is a sensitive issue, we encourage users not to submit public issues regarding the security of the blockchain. We encourage using your own descretion, if you feel the issue is not something the public can easily exploit, then feel free to create an issue at the repo over at [GitHub](https://github.com/defich/ain). If the issue presents some critical exploit, then please email us instead at [security@defichain.com](mailto:security@defichain.com).
-        p2: "In your submission please include:"
+        p1: La sécurité étant une question sensible, nous encourageons les utilisateurs à ne pas soumettre de problèmes publics concernant la sécurité de la blockchain. Nous vous encourageons à utiliser votre propre discrétion, si vous pensez que le problème n'est pas quelque chose que le public peut facilement exploiter, alors n'hésitez pas à créer un problème dans le repo à l'adresse suivante [GitHub](https://github.com/defich/ain). Si le problème présente un exploit critique, veuillez plutôt nous envoyer un courriel à l'adresse suivante [security@defichain.com](mailto:security@defichain.com).
+        p2: "Dans votre soumission, veuillez inclure :"
         list: 
-          - A clear description of the issue
-          - A fix for the issue, preferably as a pull request
-          - If unable to provide a fix, then please provide clear directions on how to reproduce the issue
-          - Your email address or other relevant contact details (e.g. Telegram ID)
-          - Your DFI address for receiving the bounty if your submission is approved
+          - Une description claire du problème
+          - Une correction du problème, de préférence sous la forme d'une pull request.
+          - Si vous n'êtes pas en mesure de fournir un correctif, veuillez fournir des instructions claires sur la façon de reproduire le problème.
+          - Votre adresse e-mail ou d'autres coordonnées pertinentes (par exemple, l'identifiant Telegram)
+          - Votre adresse DFI pour recevoir le bounty si votre soumission est approuvée.
 ---
