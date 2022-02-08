@@ -1,16 +1,16 @@
 ---
-title: Security
+title: Sécurité
 type: article
-long_title: Security
+long_title: Sécurité
 meta:
-  description: Security audits
+  description: Audits de sécurité
   og:
-    title: Security
-    description: Security audits
+    title: Sécurité
+    description: Audits de sécurité
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
-    locale: en_US
+    locale: fr
 menu:
   footer:
     weight: 900
@@ -18,65 +18,65 @@ content:
   sections:
     hero:
       name: hero
-      headline: Security audits
+      headline: Audits de sécurité
 ---
 
-## Audit 2: KnownSec
+## Audit 2 : KnownSec
 
 <table>
   <tr>
-    <th>Result</th>
+    <th>Résultat</th>
     <td>
-      <span style="color:#02B31B;">PASS</span>
+      <span style="color:#02B31B;">RÉUSSI</span>
     </td>
   </tr>
   <tr>
-    <th>Number</th>
+    <th>Numéro</th>
     <td>DeFiChain-GLSJ-20201020</td>
   </tr>
   <tr>
     <th>Date</th>
-    <td>October 20, 2020</td>
+    <td>20 octobre 2020</td>
   </tr>
   <tr>
-    <th>Auditor</th>
+    <th>Auditeur</th>
     <td>
       <img class="cert-link" src="/img/external/logo-knownsec.png" srcset="/img/external/logo-knownsec.png 1x, /img/external/logo-knownsec@2x.png 2x" alt="Knownsec">
     </td>
   </tr>
   <tr>
-    <th>Audit report</th>
+    <th>Rapport d'audit</th>
     <td>
-      <a href="/downloads/DeFiChain-Security-Audit-Report-V1.pdf" target="_blank">Download</a>
+      <a href="/downloads/DeFiChain-Security-Audit-Report-V1.pdf" target="_blank">Télécharger</a>
     </td>
   </tr>
 </table>
 
-## Audit 1: Slow Mist
+## Audit 1 : Slow Mist
 
 <table>
   <tr>
     <th>Result</th>
     <td>
-      <span style="color:#02B31B;">PASS</span>
+      <span style="color:#02B31B;">RÉUSSI</span>
     </td>
   </tr>
   <tr>
-    <th>Number</th>
+    <th>Numéro</th>
     <td>BCA002009180001</td>
   </tr>
   <tr>
     <th>Date</th>
-    <td>September 18, 2020</td>
+    <td>18 septembre 2020</td>
   </tr>
   <tr>
-    <th>Auditor</th>
+    <th>Auditeur</th>
     <td>
       <img class="cert-link" src="/img/external/logo-slowmist.png" srcset="/img/external/logo-slowmist.png 1x, /img/external/logo-slowmist@2x.png 2x" alt="Slow Mist">
     </td>
   </tr>
   <tr>
-    <th>Audit report</th>
+    <th>Rapport d'audit</th>
     <td>
       <a href="/downloads/defichain-security-audit-slowmist.pdf" target="_blank">Download</a>
     </td>
