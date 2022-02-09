@@ -1,32 +1,32 @@
 ---
-title: Downloads
+title: Téléchargements
 type: downloads
-long_title: DeFiChain mobile app, CLI and desktop app downloads for Mac, Windows and Linux.
+long_title: Téléchargement de l'application mobile, du CLI et de l'application de bureau de DeFiChain pour Mac, Windows et Linux.
 menu:
   footer:
     weight: 600
 meta:
-  description: DeFiChain mobile app, CLI and desktop app downloads for Mac, Windows and Linux.
+  description: Téléchargement de l'application mobile, du CLI et de l'application de bureau de DeFiChain pour Mac, Windows et Linux.
   og:
-    title: Downloads
-    description: DeFiChain mobile app, CLI and desktop app downloads for Mac, Windows and Linux.
+    title: Téléchargements
+    description: Téléchargement de l'application mobile, du CLI et de l'application de bureau de DeFiChain pour Mac, Windows et Linux.
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
-    locale: en_US
+    locale: fr
 theme: yellow
 content:
   sections:
     hero:
       name: hero
-      headline: Downloads
-      subhead: Download applications for mobile, Mac, Windows and Linux.
+      headline: Téléchargements
+      subhead: Téléchargez des applications pour mobile, Mac, Windows et Linux.
     downloads:
-      headline: Choose your own wallet. Get the CLI.
+      headline: Choisissez votre propre portefeuille. Obtenez le CLI.
       downloads_list:
-        - title: DeFiChain wallet mobile app
+        - title: Application mobile du portefeuille DeFiChain
           type: mobile-app
-          description: Lightweight, instant access to Decentralized Finance for Bitcoin, at your fingertips.
+          description: Un accès léger et instantané à la finance décentralisée sur Bitcoin, en quelques clics.
           image:
             path: /img/downloads/defichain_icon_60.png
             type: png
@@ -40,9 +40,9 @@ content:
               type: android
               image: /static/img/downloads/play-badge-android.svg
               url: https://play.google.com/store/apps/details?id=com.defichain.app
-        - title: DeFi Wallet desktop app
+        - title: Application de bureau DeFi Wallet
           type: desktop-app
-          description: Transact, liquidity mine, swap and more with the full-featured and fully-decentralized wallet app. Full node included.
+          description: Transaction, liquidity mining, échange et plus encore avec l'application portefeuille complète et entièrement décentralisée. Nœud complet inclus.
           image:
             path: /img/downloads/defichain-icon-128.png
             type: png
@@ -59,9 +59,9 @@ content:
               url: https://github.com/DeFiCh/app/releases
             - label: Installation guide
               url: /learn/defi-app-how-to
-        - title: DFX wallet mobile app
+        - title: Application mobile du portefeuille DFX
           type: mobile-app
-          description: Store, receive and send DeFiChain tokens with utmost simplicity and security uncomplicated from your mobile.
+          description: Stockez, recevez et envoyez des tokens DeFiChain avec une simplicité et une sécurité maximales, à partir de votre mobile.
           image:
             path: /img/downloads/dfx_symbol.png
             type: png
@@ -75,9 +75,9 @@ content:
               type: android
               image: /static/img/downloads/play-badge-android.svg
               url: https://play.google.com/store/apps/details?id=com.defichain.app.dfx
-        - title: saiive.live desktop wallet
+        - title: Portefeuille de bureau saiive.live
           type: desktop-app
-          description: A non-custodial light wallet for DeFiChain from and for the community.
+          description: Un portefeuille léger non gardienné pour DeFiChain de et pour la communauté.
           image:
             path: /img/downloads/saiive.png
             type: png
@@ -92,9 +92,9 @@ content:
             - label: Linux
               type: appimg
               url: https://github.com/saiive/saiive.live/releases
-        - title: saiive.live mobile wallet
+        - title: Portefeuille mobile saiive.live
           type: mobile-app
-          description: A non-custodial light wallet for DeFiChain from and for the community.
+          description: Un portefeuille léger non gardienné pour DeFiChain de et pour la communauté.
           image:
             path: /img/downloads/saiive.png
             type: png
@@ -108,9 +108,9 @@ content:
               type: android
               image: /static/img/downloads/play-badge-android.svg
               url: https://play.google.com/store/apps/details?id=at.saiive.live
-        - title: DeFi wallet for Raspberry Pi
+        - title: Portefeuille DeFi pour Raspberry Pi
           type: desktop-app
-          description: A version of the desktop wallet for Raspberry Pi 4B 4GB with official Raspberry Pi OS (32-Bit).
+          description: Une version du portefeuille de bureau pour Raspberry Pi 4B 4Go avec Raspberry Pi OS (32-Bit) officiel.
           image:
             path: /img/downloads/definode-pi.png
             type: png
@@ -119,9 +119,9 @@ content:
             - label: Github
               type: github
               url: https://github.com/Martin8617/Defi-Wallet-for-Raspberry-Pi
-        - title: CLI
+        - title: LIC (Interface de ligne de commande)
           type: cli
-          description: Transact and interact with DeFiChain through a command line interface. Full node included.
+          description: Transaction et interaction avec DeFiChain par le biais d'une interface de ligne de commande. Nœud complet inclus.
           image:
             path: /static/svg/icons/developers/icon-cli.svg
             type: svg
