@@ -1,7 +1,7 @@
 ---
-title: Foundation
+title: Fondation
 type: foundation
-long_title: Understand how the DeFiChain Foundation operates and how to get involved.
+long_title: Comprendre comment la Fondation DeFiChain fonctionne et comment s'impliquer.
 aliases:
     - /imprint/
 cta_to: Explore
@@ -9,28 +9,28 @@ menu:
   footer:
     weight: 100
 meta:
-  description: Understand how the DeFiChain Foundation operates and how to get involved.
+  description: Comprendre comment la Fondation DeFiChain fonctionne et comment s'impliquer.
   og:
-    title: Foundation
-    description: Understand how the DeFiChain Foundation operates and how to get involved.
+    title: Fondation
+    description: Comprendre comment la Fondation DeFiChain fonctionne et comment s'impliquer.
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
-    locale: en_US
+    locale: fr
 theme: dark night
 content:
   sections:
     hero:
-      headline: Foundation
-      subhead: Understand how the DeFiChain Foundation operates and how to get involved.
+      headline: Fondation
+      subhead: Comprendre comment la Fondation DeFiChain fonctionne et comment s'impliquer.
     governance:
-      headline: Governance
-      subhead: The DeFiChain Foundation is responsible for issuance of tokens to users and groups to speed up adoption. The Foundation is tasked with boosting the ecosystem, bringing in ecosystem partners, directing the development of the tools for ecosystem partners, and other activities to increase the number of ecosystem partners.
+      headline: Gouvernance
+      subhead: La Fondation DeFiChain est responsable de l'émission de tokens aux utilisateurs et aux groupes pour accélérer l'adoption. La Fondation est chargée de dynamiser l'écosystème, de faire venir des partenaires de l'écosystème, de diriger le développement des outils pour les partenaires de l'écosystème, et d'autres activités visant à augmenter le nombre de partenaires de l'écosystème.
       image: /static/svg/foundation-diagram.svg
     foundation:
-      headline: The DeFiChain Foundation is a non-profit organization dedicated to supporting DeFiChain ecosystem and related technologies as well as communities.
-      subhead: The DeFiChain Foundation is not a for-profit company, or even a traditional non-profit. Their role is not to control or lead DeFiChain, nor are they the only organization that funds critical development of DeFiChain-related technologies. The DeFiChain Foundation is one part of a much larger ecosystem.
-      content: "**DeFiChain Foundation**
+      headline: La Fondation DeFiChain est une organisation à but non lucratif dédiée au soutien de l'écosystème DeFiChain et des technologies connexes ainsi que des communautés.
+      subhead: La Fondation DeFiChain n'est pas une entreprise à but lucratif, ni même un organisme à but non lucratif traditionnel. Son rôle n'est pas de contrôler ou de diriger DeFiChain, et elle n'est pas non plus la seule organisation qui finance le développement critique des technologies liées à DeFiChain. La Fondation DeFiChain est une partie d'un écosystème beaucoup plus large.
+      content: "**Fondation DeFiChain**
 
       Company Number: 2068902
 
