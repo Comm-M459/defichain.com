@@ -1,8 +1,8 @@
 ---
 title: $DFI
 type: dfi
-long_title: Learn about and acquire the $DFI coin. Join the DeFiChain Insiders.
-cta_to: More
+long_title: En savoir plus et acquérir le coin $DFI. Rejoignez les initiés de DeFiChain.
+cta_to: Plus
 aliases:
   - /token/
   - /dfi-token/
@@ -12,25 +12,25 @@ menu:
   footer:
     weight: 200
 meta:
-  description: Learn about the $DFI coin and its utility, distribution, airdrops and how to acquire DFI. Join the DeFiChain Insiders.
+  description: En savoir plus sur le coin $DFI et son utilité, la distribution, les airdrops et comment acquérir le DFI. Rejoignez les initiés de DeFiChain.
   og:
     title: $DFI
-    description: Learn about the $DFI coin and its utility, distribution, airdrops and how to acquire DFI. Join the DeFiChain Insiders.
+    description: En savoir plus sur le coin $DFI et son utilité, la distribution, les airdrops et comment acquérir le DFI. Rejoignez les initiés de DeFiChain.
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
-    locale: en_US
+    locale: fr
 content:
   sections:
     hero:
       name: hero
       headline: $DFI
-      subhead: Learn about and acquire the $DFI coin. Join the DeFiChain Insiders.
+      subhead: En savoir plus et acquérir le coin $DFI. Rejoignez les initiés de DeFiChain.
     dfi_token:
       name: dfi-token
       headline: $DFI coin
-      subhead: "The $DFI coin is an integral unit of account in DeFiChain. The DeFiChain Foundation issued roughly 600 million DFI on May 11<sup>th</sup>, 2020. The current circulating supply (with staking and liquidity mining) is available at [DeFiChain Explorer](http://explorer.defichain.io/)."
-      note: "Important: DeFi chain is a community project. There was/is no Initial Coin Offering, only free airdrops."
+      subhead: "La pièce $DFI est une unité de compte intégrale de la DeFiChain.La Fondation DeFiChain a émis environ 600 millions de DFI le 11 mai 2020.  L'offre actuelle en circulation (avec staking et liquidity mining) est disponible à l'adresse suivante [DeFiChain Explorer](http://explorer.defichain.io/)."
+      note: "Important: DeFi chain is a community project. There was/is no Important : DeFiChain est un projet communautaire. Il n'y a pas eu ou n'y a pas d'Initial Coin Offering, seulement des airdrops gratuits."
       image: /static/svg/physical-coin.svg
     stats:
       links:
@@ -45,47 +45,47 @@ content:
           description: See available exchanges at CoinMarketCap.
           url: ==PENDING==
     utility:
-      headline: $DFI coin utility
+      headline: Utilitaire du coin $DFI
       utility_list:
         - icon: /static/svg/icons/utility/fees.svg
-          title: Fees
-          description: Pay for transactions, smart contracts and other DeFi activities.
+          title: Frais
+          description: Payez pour les transactions, les contrats intelligents et autres activités de DeFi.
         - icon: /static/svg/icons/utility/collateral.svg
-          title: Loan collaterals
-          description: Lend or borrow using crypto assets as collateral.
+          title: Garanties de prêts
+          description: Prêtez ou empruntez en utilisant des crypto-actifs comme garantie.
         - icon: /static/svg/icons/utility/staking.svg
-          title: Staking nodes
-          description: Fund a new staking node for just 20,000 DFI.
+          title: Nœuds de staking
+          description: Financez un nouveau nœud de staking pour seulement 20 000 DFI.
         - icon: /static/svg/icons/utility/dct.svg
-          title: DeFi Custom Token
-          description: Create a non-refundable personalised DCT (DeFi Custom Token).
+          title: DeFi token personnalisé
+          description: Créer un DCT personnalisé non remboursable (DeFi Custom Token).
         - icon: /static/svg/icons/utility/budget.svg
-          title: Budget proposal
-          description: Submit a community budget proposal for 500 DFI (non-refundable).
+          title: Proposition de budget
+          description: Soumettez une proposition de budget communautaire pour 500 DFI (non remboursables).
         - icon: /static/svg/icons/utility/liquidity-pools.svg
-          title: Liquidity pools
-          description: Provide liquidity for the decentralized exchange between crypto assets.
+          title: Pools de liquidité
+          description: Fournir des liquidités pour l'échange décentralisé entre crypto-actifs.
     distribution:
-      headline: Initial Token Distribution
-      subhead: Of the 1.2 billion $DFI coins, 49% will be in the initial supply, with the rest issued to masternode holders over time.
+      headline: Distribution initiale des tokens
+      subhead: Sur les 1,2 milliard de pièces $DFI, 49 % feront partie de l'approvisionnement initial, le reste étant émis aux détenteurs de masternode au fil du temps.
       chart:
-        initial_supply: Initial supply
-        masternodes: To masternodes over time
-        defi_foundation: DeFiChain Foundation
-        external_partners: External Partners
-        caption: Of the initial supply, 49% will be kept by the DeFiChain Foundation. The rest may be distributed to external partners, to fund the initial development.
+        initial_supply: Approvisionnement initial
+        masternodes: Aux masternodes au fil du temps
+        defi_foundation: Fondation DeFiChain
+        external_partners: Partenaires externes
+        caption: De la provision initiale, 49% seront conservés par la Fondation DeFiChain. Le reste pourra être distribué à des partenaires externes, pour financer le développement initial.
       image: /static/svg/initial-token-distribution.svg
     acquiring:
-      headline: Acquiring $DFI coins
-      subhead: $DFI coins will be issued to users and partners with an interest in utilizing and participating in the ecosystem.
+      headline: Acquérir des coins $DFI
+      subhead: Les coins DFI seront émis pour les utilisateurs et les partenaires ayant un intérêt à utiliser et à participer à l'écosystème.
       exchanges:
         icon: /static/svg/icons/way-to-acquire/exchanges.svg
-        title: Exchanges
-        description: You can now purchase DFI at these select exchanges, with more exchanges to follow.
+        title: Échanges
+        description: Vous pouvez maintenant acheter DFI sur ces échanges sélectionnés, d'autres échanges suivront.
       staking_platforms:
         icon: /static/svg/icons/way-to-acquire/staking.svg
-        title: Staking platforms
-        description: DFI is now available at these select staking platforms.
+        title: Plateformes de staking
+        description: DFI est maintenant disponible sur ces plateformes de staking sélectionnées.
         staking_platforms_list:
           - label: Cake DeFi
             url: https://pool.cakedefi.com
@@ -102,37 +102,37 @@ content:
       ways_to_acquire:
         # - icon: /static/svg/icons/way-to-acquire/airdrop.svg
         #   title: Airdrop
-        #   description: The DeFiChain Foundation will airdrop DFI to hodlers, market makers and other users of DeFiChain.
+        #   description: La Fondation DeFiChain va airdrop DFI aux hodlers, market makers et autres utilisateurs de DeFiChain.
         - icon: /static/svg/icons/way-to-acquire/developers.svg
-          title: Developers
-          description: The DeFiChain Foundation gives grants to developers building functionality and dApps on DeFiChain.
-      cta: For further information, contact us at [partners@defichain.com](mailto:partners@defichain.com).
+          title: Développeurs
+          description: La Fondation DeFiChain accorde des subventions aux développeurs qui créent des fonctionnalités et des dApps sur DeFiChain.
+      cta: Pour plus d'informations, contactez-nous à [partners@defichain.com](mailto:partners@defichain.com).
     insiders:
-      headline: Join the DeFiChain Insiders community.
-      subhead: The DeFiChain movement is looking for those with the passion and reach to spread the movement — register below.
+      headline: Rejoignez la communauté des initiés de DeFiChain.
+      subhead: Le mouvement DeFiChain recherche ceux qui ont la passion et la portée pour répandre le mouvement - inscrivez-vous ci-dessous.
       form:
         name:
-          label: Name
-          placeholder: Full name
+          label: Nom
+          placeholder: Nom complet
         email:
           label: Email
-          placeholder: name@example.com
+          placeholder: nom@exemple.com
         reach:
-          label: Reach
-          placeholder: Your level of reach in general
+          label: Portée
+          placeholder: Votre niveau de portée en général
         comment:
-          label: How will you contribute?
-          placeholder: Are you an influencer, YouTuber or blogger? What can you do for the movement, and what can the movement do for you? Tell us more.
+          label: Comment allez-vous contribuer ?
+          placeholder: Êtes-vous un influenceur, un YouTuber ou un blogueur ? Que pouvez-vous faire pour le mouvement, et que peut faire le mouvement pour vous ? Dites-nous en plus.
         button:
-          label: Let me in
+          label: Laissez-moi entrer
       benefits:
-        description: Enjoy these exclusive perks when you become an Insider.
+        description: Profitez de ces avantages exclusifs lorsque vous devenez un Insider.
         benefits_list:
-          - label: Access to our Insider-only Telegram group
+          - label: Accès à notre groupe Telegram réservé aux initiés
             icon: /static/svg/icons/insiders/benefits/telegram.svg
-          - label: Exclusive Insider swag and collectibles
+          - label: Des objets de collection et des cadeaux exclusifs pour les initiés
             icon: /static/svg/icons/insiders/benefits/swag.svg
-          - label: Early access to announcements and products
+          - label: Accès anticipé aux annonces et aux produits
             icon: /static/svg/icons/insiders/benefits/early-access.svg
     #subscribe in /
     #closer_look in /
