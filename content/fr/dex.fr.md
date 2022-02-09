@@ -82,13 +82,13 @@ content:
           description: Explorez la blockchain et examinez les transactions.
         - icon: /static/svg/icons/utility/staking.svg
           title: Masternodes
-          description: View the full list of masternodes, and create your own masternodes.
+          description: Consultez la liste complète des masternodes, et créez vos propres masternodes.
         - icon: /static/svg/icons/feature/console.svg
           title: Console
-          description: Run account, blockchain, masternode, mining, network, wallet commands, and more.
+          description: Exécutez le compte, la blockchain, le masternode, le minage, le réseau, les commandes du portefeuille, et plus encore.
         - icon: /static/svg/icons/feature/network.svg
-          title: Network selection
-          description: The app supports easy connecting and switching between Mainnet and Testnet.
+          title: Sélection du réseau
+          description: L'application permet de se connecter et de basculer facilement entre Mainnet et Testnet.
     risks:
       headline: A note about risks
       subhead: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -97,27 +97,27 @@ content:
       subhead: The DeFiChain movement is looking for those with the passion and reach to spread the movement — register below.
       form:
         name:
-          label: Name
-          placeholder: Full name
+          label: Nom
+          placeholder: Nom complet
         email:
           label: Email
-          placeholder: name@example.com
+          placeholder: nom@exemple.com
         reach:
-          label: Reach
-          placeholder: Your level of reach in general
+          label: Portée
+          placeholder: Votre niveau de portée en général
         comment:
-          label: How will you contribute?
-          placeholder: Are you an influencer, YouTuber or blogger? What can you do for the movement, and what can the movement do for you? Tell us more.
+          label: Comment allez-vous contribuer ?
+          placeholder: Êtes-vous un influenceur, un YouTuber ou un blogueur ? Que pouvez-vous faire pour le mouvement, et que peut faire le mouvement pour vous ? Dites-nous en plus.
         button:
-          label: Let me in
+          label: Laissez-moi entrer
       benefits:
-        description: Enjoy these exclusive perks when you become an Insider.
+        description: Profitez de ces avantages exclusifs lorsque vous devenez un Insider.
         benefits_list:
-          - label: Access to our Insider-only Telegram group
+          - label: Accès à notre groupe Telegram réservé aux initiés
             icon: /static/svg/icons/insiders/benefits/telegram.svg
-          - label: Exclusive Insider swag and collectibles
+          - label: Des objets de collection et des cadeaux exclusifs pour les initiés
             icon: /static/svg/icons/insiders/benefits/swag.svg
-          - label: Early access to announcements and products
+          - label: Accès anticipé aux annonces et aux produits
             icon: /static/svg/icons/insiders/benefits/early-access.svg
     #subscribe in /
     #closer_look in /
