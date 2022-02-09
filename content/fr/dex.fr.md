@@ -1,85 +1,85 @@
 ---
 title: DEX
 type: dex
-long_title: Swap on the DEX, mine liquidity and more, with the DeFiChain wallet app. Available for Windows, macOS and Linux.
+long_title: Échangez sur le DEX, faites du liquidity mining et plus encore, avec l'application portefeuille de DeFiChain. Disponible pour Windows, macOS et Linux.
 aliases:
   - /app/
-cta_to: More
+cta_to: Plus
 menu:
   main:
     weight: 300
   footer:
     weight: 300
 meta:
-  description: Swap on the DEX, mine liquidity and more, with the DeFiChain wallet app. Available for Windows, macOS and Linux.
+  description: Échangez sur le DEX, faites du liquidity mining et plus encore, avec l'application portefeuille de DeFiChain. Disponible pour Windows, macOS et Linux.
   og:
     title: DeFiChain DEX
-    description: Swap on the DEX, mine liquidity and more, with the DeFiChain wallet app. Available for Windows, macOS and Linux.
+    description: Échangez sur le DEX, faites du liquidity mining et plus encore, avec l'application portefeuille de DeFiChain. Disponible pour Windows, macOS et Linux.
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
-    locale: en_US
+    locale: fr
 content:
   sections:
     hero:
       name: hero
-      headline: Decentralized Exchange
-      subhead: Liquidity mining for up to 100% returns, decentralized swapping, arbitrage and more, with the DeFi Wallet. Available for Windows, macOS and Linux.
+      headline: Échange décentralisé
+      subhead: Liquidity mining pour des rendements allant jusqu'à 100 %, swapping décentralisé, arbitrage et plus encore, avec le porte-monnaie DeFi (DeFi Wallet). Disponible pour Windows, macOS et Linux.
       cta:
-        label: Download now
+        label: Télécharger maintenant
         url: /downloads
       image: /img/app/dex
     coins_apr:
-      label: APR
+      label: TAEG
     liquidity_mining:
-      headline: Earn More With Liquidity Mining!
-      subhead: Liquidity mine for incredibly high yields within the app! Supply liquidity to BTC, ETH, USDT and many other pool pairs to power the Decentralized Exchange, and earn fees and high block rewards in return. You can withdraw your liquidity at any time.
+      headline: Gagnez plus avec du liquidity mining !
+      subhead: Liquidity mining pour des rendements incroyablement élevés dans l'application ! Fournissez des liquidités à BTC, ETH, USDT et à de nombreuses autres paires de pool pour alimenter l’échange décentralisé, et gagnez des frais et des récompenses de bloc élevées en retour. Vous pouvez retirer vos liquidités à tout moment.
       image: /img/app/liquidity
     guides:
       name: guides
-      headline: How-to guides
+      headline: Guides pratiques
       guides_list:
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: Installing and using DeFi desktop app (GUI).
-          label: Read guide
+          headline: Installation et utilisation de l'application de bureau DeFi (GUI).
+          label: Lire le guide
           url: /learn/defi-app-how-to
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: Swap and arbitrage on the DeFi app DEX
-          label: Read guide
+          headline: Échanges et arbitrage sur l'application DEX de DeFi
+          label: Lire le guide
           url: /learn/swap-and-arbitrage
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: Obtaining wrapped ETH/BTC/USDT
-          label: Read guide
+          headline: Obtenir un wrapped ETH/BTC/USDT
+          label: Lire le guide
           url: /learn/obtaining-wrapped-tokens
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: How to liquidity mine with DeFi app
-          label: Read guide
+          headline: Comment faire du liquidity mining avec l'application DeFi ?
+          label: Lire le guide
           url: /learn/liquidity-mining-how-to
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: "Step-by-Step: Changing DFI-Token to DFI-Coin"
-          label: Read on Reddit
+          headline: "Pas à pas : Changer le token DFI en DFI-Coin"
+          label: Lire sur Reddit
           url: https://www.reddit.com/r/defiblockchain/comments/kb10d3/stepbystep_changing_dfitoken_to_dficoin/
     features:
-      headline: Other wallet features
+      headline: Autres caractéristiques du portefeuille
       features_list:
         - icon: /static/svg/icons/feature/wallet.svg
-          title: HD wallet
-          description: A Hierarchical Deterministic (HD) wallet based on the leading BIP39 standard.
+          title: Portefeuille HD
+          description: Un portefeuille hiérarchique déterministe (HD) basé sur la norme de pointe BIP39.
         - icon: /static/svg/icons/feature/restore.svg
-          title: Backup and restore
-          description: Backup and restore your wallet and funds any time with your 24-word seed phrase.
+          title: Sauvegarde et restauration
+          description: Sauvegardez et restaurez votre portefeuille et vos fonds à tout moment grâce à votre phrase mnémonique de 24 mots.
         - icon: /static/svg/icons/feature/dex.svg
-          title: Decentralized Exchange
-          description: Swap between DFI and wrapped tokens in a completely decentralized, exchange.
+          title: Échange décentralisé
+          description: Échangez des tokens DFI et des wrapped tokens dans un échange complètement décentralisé.
         - icon: /static/svg/icons/feature/mine.svg
           title: Liquidity mining
-          description: Supply and mine liquidity in popular pool pairs for potentially high yields.
+          description: Fournir et exploiter la liquidité sous forme de liquidity mining dans des paires de pool populaires pour des rendements potentiellement élevés.
         - icon: /static/svg/icons/functions/tokens.svg
-          title: Tokens support
-          description: Store and transact in DFI, as well as all tokens in the DeFiChain ecosystem.
+          title: Support des tokens
+          description: Stockez et effectuez des transactions en DFI, ainsi que tous les tokens de l'écosystème DeFiChain.
         - icon: /static/svg/icons/feature/explore.svg
-          title: Mini explorer
-          description: Explore the blockchain and examine transactions.
+          title: Mini explorateur
+          description: Explorez la blockchain et examinez les transactions.
         - icon: /static/svg/icons/utility/staking.svg
           title: Masternodes
           description: View the full list of masternodes, and create your own masternodes.
