@@ -119,7 +119,7 @@ content:
             - label: Github
               type: github
               url: https://github.com/Martin8617/Defi-Wallet-for-Raspberry-Pi
-        - title: LIC (Interface de ligne de commande)
+        - title: ILC (Interface de ligne de commande)
           type: cli
           description: Transaction et interaction avec DeFiChain par le biais d'une interface de ligne de commande. Nœud complet inclus.
           image:
