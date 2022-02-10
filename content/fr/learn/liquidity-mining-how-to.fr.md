@@ -68,48 +68,48 @@ Lorsque vous êtes prêt à ajouter, cliquez sur **CONTINUER**.
 
 <img src="/img/guides/liquidity-mining/liquidity-add-continue.png" srcset="/img/guides/liquidity-mining/liquidity-add-continue.png 1x, /img/guides/liquidity-mining/liquidity-add-continue@2x.png 2x">
 
-Verify the deposits, rates and pool share, then click **SUPPLY** to confirm.
+Vérifiez les dépôts, les tarifs et la part du pool, puis cliquez sur **FOURNIR** pour confirmer.
 
 <img src="/img/guides/liquidity-mining/liquidity-add-confirm.png" srcset="/img/guides/liquidity-mining/liquidity-add-confirm.png 1x, /img/guides/liquidity-mining/liquidity-add-confirm@2x.png 2x">
 
-The app will then prepare the transaction, followed by adding your liquidity to the blockchain. Do not navigate away from this screen or close the app while the transaction is being prepared.
+L'application préparera ensuite la transaction, puis ajoutera vos liquidités à la blockchain. Ne quittez pas cet écran et ne fermez pas l'application pendant la préparation de la transaction.
 
 <img src="/img/guides/liquidity-mining/liquidity-loading.png" srcset="/img/guides/liquidity-mining/liquidity-loading.png 1x, /img/guides/liquidity-mining/liquidity-loading@2x.png 2x">
 
-Once the transaction has gone through. You will see the transaction hash. You can click **VIEW ON CHAIN** to view the transaction on the DeFiChain Explorer, or click **BACK TO POOL** to see your added liquidity in the app.
+Une fois que la transaction a été effectuée, vous verrez le hachage de la transaction. Vous pouvez cliquer sur **VOIR SUR LA CHAÎNE** pour voir la transaction sur l'explorateur DeFiChain, ou cliquer sur **RETOUR AU POOL** pour voir votre liquidité ajoutée dans l'application.
 
 <img src="/img/guides/liquidity-mining/liquidity-complete.png" srcset="/img/guides/liquidity-mining/liquidity-complete.png 1x, /img/guides/liquidity-mining/liquidity-complete@2x.png 2x">
 
-### Step 6: Check your liquidity
+### Étape 6 : Vérifiez votre liquidité
 
-You will now see your added liquidity above the **Available pool pairs** table.
+Vous verrez maintenant votre liquidité ajoutée au-dessus du tableau **Paires de pool disponibles**.
 
 <img src="/img/guides/liquidity-mining/liquidity-mine.png" srcset="/img/guides/liquidity-mining/liquidity-mine.png 1x, /img/guides/liquidity-mining/liquidity-mine@2x.png 2x">
 
 ---
 
-## Removing liquidity
+## Retirer la liquidité
 
-### Step 1: Removing
+### Étape 1 : Retirer
 
-Click on the **-** button in the pool pair that you have supplied liquidity to.
+Cliquez sur le bouton **-** dans la paire de pool à laquelle vous avez fourni des liquidités.
 
 <img src="/img/guides/liquidity-mining/liquidity-remove-button.png" srcset="/img/guides/liquidity-mining/liquidity-remove-button.png 1x, /img/guides/liquidity-mining/liquidity-remove-button@2x.png 2x">
 
-### Step 2: How much to remove
+### Étape 2 : Quelle quantité retirer ?
 
-Enter the amount of liquidity you wish to remove, either by typing the percentage value or using the slider. Next, select the address you want the removed liquidity to go back to. Unless you want to remove to a specific address, you can usually leave this field unchanged.
+Donnez le montant de liquidité que vous souhaitez retirer, soit en tapant la valeur en pourcentage, soit en utilisant le curseur. Ensuite, sélectionnez l'adresse à laquelle vous souhaitez que les liquidités retirées reviennent. À moins que vous ne souhaitiez retirer à une adresse spécifique, vous pouvez généralement laisser ce champ inchangé.
 
 <img src="/img/guides/liquidity-mining/liquidity-removing.png" srcset="/img/guides/liquidity-mining/liquidity-removing.png 1x, /img/guides/liquidity-mining/liquidity-removing@2x.png 2x">
 
-Then click **CONTINUE**.
+Cliquez ensuite sur **CONTINUER**.
 
-### Step 3: Confirmation
+### Étape 3 : Confirmation
 
-Verify the amount of liquidity to remove and receive address, then press **CONFIRM**.
+Vérifiez le montant de liquidité à retirer et recevez l'adresse, puis appuyez sur **CONFIRMER**.
 
 <img src="/img/guides/liquidity-mining/liquidity-remove-confirm.png" srcset="/img/guides/liquidity-mining/liquidity-remove-confirm.png 1x, /img/guides/liquidity-mining/liquidity-remove-confirm@2x.png 2x">
 
-Wait for the removal transaction to be prepared and processed.
+Attendez que la transaction de retrait soit préparée et traitée.
 
 <img src="/img/guides/liquidity-mining/liquidity-remove-confirm.png" srcset="/img/guides/liquidity-mining/liquidity-remove-confirm.png 1x, /img/guides/liquidity-mining/liquidity-remove-confirm@2x.png 2x">
