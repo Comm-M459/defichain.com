@@ -1,98 +1,98 @@
 ---
-title: Obtaining wrapped tokens
+title: Obtention des wrapped tokens 
 type: article
-long_title: A step-by-step guide to obtaining wrapped BTC/ETH/USDT via the DEX or CakeDefi
+long_title: Un guide étape par étape pour obtenir des wrapped BTC/ETH/USDT via le DEX ou CakeDefi
 cta_to: Read
 meta:
-  description: A step-by-step guide to obtaining wrapped BTC/ETH/USDT via the DEX or CakeDefi
+  description: Un guide étape par étape pour obtenir des wrapped BTC/ETH/USDT via le DEX ou CakeDefi
   og:
-    title: Obtaining wrapped tokens
-    description: A step-by-step guide to obtaining wrapped BTC/ETH/USDT via the DEX or CakeDefi
+    title: Obtention des wrapped tokens 
+    description: Un guide étape par étape pour obtenir des wrapped BTC/ETH/USDT via le DEX ou CakeDefi
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
-    locale: en_US
+    locale: fr
 content:
   sections:
     hero:
       name: hero
-      headline: Obtaining wrapped tokens
-      subhead: A step-by-step guide.
+      headline: Obtention des wrapped tokens 
+      subhead: Un guide étape par étape
 ---
 
-To supply liquidity to the DEX and to liquidity mine, you will need not just DFI but tokens for the other side of the pool pair you wish to supply liquidity to. DeFiChain currently only support wrapped tokens, namely wrapped ETH, BTC and USDT.
+Pour fournir des liquidités au DEX et pour le liquidity mining, vous aurez besoin non seulement de DFI mais aussi de tokens pour l'autre côté de la paire de pool à laquelle vous souhaitez fournir des liquidités. DeFiChain ne supporte actuellement que les wrapped tokens, à savoir les wrapped ETH, BTC et USDT.
 
-If you also need DFI, you can watch our guide on [where and how to buy DFI](https://www.youtube.com/watch?v=vtM-k7E-HPA).
+Si vous avez également besoin de DFI, vous pouvez consulter notre guide sur [où et comment acheter DFI].(https://www.youtube.com/watch?v=vtM-k7E-HPA).
 
-## Method 1: Using the DEX
+## Méthode 1 : Utilisation du DEX
 
-The first method is right within the DeFi app. Using the DEX, and depending on the balance and ratio of the pool pairs, you may end up swapping the tokens at a lower price than if you would have done it via the second method – using CakeDeFi.
+La première méthode se trouve directement dans l'application DeFi. En utilisant le DEX, et en fonction de l'équilibre et du ratio des paires de pool, vous pouvez finir par échanger les tokens à un prix plus bas que si vous l'aviez fait via la deuxième méthode - en utilisant CakeDeFi.
 
-### Step 1: Launch the DeFiChain app
+### Étape 1 : Lancez l'application DeFi Wallet
 
-Don’t have the app installed yet? [Click here for a step-by-step guide on how to do so.](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch)
+Vous n'avez pas encore installé l'application ? [Cliquez ici pour un guide étape par étape sur la façon de le faire].(https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch)
 
-### Step 2: Make sure you have DFI in your wallet
+### Étape 2 : Assurez-vous que vous avez des DFI dans votre portefeuille.
 
-After opening the DeFiChain App, click **Wallets** in the sidebar. Make sure you have funds (DFI) in your wallet, as DFI is needed for transaction fees. If you don't yet have DFI, [here is a step-by-step tutorial on how and where you can buy DFI.](https://defichain.ghost.io/where-and-how-to-buy-dfi-defichain/)
+Après avoir ouvert l'application DeFiChain, cliquez sur **Soldes** dans la barre latérale. Assurez-vous que vous avez des fonds (DFI) dans votre portefeuille, car les DFI sont nécessaire pour les frais de transaction. Si vous n'avez pas encore des DFI, [voici un tutoriel étape par étape sur comment et où vous pouvez acheter des DFI].(https://defichain.ghost.io/where-and-how-to-buy-dfi-defichain/)
 
 <img src="/img/guides/installing-defi-app/wallets-choose.png" srcset="/img/guides/installing-defi-app/wallets-choose.png 1x, /img/guides/installing-defi-app/wallets-choose@2x.png 2x">
 
-### Step 3: Navigate to the DEX (Decentralized Exchange)
+### Étape 3 : Naviguez vers le DEX (Decentralized Exchange)
 
-Click on **DEX** in the sidebar to access the Decentralized Exchange.
+Cliquez sur **DEX** dans la barre latérale pour accéder à l'échange décentralisé.
 
 <img src="/img/guides/obtaining-tokens/go-to-dex.png" srcset="/img/guides/obtaining-tokens/go-to-dex.png 1x, /img/guides/obtaining-tokens/go-to-dex@2x.png 2x">
 
-### Step 4: Perform a swap
+### Étape 4 : Effectuer un échange
 
-The DEX provides a way for you to swap one coin for another. In this case, select DFI in the left **From** field.
+Le DEX vous permet d'échanger un token contre un autre. Dans ce cas, sélectionnez DFI dans le champ **De** de gauche.
 
 <img src="/img/guides/obtaining-tokens/dex-from.png" srcset="/img/guides/obtaining-tokens/dex-from.png 1x, /img/guides/obtaining-tokens/dex-from@2x.png 2x">
 
-Then select the coin you want to buy in right **To** field.
+Ensuite, sélectionnez le token que vous voulez acheter dans le champ droit **À**. 
 
 <img src="/img/guides/obtaining-tokens/dex-to.png" srcset="/img/guides/obtaining-tokens/dex-to.png 1x, /img/guides/obtaining-tokens/dex-to@2x.png 2x">
 
-You can either specify how much you DFI wish to sell in the **To** field, or how much of the other coin you wish to buy, in the **To** field. You can also click the **MAX** button to enter the maximum amount of DFI.
+Vous pouvez soit indiquer la quantité de DFI que vous souhaitez vendre dans le champ **De**, soit la quantité de l'autre pièce que vous souhaitez acheter, dans le champ **À**. Vous pouvez également cliquer sur le bouton **MAX** pour saisir le montant maximum de DFI.
 
-Click **CONTINUE** when you are ready to swap.
+Cliquez sur **CONTINUER** lorsque vous êtes prêt à échanger.
 
 <img src="/img/guides/obtaining-tokens/ready-to-swap.png" srcset="/img/guides/obtaining-tokens/ready-to-swap.png 1x, /img/guides/obtaining-tokens/ready-to-swap@2x.png 2x">
 
-Review the transaction amounts and fees. Then click **SWAP** to confirm.
+Vérifiez les montants et les frais de la transaction. Cliquez ensuite sur **ÉCHANGER** pour confirmer.
 
 <img src="/img/guides/obtaining-tokens/dex-verify.png" srcset="/img/guides/obtaining-tokens/dex-verify.png 1x, /img/guides/obtaining-tokens/dex-verify@2x.png 2x">
 
 ---
 
-## Method 2: Using CakeDeFi
+## Méthode 2 : Utiliser CakeDeFi
 
-### Step 1: Login to your CakeDeFi account
+### Étape 1 : Connectez-vous à votre compte CakeDeFi
 
-Login to your [CakeDeFi account](https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch). If you don't have one yet, [click here to register.](https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
+Connectez-vous à votre [compte CakeDeFi].(https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch). Si vous n'en avez pas encore, [cliquez ici pour vous inscrire].(https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
 
-_Note: If you are registering a new account, you will need to complete identity verification (KYC)._
+_Note : Si vous enregistrez un nouveau compte, vous devrez effectuer une vérification d'identité (KYC)._
 
-### Step 2: Funds in CakeDeFi
+### Étape 2 : Fonds sur CakeDeFi
 
-From your [CakeDeFi Assets page](https://pool.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch#/wallets), you can withdraw ETH, BTC or USDT to DeFiChain. If you don't currently have these coins, or you'd like to obtain more, you can either:
+Depuis votre page [Actifs CakeDeFi].(https://pool.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch#/wallets)vous pouvez retirer ETH, BTC ou USDT vers DeFiChain. Si vous n'avez pas actuellement ces coins, ou si vous souhaitez en obtenir plus, vous pouvez soit :
 
-1. Deposit ETH, BTC or USDT from an external wallet into CakeDeFi
-2. Buy ETH, BTC or USDT using the fiat on-ramp, which accepts payment methods like credit cards, Apple Pay and transfers, depending on your country
+1. Déposer ETH, BTC ou USDT d'un portefeuille externe sur CakeDeFi.
+2. Achetez de l'ETH, du BTC ou de l'USDT en utilisant la rampe d'accès au fiat, qui accepte des méthodes de paiement comme les cartes de crédit, Apple Pay et les virements, selon votre pays.
 
 <div class="mbg1"><img src="/img/guides/obtaining-tokens/cake-assets.png" srcset="/img/guides/obtaining-tokens/cake-assets.png 1x, /img/guides/obtaining-tokens/cake-assets@2x.png 2x"></div>
 
-### Step 3: Withdrawal
+### Étape 3 : Retrait
 
-Once your ETH, BTC or USDT is in your CakeDeFi Assets, you can withdraw them. Click the corresponding **WITHDRAW** button for the token you want to withdraw.
+Une fois que vos ETH, BTC ou USDT sont dans vos actifs CakeDeFi, vous pouvez les retirer. Cliquez sur le bouton **WITHDRAW** correspondant au token que vous voulez retirer.
 
-In the withdrawal pop-up, select DeFi Blockchain as the **Transfer Network**. Enter your DeFiChain receive address in the **To DeFi Blockchain address** field. Information on how to get your DeFiChain app receiving address can be found in [this guide](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
+Dans la pop-up de retrait, sélectionnez DeFi Blockchain comme **Transfer Network** (reseau de transfert). Donnez votre adresse de réception DeFiChain dans le champ **To DeFi Blockchain address**. Vous trouverez des informations sur la façon d'obtenir votre adresse de réception de l'application DeFiChain dans [ce guide].(https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
 
 <img src="/img/guides/obtaining-tokens/cake-withdraw.png" srcset="/img/guides/obtaining-tokens/cake-withdraw.png 1x, /img/guides/obtaining-tokens/cake-withdraw@2x.png 2x">
 
-Enter your **two-factor authentication code** and complete the rest of the form, then press **WITHDRAW**.
+Saisissez votre **two-factor authentication code** (code d'authentification à deux facteurs) et complétez le reste du formulaire, puis appuyez sur **WITHDRAW**.
 
 
 
-_Note: For security reasons, withdrawals on CakeDeFi can take up to 24 hours (weekdays) and 72 hours (weekends) to be processed._
+_Note : Pour des raisons de sécurité, le traitement des retraits sur CakeDeFi peut prendre jusqu'à 24 heures (jours de semaine) et 72 heures (week-ends).
