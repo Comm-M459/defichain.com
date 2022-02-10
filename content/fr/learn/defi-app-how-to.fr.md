@@ -75,142 +75,142 @@ Double-cliquez sur le fichier téléchargé.
 
 Si c'est la première fois que vous installez l'application DeFi, le programme d'installation peut vous présenter une invite de sécurité comme indiqué. Cliquez sur **Plus d'infos**.
 
-\**Microsoft Windows SmartScreen may flag newly uploaded files that have not built up a long enough history.*
+\**Microsoft Windows SmartScreen peut signaler les fichiers nouvellement téléchargés qui n'ont pas accumulé un historique suffisamment long.*
 
 ![Image](https://i.imgur.com/CUmfPMS.png)
 
-### Step 3: Bypass Windows security prompt
+### Étape 3 : Contourner l'invite de sécurité de Windows
 
-Click **Run anyway** to begin installation.
+Cliquez sur **Exécuter quand même** pour commencer l'installation.
 
 ![Image](https://i.imgur.com/S7SFwms.png)
 
-DeFi app will launch automatically when the installation is complete.
+L'application DeFi se lancera automatiquement lorsque l'installation sera terminée.
 
-## Installing on Linux using AppImage
+## Installation sur Linux à l'aide d'AppImage
 
-Please ensure you have enabled the **Allow executing file as program** option for the download file.
+Veuillez vous assurer que vous avez activé l'option **Autoriser l'exécution du fichier en tant que programme** pour le fichier à télécharger.
 
 ![Image](https://i.imgur.com/TU3ggCU.png)
 
-You can now open DeFi app.
+Vous pouvez maintenant ouvrir l'application DeFi.
 
-## Installing on Linux using Debian
+## Installation sur Linux avec Debian
 
-You can choose to either install DeFi app as a GUI tool or command line tool.
+Vous pouvez choisir d'installer l'application DeFi en tant qu'outil IUG ou en tant qu'outil de ligne de commande.
 
-### Using Software Center
+### Utilisation du Centre logiciel Ubuntu
 
-The simplest method is to use Software Center in Ubuntu. Simply navigate to the folder (usually *Downloads* folder)  containing the downloaded **.deb** file and open it.
+La méthode la plus simple consiste à utiliser le Centre logiciel dans Ubuntu. Il suffit de naviguer jusqu'au dossier (généralement le dossier *Téléchargements*) contenant le fichier **.deb** téléchargé et de l'ouvrir.
 
-### Install .deb files in command line using dpkg
+### Installer les fichiers .deb en ligne de commande à l'aide de dpkg
 
-If you want to install **deb** packages using the command line, you can use either the `apt` command or the `dpkg` command.
+Si vous voulez installer des paquets **deb** en utilisant la ligne de commande, vous pouvez utiliser la commande `apt` ou la commande `dpkg`.
 
 ```
 sudo apt install PATH_TO_DEB_FILE
 ```
 
-or
+ou
 
 ```
 sudo dpkg -i PATH_TO_DEB_FILE
 ```
 
 
-You can now open DeFi app.
+Vous pouvez maintenant ouvrir l'application DeFi.
 
 ---
 
-## Using the wallet
+## Utilisation du portefeuille
 
-### The wallet interface
+### L'interface du portefeuille
 
 <p><img src="/img/guides/installing-defi-app/wallets.png" srcset="/img/guides/installing-defi-app/wallets.png 1x, /img/guides/installing-defi-app/wallets@2x.png 2x"></p>
 
-#### Sidebar main navigation
+#### Barre latérale de navigation principale
 
-- **Wallets** tab: Send and receive funds, and view transactions
-- **Liquidity** tab: Add and remove liquidity, and viewing APR of your liquidity
-- **DEX** tab: Swap between wrapped BTC/ETH/USDT and DFI
-- **Tokens** tab: View community-verified DST (DeFi Standard tokens) and create your own
-- **Blockchain** tab: A built-in mini block explorer to examine the blockchain
-- **Masternodes** tab: View a list of masternodes and create your own
+- Onglet **Soldes** : Envoyez et recevez des fonds, et consultez les transactions
+- Onglet **Liquidité** : Ajoutez et retirez des liquidités, et visualisez le TAEG de vos liquidités.
+- Onglet **DEX** : Échange entre des wrapped BTC/ETH/USDT et DFI
+- Onglet **Tokens** : Consultez les tokens DST (DeFi Standard) vérifiés par la communauté et créez les vôtres.
+- Onglet **Blockchain** : Un mini explorateur de blocs intégré pour examiner la blockchain
+- Onglet **Masternodes** : Voir une liste de masternodes et créer le vôtre
 
-#### Sidebar sub navigation
+#### Sous-navigation dans la barre latérale
 
-- **Console**: Run DeFiChain CLI commands
-- **Help**: Help options
-- **Settings**: Switch between Main and Test net, language and other settings
+- **Console**: Exécuter les commandes CLI de DeFiChain
+- **Aide**: Options d'aide
+- **Paramètres**: Basculer entre le réseau Mainnet et Testnet, la langue et d'autres paramètres
 
-### Opening a wallet
+### Ouverture d'un portefeuille
 
-Switch to the **Wallets** tab, choose a wallet e.g. DFI.
+Passez à l'onglet **Soldes**, choisissez un portefeuille, par exemple DFI.
 
 <p><img src="/img/guides/installing-defi-app/wallets-choose.png" srcset="/img/guides/installing-defi-app/wallets-choose.png 1x, /img/guides/installing-defi-app/wallets-choose@2x.png 2x"></p>
 
-### Sending funds
+### Envoi de fonds
 
-#### Step 1
+#### Étape 1
 
-Within a wallet, click on **Send**.
+Dans un portefeuille, cliquez sur **Envoyer**.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send.png" srcset="/img/guides/installing-defi-app/wallet-send.png 1x, /img/guides/installing-defi-app/wallet-send@2x.png 2x"></p>
 
-#### Step 2
+#### Étape 2
 
-Enter the **Amount** and, the **To address** to send to. Yu can also enter an address using QR code scanner feature next to the address field. Press **CONTINUE** when you are ready.
+Donnez le **Montant** et, l'**Adresse de destination** à envoyer. Vous pouvez également saisir une adresse en utilisant la fonction de scanner de codes QR à côté du champ d'adresse. Appuyez sur **CONTINUER** lorsque vous êtes prêt.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send1.png" srcset="/img/guides/installing-defi-app/wallet-send1.png 1x, /img/guides/installing-defi-app/wallet-send1@2x.png 2x"></p>
 
-#### Step 3
+#### Étape 3
 
-Review the **Amount** and **To address** and verify they are correct. The **COMPLETE SEND** button is disabled for a few seconds to protect you from accidental sending.
+Vérifiez le **Montant** et l'**Adresse de destination** et assurez-vous qu'ils sont corrects. Le bouton **Finaliser l'envoi** est désactivé pendant quelques secondes pour vous protéger d'un envoi accidentel.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send2.png" srcset="/img/guides/installing-defi-app/wallet-send2.png 1x, /img/guides/installing-defi-app/wallet-send2@2x.png 2x"></p>
 
-Click **COMPLETE SEND** to confirm sending.
+Cliquez sur **FINALISER L'ENVOI** pour confirmer l'envoi.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send3.png" srcset="/img/guides/installing-defi-app/wallet-send3.png 1x, /img/guides/installing-defi-app/wallet-send3@2x.png 2x"></p>
 
-#### Step 4
+#### Étape 4
 
-After the transaction is complete, press **BACK TO WALLET** to return to the wallet.
+Une fois la transaction terminée, appuyez sur **RETOUR AU PORTEFEUILLE** pour revenir au portefeuille.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send4.png" srcset="/img/guides/installing-defi-app/wallet-send4.png 1x, /img/guides/installing-defi-app/wallet-send4@2x.png 2x"></p>
 
-You should see your latest transaction in the list of **Transactions** in your wallet.
+Vous devriez voir votre dernière transaction dans la liste des **Transactions** de votre portefeuille.
 
 ---
 
-### Receiving funds
+### Recevoir des fonds
 
-#### Step 1
+#### Étape 1
 
-Within a selected wallet, click **RECEIVE**.
+Dans un portefeuille sélectionné, cliquez sur **RECEVOIR**.
 
 <img src="/img/guides/installing-defi-app/wallet-receive.png" srcset="/img/guides/installing-defi-app/wallet-receive.png 1x, /img/guides/installing-defi-app/wallet-receive@2x.png 2x">
 
-Then click **NEW ADDRESS** to create a new receiving address.
+Cliquez ensuite sur **NOUVELLE ADRESSE** pour créer une nouvelle adresse de réception.
 
 <img src="/img/guides/installing-defi-app/wallet-receive1.png" srcset="/img/guides/installing-defi-app/wallet-receive1.png 1x, /img/guides/installing-defi-app/wallet-receive1@2x.png 2x">
 
-#### Step 2
+#### Étape 2
 
-Fill out the information and give your address a meaningful label. Then click **CREATE**.
+Remplissez les informations et donnez à votre adresse une libellé significative. Cliquez ensuite sur **CRÉER**.
 
 <img src="/img/guides/installing-defi-app/wallet-receive2.png" srcset="/img/guides/installing-defi-app/wallet-receive2.png 1x, /img/guides/installing-defi-app/wallet-receive2@2x.png 2x">
 
-#### Step 3
+#### Étape 3
 
-The new receive address you have just created will appear in your list of receive addresses.
+La nouvelle adresse de réception que vous venez de créer apparaîtra dans votre liste d'adresses de réception.
 
 <img src="/img/guides/installing-defi-app/wallet-receive3.png" srcset="/img/guides/installing-defi-app/wallet-receive3.png 1x, /img/guides/installing-defi-app/wallet-receive3@2x.png 2x">
 
-Click the **QR code** button to bring up a QR code of the address.
+Cliquez sur le bouton **Code QR** pour faire apparaître un code QR de l'adresse.
 
 <img src="/img/guides/installing-defi-app/wallet-receive4.png" srcset="/img/guides/installing-defi-app/wallet-receive4.png 1x, /img/guides/installing-defi-app/wallet-receive4@2x.png 2x">
 
-Click the **copy address** button to copy the address to your system clipboard.
+Cliquez sur le bouton **copier l'adresse** pour copier l'adresse dans le presse-papiers de votre système.
 
 <img src="/img/guides/installing-defi-app/wallet-receive5.png" srcset="/img/guides/installing-defi-app/wallet-receive5.png 1x, /img/guides/installing-defi-app/wallet-receive5@2x.png 2x">
