@@ -51,7 +51,7 @@ Ouvrez l'application. La première fois que vous ouvrez l'application DeFi, une 
 
 \**N'ouvrez l'application de cette façon que si vous êtes sûr d'avoir téléchargé l'application DeFi depuis une source officielle. L'application DeFi est actuellement disponible uniquement sur [official website](/) et [DeFiChain’s GitHub](https://github.com/DeFiCh/app/releases).*
 
-Aller à **Préférences système** and click on **Sécurité**.
+Aller à **Préférences système** et cliquer sur **Sécurité et confidentialité**.
 
 <p><img src="/img/guides/installing-defi-app/system-preferences.png" srcset="/img/guides/installing-defi-app/system-preferences.png 1x, /img/guides/installing-defi-app/system-preferences@2x.png 2x"></p>
 
@@ -65,15 +65,15 @@ Cliquez sur **Ouvrir** dans la fenêtre de confirmation.
 
 L'application DeFi se lancera automatiquement lorsque l'installation sera terminée.
 
-## Installing on Windows
+## Installation sur Windows
 
 ### Step 1: Installation
 
-Double click on the downloaded file.
+Double-cliquez sur le fichier téléchargé.
 
-### Step 2: Windows security prompt
+### Étape 2 : Invite de sécurité de Windows
 
-If this is the first time you are installing the DeFi app, the installer may present you with a security prompt as shown. Click **More info**.
+Si c'est la première fois que vous installez l'application DeFi, le programme d'installation peut vous présenter une invite de sécurité comme indiqué. Cliquez sur **Plus d'infos**.
 
 \**Microsoft Windows SmartScreen may flag newly uploaded files that have not built up a long enough history.*
 
