@@ -35,7 +35,7 @@ Ce guide montre comment vous pouvez effectuer le cryptage et le décryptage du p
 1. Faites une sauvegarde de votre `wallet.dat` existant dans un endroit sûr. Ce fichier est très important pour récupérer vos DFI et vos tokens standards DeFi (DST) si les choses tournent mal. Le fichier se trouve généralement dans les chemins suivants :
   `~/.defi/wallets` pour Linux
   `~/Library/Application Support/DeFi/wallets` pour Mac
-  `<root>\Users\<username>\AppData\Roaming\DeFi Blockchain\wallets` pour Windows
+  `<root>\Users\<username>\AppData\Roaming\DeFi Blockchain\wallets` pour Windows.
   N'oubliez pas que ce fichier est _non crypté_ ! Gardez-le absolument en sécurité !
 
 2. Pour sécuriser votre portefeuille pour la première fois, générez un mot de passe aléatoire long et agréable. À titre d'illustration, ce guide utilisera les phrases de passe suivantese `REMPLACER_CECI_PAR_UNE_LONGUE_PHRASE_DE_PASSE_SÉCURE`. Vous pouvez utiliser n'importe quel générateur de mot de passe aléatoire, idéalement hors ligne. Notez-la en toute sécurité.
