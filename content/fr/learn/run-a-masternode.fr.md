@@ -123,7 +123,7 @@ Vous pouvez exécuter la commande `getmasternodeblocks OPERATOR_ADDRESS` pour vo
 ## Pour les propriétaires qui souhaitent déléguer les tâches du masternode à un autre nœud
 Dans ce scénario, l'adresse de l'opérateur sera différente de l'adresse (collatéral) du propriétaire.
 
-### Etape 1-4 - Idem que ci-dessus
+### Étape 1-4 - Idem que ci-dessus
 
 Effectuez les étapes 1 à 4 de la même manière que dans la section ci-dessus pour l'exploitation de vos propres masternodes. Si vous configurez également le nœud opérateur vous-même, répétez les étapes 1 à 4 pour le nœud opérateur sur une autre machine.
 
