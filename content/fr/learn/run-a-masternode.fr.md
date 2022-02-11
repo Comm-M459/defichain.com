@@ -22,7 +22,7 @@ content:
 
 ## Introduction
 
-La installation d'un masternode sur DeFiChain vous permet de participer au protocole de consensus et de recevoir des récompenses de staking. Une chose à noter est que pour mettre en place un masternode, vous devez avoir un minimum de 20.000 DFI.
+L'installation d'un masternode sur DeFiChain vous permet de participer au protocole de consensus et de recevoir des récompenses de staking. Une chose à noter est que pour mettre en place un masternode, vous devez avoir un minimum de 20.000 DFI.
 
 _REMARQUE : Ce guide pratique nécessite une certaine familiarité avec le terminal Linux_
 
