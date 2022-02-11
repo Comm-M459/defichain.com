@@ -1,104 +1,104 @@
 ---
-title: Run a masternode
+title: Opérer un masternode 
 type: article
-long_title: How to run a Defichain masternode on Linux/Mac OS
+long_title: Comment faire fonctionner un masternode DeFiChain sur Linux/macOS
 cta_to: Read
 meta:
-  description: How to run a DeFiChain masternode on Linux/Mac OS.
+  description: Comment faire fonctionner un masternode DeFiChain sur Linux/macOS
   og:
-    title: Run a DeFiChain masternode
-    description: How to run a DeFiChain masternode on Linux/Mac OS.
+    title: Opérer un masternode DeFiChain
+    description: Comment faire fonctionner un masternode DeFiChain sur Linux/macOS
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
-    locale: en_US
+    locale: fr
 content:
   sections:
     hero:
       name: hero
-      headline: Run a DeFiChain masternode
-      subhead: How to run a Defichain masternode on Linux/Mac OS.
+      headline: Opérer un masternode DeFiChain
+      subhead: Comment faire fonctionner un masternode DeFiChain sur Linux/macOS.
 ---
 
 ## Introduction
 
-Setting up a masternode on DefiChain allows you to participate in the consensus protocol and receive staking awards. One thing to note is that in order to set up a masternode, you must have a minimum of 20,000 DFI.
+La installation d'un masternode sur DeFiChain vous permet de participer au protocole de consensus et de recevoir des récompenses de staking. Une chose à noter est que pour mettre en place un masternode, vous devez avoir un minimum de 20.000 DFI.
 
-_NOTE: This how-to expects some basic familiarity with the Linux terminal_
+_REMARQUE : Ce guide pratique nécessite une certaine familiarité avec le terminal Linux_
 
-## Masternode roles
-There are two distinct roles: 'masternode owner' and 'masternode operator'. The owner holds the collateral and the primary activity (minting new coins, voting for anchors) is performed by operator. In general, a node can play both roles.
+## Rôles des masternodes
+Il existe deux rôles distincts : "propriétaire du masternode" et "opérateur du masternode". Le propriétaire détient la garantie et l'activité principale (minter de nouvelles coins, voter pour les ancres) est réalisée par l'opérateur. En général, un nœud peut jouer les deux rôles.
 
-## For owners who operate their own masternodes
-In this scenario, the operator's address will be equal to the owner's (collateral) address.
+## Pour les propriétaires qui opèrent leurs propres masternodes
+Dans ce scénario, l'adresse de l'opérateur sera égale à l'adresse ( collatérale ) du propriétaire .
 
-### Step 1 - Download and extract node software
+### Étape 1 - Téléchargez et extrayez le logiciel de nœud.
 
-The first step is to download the binaries. Here are links to binaries for Windows, Linux and Macosx (Please download the latest release):
+La première étape consiste à télécharger les binaires. Voici les liens vers les binaires pour Windows, Linux et macOS (Veuillez télécharger la dernière version) :
 
-[Downloads](/downloads/)
+[Téléchargements](/downloads/)
 
-Following that we can extract the tar file by running (Replace 1.x.x with your version number):
+Ensuite, nous pouvons extraire le fichier tar en exécutant (remplacez 1.x.x par votre numéro de version) :
 ```
 tar -xvzf defichain-1.x.x-x86_64-pc-linux-gnu.tar.gz
 ```
 
-### Step 2 - Copy binaries to user directory
+### Étape 2 - Copier les binaires dans le répertoire de l'utilisateur
 
-We would like the node software to be stored in a consistent and easily accessible directory, so let's create one in our home folder. This can be done by running:
+Nous aimerions que le logiciel du nœud soit stocké dans un répertoire cohérent et facilement accessible, alors créons-en un dans notre dossier personnel. Ceci peut être fait en exécutant :
 
 ```
 mkdir ~/.defi
 ```
 
-Now copy the binaries by running:
+Maintenant, copiez les binaires en exécutant :
 ```
 cp ./defichain-1.x.x/bin/* ~/.defi
 ```
 
-### Step 3 - Setting up crontab to keep our node running in the background
+### Étape 3 - Configuration de crontab pour que notre nœud fonctionne en arrière-plan
 
-Now we may directly run our node by running `~/.defi/defid` , but this would not be very convenient, as we would have to keep the terminal session open the whole time, and run this command every time we restart our computer or SSH session. 
+Maintenant, nous pouvons exécuter directement notre nœud en exécutant `~/.defi/defid` mais ce n'est pas très pratique, car nous devrions garder la session de terminal ouverte en permanence et exécuter cette commande à chaque fois que nous redémarrons notre ordinateur ou notre session SSH. 
 
-Instead, we'll use crontab to keep the process running. Run `crontab -e`, and select an editor (I recommend Nano if you are unsure which to pick), afterwards paste:
+A la place, nous allons utiliser crontab pour maintenir le processus en marche. Exécutez `crontab -e`, et sélectionnez un éditeur (je recommande Nano si vous ne savez pas lequel choisir), puis collez :
 
 ```
 * * * * * pidof defid || ~/.defi/defid
 ```
 
-into the file and hit `Ctrl-X` then enter to save the file.
+dans le fichier et appuyez sur `Ctrl-X` puis sur entrée pour enregistrer le fichier.
 
-### Step 4 - Setting up owner address with sufficient funds
+### Étape 4 - Établissement de l'adresse du propriétaire avec des fonds suffisants
 
-In order to run a masternode, you must own at least 20,000 DFI. Let's set up an address with sufficient funds to use as an owner. Masternodes currently only support legacy addresses, so create a masternode address using:
+Afin d'exécuter un masternode, vous devez posséder au moins 20 000 DFI. Configurons une adresse avec suffisamment de fonds pour l'utiliser en tant que propriétaire. Les masternodes ne prennent actuellement en charge que les adresses anciennes, alors créez une adresse masternode en utilisant :
 
 ```
 ~/.defi/defi-cli getnewaddress "<label>" legacy
 ```
 
-where "label" is any label you would like to give the address.
+où "label" est le label que vous souhaitez donner à l'adresse.
 
-Now in order to transfer the funds to this address, you may use: 
+Maintenant, afin de transférer les fonds à cette adresse, vous pouvez utiliser : 
 
 ```
 ~/.defi/defi-cli sendtoaddress address
 ```
 
-where address is the new owner address you have created.
+où "address" est la nouvelle adresse du propriétaire que vous avez créée.
 
-### Step 5 - Register as a masternode on the network
+### Étape 5 - Inscrivez-vous en tant que masternode sur le réseau
 
-In order to participate in the staking algorithm, you must broadcast to the network that you intend to participate, this can be done by running a command using the Defi CLI, the command is:
+Afin de participer à l'algorithme de staking, vous devez diffuser au réseau que vous avez l'intention de participer, ceci peut être fait en exécutant une commande à l'aide du CLI de Defi, la commande est :
 
 ```
 ~/.defi/defi-cli createmasternode address
 ```
 
-where `address` for both operator and collateral address should be the new legacy address you created. Please note that it costs 10 DFI to run this command.
+où `address` pour l'opérateur et l'adresse collatérale doit être la nouvelle adresse legacy que vous avez créée. Veuillez noter que l'exécution de cette commande coûte 10 DFI.
 
-### Step 6 - Configure the masternode and restart
+### Étape 6 - Configurer le masternode et redémarrer
 
-We're almost done, in order for the master node to operate correctly, we must make a couple of configuration changes. The configuration file will sit in `~/.defi/defi.conf`. Let's make sure the configuration file exists by running `touch ~/.defi/defi.conf`. Now open this configuration file in the editor of your choice and add the following:
+Nous avons presque fini, pour que le masternode fonctionne correctement, nous devons faire quelques changements de configuration. Le fichier de configuration se trouvera dans `~/.defi/defi.conf`. Assurons-nous que le fichier de configuration existe en exécutant `touch ~/.defi/defi.conf`. Maintenant ouvrez ce fichier de configuration dans l'éditeur de votre choix et ajoutez ce qui suit :
 
 ```
 gen=1
@@ -106,58 +106,58 @@ spv=1
 masternode_operator=OPERATOR_ADDRESS
 ```
 
-Because we have decided to run owner and operator on the same address, just substitute the same legacy address you created for `OPERATOR_ADDRESS`. There is no need to specify owner address in this case.
+Parce que nous avons décidé de faire fonctionner le propriétaire et l'opérateur sur la même adresse, il suffit de substituer la même adresse legacy que vous avez créée pour `OPERATOR_ADDRESS`. Il n'est pas nécessaire de spécifier l'adresse du propriétaire dans ce cas.
 
-Now the final step is to restart the node. Since we have crontab running, we just have to kill the process and crontab will start it again for us after one minute. We can do this final step by running `killall defi-init`. One minute later, we should have our masternode running and minting coins.
+Maintenant, l'étape finale consiste à redémarrer le nœud. Puisque nous avons crontab en cours d'exécution, il nous suffit de tuer le processus et crontab le relancera pour nous après une minute. Nous pouvons faire cette étape finale en exécutant `killall defi-init`. Une minute plus tard, notre masternode devrait fonctionner et minter des coins.
 
-We can confirm the masternode is running by running:
+Nous pouvons confirmer que le masternode fonctionne en exécutant :
 
 ```
 ~/.defi/defi-cli listmasternodes
 ```
 
-look for your masternode address in the list of masternodes to confirm that you have successfully set everything up.
+recherchez l'adresse de votre masternode dans la liste des masternodes pour confirmer que vous avez bien tout configuré.
 
-You may run the command `getmasternodeblocks OPERATOR_ADDRESS` to see how many blocks your masternode has minted so far.
+Vous pouvez exécuter la commande `getmasternodeblocks OPERATOR_ADDRESS` pour voir combien de blocs votre masternode a mintés jusqu'à présent.
 
-## For owners who would like to delegate the masternode duties to another node
-In this scenario, the operator's address will be different to the owner's (collateral) address.
+## Pour les propriétaires qui souhaitent déléguer les tâches du masternode à un autre nœud
+Dans ce scénario, l'adresse de l'opérateur sera différente de l'adresse (collatéral) du propriétaire.
 
-### Step 1-4 - Same as above
+### Etape 1-4 - Idem que ci-dessus
 
-Perform steps 1-4 the same as the above section for operating your own masternodes. If you are also setting up the operator node yourself, then repeat steps 1-4 again for the operator node on a different machine.
+Effectuez les étapes 1 à 4 de la même manière que dans la section ci-dessus pour l'exploitation de vos propres masternodes. Si vous configurez également le nœud opérateur vous-même, répétez les étapes 1 à 4 pour le nœud opérateur sur une autre machine.
 
-### Step 5 - Register as a masternode on the network
+### Étape 5 - Inscrivez-vous en tant que masternode sur le réseau
 
-In order to participate in the staking algorithm, you must broadcast to the network that you intend to participate, this can be done by running a command using the Defi CLI, the command is:
+Afin de participer à l'algorithme de staking, vous devez diffuser au réseau que vous avez l'intention de participer, ceci peut être fait en exécutant une commande à l'aide du CLI de Defi, la commande est :
 
 ```
 ~/.defi/defi-cli createmasternode OWNER_ADDRESS OPERATOR_ADDRESS
 ``` 
 
-where `OWNER_ADDRESS` is the address for the collateral/owner node and `OPERATOR_ADDRESS` is the address for the operator. Please note that it costs 10 DFI to run this command.
+où `OWNER_ADDRESS` est l'adresse du nœud de collatéral/propriétaire et `OPERATOR_ADDRESS` est l'adresse de l'opérateur. Veuillez noter que l'exécution de cette commande coûte 10 DFI.
 
-There is nothing to do after this, you may simply ensure that your masternode operator is correctly running the masternode on their side by passing them the operator address.
+Il n'y a rien à faire après cela, vous pouvez simplement vous assurer que votre opérateur de masternode exécute correctement le masternode de son côté en lui transmettant l'adresse de l'opérateur.
 
-We can confirm the masternode is running by running: 
+Nous pouvons confirmer que le masternode fonctionne en exécutant :
 
 ```
 ~/.defi/defi-cli listmasternodes
 ```
 
-Look for your masternode address in the list of masternodes to confirm that you have successfully set everything up.
+Recherchez l'adresse de votre masternode dans la liste des masternodes pour confirmer que vous avez bien tout configuré.
 
-You may run the command `getmasternodeblocks OPERATOR_ADDRESS` to see how many blocks your masternode has minted so far.
+Vous pouvez exécuter la commande `getmasternodeblocks OPERATOR_ADDRESS` pour voir combien de blocs votre masternode a mintés jusqu'à présent.
 
-## Creating via the DeFiChain Desktop Wallet
+## Création via le portefeuille de bureau DeFi Wallet
 
-It's easy to set up your masternode through the DeFiChain Desktop Wallet, simply browse to the Masternodes tab and click on "Create +" in the upper right corner of the screen. The process is automated and seamless.
+Il est facile de configurer votre masternode via le portefeuille de bureau DeFi Wallet, il suffit de naviguer vers l'onglet Masternodes et de cliquer sur "Créer +" dans le coin supérieur droit de l'écran. Le processus est automatisé et sans faille.
 
 ![Masternode1](https://user-images.githubusercontent.com/3271586/112108417-2472a280-8beb-11eb-91f1-896904d46a85.png)
 
-## Running multiple masternodes on the same machine
+## Exécution de plusieurs masternodes sur la même machine
 
-If you would like to run multiple masternodes on the same machine, you simply need to specify multiple `masternode_operator` entries in your `defi.conf`:
+Si vous souhaitez faire tourner plusieurs masternodes sur la même machine, il vous suffit de spécifier plusieurs entrées `masternode_operator` dans votre `defi.conf` :
 
 ```
 gen=1
@@ -167,19 +167,19 @@ masternode_operator=OPERATOR_ADDRESS_2
 masternode_operator=OPERATOR_ADDRESS_3
 ```
 
-On the next run, the node will begin minting for all the specified masternodes. There is no hard limit to how many masternodes a single machine can run.
+Lors de la prochaine exécution, le nœud commencera à monnayer pour tous les masternodes spécifiés. Il n'y a pas de limite stricte au nombre de masternodes qu'une seule machine peut exécuter.
 
-## Resigning masternodes
+## Démission de masternodes
 
-If you decide to resign your masternode, you may run 
+Si vous décidez de démissionner de votre masternode, vous pouvez exécuter 
 
 ```
 ~/.defi/defi-cli resignmasternode
 ```
-## Masternode states
-Sending `createmasternode` (or 'resignmasternode') transaction doesn't mean that it acts immediately after submitting to the blockchain. There are special delays for each state.
+## Statuts du masternode
+Envoyer une transaction `createmasternode` (ou 'resignmasternode') ne signifie pas qu'elle agit immédiatement après avoir été soumise à la blockchain. Il y a des délais spéciaux pour chaque statut.
 
-Masternodes can exist in these states:
+Les masternodes peuvent exister dans ces statuts :
 ```
         PRE_ENABLED,
         ENABLED,
@@ -188,9 +188,9 @@ Masternodes can exist in these states:
         PRE_BANNED,
         BANNED
 ```
-- `PRE_ENABLED` - masternode was created, but waits for enough blocks after creation to get activated.
-- `ENABLED` - masternode is in fully operable state, can mint blocks and sign anchors
-- `PRE_RESIGNED` - masternode is still operable, but have received a 'resign' transaction and will wait for a special delay to get resigned
-- `RESIGNED` - masternode resigned, collateral unlocked and is available to be reclaimed
-- `PRE_BANNED` - masternode was caught as a 'criminal' (signing two blocks from parallel forks on close heights and we got special proofing tx on chain) but still operable (waiting, as in the case of PRE_RESIGNED)
-- `BANNED` - masternode deactivated, collateral unlocked and can be reclaimed (same as RESIGNED, but forced through deactivation)
+- `PRE_ENABLED` - le masternode a été créé, mais attend un nombre suffisant de blocs après la création pour être activé.
+- `ENABLED` - le masternode est en état de fonctionnement complet, peut minter des blocs et signer des ancrages
+- `PRE_RESIGNED` - le masternode est toujours opérationnel, mais a reçu une transaction 'resign' et attendra un délai spécial pour être résigné
+- `RESIGNED` - masternode résigné, collatéral déverrouillé et disponible pour être réclamé
+- `PRE_BANNED` - le masternode a été pris comme un 'criminel' (il a signé deux blocs de forks parallèles sur des hauteurs proches et nous avons eu des tx de preuve spéciale sur la chaîne) mais il est toujours opérationnel (en attente, comme dans le cas de PRE_RESIGNED)
+- `BANNED` - masternode désactivé, collatéral déverrouillé et pouvant être récupéré (identique à RESIGNED, mais forcé par la désactivation)
