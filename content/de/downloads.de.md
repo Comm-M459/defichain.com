@@ -1,15 +1,15 @@
 ---
 title: Downloads
 type: downloads
-long_title: DeFiChain mobile app, CLI and desktop app downloads for Mac, Windows and Linux.
+long_title: DeFiChain Handy-App, CLI und Desktop-App zum Herunterladen für Mac, Windows und Linux
 menu:
   footer:
     weight: 600
 meta:
-  description: DeFiChain mobile app, CLI and desktop app downloads for Mac, Windows and Linux.
+  description: DeFiChain Handy-App, CLI und Desktop-App zum Herunterladen für Mac, Windows und Linux
   og:
     title: Downloads
-    description: DeFiChain mobile app, CLI and desktop app downloads for Mac, Windows and Linux.
+    description: DeFiChain Handy-App, CLI und Desktop-App zum Herunterladen für Mac, Windows und Linux
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -20,13 +20,13 @@ content:
     hero:
       name: hero
       headline: Downloads
-      subhead: Download applications for mobile, Mac, Windows and Linux.
+      subhead: Apps für Handy, Mac, Windows und Linux herunterladen
     downloads:
-      headline: Choose your own wallet. Get the CLI.
+      headline: Wähle deine eigene Wallet. Hol dir die CLI (Befehlszeilenschnittstelle)
       downloads_list:
-        - title: DeFiChain wallet mobile app
+        - title: DeFiChain Wallet Handy-App
           type: mobile-app
-          description: Lightweight, instant access to Decentralized Finance for Bitcoin, at your fingertips.
+          description: Einfacher, schneller Zugang zum dezentralen Finanzsystem für Bitcoin, per Fingertipp
           image:
             path: /img/downloads/defichain_icon_60.png
             type: png
@@ -40,9 +40,9 @@ content:
               type: android
               image: /static/img/downloads/play-badge-android.svg
               url: https://play.google.com/store/apps/details?id=com.defichain.app
-        - title: DeFi Wallet desktop app
+        - title: DeFi Wallet Desktop-App
           type: desktop-app
-          description: Transact, liquidity mine, swap and more with the full-featured and fully-decentralized wallet app. Full node included.
+          description: Mit der funktionsfähigen und vollständig dezentralen Wallet-App kannst du Transaktionen durchführen, Liquiditäts-Mining betreiben, tauschen und vieles mehr. Vollständiger Node enthalten
           image:
             path: /img/downloads/defichain-icon-128.png
             type: png
@@ -57,11 +57,11 @@ content:
             - label: Linux (AppImage)
               type: appimg-dfc
               url: https://github.com/DeFiCh/app/releases
-            - label: Installation guide
+            - label: Installationsanleitung
               url: /learn/defi-app-how-to
-        - title: DFX wallet mobile app
+        - title: DFX Wallet Handy-App
           type: mobile-app
-          description: Store, receive and send DeFiChain tokens with utmost simplicity and security uncomplicated from your mobile.
+          description: Speichere, empfange und versende DeFiChain Token mit größter Einfachheit und Sicherheit ganz unkompliziert per Handy
           image:
             path: /img/downloads/dfx_symbol.png
             type: png
@@ -75,9 +75,9 @@ content:
               type: android
               image: /static/img/downloads/play-badge-android.svg
               url: https://play.google.com/store/apps/details?id=com.defichain.app.dfx
-        - title: saiive.live desktop wallet
+        - title: saiive.live Desktop Wallet
           type: desktop-app
-          description: A non-custodial light wallet for DeFiChain from and for the community.
+          description: Eine Non-Custodial Lightwallet für DeFiChain von und für die Community
           image:
             path: /img/downloads/saiive.png
             type: png
@@ -92,9 +92,9 @@ content:
             - label: Linux
               type: appimg
               url: https://github.com/saiive/saiive.live/releases
-        - title: saiive.live mobile wallet
+        - title: saiive.live mobile Wallet
           type: mobile-app
-          description: A non-custodial light wallet for DeFiChain from and for the community.
+          description: Eine Non-Custodial Lightwallet für DeFiChain von und für die Community
           image:
             path: /img/downloads/saiive.png
             type: png
@@ -108,9 +108,9 @@ content:
               type: android
               image: /static/img/downloads/play-badge-android.svg
               url: https://play.google.com/store/apps/details?id=at.saiive.live
-        - title: DeFi wallet for Raspberry Pi
+        - title: DeFi-Wallet für Raspberry Pi
           type: desktop-app
-          description: A version of the desktop wallet for Raspberry Pi 4B 4GB with official Raspberry Pi OS (32-Bit).
+          description: Eine Version der Desktop-Wallet für Raspberry Pi 4B 4GB mit offiziellem Raspberry Pi OS (32-Bit)
           image:
             path: /img/downloads/definode-pi.png
             type: png
@@ -119,9 +119,9 @@ content:
             - label: Github
               type: github
               url: https://github.com/Martin8617/Defi-Wallet-for-Raspberry-Pi
-        - title: CLI
+        - title: CLI (Befehlszeilenschnittstelle)
           type: cli
-          description: Transact and interact with DeFiChain through a command line interface. Full node included.
+          description: Führe Transaktionen und Interaktionen mit DeFiChain über eine Befehlszeilenschnittstelle durch. Vollständiger Node enthalten
           image:
             path: /static/svg/icons/developers/icon-cli.svg
             type: svg
