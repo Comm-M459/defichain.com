@@ -1,20 +1,20 @@
 ---
-title: DEX
+title: Dezentrale Börse DEX 
 type: dex
-long_title: Swap on the DEX, mine liquidity and more, with the DeFiChain wallet app. Available for Windows, macOS and Linux.
+long_title: Tausche auf der DEX, betreibe Liquiditäts-Mining und mehr mit der DeFi Wallet App. Verfügbar für Windows, macOS und Linux
 aliases:
   - /app/
-cta_to: More
+cta_to: Mehr
 menu:
   main:
     weight: 300
   footer:
     weight: 300
 meta:
-  description: Swap on the DEX, mine liquidity and more, with the DeFiChain wallet app. Available for Windows, macOS and Linux.
+  description: Tausche auf der DEX, betreibe Liquiditäts-Mining und mehr mit der DeFi Wallet App. Verfügbar für Windows, macOS und Linux
   og:
     title: DeFiChain DEX
-    description: Swap on the DEX, mine liquidity and more, with the DeFiChain wallet app. Available for Windows, macOS and Linux.
+    description: Tausche auf der DEX, betreibe Liquiditäts-Mining und mehr mit der DeFi Wallet App. Verfügbar für Windows, macOS und Linux
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -23,21 +23,21 @@ content:
   sections:
     hero:
       name: hero
-      headline: Decentralized Exchange
-      subhead: Liquidity mining for up to 100% returns, decentralized swapping, arbitrage and more, with the DeFi Wallet. Available for Windows, macOS and Linux.
+      headline: Dezentrale Börse
+      subhead: Liquiditäts-Mining für bis zu 100% Rendite, dezentraler Tausch, Arbitrage und mehr, mit der DeFi Wallet. Verfügbar für Windows, macOS und Linux.
       cta:
-        label: Download now
+        label: Jetzt herunterladen
         url: /downloads
       image: /img/app/dex
     coins_apr:
-      label: APR
+      label: Jahreszins
     liquidity_mining:
-      headline: Earn More With Liquidity Mining!
-      subhead: Liquidity mine for incredibly high yields within the app! Supply liquidity to BTC, ETH, USDT and many other pool pairs to power the Decentralized Exchange, and earn fees and high block rewards in return. You can withdraw your liquidity at any time.
+      headline: Verdiene mehr mit Liquiditäts-Mining!
+      subhead: LLiquiditäts-Mining für unglaublich hohe Renditen innerhalb der App! Stelle Liquidität für BTC, ETH, USDT und viele andere Pool-Paare bereit, um die dezentrale Börse zu betreiben, und verdiene im Gegenzug Gebühren und hohe Blockprämien. Du kannst deine Liquidität jederzeit abheben.
       image: /img/app/liquidity
     guides:
       name: guides
-      headline: How-to guides
+      headline: Anleitungen
       guides_list:
         - image: /static/svg/icons/icon-whitepaper.svg
           headline: Installing and using DeFi desktop app (GUI).
