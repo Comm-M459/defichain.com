@@ -1,6 +1,6 @@
 ---
 title: DeFiChain
-long_title: Natives dezentrales Finanzwesen basierend auf Bitcoin
+long_title: Natives dezentrales Finanzwesen, basierend auf Bitcoin
 meta:
   description: Eine Blockchain für schnelle, intelligente und transparente dezentrale Finanzdienstleistungen, die für jeden zugänglich sind.
   og:
@@ -14,7 +14,7 @@ theme: dark night
 content:
   sections:
     hero:
-      headline: Natives dezentrales Finanzwesen basierend auf Bitcoin
+      headline: Natives dezentrales Finanzwesen, basierend auf Bitcoin
       subhead: Eine Blockchain für schnelle, intelligente und transparente dezentrale Finanzdienstleistungen, die für jeden zugänglich sind.
       quick_links:
         cards:
@@ -87,7 +87,7 @@ content:
           description: Erstelle im Handumdrehen eine Vielzahl von DeFi-Apps auf einer Chain
         - icon: /static/svg/icons/benefits/governance.svg
           title: Governance
-          description: Zuverlässige dezentrale Steuerung auf und außerhalb der Chain.
+          description: Zuverlässige dezentrale Steuerung auf und außerhalb der Chain
         - icon: /static/svg/icons/benefits/immutability.svg
           title: Unveränderlichkeit
           description: Durch Verankerung in der Bitcoin-Blockchain unveränderlich
@@ -108,10 +108,10 @@ content:
           description: Direkter Peer-to-Peer-Handel zwischen Kryptowährungen
         - icon: /static/svg/icons/functions/transfer.svg
           title: Übertragbare Schulden und Forderungen
-          description: Arbeit mit Transparenz, die bei Institutionen nicht möglich ist.
+          description: Arbeit mit Transparenz, die bei Institutionen nicht möglich ist
         - icon: /static/svg/icons/functions/debt.svg
           title: Unbesicherte Schulden
-          description: Darlehen auf der Grundlage von Reputation und überprüfbaren Referenzen.
+          description: Darlehen auf der Grundlage von Reputation und überprüfbaren Referenzen
         - icon: /static/svg/icons/functions/tokens.svg
           title: Tokenisierung von Vermögenswerten
           description: Tokeniere Aktien, Immobilien und andere Anlageformen
@@ -127,12 +127,12 @@ content:
       image: /static/svg/built-on-bitcoin.svg
     decentralized_nodes:
       headline: Dezentral und verteilt
-      subhead: DeFiChain Nodes sind weltweit auf Rechenzentren in den USA, Kanada, Europa, Indien, Singapur und Australien verteilt.
+      subhead: DeFiChain-Nodes sind weltweit auf Rechenzentren in den USA, Kanada, Europa, Indien, Singapur und Australien verteilt.
       map:
         image: /static/svg/nodes-map.svg
     roadmap:
       headline: Roadmap
-      subhead: Erreichtes und worauf du dich freuen kannst.
+      subhead: Erreichtes und worauf du dich freuen kannst
       timeline:
         - year: 2022
           title: 2022
@@ -154,7 +154,7 @@ content:
                 alt: Desktop Lightwallet
             - month: Q2
               status: future
-              title: Wallet-Browsererweiterung
+              title: Wallet als Browsererweiterung
               image:
                 x1: /img/timeline/2022/Browser-Extension-Wallet2x.png
                 x2: /img/timeline/2022/Browser-Extension-Wallet2x.png
@@ -202,7 +202,7 @@ content:
                 alt: DFIP 3, 4, 5, 6
             - month: Jan.
               status: past
-              title: Transparenzbericht Q4 2020 veröffentlicht.
+              title: Transparenzbericht Q4 2020 veröffentlicht
               url: https://defichain.ghost.io/defichain-transparency-report-q4-2020/
               image:
                 x1: /img/timeline/2021/transparency-report.png
@@ -218,7 +218,7 @@ content:
                 alt: Messari listing
             - month: Jan.
               status: past
-              title: DeFiChain auf KuCoin gelistet.
+              title: DeFiChain auf KuCoin gelistet
               url: https://www.kucoin.com/news/en-defichain-gets-listed-on-kucoin?utm_source=DFI
               image:
                 x1: /img/timeline/2021/kucoin.png
@@ -274,7 +274,7 @@ content:
                 alt: New BCH-DFI pool pair
             - month: Mrz.
               status: past
-              title: Bitcoin-Verankerung implementiert.
+              title: Bitcoin-Verankerung implementiert
               url: https://defichain.ghost.io/100-grand-in-less-than-100-seconds/
               image:
                 x1: /img/timeline/2021/bitcoin-anchoring.png
@@ -304,7 +304,7 @@ content:
                 alt: Introduced Atomic Swap via Eunos Upgrade
             - month: Jun.
               status: past
-              title: Veröffentlichung der Open-Source-Bibliothek DeFiChain JS.
+              title: Veröffentlichung der Open-Source-Bibliothek DeFiChain JS
               url: https://github.com/defich/jellyfish/
               image:
                 x1: /img/timeline/2021/js-library.png
@@ -320,7 +320,7 @@ content:
                 alt: Atomic swap
             - month: Jun.
               status: past
-              title: DeFiChain Foundation aufgelöst.
+              title: DeFiChain Foundation aufgelöst
               url: https://blog.defichain.com/we-struck-off-the-foundation-long-live-the-decentralization/
               image:
                 x1: /img/timeline/2021/DFC-Foundation.png
@@ -336,12 +336,12 @@ content:
                 alt: Mobile app
             - month: Sep.
               status: past
-              title: Veröffentlichung von DeFi Scan, dem Block-Explorer der DeFiChain.
+              title: Veröffentlichung von DeFi Scan, dem Block-Explorer der DeFiChain
               url: https://defiscan.live/
               image:
                 x1: /img/timeline/2021/DeFi-Scan.png
                 x2: /img/timeline/2021/DeFi-Scan.png
-                alt: Release of DeFi Scan, the block explorer for DeFiChain.
+                alt: Release of DeFi Scan, the block explorer for DeFiChain
             - month: Okt.
               status: past
               title: 100 % klimaneutrale Blockchain.
@@ -355,13 +355,13 @@ content:
               image:
                 x1: /img/timeline/2021/Fort-Canning-Update-blank.png
                 x2: /img/timeline/2021/Fort-Canning-Update-blank.png
-                alt: Decentralized Assets and Liquidity Mining with dTokens via Fort Canning Upgrade.
+                alt: Decentralized Assets and Liquidity Mining with dTokens via Fort Canning Upgrade
         - year: 3y
           title: Within the next 3, 5 and 10 years
           events:
             - month: 3 Jahre
               status: future
-              title: Dezentraler Handel mit Hebeln (10x oder 50x Hebelung der Sicherheiten).
+              title: Dezentraler Handel mit Hebeln (10x oder 50x Hebelung der Sicherheiten)
               image:
                 x1: /img/timeline/3y/decentralized-leverage.png
                 x2: /img/timeline/3y/decentralized-leverage@2x.png
@@ -375,21 +375,21 @@ content:
                 alt: Decentralized Options
             - month: 3 Jahre
               status: future
-              title: Sekundärmarkt.
+              title: Sekundärmarkt
               image:
                 x1: /img/timeline/3y/secondary-market.png
                 x2: /img/timeline/3y/secondary-market@2x.png
                 alt: Secondary market
             - month: 3 Jahre
               status: future
-              title: Finanzderivate als native Onchain-Transaktionen implementiert.
+              title: Finanzderivate als native Onchain-Transaktionen implementiert
               image:
                 x1: /img/timeline/3y/derivatives.png
                 x2: /img/timeline/3y/derivatives@2x.png
                 alt: Financial derivatives
             - month: 3 Jahre
               status: future
-              title: Die De-facto-Blockchain für Peer-to-Peer-Finanztransaktionen.
+              title: Die De-facto-Blockchain für Peer-to-Peer-Finanztransaktionen
               image:
                 x1: /img/timeline/3y/p2p.png
                 x2: /img/timeline/3y/p2p@2x.png
@@ -403,14 +403,14 @@ content:
                 alt: ACH and RTGS
             - month: 5 Jahre
               status: future
-              title: Die De-facto-Blockchain für Transaktionen zwischen Finanzinstituten.
+              title: Die De-facto-Blockchain für Transaktionen zwischen Finanzinstituten
               image:
                 x1: /img/timeline/5y/xfi-txns.png
                 x2: /img/timeline/5y/xfi-txns@2x.png
                 alt: De-facto blockchain for cross-financial institutional transactions
             - month: 10 Jahre
               status: future
-              title: Die De-facto-Blockchain für Transaktionen zwischen Ländern und souveränen Staaten.
+              title: Die De-facto-Blockchain für Transaktionen zwischen Ländern und souveränen Staaten
               image:
                 x1: /img/timeline/10y/x-border-txns.png
                 x2: /img/timeline/10y/x-border-txns@2x.png
@@ -437,7 +437,7 @@ content:
                 alt: DFI on LATOKEN
             - month: Jun
               status: past
-              title: $DFI ist auf CoinPaprika gelistet.
+              title: $DFI ist auf CoinPaprika gelistet
               url: https://coinpaprika.com/coin/dfi-defi-chain/
               image:
                 x1: /img/timeline/2019/dfi-coinpaprika.png
@@ -532,7 +532,7 @@ content:
                 alt: Bayfront hard fork
             - month: Dez.
               status: past
-              title: Tauschen, Liquiditätspool und Yield Farming.
+              title: Tauschgeschäfte, Liquiditätspool und Yield Farming
               url: https://www.youtube.com/watch?v=0uBwWK85BLU
               image:
                 x1: /img/timeline/2020/liquidity-pool.png
