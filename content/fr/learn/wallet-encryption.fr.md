@@ -22,7 +22,7 @@ content:
 
 **Notice** : Le chiffrement de votre portefeuille via la console entraînera un changement de votre phrase mnémonique, ne comptez pas sur votre phrase mnémonique comme sauvegarde si vous suivez ce guide, faites plutôt une sauvegarde après avoir activé le chiffrement en utilisant des fichiers de sauvegarde et stockez-les dans un endroit sûr.
 
-Au moment de la rédaction de ce document, v2.1.4, l'application ne dispose pas encore d'une interface graphique intégrée pour faciliter le cryptage ou le verrouillage des portefeuilles. Cela peut constituer un risque sérieux car vos portefeuilles peuvent être compromis par toute personne ou système ayant accès à votre fichier `wallet.dat` dans votre dossier DeFi. 
+Au moment de la rédaction de ce document, v2.1.4, l'application ne dispose pas encore d'une interface graphique intégrée pour faciliter le chiffrement ou le verrouillage des portefeuilles. Cela peut constituer un risque sérieux car vos portefeuilles peuvent être compromis par toute personne ou système ayant accès à votre fichier `wallet.dat` dans votre dossier DeFi. 
 
 Comme le nœud DeFiChain est un fork de Bitcoin Core, il dispose d'un chiffrement de portefeuille hérité que vous êtes en mesure de gérer avec une relative facilité.
 
