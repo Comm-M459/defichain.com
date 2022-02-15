@@ -90,7 +90,7 @@ Pour un portefeuille non chiffré, `unlocked_until` est absent. Il n'afficherait
 
 ## Conseils
 
-1. Une fois que vous êtes sûr que votre portefeuille est bien crypté, assurez-vous de vous débarrasser de votre `wallet.dat` non crypté que vous avez fait une sauvegarde plus tôt. Vous n'en avez plus besoin.
+1. Une fois que vous êtes sûr que votre portefeuille est bien chiffré, assurez-vous de vous débarrasser de votre `wallet.dat` non chiffré que vous avez fait une sauvegarde plus tôt. Vous n'en avez plus besoin.
 
 2. Pour changer de mot de passe, utilisez `walletpassphrasechange "oldpassphrase" "newpassphrase"`.
 
