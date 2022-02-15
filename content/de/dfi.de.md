@@ -1,8 +1,8 @@
 ---
 title: $DFI
 type: dfi
-long_title: Learn about and acquire the $DFI coin. Join the DeFiChain Insiders.
-cta_to: More
+long_title: Lerne den $DFI - Coin kennen und erwirb ihn. Werde Mitglied der DeFiChain Insider
+cta_to: Mehr
 aliases:
   - /token/
   - /dfi-token/
@@ -12,10 +12,10 @@ menu:
   footer:
     weight: 200
 meta:
-  description: Learn about the $DFI coin and its utility, distribution, airdrops and how to acquire DFI. Join the DeFiChain Insiders.
+  description: Erfahre mehr über den $DFI - Coin und seinen Nutzen, die Verteilung, Airdrops und wie du DFI erwerben kannst. Werde Mitglied der DeFiChain Insider.
   og:
     title: $DFI
-    description: Learn about the $DFI coin and its utility, distribution, airdrops and how to acquire DFI. Join the DeFiChain Insiders.
+    description: Erfahre mehr über den $DFI - Coin und seinen Nutzen, die Verteilung, Airdrops und wie du DFI erwerben kannst. Werde Mitglied der DeFiChain Insider.
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -25,12 +25,12 @@ content:
     hero:
       name: hero
       headline: $DFI
-      subhead: Learn about and acquire the $DFI coin. Join the DeFiChain Insiders.
+      subhead: Lerne den $DFI - Coin kennen und erwirb ihn. Werde Mitglied der DeFiChain Insider.
     dfi_token:
       name: dfi-token
-      headline: $DFI coin
-      subhead: "The $DFI coin is an integral unit of account in DeFiChain. The DeFiChain Foundation issued roughly 600 million DFI on May 11<sup>th</sup>, 2020. The current circulating supply (with staking and liquidity mining) is available at [DeFiChain Explorer](http://explorer.defichain.io/)."
-      note: "Important: DeFi chain is a community project. There was/is no Initial Coin Offering, only free airdrops."
+      headline: $DFI - Coin
+      subhead: "Der $DFI - Coin ist eine integrale Rechnungseinheit der DeFiChain. Die DeFiChain Foundation hat am 11. Mai 2020 rund 600 Millionen DFI ausgegeben. Der aktuelle Umlaufbestand (mit Staking und Liquidity Mining) ist unter [DeFiChain Explorer] verfügbar.(http://explorer.defichain.io/)."
+      note: "Wichtig! DeFiChain ist ein Community-Projekt. Es gab/gibt kein Initial Coin Offering, sondern nur kostenlose Airdrops."
       image: /static/svg/physical-coin.svg
     stats:
       links:
@@ -45,26 +45,26 @@ content:
           description: See available exchanges at CoinMarketCap.
           url: ==PENDING==
     utility:
-      headline: $DFI coin utility
+      headline: Nutzen und Einsatzbereiche des $DFI - Coins
       utility_list:
         - icon: /static/svg/icons/utility/fees.svg
-          title: Fees
-          description: Pay for transactions, smart contracts and other DeFi activities.
+          title: Gebühren
+          description: Bezahlen für Transaktionen, Smart Contracts und andere DeFi-Aktivitäten
         - icon: /static/svg/icons/utility/collateral.svg
-          title: Loan collaterals
-          description: Lend or borrow using crypto assets as collateral.
+          title: Darlehens-Sicherheiten
+          description: Benutze Krypto-Assets als Sicherheiten, um zu leihen oder zu verleihen
         - icon: /static/svg/icons/utility/staking.svg
-          title: Staking nodes
-          description: Fund a new staking node for just 20,000 DFI.
+          title: Staking Nodes
+          description: Finanziere einen neuen Staking Node für nur 20.000 DFI
         - icon: /static/svg/icons/utility/dct.svg
-          title: DeFi Custom Token
-          description: Create a non-refundable personalised DCT (DeFi Custom Token).
+          title: DeFi Custom Token - Benutzerdefinierter Token
+          description: Erstelle einen nicht rückzahlbaren personalisierten DCT (DeFi Custom Token).
         - icon: /static/svg/icons/utility/budget.svg
-          title: Budget proposal
-          description: Submit a community budget proposal for 500 DFI (non-refundable).
+          title: Budgetvorschlag
+          description: Reiche einen Budgetvorschlag für die Community in Höhe von 500 DFI ein (nicht rückzahlbar).
         - icon: /static/svg/icons/utility/liquidity-pools.svg
-          title: Liquidity pools
-          description: Provide liquidity for the decentralized exchange between crypto assets.
+          title: Liquiditätspools
+          description: Bereitstellung von Liquidität für den dezentralen Austausch von Kryptowährungen.
     distribution:
       headline: Initial Token Distribution
       subhead: Of the 1.2 billion $DFI coins, 49% will be in the initial supply, with the rest issued to masternode holders over time.
