@@ -20,15 +20,15 @@ content:
       subhead: Comment chiffrer votre portefeuille via la console
 ---
 
-**Notice** : Le chiffrement de votre portefeuille via la console entraînera un changement de votre phrase mnémonique, ne comptez pas sur votre phrase mnémonique comme sauvegarde si vous suivez ce guide, faites plutôt une sauvegarde après avoir activé le chiffrement en utilisant des fichiers de sauvegarde et stockez-les dans un endroit sûr.
+**Avertissement** : Le chiffrement de votre portefeuille via la console entraînera un changement de votre phrase mnémonique. Ne comptez pas sur votre phrase mnémonique comme sauvegarde si vous suivez ce guide, faites plutôt une sauvegarde après avoir activé le chiffrement en utilisant des fichiers de sauvegarde et stockez-les dans un endroit sûr.
 
 Au moment de la rédaction de ce document, v2.1.4, l'application ne dispose pas encore d'une interface graphique intégrée pour faciliter le chiffrement ou le verrouillage des portefeuilles. Cela peut constituer un risque sérieux car vos portefeuilles peuvent être compromis par toute personne ou système ayant accès à votre fichier `wallet.dat` dans votre dossier DeFi. 
 
 Comme le nœud DeFiChain est un fork de Bitcoin Core, il dispose d'un chiffrement de portefeuille hérité que vous êtes en mesure de gérer avec une relative facilité.
 
-Ce guide montre comment vous pouvez effectuer le chiffrement et le déchiffrement du portefeuille, également connu sous le nom de verrouillage et déverrouillage du portefeuille par l'accès à la console disponible via l'application DeFi Wallet
+Ce guide montre comment vous pouvez effectuer le chiffrement et le déchiffrement du portefeuille, également connu sous le nom de verrouillage et déverrouillage du portefeuille par l'accès à la console disponible via l'application DeFi Wallet.
 
-**Disclaimer** : Vérifiez et comprenez toutes les commandes que vous vous apprêtez à saisir dans la console, en particulier celles provenant de sources non fiables. L'auteur de ce guide n'est pas responsable de toute perte de fonds.
+**Décharge de responsabilité** : Vérifiez et comprenez toutes les commandes que vous vous apprêtez à saisir dans la console, en particulier celles provenant de sources non fiables. L'auteur de ce guide n'est pas responsable de toute perte de fonds.
 
 ## 1. Sécuriser votre portefeuille
 
@@ -36,17 +36,17 @@ Ce guide montre comment vous pouvez effectuer le chiffrement et le déchiffremen
   `~/.defi/wallets` pour Linux
   `~/Library/Application Support/DeFi/wallets` pour Mac
   `<root>\Users\<username>\AppData\Roaming\DeFi Blockchain\wallets` pour Windows.
-  N'oubliez pas que ce fichier _n'est pas chiffré_ ! Gardez-le absolument en sécurité !
+  N'oubliez pas que ce fichier est _non chiffré_ ! Gardez-le absolument en sécurité !
 
-2. Pour sécuriser votre portefeuille pour la première fois, générez un mot de passe aléatoire long et agréable. À titre d'illustration, ce guide utilisera les phrases de passe suivantese `REMPLACER_CECI_PAR_UNE_LONGUE_PHRASE_DE_PASSE_SÉCURE`. Vous pouvez utiliser n'importe quel générateur de mot de passe aléatoire, idéalement hors ligne. Notez-la en toute sécurité.
+2. Pour sécuriser votre portefeuille pour la première fois, générez une phrase secrète aléatoire relativement longue mais facile à retenir pour vous. À titre d'illustration, ce guide utilisera les phrases secrètes suivantes `REMPLACER_CECI_PAR_UNE_LONGUE_PHRASE_SECRÈTE`. Vous pouvez utiliser n'importe quel générateur de mot de passe aléatoire, idéalement hors ligne. Notez-la en toute sécurité.
 
 3. Verrouillez votre portefeuille en tapant ce qui suit dans la console : 
 
     ```
-    encryptwallet REMPLACER_CECI_PAR_UNE_LONGUE_PHRASE_DE_PASSE_SÉCURE
+    encryptwallet REMPLACER_CECI_PAR_UNE_LONGUE_PHRASE_SECRÈTE
     ```
 
-    Cela devrait prendre quelques secondes et vous devriez voir un message `wallet encrypted`.  À partir de ce moment, votre portefeuille, c'est-à-dire `wallet.dat` sera chiffré par défaut. 
+    Cela devrait prendre quelques secondes et vous devriez voir un message `wallet encrypted`. À partir de ce moment, votre portefeuille, c'est-à-dire `wallet.dat`, sera chiffré par défaut. 
 
     Votre application DeFi fonctionnera comme d'habitude en affichage seul, et vos récompenses de liquidity mining DeFi afflueront comme d'habitude. Essayez d'envoyer des DFI ou DST, vous devriez maintenant voir le message suivant : `Add-on auth TX failed : Can't sign TX`. Cela montre que les clés de votre portefeuille sont maintenant chiffrées. Un pirate ayant accès à votre portefeuille à ce stade serait seulement capable de voir vos avoirs, mais incapable de les dépenser.
 
@@ -54,10 +54,10 @@ Ce guide montre comment vous pouvez effectuer le chiffrement et le déchiffremen
 
 Comme l'état de votre portefeuille est maintenant verrouillé et chiffré par défaut, vous devez maintenant déverrouiller votre portefeuille chaque fois que vous voulez effectuer une transaction, par exemple envoyer des DFI ou DST, effectuer un échange DEX, ajouter des liquidités, etc.
 
-Pour déverrouiller, allez à Console, et entrez :
+Pour déverrouiller, allez sur la console, et entrez :
 
 ```
-walletpassphrase REMPLACER_CECI_PAR_UNE_LONGUE_PHRASE_DE_PASSE_SÉCURE 60
+walletpassphrase REMPLACER_CECI_PAR_UNE_LONGUE_PHRASE_SECRÈTE 60
 ```
 
 Cela déverrouillera votre portefeuille pendant 60 secondes. Ensuite, il se remettra automatiquement en état de verrouillage.
@@ -92,6 +92,6 @@ Pour un portefeuille non chiffré, `unlocked_until` est absent. Il n'afficherait
 
 1. Une fois que vous êtes sûr que votre portefeuille est bien chiffré, assurez-vous de vous débarrasser de votre `wallet.dat` non chiffré que vous avez fait une sauvegarde plus tôt. Vous n'en avez plus besoin.
 
-2. Pour changer de mot de passe, utilisez `walletpassphrasechange "oldpassphrase" "newpassphrase"`.
+2. Pour changer de phrase secrète, utilisez `walletpassphrasechange "oldpassphrase" "newpassphrase"`.
 
 3. Les étapes décrites dans ce guide seront intégrées dans les futures versions de l'application DeFi Wallet. En outre, le support du portefeuille matériel via Ledger est également en cours de réalisation.
