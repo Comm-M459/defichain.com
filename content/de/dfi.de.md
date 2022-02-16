@@ -64,28 +64,28 @@ content:
           description: Reiche einen Budgetvorschlag für die Community in Höhe von 500 DFI ein (nicht rückzahlbar).
         - icon: /static/svg/icons/utility/liquidity-pools.svg
           title: Liquiditätspools
-          description: Bereitstellung von Liquidität für den dezentralen Austausch von Kryptowährungen.
+          description: Bereitstellung von Liquidität für den dezentralen Tausch von Kryptowährungen.
     distribution:
-      headline: Initial Token Distribution
-      subhead: Of the 1.2 billion $DFI coins, 49% will be in the initial supply, with the rest issued to masternode holders over time.
+      headline: Anfängliche Token-Verteilung
+      subhead: Von den 1,2 Milliarden $DFI Token befinden sich 49% in der Erstausgabe, der Rest wird im Laufe der Zeit an Masternode-Inhaber ausgegeben.
       chart:
-        initial_supply: Initial supply
-        masternodes: To masternodes over time
+        initial_supply: Anfangsbestand
+        masternodes: An die Masternodes im Laufe der Zeit
         defi_foundation: DeFiChain Foundation
-        external_partners: External Partners
-        caption: Of the initial supply, 49% will be kept by the DeFiChain Foundation. The rest may be distributed to external partners, to fund the initial development.
+        external_partners: Externe Partner
+        caption: Von der anfänglichen Menge bleiben 49% bei der DeFiChain Foundation. Der Rest kann an externe Partner verteilt werden, um die anfängliche Entwicklung zu finanzieren.
       image: /static/svg/initial-token-distribution.svg
     acquiring:
-      headline: Acquiring $DFI coins
-      subhead: $DFI coins will be issued to users and partners with an interest in utilizing and participating in the ecosystem.
+      headline: Erwerb von $DFI-Token
+      subhead: $DFI Token werden an Nutzer und Partner ausgegeben, die ein Interesse daran haben, das Ökosystem zu nutzen und daran teilzunehmen.
       exchanges:
         icon: /static/svg/icons/way-to-acquire/exchanges.svg
-        title: Exchanges
-        description: You can now purchase DFI at these select exchanges, with more exchanges to follow.
+        title: Exchanges/Börsen
+        description: Du kannst DFI jetzt an diesen ausgewählten Börsen kaufen, weitere Börsen werden folgen.
       staking_platforms:
         icon: /static/svg/icons/way-to-acquire/staking.svg
-        title: Staking platforms
-        description: DFI is now available at these select staking platforms.
+        title: Staking Plattformen
+        description: DFI ist jetzt bei diesen ausgewählten Staking Plattformen erhältlich.
         staking_platforms_list:
           - label: Cake DeFi
             url: https://pool.cakedefi.com
