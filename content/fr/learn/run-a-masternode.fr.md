@@ -22,15 +22,15 @@ content:
 
 ## Introduction
 
-L'installation d'un masternode sur DeFiChain vous permet de participer au protocole de consensus et de recevoir des récompenses de staking. Une chose à noter est que pour mettre en place un masternode, vous devez avoir un minimum de 20.000 DFI.
+L'installation d'un masternode sur DeFiChain vous permet de participer au protocole de consensus et de recevoir des récompenses de staking. Une chose à noter est que pour mettre en place un masternode, vous devez avoir un minimum de 20 000 DFI.
 
 _REMARQUE : Ce guide pratique nécessite une certaine familiarité avec le terminal Linux_
 
 ## Rôles des masternodes
-Il existe deux rôles distincts : "propriétaire du masternode" et "opérateur du masternode". Le propriétaire détient la garantie et l'activité principale (minter de nouvelles coins, voter pour les ancres) est réalisée par l'opérateur. En général, un nœud peut jouer les deux rôles.
+Il existe deux rôles distincts : "propriétaire du masternode" et "opérateur du masternode". Le propriétaire détient la garantie et l'activité principale (minter de nouvelles coins, voter pour les ancrages) est réalisée par l'opérateur. En général, un nœud peut jouer les deux rôles.
 
 ## Pour les propriétaires qui opèrent leurs propres masternodes
-Dans ce scénario, l'adresse de l'opérateur sera égale à l'adresse ( collatérale ) du propriétaire .
+Dans ce scénario, l'adresse de l'opérateur sera égale à l'adresse (garantie) du propriétaire .
 
 ### Étape 1 - Téléchargez et extrayez le logiciel de nœud.
 
@@ -88,17 +88,17 @@ où "address" est la nouvelle adresse du propriétaire que vous avez créée.
 
 ### Étape 5 - Inscrivez-vous en tant que masternode sur le réseau
 
-Afin de participer à l'algorithme de staking, vous devez diffuser au réseau que vous avez l'intention de participer, ceci peut être fait en exécutant une commande à l'aide du CLI de Defi, la commande est :
+Afin de participer à l'algorithme de staking, vous devez diffuser au réseau que vous avez l'intention de participer. Ceci peut être fait en exécutant une commande à l'aide du CLI de Defi, la commande est :
 
 ```
 ~/.defi/defi-cli createmasternode address
 ```
 
-où `address` pour l'opérateur et l'adresse collatérale doit être la nouvelle adresse legacy que vous avez créée. Veuillez noter que l'exécution de cette commande coûte 10 DFI.
+où `address` pour l'opérateur et l'adresse de garantie doit être la nouvelle adresse legacy que vous avez créée. Veuillez noter que l'exécution de cette commande coûte 10 DFI.
 
 ### Étape 6 - Configurer le masternode et redémarrer
 
-Nous avons presque fini, pour que le masternode fonctionne correctement, nous devons faire quelques changements de configuration. Le fichier de configuration se trouvera dans `~/.defi/defi.conf`. Assurons-nous que le fichier de configuration existe en exécutant `touch ~/.defi/defi.conf`. Maintenant ouvrez ce fichier de configuration dans l'éditeur de votre choix et ajoutez ce qui suit :
+Nous avons presque fini. Pour que le masternode fonctionne correctement, nous devons faire quelques changements de configuration. Le fichier de configuration se trouvera dans `~/.defi/defi.conf`. Assurons-nous que le fichier de configuration existe en exécutant `touch ~/.defi/defi.conf`. Maintenant ouvrez ce fichier de configuration dans l'éditeur de votre choix et ajoutez ce qui suit :
 
 ```
 gen=1
@@ -116,12 +116,12 @@ Nous pouvons confirmer que le masternode fonctionne en exécutant :
 ~/.defi/defi-cli listmasternodes
 ```
 
-recherchez l'adresse de votre masternode dans la liste des masternodes pour confirmer que vous avez bien tout configuré.
+Recherchez l'adresse de votre masternode dans la liste des masternodes pour confirmer que vous avez bien tout configuré.
 
 Vous pouvez exécuter la commande `getmasternodeblocks OPERATOR_ADDRESS` pour voir combien de blocs votre masternode a mintés jusqu'à présent.
 
 ## Pour les propriétaires qui souhaitent déléguer les tâches du masternode à un autre nœud
-Dans ce scénario, l'adresse de l'opérateur sera différente de l'adresse (collatéral) du propriétaire.
+Dans ce scénario, l'adresse de l'opérateur sera différente de l'adresse (garantie) du propriétaire.
 
 ### Étape 1-4 - Idem que ci-dessus
 
@@ -129,13 +129,13 @@ Effectuez les étapes 1 à 4 de la même manière que dans la section ci-dessus 
 
 ### Étape 5 - Inscrivez-vous en tant que masternode sur le réseau
 
-Afin de participer à l'algorithme de staking, vous devez diffuser au réseau que vous avez l'intention de participer, ceci peut être fait en exécutant une commande à l'aide du CLI de Defi, la commande est :
+Afin de participer à l'algorithme de staking, vous devez diffuser au réseau que vous avez l'intention de participer. Ceci peut être fait en exécutant une commande à l'aide du CLI de Defi, la commande est :
 
 ```
 ~/.defi/defi-cli createmasternode OWNER_ADDRESS OPERATOR_ADDRESS
 ``` 
 
-où `OWNER_ADDRESS` est l'adresse du nœud de collatéral/propriétaire et `OPERATOR_ADDRESS` est l'adresse de l'opérateur. Veuillez noter que l'exécution de cette commande coûte 10 DFI.
+où `OWNER_ADDRESS` est l'adresse du nœud de garantie/propriétaire et `OPERATOR_ADDRESS` est l'adresse de l'opérateur. Veuillez noter que l'exécution de cette commande coûte 10 DFI.
 
 Il n'y a rien à faire après cela, vous pouvez simplement vous assurer que votre opérateur de masternode exécute correctement le masternode de son côté en lui transmettant l'adresse de l'opérateur.
 
@@ -167,7 +167,7 @@ masternode_operator=OPERATOR_ADDRESS_2
 masternode_operator=OPERATOR_ADDRESS_3
 ```
 
-Lors de la prochaine exécution, le nœud commencera à monnayer pour tous les masternodes spécifiés. Il n'y a pas de limite stricte au nombre de masternodes qu'une seule machine peut exécuter.
+Lors de la prochaine exécution, le nœud commencera à minter pour tous les masternodes spécifiés. Il n'y a pas de limite stricte au nombre de masternodes qu'une seule machine peut exécuter.
 
 ## Démission de masternodes
 
@@ -188,9 +188,9 @@ Les masternodes peuvent exister dans ces statuts :
         PRE_BANNED,
         BANNED
 ```
-- `PRE_ENABLED` - le masternode a été créé, mais attend un nombre suffisant de blocs après la création pour être activé.
+- `PRE_ENABLED` - le masternode a été créé, mais attend un nombre suffisant de blocs après la création pour être activé
 - `ENABLED` - le masternode est en état de fonctionnement complet, peut minter des blocs et signer des ancrages
 - `PRE_RESIGNED` - le masternode est toujours opérationnel, mais a reçu une transaction 'resign' et attendra un délai spécial pour être résigné
-- `RESIGNED` - masternode résigné, collatéral déverrouillé et disponible pour être réclamé
+- `RESIGNED` - masternode résigné, garantie déverrouillée et disponible pour être réclamée
 - `PRE_BANNED` - le masternode a été pris comme un 'criminel' (il a signé deux blocs de forks parallèles sur des hauteurs proches et nous avons eu des tx de preuve spéciale sur la chaîne) mais il est toujours opérationnel (en attente, comme dans le cas de PRE_RESIGNED)
-- `BANNED` - masternode désactivé, collatéral déverrouillé et pouvant être récupéré (identique à RESIGNED, mais forcé par la désactivation)
+- `BANNED` - masternode désactivé, garantie déverrouillée et pouvant être récupérée (identique à RESIGNED, mais forcé par la désactivation)
