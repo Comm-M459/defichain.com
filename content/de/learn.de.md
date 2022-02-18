@@ -1,18 +1,18 @@
 ---
-title: Learn
+title: Mehr erfahren
 type: learn
-long_title: Learn more and understand DeFiChain with videos and how-to guides.
-cta_to: Learn
+long_title: Erfahre mehr und verstehe DeFiChain mit Videos und Anleitungen
+cta_to: Mehr erfahren
 menu:
   main:
     weight: 800
   footer:
     weight: 800
 meta:
-  description: Learn more and understand DeFiChain with videos and how-to guides.
+  description: Erfahre mehr und verstehe DeFiChain mit Videos und Anleitungen
   og:
     title: Token
-    description: Learn more and understand DeFiChain with videos and how-to guides.
+    description: Erfahre mehr und verstehe DeFiChain mit Videos und Anleitungen
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -21,68 +21,68 @@ content:
   sections:
     hero:
       name: hero
-      headline: Learn
-      subhead: Learn more and understand DeFiChain.
+      headline: Mehr erfahren
+      subhead: Erfahre mehr und verstehe DeFiChain
     featured_video:
-      headline: Videos on DeFiChain
+      headline: Videos über DeFiChain
       playlist:
         - id: ky0_3Brv-eI
-          title: DeFiChain and $DFI coin explained in 2 minutes
+          title: DeFiChain und $DFI-Coin in 2 Minuten erklärt
         - id: IGCgUSdiDF0
-          title: DeFi Chain and $DFI coin explained in detail
+          title: DeFiChain und $DFI-Coin im Detail erklärt
         - id: v113FEzhWqw
-          title: Decentralized Finance (DeFi) explained simply
+          title: Dezentrales Finanzsystem (DeFi) einfach erklärt
         - id: mUa29qe6Png
-          title: DeFiChain White Paper Walkthrough
+          title: DeFiChain White Paper Zusammenfassung
         - id: mukcJjGQcMM
-          title: Difference between Ethereum and DeFiChain
+          title: Unterschied zwischen Ethereum und DeFiChain
         - id: pwfduPilvkE
-          title: Tech Details of the New DeFiChain
+          title: Technische Details der neuen DeFiChain
     guides:
       name: guides
-      headline: How-to guides
+      headline: Anleitungen
       guides_list:
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: How to run a masternode.
-          label: Read guide
+          headline: Wie man einen Masternode betreibt
+          label: Anleitung lesen
           url: /learn/run-a-masternode
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: Installing and using DeFi desktop app (GUI).
-          label: Read guide
+          headline: Installieren und Verwenden der DeFi Wallet Desktop-App (GUI)
+          label: Anleitung lesen
           url: /learn/defi-app-how-to
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: How to encrypt your wallet via the console
-          label: Read guide
+          headline: So verschlüsselst du deine Wallet über die Konsole
+          label: Anleitung lesen
           url: /learn/wallet-encryption
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: Swap and arbitrage on the DeFi app DEX
-          label: Read guide
+          headline: Swap und Arbitrage auf der DEX mit Hilfe der DeFi-Wallet App 
+          label: Anleitung lesen
           url: /learn/swap-and-arbitrage
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: Obtaining wrapped BTC/ETH/USDT
-          label: Read guide
+          headline: Wrapped BTC/ETH/USDT erhalten
+          label: Anleitung lesen
           url: /learn/obtaining-wrapped-tokens
         - image: /static/svg/icons/icon-whitepaper.svg
-          headline: How to liquidity mine with DeFi app
-          label: Read guide
+          headline: Wie man mit der DeFi-Wallet App Liquiditäts-Mining betreibt
+          label: Anleitung lesen
           url: /learn/liquidity-mining-how-to
     faq:
       headline: FAQ
       faq_list:
-        - q: What is DeFi?
-          a: DeFi stands for Decentralized Finance. It describes the idea of not needing a trusted third-party to execute financial services, but with a blockchain in its place to enable people, and in the future, machines to become their own bank for these services, removing counterparty risks.
-        - q: What DeFi Services are there?
-          a: Any service offered by a bank can be decentralized. The first and most common service is issuing money. Bitcoin is a prime example of that. There are many others like consensus verification i.e. mining and staking, lending, exchanging, investing and more.
-        - q: What is the DeFi Chain?
-          a: DeFi services run on blockchain technology. The DeFi Chain was created exactly for DeFi Services, while providing the optimal infrastructure for security, speed, and access, to name a few.
-        - q: Why not use the Bitcoin blockchain?
-          a: The Bitcoin blockchain was created for a single specific financial service – the decentralized and censorship-resistant store of value used as a medium of exchange, and perhaps a unit of account in the future. It does this better than other blockchains. However, beyond that, it lacks technical capabilities necessary for the infrastructure of other DeFi services.
-        - q: Why not use the Ethereum blockchain?
+        - q: Was bedeutet DeFi?
+          a: DeFi steht für Dezentrales Finanzsystem. Es beschreibt die Idee, dass man für die Ausführung von Finanzdienstleistungen keinen vertrauenswürdigen Dritten braucht, sondern eine Blockchain, die Menschen und in Zukunft auch Maschinen in die Lage versetzt, ihre eigene Bank für diese Dienstleistungen zu werden und das Kontrahentenrisiko zu beseitigen.
+        - q: Welche DeFi-Dienste gibt es?
+          a: Jede von einer Bank angebotene Dienstleistung kann dezentralisiert werden. Die erste und häufigste Dienstleistung ist die Ausgabe von Geld. Bitcoin ist ein Paradebeispiel dafür. Es gibt noch viele weitere Dienste wie die Konsensverifizierung, d.h. Mining und Staking, Darlehen, Tauschgeschäfte, Kapitalanlagen und vieles mehr.
+        - q: Was versteht man unter der DeFiChain?
+          a: Die DeFi-Dienste laufen auf der Blockchain-Technologie. Die DeFi Chain wurde genau für die DeFi-Dienste entwickelt und bietet die optimale Infrastruktur für Sicherheit, Geschwindigkeit und Zugang, um nur einige zu nennen.
+        - q: Warum nicht die Bitcoin-Blockchain nutzen?
+          a: Die Bitcoin-Blockchain wurde für eine einzige spezifische Finanzdienstleistung geschaffen - als dezentraler und zensurresistenter Wertespeicher, der als Tauschmittel und in Zukunft vielleicht auch als Rechnungseinheit verwendet wird. Das kann sie besser als andere Blockchains. Darüber hinaus fehlt es ihr jedoch an technischen Fähigkeiten, die für die Infrastruktur anderer DeFi-Dienste notwendig sind.
+        - q: Warum nicht die Ethereum-Blockchain nutzen?
           a: Ethereum was meant to be a general-purpose platform. In principle, one could do anything with Ethereum, rendering it the jack of all trades but master of none. Problems such as the DAO and parity hack reveal the challenge to keep smart contracts secure, due to their general and universal nature.
-        - q: What is DFI?
-          a: DFI is the DeFi chain native token needed to execute code. It is also used for governance.
-        - q: Where can I learn more about DeFi, the DeFi Chain and DFI?
-          a: We publish informational and educational content on DeFi. Follow us on our social media or join our mailing list to be the first to receive new content.
+        - q: Was ist DFI?
+          a: DFI ist der native DeFiChain-Token, der zum Ausführen von Code benötigt wird. Er wird auch für die Governance verwendet.
+        - q: Wo kann ich mehr über DeFi, die DeFiChain und DFI erfahren?
+          a: Wir veröffentlichen Informations- und Bildungsinhalte über DeFi. Folge uns auf unseren sozialen Medien oder trage dich in unsere Mailingliste ein, um neue Infos als Erster zu erhalten.
     #white paper in /
     #subscribe in /
     #closer_look in /
