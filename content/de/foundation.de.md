@@ -1,7 +1,7 @@
 ---
 title: Foundation
 type: foundation
-long_title: Erfahre, wie die DeFiChain Foundation funktioniert und wie du dich engagieren kannst.
+long_title: Erfahre, wie die DeFiChain Foundation funktioniert und wie du dich engagieren kannst
 aliases:
     - /imprint/
 cta_to: Explore
@@ -9,9 +9,9 @@ menu:
   footer:
     weight: 100
 meta:
-  description: Erfahre, wie die DeFiChain Foundation funktioniert und wie du dich engagieren kannst.
+  description: Erfahre, wie die DeFiChain Foundation funktioniert und wie du dich engagieren kannst
     title: Foundation
-    description: Erfahre, wie die DeFiChain Foundation funktioniert und wie du dich engagieren kannst.
+    description: Erfahre, wie die DeFiChain Foundation funktioniert und wie du dich engagieren kannst
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -21,7 +21,7 @@ content:
   sections:
     hero:
       headline: Foundation
-      subhead: Erfahre, wie die DeFiChain Foundation funktioniert und wie du dich engagieren kannst.
+      subhead: Erfahre, wie die DeFiChain Foundation funktioniert und wie du dich engagieren kannst
     governance:
       headline: Leitung
       subhead: Die DeFiChain Foundation ist für die Ausgabe von Token an Nutzer und Gruppen zuständig, um die Akzeptanz zu beschleunigen. Die Foundation hat die Aufgabe, das Ökosystem zu fördern, Ökosystempartner einzubinden, die Entwicklung von Tools für Ökosystempartner zu leiten und andere Aktivitäten durchzuführen, um die Zahl der Ökosystempartner zu steigern.
