@@ -1,16 +1,16 @@
 ---
-title: Media
+title: Medien
 type: media
-long_title: DeFiChain and $DFI coin in the news and media.
+long_title: DeFiChain und $DFI-Coin in den Nachrichten und Medien
 cta_to: Read
 menu:
   footer:
     weight: 700
 meta:
-  description: DeFiChain and $DFI coin in the news and media. Download media resources and assets.
+  description: DeFiChain und $DFI-Coin in den Nachrichten und Medien. Medieninhalte und Materialien herunterladen
   og:
-    title: Media
-    description: DeFiChain and $DFI coin in the news and media. Download media resources and assets.
+    title: Medien
+    description: DeFiChain und $DFI-Coin in den Nachrichten und Medien. Medieninhalte und Materialien herunterladen
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -20,10 +20,10 @@ content:
   sections:
     hero:
       name: hero
-      headline: Media
-      subhead: Media resources and assets.
+      headline: Medien
+      subhead: Medieninhalte und Materialien
     mentions:
-      headline: DeFiChain covered in the press and media.
+      headline: DeFiChain in der Presse und den Medien
       mentions_list:
         
         - title: To Secure a Sustainable Future for DeFi, We Need to Look Beyond Ethereum
@@ -193,26 +193,26 @@ content:
         #   url: https://www.krypto-magazin.de/dr-julian-hosp-im-interview-defi-cake-defi-blockchain/
     downloads:
       headline: "Downloads"
-      description: Download official DeFiChain brand assets and learn about usage guidelines.
+      description: Lade die offiziellen DeFiChain Markenzeichen herunter und informiere dich über die Nutzungsrichtlinien
       downloads_list:
-        - title: DeFiChain logo
-          description: The official and default logo.
+        - title: Logo der DeFiChain 
+          description: Das offizielle Standardlogo
           image: /static/downloads/logo-defi-blockchain.svg
           links:
             - label: SVG
               url: /downloads/logo-defi-blockchain.svg
             - label: PNG
               url: /downloads/logo-defi-blockchain.png
-        - title: The DeFi jellyfish
-          description: Useful when space is constrained.
+        - title: Die DeFi-Qualle
+          description: Nützlich, wenn nur wenig Platz zur Verfügung steht
           image: /static/downloads/symbol-defi-blockchain.svg
           links:
             - label: SVG
               url: /downloads/symbol-defi-blockchain.svg
             - label: PNG
               url: /downloads/symbol-defi-blockchain.png
-        - title: DFI 3D coin
-          description: Available as SVG and PNG. 3D-printable file coming soon.
+        - title: DFI 3D-Coin
+          description: Verfügbar als SVG und PNG. 3D-druckbare Datei folgt in Kürze
           image: /static/downloads/coin-defi-blockchain.svg
           links:
             - label: SVG
@@ -220,7 +220,7 @@ content:
             - label: PNG
               url: /downloads/coin-defi-blockchain.png
         - title: Built-on-Bitcoin
-          description: Available as SVG and PNG.
+          description: Verfügbar als SVG und PNG
           image: /static/downloads/built-on-bitcoin.svg
           links:
             - label: SVG
@@ -228,23 +228,23 @@ content:
             - label: PNG
               url: /downloads/built-on-bitcoin.png
     submission:
-      headline: Get in touch with media relations.
+      headline: Nimm Kontakt mit der Medienabteilung auf
       form:
         name:
           label: Name
-          placeholder: Full Name
+          placeholder: Vollständiger Name
         email:
           label: Email
-          placeholder: name@example.com
+          placeholder: name@beispiel.com
         company:
-          label: Company (optional)
-          placeholder: Your company name
+          label: Firma (optional)
+          placeholder: Dein Firmenname
         comment:
-          label: Comments
-          placeholder: Want to submit an article or request for press content and resources? Tell us more.
+          label: Kommentare
+          placeholder: Willst du einen Artikel einreichen oder Presseinhalte und Ressourcen anfordern? Teile uns mehr mit
         button:
-          label: Send
-      or: You can also email us for further information at [media@defichain.com](mailto:media@defichain.com).
+          label: Senden
+      oder: Für weitere Informationen kannst du uns auch eine E-Mail schicken an [media@defichain.com](mailto:media@defichain.com).
     #subscribe in /
     #closer_look in /
 ---
