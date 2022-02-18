@@ -1,7 +1,7 @@
 ---
-title: Ecosystem
+title: Das Ökosystem
 type: ecosystem
-long_title: Be part of DeFiChain ecosystem.
+long_title: Werde Teil des DeFiChain Ökosystems
 aliases:
     - /partners
 cta_to: Join
@@ -11,10 +11,10 @@ menu:
   footer:
     weight: 500
 meta:
-  description: Be part of DeFiChain ecosystem.
+  description: Werde Teil des DeFiChain Ökosystems
   og:
-    title: Ecosystem
-    description: Be part of DeFiChain ecosystem.
+    title: Das Ökosystem
+    description: Sei Teil des DeFiChain Ökosystems
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -23,72 +23,72 @@ content:
   sections:
     hero:
       name: hero
-      headline: Ecosystem
-      subhead: Be part of DeFiChain ecosystem.
+      headline: Das Ökosystem
+      subhead: Sei Teil des DeFiChain Ökosystems
     contributors:
       name: contributor
-      headline: Contribute to DeFiChain
+      headline: An DeFiChain mitwirken
       become_developer:
-        headline: Become a _developer_
-        description: Learn how you can build on DeFiChain and use $DFI coin.
+        headline: Werde ein _Entwickler_
+        description: Erfahre, wie du auf DeFiChain aufbauen und den $DFI-Coin nutzen kannst
         cta:
-          label: Developers
+          label: Entwickler/innen
           url: /developers
       become_partner:
-        headline: Become a _service provider_
-        description: Tell us how you would like to contribute to the ecosystem.
+        headline: Werde ein _Serviceanbieter_
+        description: Teile uns mit, wie du zum Ökosystem beitragen möchtest.
         cta:
-          label: Contact us
+          label: Kontakt
     partners:
-      headline: Partners
+      headline: Partner
       partners_list:
         - name: Cake DeFi
-          description: Stake DFI and receive DFI as rewards when using Cake DeFi.
+          description: Setze DFI ein und erhalte DFI als Rewards, indem du Cake DeFi benutzt.
           logo:
             file: /svg/external/logo-cake
             type: svg
           cta:
-            label: Go to
+            label: Weiter zu
             url: https://cakedefi.com
-        - name: Staking Rewards
-          description: DeFiChain (DFI) interest calculator and current rates.
+        - name: Rewards fürs Staking
+          description: DeFiChain (DFI) Zinsrechner und aktuelle Zinssätze.
           logo:
             file: /svg/external/logo-stakingrewards
             type: svg
           cta:
-            label: Go to
+            label: Weiter zu
             url: https://www.stakingrewards.com/earn/defichain
         - name: Blockspot.io
-          description: DeFiChain (DFI) price, graph, data and info on Blockspot.io.
+          description: DeFiChain (DFI) Kurs, Grafik, Daten und Infos auf Blockspot.io
           logo:
             file: /img/external/logo-blockspot
             type: png
           cta:
-            label: Go to
+            label: Weiter zu
             url: https://blockspot.io/coin/defichain/
         - name: Blockfolio
-          description: Watch DFI on the Blockfolio Signal platform.
+          description: Beobachte DFI auf der Plattform Blockfolio Signal.
           logo:
             file: /svg/external/logo-blockfolio
             type: svg
           cta:
-            label: Go to
+            label: Weiter zu
             url: https://blockfolio.com/coin/DFI
         - name: CoinPedia
-          description: Trusted Crypto Agency for Information related to Decentralized World.
+          description: Verlässliche Kryptoagentur für Informationen über die dezentrale Welt
           logo:
             file: /img/external/logo-coinpedia
             type: png
           cta:
-            label: Go to
+            label: Weiter zu
             url: https://pro.coinpedia.org/companies/defichain
         - name: Messari
-          description: Data tools that bring transparency to the cryptoeconomy.
+          description: Datentools, die Transparenz in die Kryptowirtschaft bringen.
           logo:
             file: /svg/external/logo-messari
             type: svg
           cta:
-            label: Go to
+            label: Weiter zu
             url: https://messari.io/asset/defichain
     featured_video:
       video: IGCgUSdiDF0
@@ -97,23 +97,23 @@ content:
       subject_title: CEO, Cake
       quote: Healthy finances. For someone like me with a background in medicine, sounds like _doing the right thing for the people_.
     partnering:
-      headline: Tell us how you would like to contribute to the DeFiChain ecosystem.
+      headline: Teile uns mit, wie du zum DeFiChain-Ökosystem beitragen möchtest
       form:
         name:
           label: Name
-          placeholder: Full Name
+          placeholder: Vollständiger Name
         email:
           label: Email
-          placeholder: name@example.com
+          placeholder: name@beispiel.com
         company:
-          label: Company
-          placeholder: Your company name
+          label: Firma
+          placeholder: Dein Firmenname
         comment:
-          label: Comments
-          placeholder: Tell us more
+          label: Kommentare
+          placeholder: Mehr mitteilen
         button:
-          label: Send
-      or: You can also email us for further information at [partners@defichain.com](mailto:partners@defichain.com).
+          label: Senden
+      or: YFür weitere Informationen kannst du uns auch eine E-Mail schicken an [partners@defichain.com](mailto:partners@defichain.com).
     #subscribe in /
     #closer_look in /
 ---
