@@ -244,7 +244,7 @@ content:
           placeholder: Willst du einen Artikel einreichen oder Presseinhalte und Ressourcen anfordern? Teile uns mehr mit
         button:
           label: Senden
-      oder: Für weitere Informationen kannst du uns auch eine E-Mail schicken an [media@defichain.com](mailto:media@defichain.com).
+      oder: Für weitere Informationen kannst du uns auch eine Email schicken an [media@defichain.com](mailto:media@defichain.com).
     #subscribe in /
     #closer_look in /
 ---
