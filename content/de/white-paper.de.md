@@ -181,34 +181,34 @@ Bitcoin wird zunehmend als Wertaufbewahrungsmittel angesehen und gilt als Standa
 Aus diesem Grund stellt die Entwicklung dezentraler Finanzdienstleistungen rund um Bitcoin eine enorme Chance dar, die bisher nicht genutzt wurde. Das liegt zum einen an der Schwierigkeit, Smart Contracts zu erstellen, die mit dem Bitcoin-Netzwerk funktionieren, und zum anderen an der Aufsplitterung der Entwicklergemeinschaft in viele Nebenprojekte. Wir glauben, dass diese Tendenz der Entwicklergemeinschaft, sich auf die neuesten Entwicklungen zu stürzen, die Aufmerksamkeit vom eigentlichen Thema ablenkt: Bitcoin ist hier, um zu bleiben. 
 Daher glauben wir, dass der Aufbau einer DeFi Blockchain auf Bitcoin das Beste aus beiden Welten bringen würde: die Stabilität und Unveränderlichkeit von Bitcoin und die Skalierbarkeit und Funktionalität der DeFi-Chain.
 
-### Building on Top of Bitcoin
+### Auf Bitcoin bauen
 
-One of the major challenges in new blockchains is creating the robust immutability available after a critical mass of users and blocks secure the chain. To provide immediate security and immutability of the blockchain, DeFiChain will be anchoring itself to the bitcoin blockchain. Every few minutes, DeFiChain saves its most recent Merkle tree to the Bitcoin blockchain, similar to how Rootstock (Turing Complete Smart contracts secured by Bitcoin https://www.rsk.co/) is planning on connecting to Bitcoin. In this fashion, the most recent chain is always fully secure and immutable, and can be checked against the most recent record anchored to Bitcoin. Over time, DeFiChain will space out the anchors at larger intervals. This anchoring mechanism ensures provably immutable records from day one and defends against attacks, hackers and vulnerabilities that can cause concern in emerging chains.
+Eine der größten Herausforderungen bei neuen Blockchains ist es, eine robuste Unveränderlichkeit zu schaffen, nachdem eine kritische Masse an Nutzern und Blöcken die Chain gesichert hat. Um sofortige Sicherheit und Unveränderlichkeit der Blockchain zu gewährleisten, wird sich DeFiChain an der Bitcoin-Blockchain verankern. Alle paar Minuten speichert DeFiChain seinen neuesten Merkle-Tree in der Bitcoin-Blockchain, ähnlich wie Rootstock (Turing-Complete Smart Contracts, gesichert durch Bitcoin https://www.rsk.co/) eine Verbindung zu Bitcoin plant. Auf diese Weise ist die neueste Chain immer vollständig sicher und unveränderlich und kann mit dem letzten in Bitcoin verankerten Datensatz abgeglichen werden. Mit der Zeit wird DeFiChain die Verankerungen in größeren Abständen verteilen. Dieser Verankerungsmechanismus gewährleistet vom ersten Tag an nachweislich unveränderliche Aufzeichnungen und schützt vor Angriffen, Hackern und Schwachstellen, die bei entstehenden Chains Anlass zur Sorge geben können.
 
-At the same time DeFiChain keeps its own consensus mechanism and function set, allowing for all those characteristics that Bitcoin does not inherently have. This is achieved by DeFiChain being a dedicated non-Turing-complete blockchain, designed specifically for the decentralized finance (DeFi) industry built on top of Bitcoin. DeFiChain provides full functionality for this specific segment of the DLT community, sacrificing other types of functionality for simplicity, rapid throughput and security.
-DeFiChain utilizes a completely decentralized Proof-of-Stake mechanism allowing for:
+Gleichzeitig behält DeFiChain seinen eigenen Konsens-Mechanismus und Funktionsumfang bei und ermöglicht so all die Eigenschaften, die Bitcoin von Natur aus nicht hat. Dies wird dadurch erreicht, dass DeFiChain eine dedizierte, nicht Turing-Complete Blockchain ist, die speziell für das dezentrale Finanzsystem (DeFi) entwickelt wurde, das auf Bitcoin aufbaut. DeFiChain bietet die volle Funktionalität für dieses spezielle Segment der DLT-Community und verzichtet zugunsten von Einfachheit, schnellem Durchsatz und Sicherheit auf andere Funktionen.
+DeFiChain nutzt einen vollständig dezentralen Proof-of-Stake-Mechanismus, der Folgendes ermöglicht:
 
-- a massive scalable and energy conserving consensus.
-- fast transactions and high security
-- ability to create a variety of DeFi apps based on one chain, rapidly and with very low attack surface
-- multi-token support on one chain through decentralized wrapped token technology. 
-- decentralized governance
-- independence of other financial systems and financial instruments.
-- fully liquid investments with no minimum size of investments, and no minimum lock-up periods
+- Einen massiv skalierbaren und energiesparenden Konsens
+- Schnelle Transaktionen und hohe Sicherheit
+- Die Fähigkeit, eine Vielzahl von DeFi-Apps auf Basis einer Chain schnell und mit sehr geringer Angriffsfläche zu erstellen
+- Unterstützung mehrerer Token auf einer Chain durch dezentrale Wrapped-Token-Technologie. 
+- Dezentralisierte Verwaltung, Governance genannt
+- Unabhängigkeit von anderen Finanzsystemen und Finanzinstrumenten
+- Vollständig liquide Investitionen ohne Mindestgröße und ohne Mindestlaufzeiten
 
-Unlike Ethereum or other turing-complete blockchains, DeFiChain is not a general-purpose blockchain, and commands outside the basic set of functions are not allowed. Limiting the allowed commands on purpose provides a dramatically reduced attack surface for smart contracts, eliminating the obvious breaches that are made possible when programmers need to design complex coding for these functions. The details of these will be described in the next section.
+Im Gegensatz zu Ethereum oder anderen Turing-Complete Blockchains ist DeFiChain keine Allzweck-Blockchain und Befehle, die über den grundlegenden Funktionssatz hinausgehen, sind nicht erlaubt. Durch die absichtliche Beschränkung der erlaubten Befehle wird die Angriffsfläche für Smart Contracts drastisch reduziert und die offensichtlichen Sicherheitslücken werden vermieden, die entstehen, wenn Programmierer komplexe Codes für diese Funktionen entwickeln müssen. Die Details dazu werden im nächsten Abschnitt beschrieben.
 
-### Benefits of DeFiChain: Summary
+### Vorteile von DeFiChain: Zusammenfassung
 
-- Development of a variety of financial operations & vehicles for cryptocurrency economy.
-- High throughput for all transactions
-- Safer, more secure blockchain specifically for decentralized finance..
-- Rapid development of dApps for decentralized finance.
-- Peace of mind that the blockchain is not used for any types of non-financial dApps, thus decisions of Foundation and core developers are focused 100% on decentralized financial use-cases and nothing else.
-- Rapid development of dApps with dedicated calls specifically for finance applications.
-- Minimal attack surface of financial smart contracts developed on the platform.
-- Reliable governance (off-chain and on-chain).
-- Highly immutable – by periodic anchoring to Bitcoin blockchain.
+- Entwicklung einer Vielzahl von Finanzoperationen und -instrumenten für die Kryptowährungswirtschaft
+- Hoher Durchsatz für alle Transaktionen
+- Sichere Blockchain speziell für dezentrale Finanzsysteme
+- Schnelle Entwicklung von dApps für dezentrale Finanzsysteme
+- Die Gewissheit, dass die Blockchain nicht für dApps verwendet wird, die nicht dem Finanzbereich zuzuordnen sind. Daher konzentrieren sich die Entscheidungen der Foundation und der Core-Entwickler zu 100 % auf dezentrale finanzielle Anwendungsfälle und nichts anderes.
+- Schnelle Entwicklung von dApps mit eigenen Funktionen speziell für Finanzanwendungen
+- Minimale Angriffsfläche der auf der Plattform entwickelten Finanz-Smart Contracts
+- Verlässliche Governance (off-chain und on-chain)
+- Höchste Unveränderlichkeit - durch periodische Verankerung in der Bitcoin-Blockchain.
 
 ### Initial dAppSets
 
