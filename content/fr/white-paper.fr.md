@@ -178,7 +178,7 @@ Malgré cela, nos perspectives sur le bitcoin en particulier sont extrêmement o
 Le bitcoin est de plus en plus considéré comme une réserve de valeur, et il est perçu comme la norme par rapport à laquelle les autres crypto-monnaies sont mesurées. Bien que les portefeuilles des particuliers varient considérablement, le bitcoin reste la monnaie standard que presque tous les investisseurs en crypto-monnaies détiennent comme une partie importante de leurs avoirs. La formidable communauté et l'écosystème qui entourent le bitcoin sont de bon augure pour sa viabilité à long terme en tant que réserve de valeur.
 
 Pour cette raison, la création de services financiers décentralisés autour de Bitcoin représente une opportunité formidable qui n'a pas encore été exploitée, en partie à cause de la difficulté de créer des contrats intelligents qui fonctionnent avec le réseau Bitcoin, et en partie à cause de l"éclatement de la communauté de développement vers de nombreux projets secondaires. Nous pensons que cette tendance de la communauté de développement à se jeter sur les développements les plus récents fait oublier l'essentiel : Bitcoin est là pour rester. 
-Ainsi, nous pensons que la construction d'une blockchain DeFiChain au-dessus de Bitcoin apporterait le meilleur des deux mondes : la stabilité et l'immutabilité de Bitcoin et l'évolutivité et l'utilitié de la DeFi.
+Ainsi, nous pensons que la construction d'une blockchain DeFiChain au-dessus de Bitcoin apporterait le meilleur des deux mondes : la stabilité et l'immutabilité de Bitcoin et l'évolutivité et l'utilitié de la chaine DeFi.
 
 ### Construire sur le bitcoin
 
