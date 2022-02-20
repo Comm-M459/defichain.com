@@ -210,70 +210,70 @@ Im Gegensatz zu Ethereum oder anderen Turing-Complete Blockchains ist DeFiChain 
 - Verlässliche Governance (off-chain und on-chain)
 - Höchste Unveränderlichkeit - durch periodische Verankerung in der Bitcoin-Blockchain.
 
-### Initial dAppSets
+### Erste dApp-Sets
 
-- The initial function set includes:
-- Decentralized lending
-- Decentralized wrapping of tokens
-- Decentralized pricing oracles
-- Decentralized exchanges
-- Transferable debts and receivables 
-- Decentralized non-collateralized debt
-- Asset tokenization
-- Distribution of dividends
+- Das anfängliche Funktionsset umfasst:
+- Dezentrale Darlehen
+- Dezentrales Wrapping von Token
+- Dezentrale Preisorakel
+- Dezentrale Tauschgeschäfte
+- Übertragbare Schulden und Forderungen 
+- Dezentrale nicht besicherte Schulden
+- Tokenisierung von Assets
+- Ausschüttung von Dividenden
 
-This chapter provides an overview of each of these functions and the following chapter covers the technical details in how this is achieved.
+Dieses Kapitel gibt einen Überblick über jede dieser Funktionen und das folgende Kapitel behandelt die technischen Details, wie dies umgesetzt wird.
 
-### Decentralized Lending
+### Dezentrale Darlehensvergabe
 
-Decentralized lending allows individuals and groups to borrow and lend without the intervention of a bank. Through collateralized systems, decentralized lending on Ethereum reached over a quarter of a billion dollars in 2018.
+Die dezentrale Darlehensvergabe ermöglicht es Einzelpersonen und Gruppen, ohne die Beteiligung einer Bank Kredite aufzunehmen und zu vergeben. Durch besicherte Systeme erreichte die dezentrale Darlehensvergabe auf Ethereum im Jahr 2018 mehr als eine Viertelmilliarde Dollar.
 
-All of these systems are based on Ethereum, meaning they are addressing only 15% of the market based on market capitalization. The DeFi platform will be addressing the entire 100% of the market by leading with Bitcoin, but also including the entire market through wrapping and pooling as described below.
+Alle diese Systeme basieren auf Ethereum, was bedeutet, dass sie nur 15% des Marktes, gemessen an der Marktkapitalisierung, abdecken. Die DeFi-Plattform wird die gesamten 100% des Marktes ansprechen, indem sie mit Bitcoin führend ist, aber auch den gesamten Markt durch Wrapping und Pooling einbezieht, wie unten beschrieben.
 
-The major decentralized lending platforms (Compound, Dharma, dYdX, and Maker) provide lending at rates ranging from 0.5% through 6%. Because everything is managed through smart contracts, the overhead of banks is eliminated, and the platforms are able to provide much better rates than banks. As these types of decentralized lending services become safer, it’s likely the market will also see an increase in peer-to-peer lending opportunities through dedicated applications.
+Die großen dezentralen Darlehensvergabe-Plattformen (Compound, Dharma, dYdX und Maker) bieten Kredite zu Zinssätzen zwischen 0,5 und 6 % an. Da alles über Smart Contracts verwaltet wird, entfällt der Verwaltungsaufwand der Banken, und die Plattformen sind in der Lage, viel bessere Zinssätze als Banken anzubieten. Da diese Art der dezentralen Darlehensvergabe immer sicherer wird, ist es wahrscheinlich, dass auch die Möglichkeiten der Peer-to-Peer-Kreditvergabe durch eigens entwickelte Anwendungen steigen werden.
 
-The power of decentralized lending lies in the market efficiencies available by eliminating the middlemen and administration involved in lending. Furthermore, with investors concerned about minimal or even negative interest rates, decentralized lending protects the investors from that potentiality, providing market rate interest while giving borrowers better rates than they can get in the existing financial markets. Given the magnitude of credit and the role it plays in the economy as a whole, decentralized lending offers the potential for many more initiatives to borrow money based on open markets and favorable conditions. Easier access to lending translates into a faster-growing economy.
+Die Stärke der dezentralen Darlehensvergabe liegt in der Markteffizienz, die durch den Wegfall von Zwischenhändlern und Verwaltungsaufwand bei der Darlehensvergabe entsteht. Darüber hinaus schützt die dezentrale Darlehensvergabe die Investoren vor der Gefahr minimaler oder sogar negativer Zinsen, indem sie ihnen marktübliche Zinsen bietet, während sie den Kreditnehmern bessere Konditionen einräumt, als sie auf den bestehenden Finanzmärkten erhalten können. Angesichts des Umfangs von Krediten und der Rolle, die sie in der Wirtschaft insgesamt spielen, bietet die dezentrale Darlehensvergabe das Potenzial für viel mehr Vorhaben, sich auf der Grundlage offener Märkte und günstiger Bedingungen Geld zu leihen. Ein leichterer Zugang zu Krediten führt zu einer schneller wachsenden Wirtschaft.
 
-Initial implementations of decentralized lending are fully collateralized, and because of the volatility of cryptocurrency, most platforms require double or more collateral on loans. This allows people to take loans based on cryptocurrency they hold. They can manage their cash flow problems without having to sell their crypto holdings, and meanwhile get favorable conditions on the loan. 
+Die ersten Implementierungen der dezentralen Darlehensvergabe sind vollständig besichert, und aufgrund der Volatilität von Kryptowährungen verlangen die meisten Plattformen doppelte oder mehr Sicherheiten für Darlehen. Dies ermöglicht es den Menschen, Darlehen auf der Grundlage der von ihnen gehaltenen Kryptowährung aufzunehmen. Sie können ihre Cashflow-Probleme in den Griff bekommen, ohne ihre Kryptobestände verkaufen zu müssen, und erhalten gleichzeitig günstige Konditionen für das Darlehen. 
 
-### Decentralized Wrapping of Tokens
+### Dezentrales Wrapping von Token
 
-An important issue for DeFi is the ability to work with a variety of cryptoassets, directly, on-chain. While the transaction on the chain is done via the native $DFI coin, DeFiChain can use Bitcoin, Ethereum, ERC-20, or any other cryptoasset through wrapping.
+Ein wichtiges Element bei DeFi ist die Fähigkeit, mit einer Vielzahl von Kryptoassets direkt auf der Chain zu arbeiten. Während die Transaktion auf der Chain über den nativen $DFI-Coin erfolgt, kann DeFiChain Bitcoin, Ethereum, ERC-20 oder jedes andere Kryptoasset durch Wrapping verwenden.
 
-Wrapping allows the utilization of any digital asset such that the underlying asset is maintained, but it can transact on a different blockchain. DeFiChain provides a decentralized wrapping mechanism which allows the owner of the crytpoasset to maintain pegging to the asset and utilize a trustless wrapping mechanism that does not rely on any third party as a guarantor of the wrapping or asset. The wrapped tokens can be easily exchanged for their original value on their respective blockchain. 
-Creating a wrapped token on DeFiChain is a rewarded activity, such that there is incentive for cryptocurrency holders to create wrapped tokens on the DeFi network as a form of rewarded decentralized financial investment.
+Wrapping erlaubt die Nutzung eines beliebigen digitalen Vermögenswerts, so dass der zugrunde liegende Vermögenswert beibehalten wird, aber auf eine andere Blockchain übertragen werden kann. DeFiChain bietet einen dezentralen Wrapping-Mechanismus, der es dem Eigentümer des Kryptoassets ermöglicht, die Bindung an den Vermögenswert aufrechtzuerhalten und einen vertrauenfreien Wrapping-Mechanismus zu nutzen, der sich nicht auf eine dritte Partei als Garant für das Wrapping oder den Vermögenswert verlässt. Die Wrapped Token können auf der jeweiligen Blockchain einfach gegen ihren ursprünglichen Wert getauscht werden.
+Die Erstellung eines Wrapped Token auf der DeFiChain ist eine Aktivität, die belohnt wird, so dass es für Inhaber von Kryptowährungen einen Anreiz gibt, Wrapped Token auf dem DeFi-Netzwerk als eine Form der honorierten dezentralen Finanzanlage zu erstellen.
 
-Wrapping is a key capability of DeFi due to the need for interoperability of different types of cryptocurrencies and assets. To date, there are no interoperability standards between different currencies, and the only way to interoperate between currencies is by using wrapping or collateralization, which has to be provided by a third party. The entire point of decentralization is that people do not need to trust an authority, yet, today that is the main way that investors can interoperate between Bitcoin and Ethereum without converting from one coin to the other. The Polkadot protocol provides a platform for the development of interoperable apps, but not specifically for DeFi. As a new protocol, it is yet to be seen how it will be leveraged.
+Wrapping ist eine Schlüsselfunktion von DeFi, da die Interoperabilität verschiedener Formen von Kryptowährungen und Assets sichergestellt werden muss. Bis heute gibt es keine Interoperabilitätsstandards zwischen verschiedenen Währungen und die einzige Möglichkeit der Interoperabilität zwischen Währungen ist die Verwendung von Wrapping oder Sicherheiten, die von einer dritten Partei bereitgestellt werden müssen. Der ganze Sinn der Dezentralisierung besteht darin, dass die Menschen keiner Autorität vertrauen müssen. Dennoch ist dies heute die wichtigste Option für Investoren, zwischen Bitcoin und Ethereum zu interagieren, ohne von einem Token zum anderen zu wechseln. Das Polkadot-Protokoll bietet eine Plattform für die Entwicklung interoperabler Apps, aber nicht speziell für DeFi. Da es sich um ein neues Protokoll handelt, bleibt abzuwarten, wie es genutzt werden wird.
 
-Without wrapping, holders would need to convert their cryptoasset to the DeFi currency in order to use the services offered. Obviously, for most investors, that’s unacceptable. The investor has put their money into Bitcoin, or Ethereum, or whatever else, because that is the currency they want to hold. The main purpose of DeFiChain is to enable financial transactions in any type of crypto asset, such that people can use the assets and coins they hold, as currency for investment in other types of financial vehicles. 
-The decentralized wrapping function is crucial in allowing people to hold any asset and perform investments in another currency. So, for example, someone holding Bitcoin could make a loan to someone who wants to borrow ETH, or someone who wants to hedge against the cryptocurrency they have could do so using a wrapping function to use some of their assets to purchase options in other types of assets.
+Ohne Wrapping müssten die Inhaber ihr Krypto-Asset in die DeFi-Währung umwandeln, um die angebotenen Dienste nutzen zu können. Für die meisten Anleger ist das natürlich inakzeptabel. Der Anleger hat sein Geld in Bitcoin oder Ethereum oder was auch immer investiert, weil das die Währung ist, die er halten möchte. Der Hauptzweck von DeFiChain besteht darin, Finanztransaktionen in jeder Art von Krypto-Asset zu ermöglichen, so dass die Menschen die Assets und Token, die sie halten, als Währung für Investitionen in andere Arten von Finanzinstrumenten verwenden können. 
+Die dezentrale Wrapping-Funktion ist von entscheidender Bedeutung, da sie es den Menschen ermöglicht, jeden beliebigen Vermögenswert zu halten und Investitionen in eine andere Währung zu tätigen.So könnte zum Beispiel jemand, der Bitcoin besitzt, ein Darlehen an jemanden vergeben, der sich ETH leihen möchte, oder jemand, der sich gegen die Kryptowährung, die er besitzt, absichern möchte, könnte dies mithilfe einer Wrapping-Funktion tun, um einen Teil seines Vermögens zum Kauf von Optionen auf andere Arten von Vermögenswerten zu verwenden.
 
-### Decentralized Pricing Oracles
+### Dezentrale Preisorakel
 
-DeFiChain will include pricing oracles to collect data from outside blockchains. Oracles are used to collect data such as pricing of other cryptoassets[^4]. Oracles are an important way for blockchains to collect accurate information from both other blockchains and from non-crypto markets[^5].
+DeFiChain wird Preisorakel enthalten, um Daten von außerhalb der Blockchains zu sammeln. Preisorakel werden verwendet, um Daten wie die Preise anderer Kryptoassets zu sammeln[^4]. Preisorakel sind eine wichtige Möglichkeit für Blockchains, genaue Informationen sowohl von anderen Blockchains als auch von Nicht-Kryptomärkten zu sammeln[^5].
 
-Participating as an oracle allows earning of tokens based on the accuracy of the oracles. The built-in oracle function will allow smart contracts to determine the number of oracles, consensus percentage, and the parameters for rewarding oracles for the data they provide.
+Die Teilnahme als Preisorakel ermöglicht es, Token zu verdienen, die von der Genauigkeit der Preisorakel abhängen. Mit der eingebauten Orakelfunktion können Smart Contracts die Anzahl der Preisorakel, den Konsensprozentsatz und die Parameter für die Honorierung von Orakeln für die von ihnen gelieferten Daten festlegen.
 
-Oracles are eventually meant to be decentralized. However, DeFiChain will be launched with a few appointed trusted pricing oracles that periodically submit pricing data from trusted source onto DeFiChain.
+Preisorakel sollen letztendlich dezentral sein. DeFiChain wird jedoch mit einigen wenigen vertrauenswürdigen Preisorakeln gestartet, die regelmäßig Preisdaten aus vertrauenswürdigen Quellen an DeFiChain übermitteln.
 
-### Decentralized Exchanges
+### Die dezentrale Tauschfunktion
 
-The decentralized exchange function will allow atomic swap of cryptocurrencies in a peer-to-peer fashion[^6]. The decentralized exchange function matches people for trading directly, without the need to buy and sell currency through an exchange. Using decentralized exchange reduces the risks associated with using exchanges, and ensures that the cryptoasset doesn’t leave the custodianship of the token-holders. It also removes the risk of custodianship from the exchange itself, because the mechanism is peer-to-peer based on an agreed-upon price or on the market price at the time of the exchange.
+Die dezentrale Tauschfunktion wird den Atomic Swap-Tausch von Kryptowährungen auf Peer-to-Peer-Basis ermöglichen[^6]. Die dezentrale Tauschfunktion bringt Menschen für den direkten Handel zusammen, ohne dass der Kauf und Verkauf von Währungen über eine Börse abgewickelt werden muss. Die dezentrale Tauschfunktion verringert die Risiken, die mit der Nutzung von Börsen verbunden sind, und stellt sicher, dass die Kryptowährung nicht aus der Verfügungsgewalt der Token-Inhaber/innen gerät. Außerdem wird das Risiko der Verwahrung von der Börse selbst genommen, da der Mechanismus Peer-to-Peer ist und auf einem vereinbarten Preis oder dem Marktpreis zum Zeitpunkt des Tauschs basiert.
 
-While a number of decentralized exchanges are available on the market today[^7], DeFiChain solution allows integration of atomic swap capabilities in third-party applications by creating a decentralized exchange as a service.
+Während es heute eine Reihe dezentraler Börsen auf dem Markt gibt[^7], ermöglicht die DeFiChain-Lösung die Integration von Atomic-Swap-Funktionen in Anwendungen von Drittanbietern, indem sie eine dezentrale Börse als Service schafft.
 
 [^4]: https://cointelegraph.com/explained/blockchain-oracles-explained
 [^5]: https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c
 [^6]: https://en.wikipedia.org/wiki/Decentralized_exchange
 [^7]: https://coinsutra.com/best-decentralized-exchanges-dex/
 
-### Transferable Debts and Receivables
+### Übertragbare Schulden und Forderungen
 
-DeFiChain will offer a set of calls to work with transferable debts and receivables. In the centralized finance world, debts and accounts receivable can only be managed through financial institutions that handle loans. The lack of transparency of these transferable debts was one of the factors leading to the financial crisis of 2008.
+DeFiChain wird eine Reihe von Angeboten machen, um mit übertragbaren Schulden und Forderungen zu arbeiten. In der zentralisierten Finanzwelt können Schulden und Forderungen nur über Finanzinstitute verwaltet werden, die Darlehen verwalten. Die mangelnde Transparenz dieser übertragbaren Schulden war einer der Faktoren, die zur Finanzkrise von 2008 führten.
 
-For small and medium enterprises, this can be a particularly powerful tool. For example, Jane’s widget factory supplies widgets to a large car manufacturer, but the car manufacturer pays for those widgets on a basis of invoice +60. Meanwhile, Jane has to pay for the materials to produce the widgets, and, of course, regular salaries to her workers on a monthly or weekly basis. The car manufacturer will pay the invoice, but not in time for Jane to pay all of her expenses. Without Defi, Jane needs to go to the bank and pay whatever interest rates they demand, because she has no alternatives. The transferable receivables function would allow anyone to offer Jane a loan based on the receivables. Since many people would be able to see that the car manufacturer is a low-risk customer, and that they will pay their invoices, anyone who wants can make an offer to Jane for a better rate than the bank, creating a competitive market for debts and receivables based on the real risk and market assessment of that risk. Jane now can get a loan with great rates, and the lenders, likewise get excellent returns on their loans, despite the fact that they are loaning the money for only 30-60 days.
+Für kleine und mittlere Unternehmen kann dies ein besonders mächtiges Instrument sein. Zum Beispiel liefert Janes Widgets-Fabrik die Teile an einen großen Autohersteller, aber der Autohersteller zahlt für diese Teile auf der Rechnungsbasis Zahlung nach 60 Tagen. In der Zwischenzeit muss Jane die Materialien für die Herstellung der Ware und natürlich die regelmäßigen Löhne für ihre Beschäftigten auf monatlicher oder wöchentlicher Basis bezahlen. Der Autohersteller wird die Rechnung bezahlen, aber nicht so rechtzeitig, dass Jane alle ihre Ausgaben begleichen kann. Ohne Defi muss Jane zur Bank gehen und die Zinsen zahlen, die sie verlangt, weil sie keine Alternativen hat. Die Funktion der übertragbaren Forderungen würde es jedem ermöglichen, Jane ein Darlehen auf der Grundlage der Forderungen anzubieten. Da viele Leute sehen können, dass der Autohersteller ein Kunde mit geringem Risiko ist und dass er seine Rechnungen bezahlen wird, kann jeder, der will, Jane ein Angebot zu einem besseren Zinssatz als die Bank machen. So entsteht ein wettbewerbsfähiger Markt für Schulden und Forderungen, der auf dem tatsächlichen Risiko und der Risikobewertung des Marktes basiert. Jane kann nun ein Darlehen zu günstigen Konditionen erhalten, und die Kreditgeber erzielen ebenfalls hervorragende Renditen für ihre Darlehen, obwohl sie das Geld nur für 30-60 Tage ausleihen.
 
-Blockchain adds transparency to the exchange of debts and loans based on receivables or other types of financial promises. DeFiChain will include the capability for organizations to create smart contracts that allow straightforward investment in such assets, so that peer-to-peer loans can be made without the need for a financial institution to guarantee these types of financial assets. 
+Blockchain schafft Transparenz beim Austausch von Schulden und Darlehen, die auf Forderungen oder anderen finanziellen Zusicherungen basieren. DeFiChain wird Organisationen die Möglichkeit geben, Smart Contracts zu erstellen, die eine unkomplizierte Investition in solche Vermögenswerte ermöglichen, so dass Peer-to-Peer-Darlehen vergeben werden können, ohne dass ein Finanzinstitut für diese Art von finanziellen Vermögenswerten garantieren muss. 
 
 ### Decentralized Non-Collateralized Debt
 
