@@ -186,7 +186,7 @@ Daher glauben wir, dass der Aufbau einer DeFi Blockchain auf Bitcoin das Beste a
 Eine der größten Herausforderungen bei neuen Blockchains ist es, eine robuste Unveränderlichkeit zu schaffen, nachdem eine kritische Masse an Nutzern und Blöcken die Chain gesichert hat. Um sofortige Sicherheit und Unveränderlichkeit der Blockchain zu gewährleisten, wird sich DeFiChain an der Bitcoin-Blockchain verankern. Alle paar Minuten speichert DeFiChain seinen neuesten Merkle-Tree in der Bitcoin-Blockchain, ähnlich wie Rootstock (Turing-Complete Smart Contracts, gesichert durch Bitcoin https://www.rsk.co/) eine Verbindung zu Bitcoin plant. Auf diese Weise ist die neueste Chain immer vollständig sicher und unabänderbar und kann mit dem letzten in Bitcoin verankerten Datensatz abgeglichen werden. Mit der Zeit wird DeFiChain die Verankerungen in größeren Abständen verteilen. Dieser Verankerungsmechanismus gewährleistet vom ersten Tag an nachweislich unveränderliche Aufzeichnungen und schützt vor Angriffen, Hackern und Schwachstellen, die bei entstehenden Chains Anlass zur Sorge geben können.
 
 Gleichzeitig behält DeFiChain seinen eigenen Konsens-Mechanismus und Funktionsumfang bei und ermöglicht so all die Eigenschaften, die Bitcoin von Natur aus nicht hat. Dies wird dadurch erreicht, dass DeFiChain eine dedizierte, nicht Turing-Complete Blockchain ist, die speziell für das dezentrale Finanzsystem (DeFi) entwickelt wurde, das auf Bitcoin aufbaut. DeFiChain bietet die volle Funktionalität für dieses spezielle Segment der DLT-Community und verzichtet zugunsten von Einfachheit, schnellem Durchsatz und Sicherheit auf andere Funktionen.
-DeFiChain nutzt einen vollständig dezentralen Proof-of-Stake-Mechanismus, der Folgendes ermöglicht:
+DeFiChain nutzt einen vollständig dezentralen Proof of Stake-Mechanismus, der Folgendes ermöglicht:
 
 - Einen massiv skalierbaren und energiesparenden Konsens
 - Schnelle Transaktionen und hohe Sicherheit
@@ -368,7 +368,7 @@ Die folgende Tabelle vergleicht Bitcoin und seine Forks sowie Ethereum mit der P
         <th scope="col"></th>
         <th scope="col">Blockzeit (s)</th>
         <th scope="col">Blockgröße (MB)</th>
-        <th scope="col">Trans.-Blockgröße (% d. Blockgröße)</th>
+        <th scope="col">Trans.-Blockgröße (% d. Blocks)</th>
         <th scope="col">Mind. Trans.-Größe (B)</th>
         <th scope="col">Ø Trans.-Größe (B)</th>
         <th scope="col">Trans. in 1 Block (max)</th>
@@ -460,7 +460,7 @@ Die folgende Tabelle vergleicht Bitcoin und seine Forks sowie Ethereum mit der P
 
 #### 3. Dezentraler Konsensmechanismus
 
-Bitcoin Core verwendet Proof-of-Work (PoW) als Konsensmechanismus. DeFiChain nutzt die besten Aspekte von PoW, d.h. die Hashing-Funktion der Node-ID für die Blockerstellung, während der Großteil des Konsens auf Proof-of-Stake (PoS) basiert. Die größte Verbesserung des PoW-Mechanismus von DeFiChain besteht darin, dass die Staking Nodes ohne Investitionen in High-End-Server und ultraschnelle Breitbandverbindungen arbeiten können. So ermöglicht DeFiChain eine einfachere und schnellere Dezentralisierung, was Eigentum und Infrastruktur anbelangt.
+Bitcoin Core verwendet Proof of Work (PoW) als Konsensmechanismus. DeFiChain nutzt die besten Aspekte von PoW, d.h. die Hashing-Funktion der Node-ID für die Blockerstellung, während der Großteil des Konsens auf Proof of Stake (PoS) basiert. Die größte Verbesserung des PoW-Mechanismus von DeFiChain besteht darin, dass die Staking Nodes ohne Investitionen in High-End-Server und ultraschnelle Breitbandverbindungen arbeiten können. So ermöglicht DeFiChain eine einfachere und schnellere Dezentralisierung, was Eigentum und Infrastruktur anbelangt.
 
 #### 4. Nicht-Turing-Complete Smart Contracts
 
@@ -480,50 +480,50 @@ DeFiChain zielt darauf ab, die Qualität der Dezentralität zu erhalten und glei
 
 ### Consensus Algorithm
 
-#### Proof-of-Stake
+#### Proof of Stake
 
-DeFiChain utilizes a Proof-of-Stake (PoS) algorithm similar to Bitcoin Core’s original Proof-of-Work (PoW) mining algorithm. While DeFiChain is choosing PoS over PoW, at the same time, DeFi technology retains the best of the tested and proven technologies that were developed in the Bitcoin Core blockchain.
+DeFiChain verwendet einen Proof of Stake (PoS)-Algorithmus, der dem ursprünglichen Proof of Work (PoW)-Mining-Algorithmus von Bitcoin Core ähnelt. Während DeFiChain PoS dem PoW-Algorithmus vorzieht, behält die DeFi-Technologie gleichzeitig die besten der getesteten und bewährten Technologien bei, die in der Bitcoin Core-Blockchain entwickelt wurden.
 
-#### Masternodes for Staking
+#### Masternodes zum Staking
 
-To run a masternode (staking node), stakers must hold a fixed amount of DFI, initially set at 20,000. Masternodes on DeFiChain participate in active transaction validations and block creations. The staking amount is intended to be lowered with the stability and maturity of blockchain to encourage further decentralization.
+Um einen Masternode (Staking Node) zu betreiben, müssen Staker einen festen Betrag an DFI halten, der anfänglich auf 20.000 festgelegt ist. Masternodes auf DeFiChain nehmen aktiv an Transaktionsüberprüfungen und Blockerstellungen teil. Der Mindestbetrag fürs Staking soll mit zunehmender Stabilität und Entwicklungsstufe der Blockchain gesenkt werden, um eine weitere Dezentralisierung zu fördern.
 
-Each staking node can perform only 1 hash per second, with the nonce from Bitcoin Core PoW algorithm replaced by a staker’s masternode ID.
-A new block is mined if it satisfies the following condition:
+Jeder Staking Node kann nur 1 Hash pro Sekunde durchführen, wobei die Nonce aus dem Bitcoin Core PoW Algorithmus durch die Masternode ID eines Stakers ersetzt wird.
+Ein neuer Block wird gemint, wenn er die folgende Bedingung erfüllt:
 
 `SHA256({staker’s UTXO}, {current timestamp, in seconds}, {stake modifier}) < {target}`
 
-The stakers check this requirement each second. If the block condition is less than the current target, then the stakers assemble and sign a new block. 
-Staker’s UTXO require 20 confirmations before it can be accepted as a stake.
+Die Staker überprüfen diese Bedingung jede Sekunde. Wenn die Blockvoraussetzung geringer ist als das aktuelle Ziel, dann setzen die Staker einen neuen Block zusammen und signieren ihn. 
+Die UTXO der Staker benötigen 20 Bestätigungen, bevor sie als Stake akzeptiert werden können.
 
-#### Stake Modifier
+#### Stake-Modifier
 
-A stake modifier is a collective source of random entropy. Without a stake modifier, the future PoS kernel would be completely predictable. A good stake modifier needs to be neither predictable nor influance-able by stakers.
+Ein Stake-Modifier ist eine kollektiver Erzeuger von zufälliger Entropie. Ohne einen Stake-Modifier wäre der zukünftige PoS-Kernel völlig vorhersehbar. Ein guter Stake-Modifier darf weder vorhersehbar sein noch von den Stakern beeinflusst werden können.
 
-DeFiChain’s staker modifier is set to be `SHA256({previous stake modifier}, {masternode ID})`.
+Der Staker-Modifier von DeFiChain ist eingestellt auf `SHA256({previous stake modifier}, {masternode ID})`.
 
-#### Validation of Future and Past Headers
+#### Validierung von zukünftigen und vergangenen Kopfzeilen
 
-Unlike PoW, block header validation requires a stakes table. Headers get verified in batches before full blocks are downloaded, so the stakes table is used to verify future stakes.
-To be able to verify future headers, the blockchain needs to apply an additional rule, so any change of the stakes database gets written right away, but takes effect only after 300 blocks. As a result, any node will be able to verify any block header against its current stake, if a block header isn’t further in the future (or in the past) than 300 blocks.
+Im Gegensatz zu PoW wird für die Validierung der Kopfzeilen von Blöcken eine Staking-Tabelle benötigt. Die Kopfzeilen werden in Batches überprüft, bevor die vollständigen Blöcke heruntergeladen werden, daher wird die Staking-Tabelle verwendet, um zukünftige Stakings zu überprüfen. 
+Um zukünftige Kopfzeilen überprüfen zu können, muss die Blockchain eine zusätzliche Regel anwenden, damit jede Änderung in der Stakes-Datenbank sofort geschrieben wird, aber erst nach 300 Blöcken wirksam wird. So kann jeder Node jeden Block-Header mit seinem aktuellen Einsatz verifizieren, wenn der Block-Header nicht weiter in der Zukunft (oder Vergangenheit) liegt als 300 Blöcke.
 
-#### Nothing at Stake Protection
+#### Schutz vor Stakingkonflikten
 
-For PoS blockchains, there’s no limit to how many conflicting blocks a staker may sign. As a result, stakers may stake for every possible fork or branch, which weakens the finality of a PoS blockchain. This problem is known as a double-sign and is not possible in PoW blockchains, where a miner cannot mine all the possible branches without splitting mining capability. In PoW, this represents an intrinsic economic penalty. However, PoS blockchains cannot apply an inherent economic penalty for signing conflicting blocks on different branches.
+Bei PoS-Blockchains gibt es keine Begrenzung dafür, wie viele widersprüchliche Blöcke ein Staker signieren kann. Daher kann ein Staker für jede mögliche Fork oder Branch signieren, was die Endgültigkeit einer PoS-Blockchain schwächt. Dieses Problem wird als Doppelsignatur bezeichnet und ist bei PoW-Blockchains nicht möglich, da ein Miner nicht alle möglichen Branches minen kann, ohne seine Mining-Kapazität zu teilen. Bei PoW stellt dies einen wirtschaftlichen Nachteil dar. Bei PoS-Blockchains gibt es jedoch keine inhärente wirtschaftliche Strafe für das Signieren widersprüchlicher Blöcke auf verschiedenen Branches.
 
-Therefore, in order to enhance the finality of DeFiChain, in PoS, it’s necessary to detect double-signs and penalize them through an explicit mechanism.
+Um die Zuverlässigkeit der DeFiChain zu erhöhen, ist es daher notwendig, Doppelsignaturen im PoS zu erkennen und sie durch einen expliziten Mechanismus zu bestrafen.
 
-#### Detection of Double-sign
+#### Identifizierung einer Doppelsignatur
 
-Each block header has a sequence number as a number of blocks that a particular staker has minted before a particular block. If two blocks are minted with the same sequence number, it means that a staker has double-signed, even if the blocks have different ancestors, i.e. across branches.
+Jeder Block-Header hat eine Sequenznummer, die die Anzahl der Blöcke angibt, die ein bestimmter Staker vor einem bestimmten Block gemintet hat. Wenn zwei Blöcke mit der gleichen Sequenznummer gemintet werden, bedeutet das, dass ein Staker doppelt signiert hat, auch wenn die Blöcke unterschiedliche Vorgänger haben, d.h. über Branches hinweg.
 
-During a block’s generation, a staker has the right to include the double-sign proofs into his block header in exchange for only half of the penalty.
+Während der Generierung eines Blocks hat ein Staker das Recht, die doppelt signierten Proofs in seinen Block-Header aufzunehmen und dafür nur die Hälfte der Strafe zu zahlen.
 
-#### Double-sign Penalty
+#### Strafe für Doppelsignatur
 
-To be able to apply a penalty to stakers who double-sign, DeFiChain has to disallow immediate withdrawing of stake. Thus, when a deactivation transaction is confirmed, DeFiChain requires 3000 blocks to pass. At a block time of 30 seconds, 3000 blocks is equivalent to 25 hours.
+Um Staker, die doppelt signieren, bestrafen zu können, muss DeFiChain das sofortige Abheben des Stakes verbieten. Wenn also eine Deaktivierungstransaktion bestätigt wird, benötigt DeFiChain 3000 Blöcke, um sie abzuschließen. Bei einer Blockzeit von 30 Sekunden entsprechen 3000 Blöcke 25 Stunden.
 
-The double-sign penalty is 10 times the block rewards, deducted from the collateral. This also disqualifies the stakers from further staking immediately. The staker wanting to get back to staking has to re-put in fresh stake UTXO of 1,000,000 DFI. Running the official DeFiChain node does not cause any unintentional or accidental double-sign. Double-sign happens only in cases of malicious intent.
+Die Strafe für das Doppelsignieren beträgt das 10-fache der Blockprämie, die von der Sicherheit abgezogen wird. Das schließt die Staker auch sofort von weiteren Einsätzen aus. Der Staker, der seinen Einsatz wieder aufnehmen möchte, muss einen neuen UTXO von 20.000 DFI einsetzen. Wenn du den offiziellen DeFiChain Node betreibst, kommt es nicht zu einem unbeabsichtigten oder versehentlichen Doppelsignieren. Doppeltes Signieren geschieht nur in böser Absicht.
 
 #### Time Drift Attack
 
