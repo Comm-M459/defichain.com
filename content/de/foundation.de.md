@@ -23,7 +23,7 @@ content:
       headline: Foundation
       subhead: Erfahre, wie die DeFiChain Foundation funktioniert und wie du dich engagieren kannst
     governance:
-      headline: Leitung
+      headline: Governance/Verwaltung
       subhead: Die DeFiChain Foundation ist für die Ausgabe von Token an Nutzer und Gruppen zuständig, um die Akzeptanz zu beschleunigen. Die Foundation hat die Aufgabe, das Ökosystem zu fördern, Ökosystempartner einzubinden, die Entwicklung von Tools für Ökosystempartner zu leiten und andere Aktivitäten durchzuführen, um die Zahl der Ökosystempartner zu steigern.
       image: /static/svg/foundation-diagram.svg
     foundation:
