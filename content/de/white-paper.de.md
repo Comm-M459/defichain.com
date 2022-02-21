@@ -1,5 +1,5 @@
 ---
-title: Whitepaper
+title: White Paper
 type: article
 long_title: DeFiChain White Paper
 cta_to: Read
@@ -11,8 +11,9 @@ menu:
 meta:
   description: DeFiChain White Paper (Original in Englisch)
   og:
-    title: White paper
-    description: DeFiChain White Paper
+    title: DeFiChain
+    description: A blockchain dedicated to fast, intelligent and transparent financial services, accessible by everyone, and enabled on Bitcoin.
+De
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -25,10 +26,10 @@ content:
       subhead: Alles über die DeFiChain.
     white_paper:
       headline: Öffentlicher Entwurf des White Paper
-      subhead: Unser White Paper liegt zur öffentlichen Einsichtnahme bereit. Wir bitten auch um Kommentare aus unserer Community und der Öffentlichkeit. Folgen Sie dem Google Drive-Link, um das Dokument zu lesen oder zu kommentieren.
+      subhead: Unser White Paper liegt zur öffentlichen Einsichtnahme bereit. Wir bitten auch um Kommentare aus unserer Community und der Öffentlichkeit. Folge dem Google Drive-Link, um das Dokument zu lesen oder zu kommentieren.
       cta:
         url: https://docs.google.com/document/d/1XYUtdsf9AJrfDXgwZbC0o96WYOwzf1JmGNLje5mpusM/edit?usp=sharing
-        label: Lesen Sie das White Paper
+        label: White Paper lesen
 
     #subscribe in /
     #closer_look in /
@@ -303,10 +304,10 @@ Beispiele für Vermögenswerte, die mit der Blockchain in Token umgewandelt werd
 - Anteile an Privatunternehmen
 - Energie- und einkommenserzeugende Anlagen wie Windturbinen, Solarparks und Satelliten.
 - Eigentum an den Produktionsmitteln für Lebensmittel (neue Formen genossenschaftlicher Betriebe, in denen Nicht-Landwirte Eigentümer von Lebensmitteln sein können, statt von Waren, die an der Börse gehandelt werden)
-- Self-driving cars, vending machines, ATMs, pinball machines, and other types of revenue-generating self-regulating devices.
-- DAOs (Distributed Autonomous Organizations).
-- Small real estate investments (time shares, short-term rental apartments, etc.)
-- Large real estate investments (airports, amusement parks, apartment complexes, business parks)
+- Autonome Fahrzeuge, Verkaufsautomaten, Geldautomaten, Flipperautomaten und andere Arten von umsatzsteigernden, sich selbst steuernden Geräten
+- DAOs (Decentralized Autonomous Organizations), zu Deutsch: Dezentrale autonome Organisationen)
+- Kleine Immobilieninvestitionen (Timesharing, kurzfristige Mietwohnungen usw.)
+- Große Immobilieninvestitionen (Flughäfen, Vergnügungsparks, Apartmentkomplexe, Gewerbegebiete)
 
 ### Distribution of Dividends
 
