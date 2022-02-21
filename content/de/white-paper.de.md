@@ -9,7 +9,7 @@ menu:
   footer:
     weight: 1100
 meta:
-  description: DeFiChain White Paper
+  description: DeFiChain White Paper (Original in Englisch)
   og:
     title: White paper
     description: DeFiChain White Paper
@@ -218,7 +218,7 @@ Im Gegensatz zu Ethereum oder anderen Turing-Complete Blockchains ist DeFiChain 
 - Dezentrale Preisorakel
 - Dezentrale Tauschgeschäfte
 - Übertragbare Schulden und Forderungen 
-- Dezentrale nicht besicherte Schulden
+- Dezentrale nicht besicherte Darlehen
 - Tokenisierung von Assets
 - Ausschüttung von Dividenden
 
@@ -275,34 +275,34 @@ Für kleine und mittlere Unternehmen kann dies ein besonders mächtiges Instrume
 
 Blockchain schafft Transparenz beim Austausch von Schulden und Darlehen, die auf Forderungen oder anderen finanziellen Zusicherungen basieren. DeFiChain wird Organisationen die Möglichkeit geben, Smart Contracts zu erstellen, die eine unkomplizierte Investition in solche Vermögenswerte ermöglichen, so dass Peer-to-Peer-Darlehen vergeben werden können, ohne dass ein Finanzinstitut für diese Art von finanziellen Vermögenswerten garantieren muss. 
 
-### Decentralized Non-Collateralized Debt
+### Dezentrale nicht besicherte Darlehen
 
-In the future, it will be possible to provide non-collateralized loans based on the reputation and other factors about borrowers. Through different forms of verifiable credentials, and records of an individual’s borrowing and repayment history, non-collateralized systems can be developed. Many of the identity solutions being developed today are looking at anonymous and pseudonymous reputation-reporting systems, based on a Decentralized Identifier (DID) issued by the individual, and Verifiable Credentials (VC) issued by known authorities who are reputable to provide information about the individual’s credit history.
+In Zukunft wird es möglich sein, nicht besicherte Kredite zu vergeben, die auf dem Ruf und anderen Faktoren der Kreditnehmer/innen basieren. Durch verschiedene Formen von überprüfbaren Referenzen und Aufzeichnungen über die Kreditaufnahme und Rückzahlung einer Person können ungesicherte Systeme entwickelt werden. Viele der Identitätslösungen, die heute entwickelt werden, befassen sich mit anonymen und pseudonymen Reputationsmeldesystemen, die auf einem dezentralen Identifikator (DID) basieren, der von der Person selbst ausgestellt wird, sowie auf überprüfbaren Berechtigungsnachweisen (VC), die von bekannten Behörden ausgestellt werden, die seriös sind und Informationen über die Kreditvergangenheit der Person liefern.
 
-The appropriate reputation based systems and risk assessment systems will need to be built out. While this will take time, perhaps years, it is foreseeable that this kind of system could supplement or replace today’s credit ratings scores.
+Die entsprechenden reputationsbasierten Systeme und Risikobewertungssysteme müssen erst noch entwickelt werden. Das wird zwar einige Zeit dauern, vielleicht sogar Jahre, aber es ist absehbar, dass diese Art von System die heutigen Kreditwürdigkeitsprüfungen ergänzen oder ersetzen könnte.
 
-Another potential application of this feature would be the ability to create non-collateralized decentralized stablecoins. The success of DAI and MakerDAO show the desirability of pegged stablecoins, yet the high level of collateralization is a deterrent to creating more such projects. It is feasible that through market mechanisms and staking, decentralized non-collateralized stablecoins can be created.
+Eine weitere mögliche Anwendung dieser Funktion wäre die Möglichkeit, nicht besicherte dezentrale Stablecoins zu schaffen. Der Erfolg von DAI und MakerDAO zeigt, wie wünschenswert Stablecoins sind, doch der hohe Grad der Besicherung schreckt von der Schaffung weiterer solcher Projekte ab. Es ist denkbar, dass durch Marktmechanismen und Einsätze dezentralisierte, nicht besicherte Stablecoins geschaffen werden können.
 
-### Asset Tokenization
+### Tokenisierung von Assets
 
-Asset tokenization is the representation of an asset, such as real estate or company equity, in immutable tokens on the blockchain[^8]. This particular area of decentralized finance has tremendous potential and is one of the most exciting areas of investment for holders of cryptocurrency[^9].
+Die Tokenisierung von Assets ist die Darstellung eines Vermögenswerts, z. B. einer Immobilie oder eines Firmenkapitals, in unveränderlichen Token auf der Blockchain[^8]. Dieser Bereich des dezentralen Finanzwesens hat ein enormes Potenzial und ist einer der spannendsten Investitionsbereiche für Inhaber/innen von Kryptowährungen[^9].
 
-While several attempts have been made at asset tokenization in the blockchain space, most of them have pivoted and now provide services not directly related to asset tokenization (LAtoken, Etherparty). Tokeny and Tokenize-IT advertise themselves as tokenization platforms, but as of the writing of this paper, their processes are still fairly manual, and are heavily reliant on specific localities and regulatory requirements for those specific jurisdictions. Other blockchains, such as Tezos, have been mentioned as good platforms for asset tokenization, but, as with other multi-use blockchains, the Turing-complete set of commands will create complex smart contracts that are unnecessary when using DeFiChain.
-DeFiChain will provide a module specifically designed for asset tokenization, and will be particularly easy to use to tokenize assets such as company equity, real estate, and other valued holdings.
+Es gab zwar mehrere Versuche zur Tokenisierung von Vermögenswerten im Blockchain-Bereich, aber die meisten von ihnen haben sich umorientiert und bieten jetzt Dienstleistungen an, die nicht direkt mit der Tokenisierung von Vermögenswerten zu tun haben (LAtoken, Etherparty). Tokeny und Tokenize-IT werben damit, Tokenisierungsplattformen zu sein, aber zum Zeitpunkt des Verfassens dieses Papiers sind ihre Prozesse immer noch ziemlich manuell und hängen stark von den jeweiligen lokalen Gegebenheiten und den regulatorischen Anforderungen dieser Länder ab. Andere Blockchains, wie z. B. Tezos, wurden als gute Plattformen für die Tokenisierung von Vermögenswerten erwähnt, aber wie bei anderen Blockchains mit mehreren Verwendungsmöglichkeiten wird der Turing-Complete-Befehlssatz komplexe Smart Contracts erzeugen, die bei DeFiChain überflüssig sind.
+DeFiChain wird ein Modul anbieten, das speziell für die Tokenisierung von Vermögenswerten entwickelt wurde und besonders einfach zu verwenden ist, um Vermögenswerte wie Unternehmensanteile, Immobilien und andere werthaltige Besitztümer zu tokenisieren.
 
-Recently (October 2019), the Lichtenstein Blockchain law created the legal basis upon which any asset can be tokenized and legally bound to tokens or “containers” that represent the right to the asset. The law is precise in its wording, describing how a container issued by a trusted party now can hold the legal rights to the disposal over the asset. Disposal over the asset is distinct from ownership or rights to the asset, or even control as a specific concept. The careful wording of this law is a breakthrough for everyone in the world of asset tokenization, because it will now allow someone to go to a court of law with a token and expect to have legal legitimacy for assets that are tokenized (as long as the authority granting the token is recognized as a trusted authority to do so). It also opens up a space for DeFiChain to apply for this trusted status, such that the Asset Tokenization capability described here can be offered as a decentralized, legal and authorized capability that people can trust, without having to depend on any centralized authority.
+Kürzlich (Oktober 2019) wurde mit dem Lichtensteiner Blockchain-Gesetz die rechtliche Grundlage geschaffen, auf der jeder Vermögenswert tokenisiert und rechtlich an Token oder "Container" gebunden werden kann, die das Recht auf den Vermögenswert repräsentieren. Das Gesetz ist präzise formuliert und beschreibt, wie ein Container, der von einer vertrauenswürdigen Partei ausgegeben wird, nun das Recht auf die Verfügung über den Vermögenswert beinhalten kann. Die Verfügungsgewalt über den Vermögenswert unterscheidet sich vom Eigentum oder den Rechten an dem Vermögenswert oder sogar von der Kontrolle als spezifischem Konzept. Die sorgfältige Formulierung dieses Gesetzes ist ein Durchbruch für alle in der Welt der Tokenisierung von Vermögenswerten, denn nun kann jemand mit einem Token vor Gericht gehen und erwarten, dass er rechtlich legitimiert ist (solange die Instanz, die den Token ausgibt, als vertrauenswürdige Instanz anerkannt ist). Außerdem eröffnet es DeFiChain die Möglichkeit, diesen vertrauenswürdigen Status zu beantragen, sodass die hier beschriebene Funktion zur Tokenisierung von Vermögenswerten als eine dezentrale, legale und autorisierte Funktion angeboten werden kann, der die Menschen vertrauen können, ohne von einer zentralen Instanz abhängig zu sein.
 
 [^8]: https://www2.deloitte.com/lu/en/pages/technology/articles/tokenization-assets-disrupting-financial-industry.html
 [^9]: https://www.forbes.com/sites/laurencoleman/2019/04/25/heres-why-interest-in-tokenizing-assets-is-starting-to-surge/#2ddeec4640a5
 
-For more information on this law, please see Liechtenstein’s website at https://liechtensteinusa.org/article/liechtensteins-parliament-approves-blockchain-act-unanimously 
+Weitere Informationen zu diesem Gesetz findest du auf der Website Liechtensteins unter https://liechtensteinusa.org/article/liechtensteins-parliament-approves-blockchain-act-unanimously 
 
-Examples of assets people can now tokenize using the blockchain:
+Beispiele für Vermögenswerte, die mit der Blockchain in Token umgewandelt werden können:
 
-- Securities, such as ETF investing, stocks and shares.
-- Shares in privately held companies.
-- Energy and income generating devices, such as wind turbines, solar farms, satellites.
-- Ownership in food means of production (new forms of cooperative farms where non-farmers could own food supply instead of commodities traded on exchanges)
+- Wertpapiere, wie z.B. ETF-Investitionen, Aktien und Anteile
+- Anteile an Privatunternehmen
+- Energie- und einkommenserzeugende Anlagen wie Windturbinen, Solarparks und Satelliten.
+- Eigentum an den Produktionsmitteln für Lebensmittel (neue Formen genossenschaftlicher Betriebe, in denen Nicht-Landwirte Eigentümer von Lebensmitteln sein können, statt von Waren, die an der Börse gehandelt werden)
 - Self-driving cars, vending machines, ATMs, pinball machines, and other types of revenue-generating self-regulating devices.
 - DAOs (Distributed Autonomous Organizations).
 - Small real estate investments (time shares, short-term rental apartments, etc.)
