@@ -459,17 +459,17 @@ Die folgende Tabelle vergleicht Bitcoin und seine Forks sowie Ethereum mit der P
   </table>
 </div>
 
-#### 3. Decentralized Consensus Mechanism
+#### 3. Dezentraler Konsensmechanismus
 
-Bitcoin Core is using Proof-of-Work (PoW) as the consensus mechanism. DeFiChain leverages the best aspects of PoW, that is, using hashing of the staking node’s ID for block creation while focusing the majority of the consensus on Proof-of-Stake (PoS). The major improvement in the PoW mechanism for DeFiChain is that staking nodes can run without investing in high-end servers and ultra-fast bandwidth connections. Thus, DeFiChain is creating the potential for easier and faster decentralization of the mode ownership and infrastructure.
+Bitcoin Core verwendet Proof-of-Work (PoW) als Konsensmechanismus. DeFiChain nutzt die besten Aspekte von PoW, d.h. die Hashing-Funktion der Node-ID für die Blockerstellung, während der Großteil des Konsens auf Proof-of-Stake (PoS) basiert. Die größte Verbesserung des PoW-Mechanismus von DeFiChain besteht darin, dass die Staking Nodes ohne Investitionen in High-End-Server und ultraschnelle Breitbandverbindungen arbeiten können. So ermöglicht DeFiChain eine einfachere und schnellere Dezentralisierung, was Eigentum und Infrastruktur anbelangt.
 
-#### 4. Non-Turing-complete Smart Contracts
+#### 4. Nicht-Turing-Complete Smart Contracts
 
-Decentralized financial transactions are implemented through smart contracts. For example to ensure that borrowers repay lenders, smart contracts implement the conditions of lending in the code. For smart contract development, DeFiChain will be adding opcode support for decentralized financial instruction sets. The DeFi opcode complements and works in tangent with the Script scripting language of the existing Bitcoin Core protocol.
+Dezentrale Finanztransaktionen werden durch Smart Contracts umgesetzt. Um z.B. sicherzustellen, dass Kreditnehmer ihre Kredite zurückzahlen, implementieren Smart Contracts die Bedingungen für die Kreditvergabe in den Code. Für die Entwicklung von Smart Contracts wird DeFiChain Opcode-Unterstützung für dezentrale Finanzbefehle bereitstellen. Der DeFi-Opcode ergänzt die Skriptsprache Script des bestehenden Bitcoin Core-Protokolls und arbeitet tangential dazu.
 
-The DeFi scripting language is called Recipe, denoting the language’s role in describing and allowing for decentralized financial contracts.
+Die DeFi-Skriptsprache heißt Recipe, was die Rolle der Sprache bei der Beschreibung und Ermöglichung dezentraler Finanzverträge bezeichnet.
 
-Bitcoin Script instruction words usually start with the prefix `OP_*`. Recipe instruction words carry the prefix `DF_*`.
+Bitcoin Script-Befehlswörter beginnen normalerweise mit dem Präfix `OP_*`. Recipe-Befehlswörter tragen das Präfix `DF_*`.
 
 #### 5. Unabänderbar durch Blockverankerung
 
