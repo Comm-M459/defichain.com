@@ -179,11 +179,11 @@ Trotzdem ist unser Ausblick auf Bitcoin extrem optimistisch. Im Laufe des letzte
 Bitcoin wird zunehmend als Wertaufbewahrungsmittel angesehen und gilt als Standard, an dem andere Kryptowährungen gemessen werden. Auch wenn die Portfolios der Menschen sehr unterschiedlich sind, bleibt Bitcoin die Standardwährung, die fast jeder Krypto-Investor als Hauptbestandteil seines Portfolios hält. Die riesige Gemeinschaft und das Ökosystem rund um Bitcoin sind ein gutes Zeichen für seine langfristige Überlebensfähigkeit als Wertaufbewahrungsmittel.
 
 Aus diesem Grund stellt die Entwicklung dezentraler Finanzdienstleistungen rund um Bitcoin eine enorme Chance dar, die bisher nicht genutzt wurde. Das liegt zum einen an der Schwierigkeit, Smart Contracts zu erstellen, die mit dem Bitcoin-Netzwerk funktionieren, und zum anderen an der Aufsplitterung der Entwicklergemeinschaft in viele Nebenprojekte. Wir glauben, dass diese Tendenz der Entwicklergemeinschaft, sich auf die neuesten Entwicklungen zu stürzen, die Aufmerksamkeit vom eigentlichen Thema ablenkt: Bitcoin ist hier, um zu bleiben. 
-Daher glauben wir, dass der Aufbau einer DeFi Blockchain auf Bitcoin das Beste aus beiden Welten bringen würde: die Stabilität und Unabänderbarkeit von Bitcoin und die Skalierbarkeit und Funktionalität der DeFi-Chain.
+Daher glauben wir, dass der Aufbau einer DeFi Blockchain auf Bitcoin das Beste aus beiden Welten bringen würde: die Stabilität und Unveränderlichkeit von Bitcoin und die Skalierbarkeit und Funktionalität der DeFi-Chain.
 
 ### Auf Bitcoin bauen
 
-Eine der größten Herausforderungen bei neuen Blockchains ist es, eine robuste Unabänderbarkeit zu schaffen, nachdem eine kritische Masse an Nutzern und Blöcken die Chain gesichert hat. Um sofortige Sicherheit und Unabänderbarkeit der Blockchain zu gewährleisten, wird sich DeFiChain an der Bitcoin-Blockchain verankern. Alle paar Minuten speichert DeFiChain seinen neuesten Merkle-Tree in der Bitcoin-Blockchain, ähnlich wie Rootstock (Turing-Complete Smart Contracts, gesichert durch Bitcoin https://www.rsk.co/) eine Verbindung zu Bitcoin plant. Auf diese Weise ist die neueste Chain immer vollständig sicher und unabänderbar und kann mit dem letzten in Bitcoin verankerten Datensatz abgeglichen werden. Mit der Zeit wird DeFiChain die Verankerungen in größeren Abständen verteilen. Dieser Verankerungsmechanismus gewährleistet vom ersten Tag an nachweislich unabänderbare Aufzeichnungen und schützt vor Angriffen, Hackern und Schwachstellen, die bei entstehenden Chains Anlass zur Sorge geben können.
+Eine der größten Herausforderungen bei neuen Blockchains ist es, eine robuste Unveränderlichkeit zu schaffen, nachdem eine kritische Masse an Nutzern und Blöcken die Chain gesichert hat. Um sofortige Sicherheit und Unveränderlichkeit der Blockchain zu gewährleisten, wird sich DeFiChain an der Bitcoin-Blockchain verankern. Alle paar Minuten speichert DeFiChain seinen neuesten Merkle-Tree in der Bitcoin-Blockchain, ähnlich wie Rootstock (Turing-Complete Smart Contracts, gesichert durch Bitcoin https://www.rsk.co/) eine Verbindung zu Bitcoin plant. Auf diese Weise ist die neueste Chain immer vollständig sicher und unabänderbar und kann mit dem letzten in Bitcoin verankerten Datensatz abgeglichen werden. Mit der Zeit wird DeFiChain die Verankerungen in größeren Abständen verteilen. Dieser Verankerungsmechanismus gewährleistet vom ersten Tag an nachweislich unveränderliche Aufzeichnungen und schützt vor Angriffen, Hackern und Schwachstellen, die bei entstehenden Chains Anlass zur Sorge geben können.
 
 Gleichzeitig behält DeFiChain seinen eigenen Konsens-Mechanismus und Funktionsumfang bei und ermöglicht so all die Eigenschaften, die Bitcoin von Natur aus nicht hat. Dies wird dadurch erreicht, dass DeFiChain eine dedizierte, nicht Turing-Complete Blockchain ist, die speziell für das dezentrale Finanzsystem (DeFi) entwickelt wurde, das auf Bitcoin aufbaut. DeFiChain bietet die volle Funktionalität für dieses spezielle Segment der DLT-Community und verzichtet zugunsten von Einfachheit, schnellem Durchsatz und Sicherheit auf andere Funktionen.
 DeFiChain nutzt einen vollständig dezentralen Proof-of-Stake-Mechanismus, der Folgendes ermöglicht:
@@ -208,7 +208,7 @@ Im Gegensatz zu Ethereum oder anderen Turing-Complete Blockchains ist DeFiChain 
 - Schnelle Entwicklung von dApps mit eigenen Funktionen speziell für Finanzanwendungen
 - Minimale Angriffsfläche der auf der Plattform entwickelten Finanz-Smart Contracts
 - Verlässliche Governance (off-chain und on-chain)
-- Höchste Unabänderbarkeit - durch periodische Verankerung in der Bitcoin-Blockchain.
+- Höchste Unveränderlichkeit - durch periodische Verankerung in der Bitcoin-Blockchain.
 
 ### Erste dApp-Sets
 
@@ -285,7 +285,7 @@ Eine weitere mögliche Anwendung dieser Funktion wäre die Möglichkeit, nicht b
 
 ### Tokenisierung von Assets
 
-Die Tokenisierung von Assets ist die Darstellung eines Vermögenswerts, z. B. einer Immobilie oder eines Firmenkapitals, in unabänderbare Token auf der Blockchain[^8]. Dieser Bereich des dezentralen Finanzwesens hat ein enormes Potenzial und ist einer der spannendsten Investitionsbereiche für Inhaber/innen von Kryptowährungen[^9].
+Die Tokenisierung von Assets ist die Darstellung eines Vermögenswerts, z. B. einer Immobilie oder eines Firmenkapitals, in unveränderliche Token auf der Blockchain[^8]. Dieser Bereich des dezentralen Finanzwesens hat ein enormes Potenzial und ist einer der spannendsten Investitionsbereiche für Inhaber/innen von Kryptowährungen[^9].
 
 Es gab zwar mehrere Versuche zur Tokenisierung von Vermögenswerten im Blockchain-Bereich, aber die meisten von ihnen haben sich umorientiert und bieten jetzt Dienstleistungen an, die nicht direkt mit der Tokenisierung von Vermögenswerten zu tun haben (LAtoken, Etherparty). Tokeny und Tokenize-IT werben damit, Tokenisierungsplattformen zu sein, aber zum Zeitpunkt des Verfassens dieses Papiers sind ihre Prozesse immer noch ziemlich manuell und hängen stark von den jeweiligen lokalen Gegebenheiten und den regulatorischen Anforderungen dieser Länder ab. Andere Blockchains, wie z. B. Tezos, wurden als gute Plattformen für die Tokenisierung von Vermögenswerten erwähnt, aber wie bei anderen Blockchains mit mehreren Verwendungsmöglichkeiten wird der Turing-Complete-Befehlssatz komplexe Smart Contracts erzeugen, die bei DeFiChain überflüssig sind.
 DeFiChain wird ein Modul anbieten, das speziell für die Tokenisierung von Vermögenswerten entwickelt wurde und besonders einfach zu verwenden ist, um Vermögenswerte wie Unternehmensanteile, Immobilien und andere werthaltige Besitztümer zu tokenisieren.
@@ -334,7 +334,7 @@ Mit Blick auf die fachlichen Anforderungen aus dem vorherigen Kapitel muss DeFiC
 2. Schnell und skalierbar
 3. Enthält einen dezentralen Konsensmechanismus
 4. Bietet erweiterbare Smart-Contract-Unterstützung, ohne einen Turing-Complete-Befehlssatz
-5. So unabänderbar wie möglich (Blockverankerung aktiviert)
+5. So unveränderlich wie möglich (Blockverankerung aktiviert)
 
 Jedes dieser Gestaltungsprinzipien wird im Folgenden ausführlich beschrieben.
 
@@ -369,12 +369,12 @@ Die folgende Tabelle vergleicht Bitcoin und seine Forks sowie Ethereum mit der P
         <th scope="col">Blockzeit (s)</th>
         <th scope="col">Blockgröße (MB)</th>
         <th scope="col">Trans.-Blockgröße (% d. Blockgröße)</th>
-        <th scope="col">Min Trans.-Größe (B)</th>
+        <th scope="col">Mind. Trans.-Größe (B)</th>
         <th scope="col">Ø Trans.-Größe (B)</th>
         <th scope="col">Trans. in 1 Block (max)</th>
         <th scope="col">Trans. in 1 Block (Ø)</th>
-        <th scope="col">Max. TPS</th>
-        <th scope="col">Ø TPS</th>
+        <th scope="col">Max. Tps</th>
+        <th scope="col">Ø Tps</th>
       </tr>
     </thead>
     <tbody>
@@ -433,12 +433,12 @@ Die folgende Tabelle vergleicht Bitcoin und seine Forks sowie Ethereum mit der P
         <th scope="col">Blockzeit (s)</th>
         <th scope="col">Gas Limit</th>
         <th scope="col">Trans.-Blockgröße (% d. Blockgröße)</th>
-        <th scope="col">Min Trans.-Größe (gas)</th>
+        <th scope="col">Mind. Trans.-Größe (gas)</th>
         <th scope="col">Ø Trans.-Größe (gas)</th>
         <th scope="col">Trans. in 1 Block (max)</th>
         <th scope="col">Trans. in 1 Block (Ø)</th>
-        <th scope="col">Max TPS</th>
-        <th scope="col">Ø TPS</th>
+        <th scope="col">Max Tps</th>
+        <th scope="col">Ø Tps</th>
       </tr>
     </thead>
     <tbody>
@@ -470,13 +470,13 @@ Die DeFi-Skriptsprache heißt Recipe, was die Rolle der Sprache bei der Beschrei
 
 Bitcoin Script-Befehlswörter beginnen normalerweise mit dem Präfix `OP_*`. Recipe-Befehlswörter tragen das Präfix `DF_*`.
 
-#### 5. Unabänderbar durch Blockverankerung
+#### 5. Unveränderlich durch Blockverankerung
 
-While the common discussion of immutability is a binary conversation (a blockchain is either immutable or not), in fact, immutability is on a spectrum. The level of immutability of a blockchain is related to the cost of a rollback or “fork out” of mined blocks, also known as a 51% attack.
+Während die gängige Diskussion über Unveränderlichkeit ein binäres Gespräch ist (eine Blockchain ist entweder unabänderbar oder nicht), erstreckt sich die Unveränderlichkeit in Wirklichkeit über ein Spektrum. Der Grad der Unveränderlichkeit einer Blockchain hängt mit den Kosten für einen Rollback oder ein "Fork out" von geminten Blöcken zusammen, auch bekannt als 51%-Angriff.
 
-It takes time to amass significant miners or minters to make 51% attack costly enough that it is generally regarded as immutable, meaning that a new blockchain is automatically at a disadvantage when it comes to the immutability of the records. Some newer blockchains have been taking shortcuts to increase its immutability quality, typically by compromising on decentralization. For example, the chains may allow only delegated stakers chosen by the founders, or by making the blockchain permissioned instead of permissionless. 
+Es dauert seine Zeit, bis sich genügend Miner oder Minter zusammengefunden haben, um einen 51%-Angriff so kostspielig zu machen, dass er im Allgemeinen als unveränderlich gilt, was bedeutet, dass eine neue Blockchain automatisch im Nachteil ist, wenn es um die Unveränderlichkeit der Aufzeichnungen geht. Einige neuere Blockchains haben Abkürzungen genommen, um ihre Unveränderlichkeit zu steigern, indem sie Kompromisse bei der Dezentralität eingegangen sind. So können die Chains zum Beispiel nur von den Gründern delegierte Staker zulassen oder die Blockchain mit statt ohne Berechtigungen ausstatten.
 
-DeFiChain aims to maintain decentralization quality while maintaining immutability. To do so, DeFiChain will anchor its block to Bitcoin blockchain every few blocks. This further enhances the immutability of DeFiChain without any compromise to the decentralized nature of the chain.
+DeFiChain zielt darauf ab, die Qualität der Dezentralität zu erhalten und gleichzeitig die Unveränderlichkeit zu bewahren. Um dies zu erreichen, verankert DeFiChain seine Blöcke alle paar Blöcke in der Bitcoin-Blockchain. Dadurch wird die Unveränderlichkeit von DeFiChain weiter erhöht, ohne die dezentrale Natur der Chain zu beeinträchtigen.
 
 ### Consensus Algorithm
 
