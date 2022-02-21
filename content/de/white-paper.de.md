@@ -13,7 +13,6 @@ meta:
   og:
     title: DeFiChain
     description: A blockchain dedicated to fast, intelligent and transparent financial services, accessible by everyone, and enabled on Bitcoin.
-De
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
