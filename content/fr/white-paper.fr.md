@@ -422,8 +422,8 @@ Le tableau suivant compare les performances de Bitcoin et de ses forks, ainsi qu
         <td>500</td>
         <td>72 983,27</td>
         <td>32 112,64</td>
-        <td>2 432.78</td>
-        <td>1 070.42</td>
+        <td>2 432,78</td>
+        <td>1 070,42</td>
       </tr>
     </tbody>
     <thead>
