@@ -538,7 +538,7 @@ Tous les 60 blocs (environ 30 minutes), un staker obtient le droit d'écrire la 
 
 Les nœuds de DeFiChain comprendront un client intégré de vérification simplifiée des paiements (SPV) de Bitcoin. Les clients SPV synchronisent la blockchain Bitcoin en téléchargeant uniquement les en-têtes de bloc, ce qui constitue une information suffisante pour que les nœuds puissent ajouter et valider les ancrages.
 
-## Construction des blocs DeFiChain
+## Blocs de construction DeFiChain
 
 Pour atteindre nos objectifs de permettre des transactions financières décentralisées sur DeFiChain, les blocs de construction suivants seront inclus comme composants natifs de base sur DeFiChain.
 
