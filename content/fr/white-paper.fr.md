@@ -772,9 +772,10 @@ DFI est divisible jusqu'à 8 décimales.
   - Paiement des intérêts des prêts
   - etc.
 - Garantie pour l'emprunt d'autres cryptoactifs sur DeFiChain.
-- 1.000.000 DFI est requis pour exécuter un masternode de DeFiChain.
+- 20.000 DFI est requis pour exécuter un masternode de DeFiChain.
 - 1.000 DFI est nécessaire pour créer un DCT. Cette somme est remboursée lors de la destruction du DCT.
-- 500 DFI sont nécessaires pour soumettre une proposition de budget de la communauté DFI. Ce montant n'est pas remboursable.
+- 10 DFI sont nécessaires pour soumettre une proposition de budget de la communauté DFI. Ce montant n'est pas remboursable.
+- 50 DFI pour le vote de confiance. Également non remboursable. Les deux sont à payer à l'adresse de brûlage 8defichainBurnAddressXXXXXdRQkSm
 
 ### Frais d'activités du DFI
 
