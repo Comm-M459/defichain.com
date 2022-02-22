@@ -384,10 +384,10 @@ Le tableau suivant compare les performances de Bitcoin et de ses forks, ainsi qu
         <td>98%</td>
         <td>220</td>
         <td>500</td>
-        <td>4,561.45</td>
-        <td>20,07.04</td>
-        <td>7.6</td>
-        <td>3.35</td>
+        <td>4 561,45</td>
+        <td>2 007,04</td>
+        <td>7,6</td>
+        <td>3,35</td>
       </tr>
       <tr>
         <th>Bitcoin Cash</th>
@@ -396,10 +396,10 @@ Le tableau suivant compare les performances de Bitcoin et de ses forks, ainsi qu
         <td>98%</td>
         <td>220</td>
         <td>500</td>
-        <td>45,614.55</td>
-        <td>20,070.40</td>
+        <td>45 614,55</td>
+        <td>20 070,40</td>
         <td>76</td>
-        <td>33.45</td>
+        <td>33,45</td>
       </tr>
       <tr>
         <th>Bitcoin SV</th>
@@ -408,10 +408,10 @@ Le tableau suivant compare les performances de Bitcoin et de ses forks, ainsi qu
         <td>98%</td>
         <td>220</td>
         <td>500</td>
-        <td>145,966.55</td>
-        <td>64,225.28</td>
-        <td>243.28</td>
-        <td>107.04</td>
+        <td>145 966,55</td>
+        <td>64 225,28</td>
+        <td>243,28</td>
+        <td>107,04</td>
       </tr>
       <tr class="highlight">
         <th>DeFi Chain</th>
@@ -420,10 +420,10 @@ Le tableau suivant compare les performances de Bitcoin et de ses forks, ainsi qu
         <td>98%</td>
         <td>220</td>
         <td>500</td>
-        <td>72,983.27</td>
-        <td>32,112.64</td>
-        <td>2432.78</td>
-        <td>1,070.42</td>
+        <td>72 983,27</td>
+        <td>32 112,64</td>
+        <td>2 432.78</td>
+        <td>1 070.42</td>
       </tr>
     </tbody>
     <thead>
@@ -443,15 +443,15 @@ Le tableau suivant compare les performances de Bitcoin et de ses forks, ainsi qu
     <tbody>
       <tr>
         <th>Ethereum</th>
-        <td>13.5</td>
+        <td>13,5</td>
         <td>10m0</td>
         <td>100%</td>
         <td>21k</td>
         <td>60k</td>
-        <td>476.19</td>
-        <td>166.67</td>
-        <td>35.27</td>
-        <td>12.35</td>
+        <td>476,19</td>
+        <td>166,67</td>
+        <td>35,27</td>
+        <td>12,35</td>
         </tr>
     </tbody>
   </table>
@@ -757,7 +757,7 @@ Ainsi, Alice peut obtenir une position longue cumulée en DFI sans investir d'ar
 
 Le $DFI sera l'unité de compte intégrale dans l'écosystème DeFiChain.
 
-La Fondation DeFiChain émettra le token utilitaire DeFi, DFI, plafonné à 1,200,000,000 (1.2 milliards) pendant toute sa durée de vie. Il n'y aura jamais plus que 1,2 milliard de DFI créés.
+La Fondation DeFiChain émettra le token utilitaire DeFi, DFI, plafonné à 1 200 000 000 (1,2 milliards) pendant toute sa durée de vie. Il n'y aura jamais plus que 1,2 milliard de DFI créés.
 
 DFI est divisible jusqu'à 8 décimales.
 
@@ -888,133 +888,133 @@ Le programme de staking proposé pour les 10 premières années est conforme au 
     <tbody>
       <tr>
         <td>1</td>
-        <td>490,000,000</td>
+        <td>490 000 000</td>
         <td>95%</td>
         <td>200</td>
-        <td>20.00%</td>
-        <td>98,000,000</td>
-        <td>42.91%</td>
-        <td>210,240,000</td>
-        <td>700,240,000</td>
-        <td>58.35%</td>
-        <td>210,240,000</td>
+        <td>20,00%</td>
+        <td>98 000 000</td>
+        <td>42,91%</td>
+        <td>210 240 000</td>
+        <td>700 240 000</td>
+        <td>58,35%</td>
+        <td>210 240 000</td>
       </tr>
       <tr>
         <td>2</td>
-        <td>700,240,000</td>
+        <td>700 240 000</td>
         <td>85%</td>
         <td>150</td>
-        <td>13.33%</td>
-        <td>93,365,333</td>
-        <td>22.52%</td>
-        <td>157,680,000</td>
-        <td>857,920,000</td>
-        <td>71.49%</td>
-        <td>157,680,000</td>
+        <td>13,33%</td>
+        <td>93 365 333</td>
+        <td>22,52%</td>
+        <td>157 680 000</td>
+        <td>857 920 000</td>
+        <td>71,49%</td>
+        <td>157 680 000</td>
       </tr>
       <tr>
         <td>3</td>
-        <td>857,920,000</td>
+        <td>857 920 000</td>
         <td>75%</td>
         <td>100</td>
-        <td>8.89%</td>
-        <td>76,259,556</td>
-        <td>12.25%</td>
-        <td>105,120,000</td>
-        <td>963,040,000</td>
-        <td>80.25%</td>
-        <td>105,120,000</td>
+        <td>8,89%</td>
+        <td>76 259 556</td>
+        <td>12,25%</td>
+        <td>105 120 000</td>
+        <td>963 040 000</td>
+        <td>80,25%</td>
+        <td>105 120 000</td>
       </tr>
       <tr>
         <td>4</td>
-        <td>963,040,000</td>
+        <td>963 040 000</td>
         <td>70%</td>
         <td>70</td>
-        <td>5.93%</td>
-        <td>57,069,037</td>
-        <td>7.64%</td>
-        <td>73,584,000</td>
-        <td>1,036,624,000</td>
-        <td>86.39%</td>
-        <td>73,584,000</td>
+        <td>5,93%</td>
+        <td>57 069 037</td>
+        <td>7,64%</td>
+        <td>73 584 000</td>
+        <td>1 036 624 000</td>
+        <td>86,39%</td>
+        <td>73 584 000</td>
       </tr>
       <tr>
         <td>5</td>
-        <td>1,036,624,000</td>
+        <td>1 036 624 000</td>
         <td>70%</td>
         <td>50</td>
-        <td>3.95%</td>
-        <td>40,953,047</td>
-        <td>5.07%</td>
-        <td>52,560,000</td>
-        <td>1,089,184,000</td>
-        <td>90.77%</td>
-        <td>52,560,000</td>
+        <td>3,95%</td>
+        <td>40 953 047</td>
+        <td>5,07%</td>
+        <td>52 560 000</td>
+        <td>1 089 184 000</td>
+        <td>90,77%</td>
+        <td>52 560 000</td>
       </tr>
       <tr>
         <td>6</td>
-        <td>1,089,184,000</td>
+        <td>1 089 184 000</td>
         <td>70%</td>
         <td>40</td>
-        <td>2.63%</td>
-        <td>28,686,328</td>
-        <td>3.86%</td>
-        <td>42,048,000</td>
-        <td>1,131,232,000</td>
-        <td>94.27%</td>
-        <td>42,048,000</td>
+        <td>2,63%</td>
+        <td>28 686 328</td>
+        <td>3,86%</td>
+        <td>42 048 000</td>
+        <td>1 131 232 000</td>
+        <td>94,27%</td>
+        <td>42 048 000</td>
       </tr>
       <tr>
         <td>7</td>
-        <td>1,131,232,000</td>
+        <td>1 131 232 000</td>
         <td>70%</td>
         <td>25</td>
-        <td>1.76%</td>
-        <td>19,862,510</td>
-        <td>2.32%</td>
-        <td>26,280,000</td>
-        <td>1,157,512,000</td>
-        <td>96.46%</td>
-        <td>26,280,000</td>
+        <td>1,76%</td>
+        <td>19 862 510</td>
+        <td>2,32%</td>
+        <td>26 280 000</td>
+        <td>1 157 512 000</td>
+        <td>96,46%</td>
+        <td>26 280 000</td>
       </tr>
       <tr>
         <td>8</td>
-        <td>1,157,512,000</td>
+        <td>1 157 512 000</td>
         <td>70%</td>
         <td>20</td>
-        <td>1.17%</td>
-        <td>13,549,295</td>
-        <td>1.82%</td>
-        <td>21,024,000</td>
-        <td>1,178,536,000</td>
-        <td>98.21%</td>
-        <td>21,024,000</td>
+        <td>1,17%</td>
+        <td>13 549 295</td>
+        <td>1,82%</td>
+        <td>21 024 000</td>
+        <td>1 178 536 000</td>
+        <td>98,21%</td>
+        <td>21 024 000</td>
       </tr>
       <tr>
         <td>9</td>
-        <td>1,178,536,000</td>
+        <td>1 178 536 000</td>
         <td>70%</td>
         <td>10</td>
-        <td>0.78%</td>
-        <td>9,196,928</td>
-        <td>0.89%</td>
-        <td>10,512,000</td>
-        <td>1,189,048,000</td>
-        <td>99.09%</td>
-        <td>10,512,000</td>
+        <td>0,78%</td>
+        <td>9 196 928</td>
+        <td>0,89%</td>
+        <td>10 512 000</td>
+        <td>1 189 048 000</td>
+        <td>99,09%</td>
+        <td>10 512 000</td>
       </tr>
       <tr>
         <td>10</td>
-        <td>1,189,048,000</td>
+        <td>1 189 048 000</td>
         <td>70%</td>
         <td>5</td>
-        <td>0.52%</td>
-        <td>6,185,973</td>
-        <td>0.44%</td>
-        <td>5,256,000</td>
-        <td>1,194,304,000</td>
-        <td>99.53%</td>
-        <td>5,256,000</td>
+        <td>0,52%</td>
+        <td>6 185 973</td>
+        <td>0,44%</td>
+        <td>5 256 000</td>
+        <td>1 194 304 000</td>
+        <td>99,53%</td>
+        <td>5 256 000</td>
       </tr>
     </tbody>
   </table>
