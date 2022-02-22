@@ -485,7 +485,7 @@ DeFiChain utilise un algorithme de preuve d'enjeu (PoS) similaire à l'algorithm
 
 #### Masternodes de staking
 
-Pour faire fonctionner un masternode (nœud de staking), les stakers doivent détenir un montant fixe de DFI, initialement fixé à 20.000. Les masternodes de DeFiChain participent aux validations de transactions actives et aux créations de blocs. Le montant du staking est destiné à être réduit avec la stabilité et la maturité de la blockchain pour encourager une plus grande décentralisation.
+Pour faire fonctionner un masternode (nœud de staking), les stakers doivent détenir un montant fixe de DFI, statut T1 2022 fixé à 20.000. Les masternodes de DeFiChain participent aux validations de transactions actives et aux créations de blocs. Le montant du staking est destiné à être réduit avec la stabilité et la maturité de la blockchain pour encourager une plus grande décentralisation.
 
 Chaque nœud de staking ne peut effectuer qu'un seul hachage par seconde, le nonce de l'algorithme Bitcoin Core PoW étant remplacé par l'ID du masternode du staker.
 Un nouveau bloc est miné s'il satisfait à la condition suivante :
@@ -522,7 +522,7 @@ Pendant la génération d'un bloc, un staker a le droit d'inclure les preuves de
 
 Pour pouvoir appliquer une pénalité aux personnes qui signent deux fois, DeFiChain doit interdire le retrait immédiat du staking. Ainsi, lorsqu'une transaction de désactivation est confirmée, DeFiChain a besoin de 3000 blocs pour passer. Avec un temps de bloc de 30 secondes, 3000 blocs équivalent à 25 heures.
 
-La pénalité de double signature est de 10 fois les récompenses de bloc, déduites de la collatéralisation. Cette pénalité disqualifie également le staker de tout autre staking immédiatement. Le staker qui veut revenir au staking doit remettre un nouvel UTXO de 1,000,000 DFI. L'exécution du nœud officiel de DeFiChain ne cause aucune double-signature involontaire ou accidentelle. La double-signature ne se produit qu'en cas d'intention malveillante.
+La pénalité de double signature est de 10 fois les récompenses de bloc, déduites de la collatéralisation. Cette pénalité disqualifie également le staker de tout autre staking immédiatement. Le staker qui veut revenir au staking doit remettre un nouvel UTXO de 20,000 DFI. L'exécution du nœud officiel de DeFiChain ne cause aucune double-signature involontaire ou accidentelle. La double-signature ne se produit qu'en cas d'intention malveillante.
 
 #### Attaque de type time-drift (dérive temporelle)
 
