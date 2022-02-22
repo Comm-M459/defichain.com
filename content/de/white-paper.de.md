@@ -525,49 +525,49 @@ Um Staker, die doppelt signieren, bestrafen zu können, muss DeFiChain das sofor
 
 Die Strafe für das Doppelsignieren beträgt das 10-fache der Blockprämie, die von der Sicherheit abgezogen wird. Das schließt die Staker auch sofort von weiteren Einsätzen aus. Der Staker, der seinen Einsatz wieder aufnehmen möchte, muss einen neuen UTXO von 20.000 DFI einsetzen. Wenn du den offiziellen DeFiChain Node betreibst, kommt es nicht zu einem unbeabsichtigten oder versehentlichen Doppelsignieren. Doppeltes Signieren geschieht nur in böser Absicht.
 
-#### Time Drift Attack
+#### Zeitdrift Angriff
 
-The chain uses a maximum future block time of only approx. 5 seconds, to protect the chain from time drift attacks, where stakers set a block time too far ahead in the future, in order to claim a reward for themselves. DeFi also uses NTP time synchronization to allow for ongoing adjustment to the block time.
+Die Chain verwendet eine maximale zukünftige Blockzeit von nur ca. 5 Sekunden, um die Chain vor Zeitdrift-Angriffen (Time Drift Attacks) zu schützen, bei denen Staker eine Blockzeit zu weit in die Zukunft setzen, um einen Reward für sich zu beanspruchen. DeFi nutzt außerdem die NTP-Zeitsynchronisation, um eine ständige Anpassung der Blockzeit zu ermöglichen.
 
-### Bitcoin Anchoring
+### Bitcoin-Verankerung
 
-DeFiChain stakers publish blockchain block hashes periodically to the Bitcoin blockchain, providing public audit and block anchoring of DeFiChain to the strongest, most secure blockchain in the world.
+DeFiChain-Staker veröffentlichen regelmäßig Blockchain-Blockhashes auf der Bitcoin-Blockchain und sorgen so für eine öffentliche Prüfung und Blockverankerung von DeFiChain auf der stärksten und sichersten Blockchain der Welt.
 
-Every 60 blocks (approximately 30 minutes), a staker gets the right to write the Merkle root of the previous block onto the Bitcoin blockchain. The information written is, specifically, the txid of the Bitcoin transaction, Bitcoin block header and Merkle proof containing the Merkle root onto the newly mined block. By doing so, the staker will be rewarded an extra block reward in DFI, incentivising nodes to regularly anchor all records to the Bitcoin blockchain.
+Alle 60 Blöcke (etwa 30 Minuten) erhält ein Staker das Recht, die Merkle-Root des vorherigen Blocks in die Bitcoin-Blockchain zu schreiben. Dabei handelt es sich um die Transaktions-ID der Bitcoin-Transaktion, den Bitcoin-Block-Header und den Merkle-Proof, der die Merkle-Root enthält, die in den neu geminten Block geschrieben wird. Auf diese Weise wird der Staker mit einem zusätzlichen Block-Reward in DFI belohnt, was für die Nodes einen Anreiz darstellt, regelmäßig alle Datensätze in der Bitcoin-Blockchain zu verankern.
 
-![Bitcoin Ancoring](/img/white-paper/every-60-blocks.png)
+![Bitcoin-Verankerung](/img/white-paper/every-60-blocks.png)
 
-DeFiChain node will include a built-in Bitcoin Simplified Payment Verification (SPV) client. SPV clients sync the Bitcoin blockchain by downloading only block headers which is sufficient information for nodes to add and validate the anchors.
+DeFiChain Nodes enthalten einen integrierten Bitcoin Simplified Payment Verification (SPV) Client. SPV-Clients synchronisieren die Bitcoin-Blockchain, indem sie nur die Block-Header herunterladen. Diese Informationen reichen den Nodes aus, um die Anker hinzuzufügen und zu validieren.
 
-## DeFi Building Blocks
+## DeFi-Bausteine
 
-To achieve our goals of enabling decentralized finance transactions on DeFiChain, the following build blocks will be included as a base **native** components on DeFiChain.
+Um unser Ziel, dezentrale Finanztransaktionen auf DeFiChain zu ermöglichen, zu erreichen, werden die folgenden Bausteine als **native** Basiskomponenten in DeFiChain enthalten sein.
 
-### Tokenization as a DeFi Standard Token (DST)
+### Tokenisierung als DeFi Standard Token (DST)
 
-The implementation of the features described in this whitepaper is performed with the use of standardized tokens. This chapter describes the mechanics of the tokens, interaction with other cryptoassets (tokens), and how they are used in DeFiChain.
+Die Umsetzung der in diesem Whitepaper beschriebenen Funktionen erfolgt mit Hilfe von standardisierten Token. Dieses Kapitel beschreibt die Funktionsweise der Token, die Interaktion mit anderen Kryptoassets (Token) und wie sie bei DeFiChain verwendet werden.
 
-### Cross-chain Mechanics
+### Chainübergreifende Mechanismen
 
-DeFiChain uses token standards to bring in external tokens to DeFiChain in a trustless manner and allow trustless financial contracts and trading of all major cryptoasset tokens. The token standards are similar to ERC20 on Ethereum and Omni on Bitcoin blockchain. Through this standard, DeFiChain allows tokenization of any assets.
+DeFiChain nutzt Token-Standards, um externe Token vertrauensunabhängig in DeFiChain einzubringen und vertrauensunabhängige Finanzkontrakte und den Handel mit allen wichtigen Kryptoasset-Token zu ermöglichen. Die Token-Standards sind vergleichbar mit ERC20 auf Ethereum und Omni auf der Bitcoin-Blockchain. Durch diesen Standard ermöglicht DeFiChain die Tokenisierung beliebiger Vermögenswerte.
 
-On DeFiChain the standardized tokens are called DeFi Standard Token (DST). DST tokens are of two different types: DCT, created by users of the system, and DAT, which are asset-backed tokens created with the backing of cryptoassets. 
+Auf der DeFiChain werden die standardisierten Token als DeFi Standard Token (DST) bezeichnet. Bei den DST Token gibt es zwei verschiedene Arten: DCT, die von den Nutzern des Systems erstellt werden, und DAT, bei denen es sich um durch Vermögenswerte besicherte Token handelt, die mit Hilfe von Kryptoassets erstellt werden.
 
 ![Custom token](/img/white-paper/custom-token.png)
 
-### DeFi Custom Token (DCT)
+### DeFi Custom Token (DCT) (Benutzerdefinierter Token)
 
-DCTs are custom tokens that can be created by any user to represent any project or set of smart contracts implemented on DeFiChain. Any user can create such a DCT. To prevent abuse, creation of any proprietary DCT requires the user to lock up 1,000 DFI for the time that the tokens are issued. The DFI is returned when the tokens are revoked and the DCT is cancelled.
+DCTs sind benutzerdefinierte Token, die von jedem Nutzer erstellt werden können, um ein beliebiges Projekt oder eine Reihe von Smart Contracts zu repräsentieren, die auf DeFiChain implementiert sind. Jeder Nutzer kann einen solchen DCT erstellen. Um Missbrauch vorzubeugen, muss der Nutzer bei der Erstellung eines eigenen DCTs 1.000 DFI für die Zeit der Ausgabe der Token sperren. Der DFI wird zurückgegeben, wenn die Token zurückgezogen werden und der DCT aufgelöst wird.
 
-DCT tokens are not backed intrinsically by DeFiChain. They may be backed through an external mechanism, but it’s essential to note that DeFiChain does not intrinsically back them. An example on the Ethereum blockchain would be DGX, which is an ERC20 token backed by gold. Ethereum does not back DGX, although the token is created through ERC20. The Digix Foundation is accountable for the value of that token. Similarly, DCT is the DeFi parallel to ERC20 on Ethereum. Creation and issuance of tokens on DeFi is simplified and the potential for errors in the smart contract is eliminated, because creators of DCT can set only the parameters below, using an easy to use scripting interface.
+DCT Token werden nicht von DeFiChain selbst unterstützt. Sie können über einen externen Mechanismus gesichert werden, aber es ist wichtig zu wissen, dass DeFiChain sie nicht selbst sichert. Ein Beispiel auf der Ethereum-Blockchain wäre DGX, ein ERC20 Token, der mit Gold unterlegt ist. Ethereum unterstützt DGX nicht, obwohl der Token über ERC20 erstellt wird. Die Digix Foundation ist für den Wert dieses Tokens verantwortlich. In ähnlicher Weise ist DCT die DeFi-Parallele zu ERC20 auf Ethereum. Die Erstellung und Ausgabe von Token auf DeFi wird vereinfacht und die Möglichkeit von Fehlern im Smart Contract wird ausgeschlossen, da die Ersteller von DCT nur die unten aufgeführten Parameter über eine einfach zu bedienende Skriptschnittstelle festlegen können.
 
-#### DCT Parameters:
+#### DCT-Parameter:
 
-- DCT ID: <UDID> Unique blockchain identifier for the token.
-- Name: <Token name> Name of the tokens.
-- Symbol: The ticker symbol for the tokens. The DCT protocol will provide a reference for ensuring the choice will be a unique symbol.
-- Decimal places: Divisible number of decimal places for the tokens. This cannot be changed once it is set. 
-- Total initial supply: Initial issue of tokens during the event generated.
+- DCT ID: <UDID> Eindeutige Blockchain-Kennung des Tokens
+- Name: <Token name> Name der Token
+- Symbol: Das Tickersymbol für die Token. Das DCT-Protokoll stellt eine Referenz zur Verfügung, um sicherzustellen, dass die Wahl auf ein eindeutiges Symbol fällt
+- Dezimalstellen: Teilbare Anzahl von Nachkommastellen für die Token. Sie kann nicht mehr geändert werden, wenn sie einmal festgelegt wurde.
+- Gesamter Anfangsbestand: Die Erstausgabe an Token, die im Zuge des Ereignisses generiert wird
 - Initial distribution list: List of addresses for distribution of tokens. 
 - Minting support: yes/no
 - Final supply limit (optional): Immutable total supply limit. If minting is supporting this will define the ceiling on how many tokens the token owner can mint in total (some may be reserved at this time). If this parameter is left blank, this is an unlimited supply token. This cannot be changed after the initial definition of the token. 
