@@ -568,28 +568,28 @@ DCT Token werden nicht von DeFiChain selbst unterstützt. Sie können über eine
 - Symbol: Das Tickersymbol für die Token. Das DCT-Protokoll stellt eine Referenz zur Verfügung, um sicherzustellen, dass die Wahl auf ein eindeutiges Symbol fällt
 - Dezimalstellen: Teilbare Anzahl von Nachkommastellen für die Token. Sie kann nicht mehr geändert werden, wenn sie einmal festgelegt wurde.
 - Gesamter Anfangsbestand: Die Erstausgabe an Token, die im Zuge des Ereignisses generiert wird
-- Initial distribution list: List of addresses for distribution of tokens. 
-- Minting support: yes/no
-- Final supply limit (optional): Immutable total supply limit. If minting is supporting this will define the ceiling on how many tokens the token owner can mint in total (some may be reserved at this time). If this parameter is left blank, this is an unlimited supply token. This cannot be changed after the initial definition of the token. 
-- Tradeability: yes/no. This is a one-way switch allowing the token owner to transfer tokens during initial distribution period and also to decide when a token is tradeable/movable. To ensure the decentralized nature of DCT, once “tradeability” is set to yes, the owner is no longer able to reverse the tradability of a token. Typically, when creating a token, this should be turned to “no” until the initial distribution is confirmed to be accurate.
+- Initiale Verteilungsliste: Adressenliste für die Verteilung von Token
+- Minting-Unterstützung: ja/nein
+- Obergrenze des Gesamtangebots (optional): Unveränderliche Obergrenze für das Gesamtangebot. Wenn das Minting unterstützt wird, legt diese Option fest, wie viele Token der Token-Besitzer insgesamt minten kann (einige können zu diesem Zeitpunkt reserviert sein). Wenn dieser Parameter leer gelassen wird, ist der Token unbegrenzt verfügbar. Dieser Parameter kann nach der ersten Definition des Tokens nicht mehr geändert werden. 
+- Handelbar? : ja/nein. Dies ist ein Einwegschalter, der es dem Token-Besitzer ermöglicht, Token während der anfänglichen Verteilungsphase zu transferieren und auch zu entscheiden, wann ein Token handelbar oder verschiebbar ist. Um den dezentralen Charakter von DCT zu gewährleisten, kann der Eigentümer die Handelbarkeit eines Tokens nicht mehr rückgängig machen, sobald "Handelbar?" auf ja gesetzt ist. In der Regel sollte dies bei der Erstellung eines Tokens auf "nein" gesetzt werden, bis die ursprüngliche Verteilung als korrekt bestätigt wurde.
 
-Using this interface, there is no need to have a smart contract developer, and there is no need for a security audit.
+Wenn du diese Schnittstelle verwendest, brauchst du keinen Smart-Contract-Entwickler und auch keine Sicherheitsaudits.
 
 ### DeFi Asset Token (DAT)
 
-DeFi Asset Tokens (DATs) are backed in a decentralized manner. DATs on DeFiChain are tokens and crypto assets external of DeFiChain, such as:
+DeFi Asset Token (DATs) sind dezentral abgesichert. DATs auf DeFiChain sind Token und Krypto-Vermögenswerte außerhalb von DeFiChain, wie z.B.:
 
-- DBTC, backed by BTC
-- DETH, backed by ETH
-- DXRP, backed by XRP
-- DUSDT, backed by USDT
-- DBCH, backed by BCH, etc.
+- DBTC, hinterlegt mit BTC
+- DETH, hinterlegt mit ETH
+- DXRP, hinterlegt mit XRP
+- DUSDT, hinterlegt mit USDT
+- DBCH, hinterlegt mit BCH, usw.
 
-New DATs are introduced to the system through voting by masternodes. This ensures that only assets that gather the most interest amongst DeFiChain users get introduced.
+Neue DATs werden durch Abstimmungen der Masternodes in das System eingeführt. So wird sichergestellt, dass nur Vermögenswerte eingeführt werden, die bei den DeFiChain-Nutzern auf das größte Interesse stoßen.
 
-### Economic Pegging of DATs
+### Wirtschaftliche Anbindung von DATs
 
-The goal of DAT is to have it represent the native asset on the other blockchains, e.g. 1 DBTC should represent 1 BTC. 
+Das Ziel von DAT ist es, dass es den nativen Vermögenswert auf den anderen Blockchains repräsentiert, z.B. sollte 1 DBTC 1 BTC repräsentieren.
 
 There are two approaches to this:
 
