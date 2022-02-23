@@ -591,11 +591,11 @@ Neue DATs werden durch Abstimmungen der Masternodes in das System eingeführt. S
 
 Das Ziel von DAT ist es, dass es den nativen Vermögenswert auf den anderen Blockchains repräsentiert, z.B. sollte 1 DBTC 1 BTC repräsentieren.
 
-There are two approaches to this:
+Hier gibt es zwei Ansätze:
 
-1. Stablecoin approach
-    - For every single issued 1 DBTC, 1 BTC has to be locked up in an address or a smart contract. 
-    - While this would help to build a guarantee to DBTC, it introduces some other issues – country-party risks and affect the decentralized nature of DeFi. 
+1. Stablecoin-Ansatz
+    - Für jeden ausgegebenen 1 DBTC muss 1 BTC in einer Adresse oder einem Smart Contract hinterlegt werden. 
+    - Dies würde zwar helfen, eine Garantie für DBTC aufzubauen, bringt aber auch einige andere Probleme mit sich - Gegenparteirisiken und Auswirkungen auf den dezentralen Charakter von DeFi. 
 
 2. Economic pegging
     - By providing a strong guarantee that the DAT representing an asset has its price closely tracking the native asset, i.e. by holding DBTC, one can have a good confidence that the value of DBTC will track that of BTC.
