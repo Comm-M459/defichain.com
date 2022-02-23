@@ -594,7 +594,7 @@ Il y a deux approches pour cela :
 
 1. L'approche Stablecoin
     - Pour chaque dBTC émis, 1 BTC doit être bloqué dans une adresse ou un contrat intelligent.
-    - Bien que cette approche permette d'établir une garantie pour les dBTC, elle introduit d'autres problèmes - les risques liés aux règles locales, et affecte la nature décentralisée de DeFiChain.
+    - Bien que cette approche permette d'établir une garantie pour les dBTC, elle introduit d'autres problèmes - les risques de contrepartie et affecte la nature décentralisée de DeFiChain.
 
 2. Rattachement à l'économie
     - En fournissant une garantie forte que le DAT représentant un actif a son prix qui suit de près l'actif natif, c'est-à-dire en détenant le dBTC, on peut avoir une bonne confiance que la valeur du DBTC suivra celle de BTC.
