@@ -597,16 +597,16 @@ Hier gibt es zwei Ansätze:
     - Für jeden ausgegebenen 1 DBTC muss 1 BTC in einer Adresse oder einem Smart Contract hinterlegt werden. 
     - Dies würde zwar helfen, eine Garantie für DBTC aufzubauen, bringt aber auch einige andere Probleme mit sich - Gegenparteirisiken und Auswirkungen auf den dezentralen Charakter von DeFi. 
 
-2. Economic pegging
-    - By providing a strong guarantee that the DAT representing an asset has its price closely tracking the native asset, i.e. by holding DBTC, one can have a good confidence that the value of DBTC will track that of BTC.
+2. Ökonomische Ankopplung
+    - Durch eine starke Garantie, dass der Preis des DAT, der einen Vermögenswert repräsentiert, sich eng an den entsprechenden Vermögenswert anlehnt, d.h. wenn man DBTC hält, kann man darauf vertrauen, dass sich der Wert von DBTC an den von BTC anpasst.
 
 
-In order for us to achieve economic pegging, the following building blocks are built natively on DeFiChain:
+Damit wir ökonomische Ankopplung erreichen können, werden die folgenden Bausteine direkt auf DeFiChain aufgesetzt:
 
-1. Loan Contract
-2. Decentralized Exchange (DEX)
-3. Cross-chain Exchange (XCX)
-4. Pricing Oracles
+1. Darlehensvertrag
+2. Dezentrale Börse (DEX)
+3. Chain-übergreifende Exchange (XCX)
+4. Preisorakel
 
 ![DAT overview](/img/white-paper/dat-overview.png)
 
