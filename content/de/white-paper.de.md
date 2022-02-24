@@ -601,103 +601,103 @@ Hier gibt es zwei Ansätze:
     - Durch eine starke Garantie, dass der Preis des DAT, der einen Vermögenswert repräsentiert, sich eng an den entsprechenden Vermögenswert anlehnt, d.h. wenn man DBTC hält, kann man darauf vertrauen, dass sich der Wert von DBTC an den von BTC anpasst.
 
 
-Damit wir ökonomische Ankopplung erreichen können, werden die folgenden Bausteine direkt auf DeFiChain aufgesetzt:
+Damit wir eine ökonomische Ankopplung erreichen können, werden die folgenden Bausteine direkt auf DeFiChain aufgesetzt:
 
 1. Darlehensvertrag
 2. Dezentrale Börse (DEX)
-3. Chain-übergreifende Exchange (XCX)
+3. Chainübergreifende Tauschgeschäfte (XCX)
 4. Preisorakel
 
 ![DAT overview](/img/white-paper/dat-overview.png)
 
 ### Loan Contract
 
-Loan Contract is designed to allow the owner of the contract to take a collateralized loan against collateral locked in the contract. Each loan contract is unique to every owner (address) on DeFiChain. 
+Der Darlehensvertrag dient dazu, dass der Eigentümer des Vertrags ein besichertes Darlehen gegen die im Vertrag festgelegten Sicherheiten aufnehmen kann. Jeder Darlehensvertrag ist für jeden Eigentümer (Adresse) auf DeFiChain einzigartig. 
 
-Any user can open a loan contract on DeFiChain, free of charge. The user who opens a loan contract owns the specific contract. This ownership, however, is transferable.
+Jeder Nutzer kann auf DeFiChain kostenlos einen Darlehensvertrag eröffnen. Der Nutzer, der einen Darlehensvertrag eröffnet, ist Eigentümer des jeweiligen Vertrags. Dieses Eigentum ist jedoch übertragbar.
 
-Once a loan contract is opened, DFI can be sent to fund the loan collateral. Once a loan contract is funded, it allows the owner to take out a loan by minting DATs up to a certain collateralization ratio. The minimum collateralization ratio can be adjusted by DeFiChain DAO and starts at 150%. In other words, $1,500 worth of collateral (in DFI), allows the loan contract owner to take out a maximum of $1,000 in loans.
+Sobald ein Darlehensvertrag eröffnet ist, können DFI gesendet werden, um die Besicherung des Darlehens zu finanzieren. Sobald ein Darlehensvertrag finanziert ist, kann der Eigentümer ein Darlehen aufnehmen, indem er DATs bis zu einem bestimmten Besicherungsgrad mintet. Der Mindestbesicherungsgrad kann von der DeFiChain DAO angepasst werden und beginnt bei 150%. Mit anderen Worten: Für 1.500 US-Dollar an Sicherheiten (in DFI) kann der Inhaber des Darlehensvertrags maximal 1.000 US-Dollar an Darlehen aufnehmen.
 
-Minted DATs are subject to a floating borrowing rate. A loan contract has no expiry date. The owner is able to take out a loan for as long as they desire, as long as the collateralization ratio stays above 150% at all times.
+Für gemintete DAT gilt ein variabler Sollzinssatz. Ein Darlehensvertrag hat kein Verfallsdatum. Der/die Eigentümer/in kann ein Darlehen so lange aufnehmen, wie er/sie möchte, solange die Besicherungsquote stets über 150 % liegt.
 
 ```
-Collateralization ratio = Collateral / (Loan + accrued interest)
+Besicherungsgrad = Sicherheiten / (Darlehen + aufgelaufene Zinsen)
 ```
 
-If a loan contract falls below the 150% collateralization ratio at any point in time, its collateral is liquidated via Decentralized Exchange (DEX) to pay off accrued interest. There will be an additional 15% liquidation penalty to discourage loan contracts from having to be liquidated. It is the responsibility of the loan contract owners to monitor the collateralization ratio to prevent an unwanted liquidation. 
+Fällt ein Darlehensvertrag zu irgendeinem Zeitpunkt unter die Besicherungsquote von 150%, werden seine Sicherheiten über die dezentrale Börse (DEX) liquidiert, um die aufgelaufenen Zinsen zu begleichen. Um die Zahl der Auflösungen von Darlehensverträgen zu verringern, wird eine zusätzliche Liquidationsstrafe von 15% erhoben. Es liegt in der Verantwortung der Inhaber/innen von Darlehen, den Besicherungsgrad zu überwachen, um eine ungewollte Liquidation zu verhindern.
 
-If a loan contract is close to minimum collateralization ratio, the owner must take one of the following steps to prevent liquidation and having to incur 15% liquidation penalty:
+Wenn ein Darlehensvertrag nahe an der Mindestbesicherungsquote liegt, muss der/die Eigentümer/in eine der folgenden Maßnahmen ergreifen, um zu verhindern, dass er/sie liquidiert wird und eine 15%ige Liquidationsstrafe zahlen muss:
 
-1. Deposit more DFI into the loan contract, thereby increasing its collateral and collateralization ratio.
-2. Pay back some of the loan (or accrued interest), thereby decreasing the loan contract’s loan amount and increasing its collateralization ratio.
+1. Mehr DFI in den Darlehensvertrag einzahlen, wodurch die Sicherheiten und der Besicherungsgrad steigen.
+2. Einen Teil des Darlehens (oder der aufgelaufenen Zinsen) zurückzahlen, wodurch sich der Darlehensbetrag des Darlehensvertrags verringert und die Besicherungsquote steigt.
 
-Closing a loan contract entitles its owner to get back all 100% of its collateral. To close a loan contract, the owner has to pay back the loan in full, plus the accrued interest in its entity in the DAT (e.g. DBTC). Upon liquidation of the loan, the minted DAT is burned, and the initial minted DAT and the interest will be converted into DFI via the DeFi DEX described in this paper.
+Der Abschluss eines Darlehensvertrags gibt dem Eigentümer das Recht, die gesamten 100% seiner Sicherheiten zurückzuerhalten. Um einen Darlehensvertrag zu schließen, muss der Eigentümer das Darlehen vollständig zurückzahlen und zusätzlich die aufgelaufenen Zinsen für seine Entität im DAT (z. B. DBTC). Nach der Abwicklung des Darlehens wird der gemintete DAT verbrannt, und der ursprüngliche gemintete DAT und die Zinsen werden über den in diesem Papier beschriebenen DeFi DEX in DFI umgewandelt.
 
-While this concept is not new to the DeFi system, what is novel is the possibility to collateralize any asset due to DeFiChain’s nature.
+Dieses Konzept ist zwar nicht neu für das DeFi-System, neu ist jedoch die Möglichkeit, jedes beliebige Asset zu besichern, als Charakteristikum von DeFiChain.
 
-1. Alice opens a loan contract and funds it with 150k DFI.
-2. With DFI at $0.10 spot rate, Alice’s loan contract now has $15,000 worth of collateral.
-3. At the minimum collateralization ratio of 150% she can take out a maximum of $10,000 worth of DBTC, which is pegged to BTC spot price.
-4. Since the DBTC loan via loan contract accrues interest, and DBTC and the DFI price fluctuate, Alice decides to only take out $5,000 worth of DBTC, i.e. 0.5 DBTC, giving her loan contract a collateralization ratio of: 15000/5000 = 300%, well above 150%.
-5. Over-collateralization allows for some room for price movements of DBTC. If the BTC price increases to $15,000, Alice’s loan of 0.5 DBTC would now be worth $7,500. Her loan contract now has a collateralization ratio of: 15000/7500 = 200%, still above 150%, so liquidation would not be triggered even in the case of this type of price shift.
-6. The interest rate for each DAT loan differs. Assuming the DBTC loan rate is 5% annually, taking out a loan for a year, in order to close her loan contract and to fully redeem her initial 150k DFI, Alice has to pay back 0.5 DBTC * 1.05 = 0.525 DBTC by the end of the year.
+1. Alice eröffnet einen Darlehensvertrag und finanziert ihn mit 150k DFI.
+2. Bei einem Spotkurs von DFI von 0,10 $ hat Alices Darlehensvertrag jetzt einen Wert von 15.000 $.
+3. Bei einer Mindestbesicherung von 150% kann sie maximal DBTC im Wert von 10.000 Dollar aufnehmen, die an den Spotpreis von BTC gekoppelt sind.
+4. Da das DBTC-Darlehen über den Darlehensvertrag verzinst wird und der DBTC- und der DFI-Preis schwanken, beschließt Alice, nur DBTC im Wert von $5.000 aufzunehmen, also 0,5 DBTC, was ihrem Darlehensvertrag eine Besicherungsquote von: 15000/5000 = 300% verleiht, also deutlich über 150%.
+5. Die Übersicherung lässt einen gewissen Spielraum für Preisschwankungen von DBTC. Wenn der BTC-Preis auf 15.000 USD steigt, wäre Alices Darlehen von 0,5 DBTC jetzt 7.500 USD wert. Ihr Darlehensvertrag hat jetzt einen Besicherungsgrad von: 15000/7500 = 200%, also immer noch über 150%, so dass eine Liquidation auch bei einer solchen Preisveränderung nicht ausgelöst würde.
+6. Der Zinssatz für jedes DAT-Darlehen ist unterschiedlich. Angenommen, der Zinssatz für ein DAT-Darlehen beträgt 5 % pro Jahr und Alice nimmt ein Darlehen für ein Jahr auf. Um ihren Darlehensvertrag zu erfüllen und ihre anfänglichen 150k DFI vollständig zurückzuzahlen, muss Alice bis zum Ende des Jahres 0,5 DBTC * 1,05 = 0,525 DBTC zurückzahlen.
 
 ![loan contract](/img/white-paper/alice-pdc.png)
 
-### Decentralized Exchange (DEX)
+### Dezentrale Börse (DEX)
 
-The DeFi internal DEX provides decentralized trading for all DeFi tokens and DFI itself, which means that all tokens: DFI and DCT (DAT and DCT) can be listed on DeFiChain DEX. DEX will initially launch with DFI as the base trading pair, providing markets such as DBTC/DFI, DETH/DFI, DUSDT/DFI, etc. With increasing volume, other base trading pairs can be introduced, subject to a DAO approval, providing markets such as DETH/DBTC, DFI/DUSDT, etc.
+Die DeFi interne DEX bietet dezentralen Handel für alle DeFi-Token und DFI selbst, was bedeutet, dass alle Token: DFI und DCT (DAT und DCT) auf der DeFiChain DEX gehandelt werden können. Die DEX wird zunächst mit DFI als Basis-Handelspaar starten und Märkte wie DBTC/DFI, DETH/DFI, DUSDT/DFI, etc. anbieten. Mit steigendem Volumen können weitere Basis-Handelspaare eingeführt werden, sofern die DAO dies genehmigt, z. B. DETH/DBTC, DFI/DUSDT usw.
 
-DEX on DeFiChain operates without the need to pass custody to any intermediaries. Users are able to trade on their own in a trustless manner. One of the key differentiator about DeFiChain as compared to many other decentralized financial solutions is that DeFiChain is not only a consensus protocol facilitating DeFi, it is also comes with a very simple to use client user interface (UI) that allows users to interact directly on the blockchain without any intermediaries.
+Die DEX auf DeFiChain funktioniert ohne die Notwendigkeit, die Verwahrung an einen Broker zu übergeben. Die Nutzer können auf vertrauensunabhängige Weise selbst handeln. Eines der wichtigsten Unterscheidungsmerkmale von DeFiChain im Vergleich zu vielen anderen dezentralen Finanzlösungen ist, dass DeFiChain nicht nur ein Konsensprotokoll ist, das DeFi ermöglicht, sondern auch eine sehr einfach zu bedienende Client-Benutzeroberfläche (UI) hat, die es den Nutzern ermöglicht, direkt auf der Blockchain zu interagieren, ohne dass es einen Vermittler gibt.
 
-### Cross-chain Exchange (XCX)
+### Chainübergreifende Tauschgeschäfte (XCX)
 
-A user holding DBTC might be interested in holding of actual BTC instead of a DeFi pegged BTC token (DBTC).
+Ein Nutzer, der DBTC hält, könnte daran interessiert sein, echte BTC anstelle eines an DeFi gekoppelten BTC-Tokens (DBTC) zu halten.
 
-The DeFi Cross-chain Exchange (XCX) allows anyone to do exactly that. XCX allows listing of DATs with its native tokens, e.g. DBTC for BTC, DETH for ETH, DXRP for XRP. Actual transaction is carried out through the trustless swap of both tokens commonly known as atomic swap. Atomic swap guarantees that either both parties receive their exchanged coins, or neither transactions go through – providing a strong cryptographic guarantee that no one party is able to cheat the other.
+Mit dem chainübergreifenden Tauschgeschäft - DeFi Cross-Chain Exchange (XCX) kann jeder genau das tun. XCX ermöglicht die Notierung von DATs mit den dazugehörigen Token, z.B. DBTC für BTC, DETH für ETH, DXRP für XRP. Die eigentliche Transaktion wird durch den vertrauensunabhängigen Tausch der beiden Token durchgeführt, der auch als Atomic Swap bekannt ist. Atomic Swap garantiert, dass entweder beide Parteien ihre getauschten Token erhalten oder keine der Transaktionen durchgeführt wird - eine starke kryptografische Garantie, dass keine Partei die andere betrügen kann.
 
-We use the following terms to describe the parties in the XCX:
+Wir verwenden die folgenden Begriffe, um die Akteure beim XCX zu beschreiben:
 
-- Borrower: a person owning a DAT and wanting to get a native coin, e.g, a person who has DBTC and wanting to obtain BTC through the XCX.
-- Lender: a person owning BTC and receiving a DAT through the XCX, either temporarily for the duration of the XCX, or permanently, if the XCX expires.
+- Darlehensnehmer: eine Person, die einen DAT besitzt und einen nativen Token erhalten möchte, z.B. eine Person, die DBTC besitzt und BTC über XCX erhalten möchte.
+- Darlehensgeber: eine Person, die BTC besitzt und über XCX einen DAT erhält, entweder vorübergehend für die Dauer des XCX oder dauerhaft, wenn das XCX ausläuft.
 
-XCX orders contain several parameters that can be freely decided by the market marker (first lister of an order). For selling of DBTC for BTC (i.e. someone who’s interested in receiving actual BTC), the parameters are:
+XCX-Aufträge enthalten mehrere Parameter, die vom Market Marker (Erstanbieter eines Auftrags) frei gewählt werden können. Für den Verkauf von DBTC gegen BTC (d.h. jemand, der daran interessiert ist, tatsächliche BTC zu erhalten), sind die Parameter:
 
-- Amount: Amount of coin/DAT a seller is looking for and how much DAT is locked up.
-- Premium: Amount of additional fee a coin seller stands to make from this trade (Premium is listed per unit amount, thus allowing for partial fulfillment of trade orders). Together with expiry, it can also be considered as lending interest to the buyer. The Premium is paid instantly once an XCX is matched, before expiry of the lending contract. Premium can be positive (+) or negative (-) depending on supply and demand.
-- Guarantee: An optional additional amount in DBTC and/or DFI that is locked in the XCX that will provide an extra incentive for a lender as it resolves in either of the following  two outcomes:
-  a. Released back to the borrower should the BTC amount be paid up before expiry.
-  b. Release to the lender should the contract expire without the borrower making a payment thereby constituting an extra incentive.
-- Expiry: Time when the contract expires, it can be set as a date in the past for immediate settlement, i.e. no lending, but straight-out swap.
-- Native token address: Address to send BTC to for executing the contract.
+- Betrag: Die Summe an Token/DAT, die ein Verkäufer sucht, und wie viel DAT er unter Verschluss hat.
+- Prämie: Höhe der zusätzlichen Gebühr, die ein Token-Verkäufer bei diesem Handel einnimmt (die Prämie wird pro Einheit angegeben, so dass eine Teilerfüllung von Handelsaufträgen möglich ist). Zusammen mit dem Verfall kann sie auch als Leihzins für den Käufer betrachtet werden. Die Prämie wird sofort gezahlt, sobald ein XCX erfüllt ist, bevor der Leihvertrag abläuft. Die Prämie kann je nach Angebot und Nachfrage positiv (+) oder negativ (-) sein.
+- Garantie: Ein optionaler zusätzlicher Betrag in DBTC und/oder DFI, der im XCX festgeschrieben ist und einen zusätzlichen Anreiz für den Darlehensgeber darstellt, wenn er eine der beiden folgenden Möglichkeiten wählt:
+  a. Wird an den/die Darlehensnehmer/in zurückerstattet, wenn der BTC-Betrag vor Ablauf der Frist zurückgezahlt wird.
+  b. Freigabe an den Darlehensgeber, wenn der Vertrag ausläuft, ohne dass der Darlehensnehmer eine Zahlung leistet, was einen zusätzlichen Anreiz darstellt.
+- Verfall: Der Zeitpunkt, an dem der Kontrakt abläuft. Er kann als Datum in der Vergangenheit für eine sofortige Abrechnung festgelegt werden, d.h. kein Darlehen, sondern ein direkter Tausch.
+- Native Token-Adresse: Die Adresse, an die BTC für die Ausführung des Vertrags gesendet werden.
 
-#### First Example:
+#### Erstes Beispiel:
 
-Alice has 1 DBTC and wants 1 BTC so she can trade on a centralized exchange.
+Alice hat 1 DBTC und möchte 1 BTC, damit sie an einer zentralen Börse handeln kann
 
-Bob has 1 BTC that he does not need for 1 month, hoping to generate some lending interest during that period of time.
+Bob hat 1 BTC, die er einen Monat lang nicht braucht, und hofft, in dieser Zeit einige Zinseinnahmen zu erzielen.
 
-1. Alice lists the following XCX order:
-- Amount: 1 DBTC/BTC
-- Premium: 8,000 DFI
-- Guarantee: 0.1 DBTC
-- Expiry: December 31, 2019 – approx. 1 month.
-- Address: Alice lists her BTC deposit address
-2. Bob accepts the offer by sending a transaction on DeFiChain.
-3. Bob receives a confirmation on DeFiChain that his order is accepted. In case there are multiple order acceptance transactions.
-4. Bob sends 1 BTC to Alice’s BTC deposit address as listed in the XCX order and sends a transaction on DeFiChain with the BTC txid as receipt. Bob also specifies a receiving BTC address on the same transaction for Alice to repay the 1 BTC later on. 
-5. Multiple DeFiChain stakers with BTC bridges confirm that Bob has indeed sent the amount as agreed and the that the txid is valid.
-6. XCX’s premium of 8000 DFI is instantly released to Bob. Bob can do what he wants with the DFI straight away with no strings attached. It is Bob’s to keep for this trade.
+1. Alice listet die folgenden XCX-Order:
+- Betrag: 1 DBTC/BTC
+- Prämie: 8.000 DFI
+- Garantie: 0,1 DBTC
+- Verfall: 31. Dezember 2019 - ca. 1 Monat.
+- Adresse: Alice gibt ihre BTC-Einzahlungsadresse an
+2. Bob nimmt das Angebot an, indem er eine Transaktion an DeFiChain sendet.
+3. Bob erhält eine Bestätigung auf DeFiChain, dass seine Order angenommen wurde. Falls es mehrere Transaktionen zur Orderannahme gibt.
+4. Bob schickt 1 BTC an die im XCX-Auftrag angegebene BTC-Einzahlungsadresse von Alice und sendet eine Transaktion auf DeFiChain mit dem BTC txid als Quittung. In der gleichen Transaktion gibt Bob auch eine BTC-Empfangsadresse an, an die Alice die 1 BTC später zurückzahlen kann. 
+5. Mehrere DeFiChain-Staker mit BTC-Bridges bestätigen, dass Bob den Betrag tatsächlich wie vereinbart gesendet hat und dass die Txid gültig ist.
+6. Die XCX-Prämie in Höhe von 8000 DFI wird sofort an Bob freigegeben. Bob kann mit den DFI sofort machen, was er will, ohne dass es an Bedingungen geknüpft ist. Bob kann sie für diesen Handel behalten.
 
-Now, Alice has 1 BTC and Bob has 8000 DFI. Alice also has 1 DBTC locked up on XCX order and Bob is the beneficiary of that BTC. Note that the beneficiary of an XCX is transferable, i.e. Bob is able to sell the XCX with Alice to a third party (this allows for decentralized debt selling and tokenization of receivables).
+Jetzt hat Alice 1 BTC und Bob hat 8000 DFI. Alice hat außerdem 1 DBTC in einer XCX-Order gebunden und Bob ist der Begünstigte dieser BTC. Beachte, dass der Begünstigte eines XCX übertragbar ist, d.h. Bob kann das XCX mit Alice an einen Dritten verkaufen (dies ermöglicht einen dezentralen Verkauf von Schuldtiteln und eine Tokenisierung von Forderungen).
 
-Should Alice wish to redeem her 1 DBTC from the XCX before the time is up, Alice will send Bob the 1 BTC she borrowed earlier to Bob’s address specified in the XCX and send the acknowledgment on DeFiChain. Upon confirmation by stakers with a BTC bridge, the XCX contract now closes and Alice gets her 1 DBTC back, having paid 8,000 DFIs as interest.
+Wenn Alice ihren 1 DBTC aus dem XCX vor Ablauf der Zeit einlösen möchte, schickt sie Bob den 1 BTC, die sie sich zuvor geliehen hat, an Bobs im XCX angegebene Adresse und sendet die Bestätigung auf DeFiChain. Nach der Bestätigung durch Staker mit einer BTC-Bridge wird der XCX-Vertrag nun geschlossen und Alice erhält ihren 1 DBTC zurück, nachdem sie 8.000 DFI als Zinsen gezahlt hat.
 
-Bob gets his 1 BTC back (keeping his 8000 DFI as lending interest).
+Bob bekommt seine 1 BTC zurück (und behält seine 8000 DFI als Darlehenszinsen).
 
-Should Alice wish not to redeem the XCX before the expiry, Bob gets to keep Alice’s 1 DBTC.
+Sollte Alice das XCX nicht vor Ablauf der Frist einlösen wollen, darf Bob den 1 DBTC von Alice behalten.
 
-Alice gets to keep the 1 BTC (minus 8000 DFI interest) and Bob now gets 1 DBTC (plus 8000 DFI interest). Additionally Bob received the Guarantee of 0.1 DBTC providing him with an extra 10%.
+Alice darf den 1 BTC (abzüglich 8000 DFI-Zinsen) behalten und Bob erhält nun 1 DBTC (plus 8000 DFI-Zinsen). Zusätzlich hat Bob die Garantie von 0,1 DBTC erhalten, was ihm zusätzliche 10 % einbringt.
 
 ![XCX](/img/white-paper/alice-bob-xcx.png)
 
