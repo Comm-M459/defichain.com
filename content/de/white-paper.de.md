@@ -703,7 +703,7 @@ Alice darf den 1 BTC (abzüglich 8000 DFI-Zinsen) behalten und Bob erhält nun 1
 
 #### Zweites Beispiel:
 
-In einem zweiten Szenario hat Charlie 1 DBTC und will 1 BTC. Er hat nicht die Absicht, es zu tilgen und seine DBTC zurückzubekommen. Er möchte auch keine zusätzliche Garantie einschließen, also fügt er eine höhere Prämie und einen sofortigen Verfall hinzu. Charlie würde den folgenden XCX-Order einstellen:
+In einem zweiten Szenario hat Charlie 1 DBTC und will 1 BTC. Er hat nicht die Absicht, es zurückzuzahlen und seine DBTC zurückzubekommen. Er möchte auch keine zusätzliche Garantie einschließen, also fügt er eine höhere Prämie und einen sofortigen Verfall hinzu. Charlie würde den folgenden XCX-Auftrag aufgeben:
 
 - Betrag: 1 DBTC/BTC
 - Prämie: 12000 DFI
@@ -712,118 +712,119 @@ In einem zweiten Szenario hat Charlie 1 DBTC und will 1 BTC. Er hat nicht die Ab
 
 Dave bemerkt, dass die Order keine Garantie und einen sofortigen Verfall hat und weiß, dass diese XCX-Order sofort verfällt. Er bietet Charlie gerne den Gegenhandel an, indem er ihm 1 BTC gibt und sofort 1 DBTC + 12000 DFI erhält.
 
-Eine Garantie ist also kein Muss, sondern ein möglicher Anreiz für den Verleiher, um zu wissen, ob er das erhaltene Geld anschließend umtauschen muss oder ob er die ursprünglichen nativen Coin zurückbekommt.
+Eine Garantie ist also kein Muss, sondern ein möglicher Anreiz für den Darlehensgeber, um zu wissen, ob er/sie die erhaltenen Gelder im Nachhinein umtauschen muss oder ob er/sie die ursprünglichen nativen Coins zurückbekommt.
 
 ### Preisorakel
 
-Ein Preiskontrakt ist ein Smart Contract auf DeFiChain, der es mehreren vertrauenswürdigen und ausgewählten Akteuren ermöglicht, regelmäßig Preisdaten von DATs und DFI zu übermitteln.
+Ein Preisvertrag ist ein Smart Contract auf der DeFiChain, der es mehreren vertrauenswürdigen und benannten Parteien ermöglicht, regelmäßige Preisfeeds von DATs und DFI zu übermitteln. 
 
-Die DeFi DAO wählt mehrere Preisorakel aus (wird im nächsten Kapitel erklärt).
+Die DeFi DAO wählt mehrere Preiskontrakt-Orakel aus (wird im nächsten Kapitel erklärt).
 
 ### Anwendungsbeispiele
 
 Im Folgenden findest du Beispiele dafür, wie die technischen Implementierungen von DeFiChain genutzt werden können. Dies ist nur eine Liste von Beispielen. Viele andere Anwendungen können ebenfalls implementiert werden. 
 
-#### Hebelwirkung einer Long-Position
+#### Hebeln einer Long-Position
 
-1. Alice hat 100k DFI. Ihr gefallen die Aussichten für DFI und sie möchte ihre Position hebeln.
+1. Alice hat 100k DFI. Sie mag die Aussichten von DFI und möchte ihre Position als Hebel nutzen.
 2. Alice eröffnet einen Darlehensvertrag auf DeFiChain und nimmt ein Darlehen in DUSDT auf.
 3. Alice verkauft DUSDT für mehr DFI.
 
-Auf diese Weise kann Alice eine gehebelte Long-Position auf DFI eingehen, ohne zusätzliches Kapital einsetzen zu müssen.
+So kann Alice eine zusammengesetzte Long-Position auf DFI erwerben, ohne zusätzliches Kapital zu investieren.
 
-#### Leerverkauf eines Coins
+#### Leerverkauf eines Tokens
 
-1. Bob möchte den Token XXX shorten. Bob hat DFI.
-2. Bob eröffnet einen Darlehensvertrag auf DeFiChain, nimmt ein Darlehen in DXXX auf.
-3. Bob kann nun entweder DXXX für DFI oder DUSDT auf DeFi DEX verkaufen oder DXXX über XCX konvertieren, um XXX an einer nicht-DeFi-internen Börse zu verkaufen.
-4. Sobald Bob seine Short-Position schließen möchte, kauft er XXX (oder DXXX) am Markt zurück, hoffentlich zu einem niedrigeren Kurs, schließt seinen Darlehensvertrag und schließt damit seinen Short von XXX.
+1. Bob möchte den Coin XXX shorten. Bob hat DFI.
+2. Bob eröffnet einen Darlehensvertrag auf DeFiChain und nimmt ein Darlehen in DXXX auf.
+3. Bob kann nun entweder DXXX für DFI oder DUSDT auf der DeFi-DEX verkaufen oder DXXX über XCX umwandeln, um XXX auf einer nicht-DeFi-internen Börse zu verkaufen.
+4. Sobald Bob seine Short-Position schließen möchte, kauft er XXX (oder DXXX) vom Markt zurück, hoffentlich zu einem niedrigeren Kurs, schließt seinen Darlehensvertrag und beendet damit seinen Short von XXX.
 
-#### Getting a Loan (Borrowing)
+#### Ein Darlehen erhalten (Kreditaufnahme)
 
-1. Charlie has DFI, but he needs short-term cashflow of another coin XXX. Charlies does not want to sell DFI for it nor does he want to spend fiat money to buy this coin.
-2. Charlie takes a loan via loan contract on DeFiChain for DXXX and converts it to XXX.
-3. Once he wishes to settle his loan, Charlie simply purchases XXX/DXXX and close his loan contract.
+1. Charlie hat DFI, aber er braucht kurzfristig den Cashflow eines anderen Coins XXX. Charlies will weder DFI dafür verkaufen noch will er Fiatgeld ausgeben, um diesen Coin zu kaufen.
+2. Charlie nimmt ein Darlehen über einen Darlehensvertrag auf DeFiChain für DXXX auf und wandelt es in XXX um.
+3. Sobald er sein Darlehen begleichen möchte, kauft Charlie einfach XXX/DXXX und löst seinen Darlehensvertrag auf.
 
-#### Lending a Coin for Cashflow
+#### Einen Coin verleihen und dadurch Cashflow generieren
 
-1. Dave has BTC that he does not need in the short-term. Dave wishes to generate some interest (cashflow) by lending BTC.
-2. Dave lists BTC on XCX specifying his BTC amount, desired premium (interest rate) and expiry (period that he does not need his BTC).
-3. Once a counterparty takes up Dave’s listing, Dave receives an instant premium in DFI.
-4. Upon expiry, Dave would either receive his BTC back, or receive DFI with an additional Guarantee thereby netting more than his original BTC.
+1. Dave hat BTC, die er kurzfristig nicht braucht. Dave möchte durch das Verleihen von BTC einen gewissen Zins (Cashflow) erzielen.
+2. Dave listet BTC auf XCX und gibt dabei seinen BTC-Betrag, die gewünschte Prämie (Zinssatz) und den Verfallstermin (Zeitraum, in dem er seine BTC nicht benötigt) an.
+3. Sobald eine Gegenpartei Daves Angebot annimmt, erhält Dave sofort eine Prämie in DFI.
+4. Nach Ablauf der Frist würde Dave entweder seine BTC zurückbekommen oder DFI mit einer zusätzlichen Garantie erhalten, wodurch er mehr als seine ursprünglichen BTC erhalten würde.
 
 ---
 
-## $DFI coin
+## $DFI-Coin
 
-The $DFI coin will be the integral unit of account in DeFiChain ecosystem.
+Der $DFI-Coin wird die integrale Rechnungseinheit im DeFiChain Ökosystem sein.
 
-The DeFiChain Foundation will be issuing the DeFi utility token, DFI, capped at 1,200,000,000 (1.2 billion) for throughout its lifetime. There will only ever be 1.2 billion DFIs created.
+Die DeFiChain Foundation wird den DeFi Utility Token DFI ausgeben, der auf eine Gesamtmenge von 1.200.000.000 (1,2 Milliarden) begrenzt ist. Es werden niemals mehr als 1,2 Milliarden DFIs ausgegeben.
 
-DFI is divisible up to 8 decimal places.
+DFI ist bis zu 8 Dezimalstellen teilbar.
 
-### $DFI coin Utility
+### Der Nutzwert des $DFI-Coins
 
-- DFI is used for fee payment for all transactions and smart contracts on DeFiChain.
-  - Fee payment for decentralized exchange transactions
-  - Fee payment for token transfers
-- Fees payment for DeFi activities:
-  - DEX fees
-  - XCX fees
-  - Lending loan interests payment
-  - etc.
-- Collateral for borrowing of other cryptoassets on DeFiChain.
-- 1,000,000 DFI is required to run a staking node for DeFiChain.
-- 1,000 DFI is required to create a DCT. This is refundable upon destruction of the DCT.
-- 500 DFI is required to submit a proposal for DFI the community budget. This is non-refundable.
+- DFI wird für die Zahlung von Gebühren für alle Transaktionen und Smart Contracts auf DeFiChain verwendet.
+  - Gebührenzahlung für dezentrale Börsengeschäfte
+  - Gebühren für Token-Transfers
+- Bezahlung der Gebühren für die DeFi-Aktionen:
+  - DEX-Gebühren
+  - XCX-Gebühren
+  - Zahlung von Darlehenszinsen
+  - usw.
+- Sicherheiten für die Beleihung anderer Kryptoassets auf DeFiChain.
+- 20.000 DFI sind erforderlich, um einen Staking Node auf der DeFiChain zu betreiben.
+- Für die Erstellung eines DCT sind 1.000 DFI erforderlich. Dieser Betrag wird bei der Zerstörung des DCT zurückerstattet.
+- 10 DFI ist erforderlich, um einen Vorschlag für den Community Fund einzureichen. Dieser Betrag ist nicht erstattungsfähig.
+- 50 DFI für das Einreichen eines Vertrauensvotums. Ebenfalls nicht erstattungsfähig. Beides ist an die Burn-Adresse 8defichainBurnAddressXXXXXXXdRQkSm zu zahlen.
 
-### Fees from DeFi Activities
+### Gebühren aus DeFi-Geschäften
 
-Fees from DeFi activities on DeFiChain are burned and redistributed through new token minting over a period of time as laid out below. This ensures that DeFi stakers enjoy the benefits of earning rewards from facilitating trustless DeFi trades on DeFiChain in a fair manner.
+Die Gebühren aus den DeFi-Geschäften auf DeFiChain werden verbrannt und durch das Minting neuer Token über einen bestimmten Zeitraum umverteilt, wie unten beschrieben. So wird sichergestellt, dass die DeFi-Staker in den Genuss der Vorteile kommen, die sich aus der Ermöglichung des vertrauensunabhängigen DeFi-Handels auf der DeFiChain ergeben, und zwar auf faire Art und Weise.
 
-**Rewards from minting a block on DeFiChain are calculated as**:
+**Die Rewards für das Minten eines Blocks auf DeFiChain werden wie folgt berechnet**:
 
-1. Underlying block reward schedule (see distribution schedule) +
-2. Burned token redistribution schedule
+1. Zugrunde liegender Block Reward Schedule (siehe Distributionsplan) +
+2. Zeitplan für die Umverteilung der geburnten Token
 
-The burned token redistribution schedule is determined automatically every 259,200 blocks (approx. every 90 days) and works as follows:
+Der Zeitplan für die Umverteilung der verbrannten Token wird automatisch alle 259.200 Blöcke (ca. alle 90 Tage) festgelegt und funktioniert wie folgt:
 
 ![Burned token distribution](/img/white-paper/burn.png)
 
-Burned token redistribution for the next 259,200 blocks = 
+Umverteilung der verbrannten Token für die nächsten 259.200 Blöcke = 
 
-1. (Total token burned from the last 259,200 blocks [Quarter -1]) / 4 + 
-2. (Total token burned from block -518,400th to -259,200th block [Quarter -2]) / 4 + 
-3. (Total token burned from block -777,600th to -518,400th block [Quarter -3]) / 4 + 
-4. (Total token burned from block -1,036,800th to -777,600th block [Quarter -4]) / 4
+1. (Insgesamt verbrannte Token aus den letzten 259.200 Blöcken [Quartal -1]) / 4 + 
+2. (Insgesamt verbrannte Token von Block -518.400. bis -259.200. Block [Quartal -2]) / 4 + 
+3. (Insgesamt verbrannte Token von Block -777.600. bis -518.400. Block [Quartal -3]) / 4 + 
+4. (Summe der verbrannten Token von Block -1.036.800. bis -777.600. Block [Quartal -4]) / 4
 
 ### Masternodes
 
-DeFi is a Proof of Stake blockchain. Initially, 1,000,000 DFI allow the owner to own a staking node. The returns for staking will decrease over time, as the volume and number of transactions compensates for the reduction in per-transaction staking rewards.
+DeFi ist eine Proof of Stake-Blockchain. Anfänglich ermöglichen 1.000.000 DFI, inzwischen Stand Q1 2022 20.000 DFI dem Besitzer einen Staking Node zu besitzen. Die Rendite für das Staking sinkt mit der Zeit, da das Volumen und die Anzahl der Transaktionen die geringeren Rewards für das Staking pro Transaktion ausgleichen.
 
-Nodes are entitled to:
+Diese Nodes haben Anspruch auf:
 
-- Periodic staking rewards as described later in this chapter.
-- Submission of votes to key decisions that govern DeFiChain in the governance system.
-- Submission of votes on how the DFI community budget is being allocated and distributed. 
+- Regelmäßige Staking Rewards , wie später in diesem Kapitel beschrieben.
+- Abgabe von Stimmen zu wichtigen Entscheidungen, die DeFiChain im Governance-System verwalten.
+- Einreichung von Abstimmungen über die Zuweisung und Verteilung des DFI-Gemeinschaftsbudgets (Community Fund).
 
-### Governance
+### Governance / Verwaltung
 
-The DeFiChain Foundation is responsible for issuance of tokens and is governed by an independent board. This board will be governed by the DeFi masternodes voting on its members and also by giving directives on key decisions.
+Die DeFiChain Foundation ist für die Ausgabe der Token verantwortlich und wird von einem unabhängigen Vorstand geleitet. Dieser Vorstand wird von den DeFi Masternodes beaufsichtigt, die über seine Mitglieder abstimmen und auch Richtlinien für wichtige Entscheidungen geben.
 
-The DeFiChain Foundation awards tokens to users and groups to speed up adoption (see the section on initial token distribution and marketing). The Foundation is tasked with boosting the ecosystem, bringing in ecosystem partners, directing the development of the tools for ecosystem partners, and other activities to increase the number of ecosystem partners.
+Die DeFiChain Foundation vergibt Token an Nutzer und Gruppen, um die Akzeptanz zu beschleunigen (siehe den Abschnitt über die anfängliche Verteilung und Vermarktung von Token). Die Foundation hat die Aufgabe, das Ökosystem anzukurbeln, Ökosystempartner einzubinden, die Entwicklung von Tools für Ökosystempartner zu leiten und andere Aktivitäten durchzuführen, um die Zahl der Ökosystempartner zu steigen.
 
 ![Governance](/img/white-paper/governance.png)
 
-For clarification and transparency, Cake Pte Ltd is a private company located in Singapore. Cake Pte Ltd is an initial contributor as part of the ecosystem’s partners to creating services on DeFiChain.
+Zur Klarstellung und Transparenz: Cake Pte Ltd ist ein privates Unternehmen mit Sitz in Singapur. Cake Pte Ltd ist einer der ersten Partner des Ökosystems, der Dienste auf DeFiChain entwickelt.
 
 ### Community Development Fund
 
-The DeFiChain Foundation will create a community development fund with up to 10% of the block rewards under management. This percentage can be updated by submitting a DAO proposal that will be voted on by all masternodes. Community development funds were popularized by DASH[^10] and are used in some selective DAOs today. The community will determine the use of these funds for development, marketing, or research that forwards the DeFi community. DFI masternodes vote for projects they like and the highest voted proposals every month will be funded.
+Die DeFiChain Foundation wird einen gemeinschaftlichen Entwicklungsfonds einrichten, der bis zu 10 % der Block-Belohnungen verwaltet. Dieser Prozentsatz kann aktualisiert werden, indem ein DAO-Vorschlag eingereicht wird, über den alle Masternodes abstimmen. Community Development Funds wurden von DASH[^10] populär gemacht und werden heute in einigen ausgewählten DAOs eingesetzt. Die Community entscheidet über die Verwendung dieser Mittel für Entwicklung, Marketing oder Forschung, die der DeFi-Community zugute kommt. DFI Masternodes stimmen über Projekte ab, die ihnen gefallen, und die Vorschläge mit den meisten Stimmen werden jeden Monat finanziert.
 
-It costs 500 DFI to submit a budget proposal and a proposal can be submitted by anyone. This fee is burned and non-refundable regardless of whether the budget is approved. Budgets are proposals which receive a net total of yes votes equal to or greater than 10% of the total possible votes (for example over 448 out of 4480). Budgets can be nullified at any time if vote totals (cast or re-cast) fall below the approval threshold. Budgets are processed (paid) in order of yes minus no votes. More popular budgets get payment priority. Voting happens on a monthly basis but can be changed by a masternode vote.
+Die Einreichung eines Budgetvorschlags kostet 10 DFI und kann von jedem eingereicht werden. Diese Gebühr ist verbrannt und nicht erstattungsfähig, unabhängig davon, ob der Haushalt genehmigt wird. Budgets sind Vorschläge, die eine Nettosumme von Ja-Stimmen erhalten, die mindestens 10% der möglichen Gesamtstimmen ausmacht (z.B. mehr als 448 von 4480). Budgets können jederzeit annulliert werden, wenn die Gesamtzahl der Stimmen (abgegebene oder neu abgegebene) unter die Genehmigungsschwelle fällt. Die Budgets werden in der Reihenfolge der Ja- minus der Nein-Stimmen bearbeitet (bezahlt). Beliebtere Budgets werden vorrangig ausgezahlt. Die Abstimmung findet monatlich statt, kann aber durch eine Abstimmung auf dem Masternode geändert werden.
 
-For governance decisions, only the Foundation may submit proposals. Proposals are voted in similar way as DAO budget proposals except that decisions will be honored via simple majority vote.
+Für Governance-Entscheidungen kann nur die Foundation Vorschläge einreichen. Die Abstimmung über Vorschläge erfolgt ähnlich wie bei den Haushaltsvorschlägen der DAO, mit dem Unterschied, dass die Entscheidungen mit einfacher Mehrheit getroffen werden.
 
 [^10]: https://docs.dash.org/en/stable/governance/understanding.html
 
