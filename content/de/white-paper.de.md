@@ -701,43 +701,43 @@ Alice darf den 1 BTC (abzüglich 8000 DFI-Zinsen) behalten und Bob erhält nun 1
 
 ![XCX](/img/white-paper/alice-bob-xcx.png)
 
-#### Second Example:
+#### Zweites Beispiel:
 
-In a second scenario Charlie has 1 DBTC and wants 1 BTC. He has no intention of paying it back and getting his DBTC back. He also does not want to include an additional guarantee, so he adds a higher Premium and an immediate Expiry. Charlie would list the following XCX order:
+In einem zweiten Szenario hat Charlie 1 DBTC und will 1 BTC. Er hat nicht die Absicht, es zu tilgen und seine DBTC zurückzubekommen. Er möchte auch keine zusätzliche Garantie einschließen, also fügt er eine höhere Prämie und einen sofortigen Verfall hinzu. Charlie würde den folgenden XCX-Order einstellen:
 
-- Amount: 1 DBTC/BTC
-- Premium: 12000 DFI
-- Guarantee: None
-- Expiry: Immediate
+- Betrag: 1 DBTC/BTC
+- Prämie: 12000 DFI
+- Garantie: Keine
+- Verfall: Sofort
 
-Dave, notices the order has no guarantee and an immediate expiry and knows that this XCX order expires instantly. He happily provides the counter-trade to Charlie, giving him 1 BTC and receiving immediately 1 DBTC + 12000 DFI.
+Dave bemerkt, dass die Order keine Garantie und einen sofortigen Verfall hat und weiß, dass diese XCX-Order sofort verfällt. Er bietet Charlie gerne den Gegenhandel an, indem er ihm 1 BTC gibt und sofort 1 DBTC + 12000 DFI erhält.
 
-A Guarantee is therefore not a must, but a potential incentive for the lender to know whether he/she has to exchange the received funds afterwards or whether he/she will get the original native coins back.
+Eine Garantie ist also kein Muss, sondern ein möglicher Anreiz für den Verleiher, um zu wissen, ob er das erhaltene Geld anschließend umtauschen muss oder ob er die ursprünglichen nativen Coin zurückbekommt.
 
-### Pricing Oracles
+### Preisorakel
 
-A Pricing Contract is a smart contract on DeFiChain allowing multiple trusted and appointed parties to submit periodic price feeds of DATs and DFI. 
+Ein Preiskontrakt ist ein Smart Contract auf DeFiChain, der es mehreren vertrauenswürdigen und ausgewählten Akteuren ermöglicht, regelmäßig Preisdaten von DATs und DFI zu übermitteln.
 
-Multiple Pricing Contract oracles are chosen by the DeFi DAO (explained in the next chapter).
+Die DeFi DAO wählt mehrere Preisorakel aus (wird im nächsten Kapitel erklärt).
 
-### Use Case Examples
+### Anwendungsbeispiele
 
-Following are examples of how the technical implementations of DeFiChain can be used. This is just a list of examples. Many other applications can be implemented as well. 
+Im Folgenden findest du Beispiele dafür, wie die technischen Implementierungen von DeFiChain genutzt werden können. Dies ist nur eine Liste von Beispielen. Viele andere Anwendungen können ebenfalls implementiert werden. 
 
-#### Leveraging a Long Position
+#### Hebelwirkung einer Long-Position
 
-1. Alice has 100k DFI. She likes the prospects of DFI and wants to leverage her position.
-2. Alice opens a loan contract on DeFiChain and takes out a loan in DUSDT.
-3. Alice sells DUSDT for more DFI.
+1. Alice hat 100k DFI. Ihr gefallen die Aussichten für DFI und sie möchte ihre Position hebeln.
+2. Alice eröffnet einen Darlehensvertrag auf DeFiChain und nimmt ein Darlehen in DUSDT auf.
+3. Alice verkauft DUSDT für mehr DFI.
 
-Thus Alice can obtain a compounded long position on DFI without putting in extra money.
+Auf diese Weise kann Alice eine gehebelte Long-Position auf DFI eingehen, ohne zusätzliches Kapital einsetzen zu müssen.
 
-#### Shorting a Coin
+#### Leerverkauf eines Coins
 
-1. Bob wishes to short coin XXX. Bob has DFI.
-2. Bob opens a loan contract on DeFiChain, takes out a loan in DXXX.
-3. Bob can now either sell DXXX for DFI or DUSDT on DeFi DEX, or convert DXXX via XCX to sell XXX on a non-DeFi-internal exchange.
-4. Once Bob wishes to close his short position, Bob buys back XXX (or DXXX) from the market, hopefully at a lower rate, closes his loan contract and thus completes his short of XXX.
+1. Bob möchte den Token XXX shorten. Bob hat DFI.
+2. Bob eröffnet einen Darlehensvertrag auf DeFiChain, nimmt ein Darlehen in DXXX auf.
+3. Bob kann nun entweder DXXX für DFI oder DUSDT auf DeFi DEX verkaufen oder DXXX über XCX konvertieren, um XXX an einer nicht-DeFi-internen Börse zu verkaufen.
+4. Sobald Bob seine Short-Position schließen möchte, kauft er XXX (oder DXXX) am Markt zurück, hoffentlich zu einem niedrigeren Kurs, schließt seinen Darlehensvertrag und schließt damit seinen Short von XXX.
 
 #### Getting a Loan (Borrowing)
 
