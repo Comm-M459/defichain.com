@@ -841,48 +841,48 @@ Weitere Token erhält man nur durch Staking, das im nächsten Kapitel beschriebe
 
 ### Zeitplan für die Ausgabe von Token über Staking
 
-DeFiChain wird zunächst mit einem Block Reward von 200 DFI gestartet, von denen 10% an den Community Fund gehen. Die Foundation verpflichtet sich, diese 200 DFI Block Reward für mindestens 1.050.000 Blöcke ab dem ersten Genesis-Block, also etwa 1 Jahr, zu garantieren.
+DeFiChain wird zunächst mit einem Block Reward von 200 DFI gestartet, von denen 10% an den Community Fund gehen. Die Foundation verpflichtet sich, diese 200 DFI Blockbelohnung für mindestens 1.050.000 Blöcke ab dem ersten Genesis-Block, also etwa 1 Jahr, zu garantieren.
 
-Später werden die Block-Belohnungen durch eine Governance-Abstimmung angepasst. Die Foundation verpflichtet sich außerdem, dass nie mehr als 1.200.000.000 (1,2 Milliarden) DFI im Umlauf sein werden, es sei denn, die DAO-Governance stimmt über eine Änderung dieser Grenze ab. DFI ist also ein deflationärer Utility-Token.
+Später werden die Blockbelohnungen durch eine Governance-Abstimmung angepasst. Die Foundation verpflichtet sich außerdem, dass nie mehr als 1.200.000.000 (1,2 Milliarden) DFI im Umlauf sein werden, es sei denn, die DAO-Governance stimmt über eine Änderung dieser Grenze ab. DFI ist also ein deflationärer Utility-Token.
 
-Der vorgeschlagene Staking-Zeitplan für die ersten 10 Jahre ist in der folgenden Tabelle dargestellt:
+Der vorgeschlagene Staking-Zeitrahmen für die ersten 10 Jahre ist in der folgenden Tabelle dargestellt:
 
 <div class="table-responsive">
   <table>
     <thead>
       <tr>
         <th scope="col">
-          Year
+          Jahr
         </th>
         <th scope="col">
-          Start of year token in circulation
+          Token im Umlauf zu Jahresbeginn
         </th>
         <th scope="col">
-          % of supply staked
+          % des Bestands gestaked
         </th>
         <th scope="col">
-          Block reward
+          Blockbelohnung
         </th>
         <th scope="col">
-          Targeted new token %
+          Angestrebte neue Token %
         </th>
         <th scope="col">
-          Targeted new token
+          Angestrebte neue Token
         </th>
         <th scope="col">
-          Staking return %
+          Staking Rendite %
         </th>
         <th scope="col">
-          Actual new token
+          Tatsächliche neue Token
         </th>
         <th scope="col">
-          End of year token in circulation
+          Token im Umlauf zum Jahresende
         </th>
         <th scope="col">
-          % of cap
+          % der Kapitalisierung
         </th>
         <th scope="col">
-          New token for year
+          Neue Token im Jahr
         </th>
       </tr>
     </thead>
