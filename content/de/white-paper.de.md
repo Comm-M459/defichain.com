@@ -796,7 +796,7 @@ Umverteilung der verbrannten Token für die nächsten 259.200 Blöcke =
 1. (Insgesamt verbrannte Token aus den letzten 259.200 Blöcken [Quartal -1]) / 4 + 
 2. (Insgesamt verbrannte Token von Block -518.400. bis -259.200. Block [Quartal -2]) / 4 + 
 3. (Insgesamt verbrannte Token von Block -777.600. bis -518.400. Block [Quartal -3]) / 4 + 
-4. (Summe der verbrannten Token von Block -1.036.800. bis -777.600. Block [Quartal -4]) / 4
+4. (Insgesamt verbrannte Token von Block -1.036.800. bis -777.600. Block [Quartal -4]) / 4
 
 ### Masternodes
 
@@ -828,24 +828,24 @@ Für Governance-Entscheidungen kann nur die Foundation Vorschläge einreichen. D
 
 [^10]: https://docs.dash.org/en/stable/governance/understanding.html
 
-### Initial Token Distribution
+### Anfängliche Verteilung der Token
 
-Of the roughly 1.2 billion $DFI coins 49% will be issued to the DeFiChain Foundation at the start. The rest will be issued to Masternode holders over time.
-Of the 49% initially issued $DFI coins, 49% will be kept by the DeFiChain Foundation. The rest may be distributed to accredited investors, large funds and institutions, collectively known as external partners, to fund the initial development of DeFiChain. In order to decentralize the holdings of DFIs as much as possible the DeFiChain Foundation may not keep more than 49% of all initially issued tokens. The use of potential proceedings of the tokens will be decided by the DeFiChain Foundation board but will exclusively be directed towards the adoption and development of DeFiChain.
+Von den rund 1,2 Milliarden $DFI-Coins werden zu Beginn 49% an die DeFiChain Foundation ausgegeben. Der Rest wird im Laufe der Zeit an Masternode-Inhaber ausgegeben.
+Von den 49% der anfänglich ausgegebenen $DFI-Coins werden 49% bei der DeFiChain Foundation verbleiben. Der Rest kann an akkreditierte Investoren, große Fonds und Institutionen, zusammenfassend als externe Partner bezeichnet, verteilt werden, um die anfängliche Entwicklung von DeFiChain zu finanzieren. Um die Bestände der DFI so weit wie möglich zu dezentralisieren, darf die DeFiChain Foundation nicht mehr als 49% aller ursprünglich ausgegebenen Token behalten. Über die Verwendung möglicher Einnahmen aus den Token entscheidet der Vorstand der DeFiChain Foundation, aber sie werden ausschließlich für die Einführung und Entwicklung von DeFiChain verwendet.
 
-For any avoidance of doubt, there will NOT be a public ICO.
+Um jeden Zweifel auszuschließen: Es wird KEIN öffentliches ICO (Unregulierte Emission von Utility Token zur Finanzierung) geben.
 
 ![Initial Token Distribution](/img/white-paper/initial-token-distribution.png)
 
-Further tokens will only ever be received through staking, which is described in the next chapter.
+Weitere Token erhält man nur durch Staking, das im nächsten Kapitel beschrieben wird.
 
-### Token Issuance Schedule via Staking
+### Zeitplan für die Ausgabe von Token über Staking
 
-DeFiChain is initially launched with a 200 DFI block reward, of which 10% goes to the community fund. The Foundation pledges to guarantee this 200 DFI block reward for at least 1,050,000 blocks since the the first genesis block, so approximately 1 year.
+DeFiChain wird zunächst mit einem Block Reward von 200 DFI gestartet, von denen 10% an den Community Fund gehen. Die Foundation verpflichtet sich, diese 200 DFI Block Reward für mindestens 1.050.000 Blöcke ab dem ersten Genesis-Block, also etwa 1 Jahr, zu garantieren.
 
-Subsequently, block rewards will be adjusted through governance vote. The Foundation also further pledges that there will never be more than 1,200,000,000 (1.2 billion) DFI in circulation, unless until the DAO governance votes to change this limit. Therefore DFI is a deflationary utility token.
+Später werden die Block-Belohnungen durch eine Governance-Abstimmung angepasst. Die Foundation verpflichtet sich außerdem, dass nie mehr als 1.200.000.000 (1,2 Milliarden) DFI im Umlauf sein werden, es sei denn, die DAO-Governance stimmt über eine Änderung dieser Grenze ab. DFI ist also ein deflationärer Utility-Token.
 
-The proposed staking schedule for the first 10 years is according to the following table:
+Der vorgeschlagene Staking-Zeitplan für die ersten 10 Jahre ist in der folgenden Tabelle dargestellt:
 
 <div class="table-responsive">
   <table>
