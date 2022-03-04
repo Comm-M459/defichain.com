@@ -1,13 +1,13 @@
 ---
-title: Swap and arbitrage
+title: Tausch- und Arbitragegeschäfte
 type: article
-long_title: A step-by-step guide to swapping and arbitraging on the DEX
+long_title: Eine Schritt-für-Schritt-Anleitung für Tausch- und Arbitragegeschäfte auf der DEX
 cta_to: Read
 meta:
-  description: A step-by-step guide to swapping and arbitraging on the DEX
+  description: Eine Schritt-für-Schritt-Anleitung für Tausch- und Arbitragegeschäfte auf der DEX
   og:
-    title: Swap and arbitrage
-    description: A step-by-step guide to swapping and arbitraging on the DEX
+    title: Tausch- und Arbitragegeschäfte
+    description: Eine Schritt-für-Schritt-Anleitung für Tausch- und Arbitragegeschäfte auf der DEX
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -16,74 +16,74 @@ content:
   sections:
     hero:
       name: hero
-      headline: Swap and arbitrage
-      subhead: A step-by-step guide.
+      headline: Tausch und Arbitrage
+      subhead: Eine Schritt-für-Schritt-Anleitung
 ---
 
-## Swap using the DEX
+## Tauschen mittels der DEX
 
-Swapping tokens on the DeFiChain DEX (Decentralized Exchange) is easy. At the time of writing, the DEX offers swap for the following pairs:
+Der Tausch von Token auf der DeFiChain DEX ( Dezentrale Börse) ist einfach. Zum Zeitpunkt der Erstellung dieses Artikels bietet die DEX den Tausch für die folgenden Paare an:
 
-1. Ethereum–DeFiChain (ETH–DFI)
-2. Bitcoin–DeFiChain (BTC–DFI)
-3. Tether–DeFiChain (USDT–DFI)
+1. Ethereum–DeFiChain (dETH–DFI)
+2. Bitcoin–DeFiChain (dBTC–DFI)
+3. Tether–DeFiChain (dUSDT–DFI)
 
-The DeFiChain DEX does not suffer the high gas fees of Ethereum-based DEX, due to network congestion. Afterall, Ethereum being a general purpose blockchain, isn't specifically designed for decentralized finance. DeFiChain on the other hand, is born and made for DeFi, and DeFi only.
+Die DeFiChain DEX leidet nicht unter den hohen Gasgebühren, die bei Ethereum-basierten DEX aufgrund von Netzwerküberlastungen anfallen können. Da es sich bei Ethereum um eine Allzweck-Blockchain handelt, ist sie nicht speziell für dezentrale Finanzgeschäfte konzipiert. DeFiChain hingegen wurde für DeFi und nur für DeFi entwickelt.
 
-### Step 1: Launch the DeFiChain app
+### Schritt 1: Starte die DeFi Wallet App
 
-Don’t have the app installed yet? [Click here for a step-by-step guide on how to do so.](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch)
+Du hast die App noch nicht installiert? [Klicke hier und finde eine Schritt-für-Schritt-Anleitung, wie du sie installieren kannst.](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch)
 
-### Step 2: Make sure you have DFI in your wallet
+### Schritt 2: Stelle sicher, dass du DFI auf deiner Wallet hast
 
-After opening the DeFiChain App, click **Wallets** in the sidebar. Make sure you have funds (DFI) in wallet, as DFI is needed for transaction fees. If you don't yet have DFI, [here is a step-by-step tutorial on how and where you can buy DFI.](https://defichain.ghost.io/where-and-how-to-buy-dfi-defichain/)
+Nachdem du die DeFi Wallet App geöffnet hast, klicke in der Seitenleiste auf **Guthaben**. Vergewissere dich, dass du Guthaben (DFI) auf deiner Wallet hast, denn für die Transaktionsgebühren werden DFI benötigt. Wenn du noch keine DFI hast, [hier findest du eine Schritt-für-Schritt-Anleitung, wie und wo du DFI kaufen kannst].(https://defichain.ghost.io/where-and-how-to-buy-dfi-defichain/)
 
 <img src="/img/guides/installing-defi-app/wallets-choose.png" srcset="/img/guides/installing-defi-app/wallets-choose.png 1x, /img/guides/installing-defi-app/wallets-choose@2x.png 2x">
 
-### Step 3: Navigate to the DEX (Decentralized Exchange)
+### Schritt 3: Navigiere zur DEX (Dezentrale Börse)
 
-Click on **DEX** in the sidebar to access the Decentralized Exchange.
+Klicke auf **DEX** in der Seitenleiste, um die dezentrale Börse aufzurufen.
 
 <img src="/img/guides/obtaining-tokens/go-to-dex.png" srcset="/img/guides/obtaining-tokens/go-to-dex.png 1x, /img/guides/obtaining-tokens/go-to-dex@2x.png 2x">
 
-### Step 4: Perform a swap
+### Schritt 4: Einen Tausch durchführen
 
-The DEX provides a way for you to swap one coin for another. In this case, select DFI in the left **From** field.
+Der DEX bietet dir eine Möglichkeit, einen Token gegen einen anderen zu tauschen. In diesem Fall wählst du DFI im linken Feld **Von** aus.
 
 <img src="/img/guides/obtaining-tokens/dex-from.png" srcset="/img/guides/obtaining-tokens/dex-from.png 1x, /img/guides/obtaining-tokens/dex-from@2x.png 2x">
 
-Then select the coin you want to buy in right **To** field.
+Wähle dann den Token, den du kaufen möchtest, im rechten Feld **In** aus.
 
 <img src="/img/guides/obtaining-tokens/dex-to.png" srcset="/img/guides/obtaining-tokens/dex-to.png 1x, /img/guides/obtaining-tokens/dex-to@2x.png 2x">
 
-You can either specify how much you DFI wish to sell in the **To** field, or how much of the other coin you wish to buy, in the **To** field. You can also click the **MAX** button to enter the maximum amount of DFI.
+Du kannst entweder im Feld **Von** angeben, wie viel du DFI verkaufen möchtest, oder im Feld **In**, wie viel des anderen Tokens du kaufen möchtest. Du kannst auch auf die Schaltfläche **MAX** klicken, um den maximalen Betrag an DFI einzugeben.
 
-Click **CONTINUE** when you are ready to swap.
+Klicke auf **Weiter**, wenn du bereit bist zu tauschen.
 
 <img src="/img/guides/obtaining-tokens/ready-to-swap.png" srcset="/img/guides/obtaining-tokens/ready-to-swap.png 1x, /img/guides/obtaining-tokens/ready-to-swap@2x.png 2x">
 
-Review the transaction amounts and fees. Then click **SWAP** to confirm.
+Überprüfe die Transaktionsbeträge und Gebühren. Klicke dann zur Bestätigung auf **Tauschen**.
 
 <img src="/img/guides/obtaining-tokens/dex-verify.png" srcset="/img/guides/obtaining-tokens/dex-verify.png 1x, /img/guides/obtaining-tokens/dex-verify@2x.png 2x">
 
 ---
 
-## Wanna be an Arbitrageur?
+## Willst du ein Arbitrageur sein?
 
-As liquidity gets swapped from a DEX (Decentralized Exchange), the ratio of the coins in any of the liquidity pool pairs becomes unbalanced. Because the price of tokens in a liquidity pool does not depend on market prices like in CEXs (centralized exchanges) based on the order book model, one of the coins in a pair can become cheaper or more expensive than the external prices in centralized exchanges. You can either buy low on DeFiChain and sell high on a CEX, or buy low from a CEX and sell high on DeFiChain). This is what we call _arbitrage opportunities_.
+Wenn Liquidität von einer DEX (Dezentralen Börse) gewechselt wird, gerät das Verhältnis der Token in einem der Liquiditätspoolpaare aus dem Gleichgewicht. Da der Preis der Token in einem Liquiditätspool nicht von den Marktpreisen abhängt wie bei CEXs (zentralisierten Börsen), die auf dem Orderbuchmodell basieren, kann einer der Token in einem Paar billiger oder teurer werden als die externen Preise an zentralisierten Börsen. Du kannst entweder niedrig auf DeFiChain kaufen und hoch auf einer CEX verkaufen, oder niedrig auf einer CEX kaufen und hoch auf DeFiChain verkaufen). Das ist es, was wir _Arbitrage-Möglichkeiten_ nennen.
 
-Here's an example:
+Hier ein Beispiel:
 
-Look for price differences between the DEX and CEXs. For example, at the time of writing, the BTC price of DFI at an exchange like [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-DFI) is `0.00002643 BTC per DFI`. Compared to Bittrex, the price of BTC in the DEX is `0.00002522 BTC per DFI`. BTC is more expensive at the DEX than Bittrex.
+Achte auf Preisunterschiede zwischen der DEX und den CEXs. Zum Beispiel liegt der BTC-Preis für DFI an einer Börse wie [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-DFI) zum Zeitpunkt der Erstellung dieses Artikels bei `0.00002643 BTC pro DFI`. Im Vergleich zu Bittrex liegt der Preis für BTC auf der DEX bei `0.00002522 BTC per DFI`. BTC ist auf der DEX teurer als auf Bittrex.
 
-### Swapping DFI for BTC
+### DFI gegen BTC tauschen
 
-All we need to do is buy 1 BTC at Bittrex with `38,587.61607637 DFI`.
+Alles, was wir tun müssen, ist 1 BTC bei Bittrex zu kaufen mit `38,587.61607637 DFI`.
 
 <img src="/img/guides/arbitrage/arbitrage-cex.png" srcset="/img/guides/arbitrage/arbitrage-cex.png 1x, /img/guides/arbitrage/arbitrage-cex@2x.png 2x">
 
-Then sell the `1 BTC` for `39,355.98845598 DFI` on the DEX, for a profit of `768.37237961 DFI` – about 2% for a single day. When the prices vary more, the arbitrage opportunities can get way higher.
+Dann müssen wir den `1 BTC` für `39,355.98845598 DFI` auf der DEX verkaufen, was einem Gewinn von `768.37237961 DFI` entspricht - etwa 2% an einem einzigen Tag. Wenn die Preise stärker schwanken, können die Arbitragemöglichkeiten viel größer werden.
 
 <img src="/img/guides/arbitrage/arbitrage1.png" srcset="/img/guides/arbitrage/arbitrage1.png 1x, /img/guides/arbitrage/arbitrage1@2x.png 2x">
 
-[Download the DeFiChain desktop app](/downloads) available for macOS, Windows and Linux, to use the DEX. You too, can be an arbitrageur.
+[Lade die DeFi Wallet Desktop App](/downloads) herunter, die für macOS, Windows und Linux verfügbar ist, um die DEX zu nutzen. Auch du kannst ein Arbitrageur sein.
