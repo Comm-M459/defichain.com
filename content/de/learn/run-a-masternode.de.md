@@ -190,7 +190,7 @@ Masternodes können in diesen Status vorkommen:
 ```
 - `PRE_ENABLED` - Masternode wurde erstellt, wartet aber nach der Erstellung auf genügend Blöcke, um aktiviert zu werden.
 - `ENABLED` - Masternode ist voll funktionsfähig, kann Blöcke minten und Verankerungen signieren
-- `PRE_RESIGNED` - Der Masternode ist noch in Betrieb, hat aber eine "Resign"-Transaktion erhalten und wartet auf eine gewisse Verzögerung, um aus dem Betrieb genommen zu werden.
+- `PRE_RESIGNED` - Der Masternode ist noch in Betrieb, hat aber eine "Resign"-Transaktion erhalten und wartet eine gewisse Verzögerung lang, um aus dem Betrieb genommen zu werden.
 - `RESIGNED` - Masternode außer Betrieb genommen, das Kollateral freigeschaltet und zur Rückforderung verfügbar
 - `PRE_BANNED` - Der Masternode wurde als "Krimineller" überführt (er signierte zwei Blöcke von parallelen Forks auf unmittelbarer Höhe und wir bekamen ein spezielles Proofing-Tx auf der Chain), aber immer noch funktionsfähig (wartend, wie im Fall von PRE_RESIGNED)
 - `BANNED` - Masternode deaktiviert, Kollateral freigeschaltet und kann zurückverlangt werden (wie RESIGNED, aber durch Deaktivierung erzwungen)
