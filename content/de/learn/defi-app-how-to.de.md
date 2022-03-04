@@ -45,7 +45,7 @@ Lade die neueste App-Version von der Seite [Downloads](/downloads) herunter.
 
 <p><img src="/img/guides/installing-defi-app/macos-security-prompt.png" srcset="/img/guides/installing-defi-app/macos-security-prompt.png 1x, /img/guides/installing-defi-app/macos-security-prompt@2x.png 2x"></p>
 
-\**Du wirst diese Sicherheitsabfrage bei frühen, nicht signierten Versionen der App sehen. In zukünftigen Versionen, die von Apple signiert sind, wirst du keine Sicherheitsabfragen mehr sehen. Vorerst befolgst du bitte Schritt 3 für eine Lösung.*
+\**Diese Sicherheitsabfrage erscheint bei frühen, nicht signierten Versionen der App. In zukünftigen Versionen, die von Apple signiert sind, wire du keine Sicherheitsabfragen mehr zu sehen sein. Falls noch nötig, bitte Schritt 3 für ausführen.*
 
 ### Schritt 3: Ausführung der App zulassen
 
@@ -65,27 +65,27 @@ Klicke auf **Öffnen** im Bestätigungs-Pop-up.
 
 Die DeFi Wallet wird automatisch gestartet, wenn die Installation abgeschlossen ist.
 
-## Installing on Windows
+## Installation unter Windows
 
-### Step 1: Installation
+### Schritt 1: Installation
 
-Double click on the downloaded file.
+Ein Doppelklick auf die heruntergeladene Datei
 
-### Step 2: Windows security prompt
+### Schritt 2: Windows-Sicherheitsabfrage
 
-If this is the first time you are installing the DeFi app, the installer may present you with a security prompt as shown. Click **More info**.
+Wenn du die DeFi-App zum ersten Mal installierst, kann es sein, dass das Installationsprogramm eine Sicherheitsabfrage anzeigt. Klicke auf **Mehr Info**.
 
-\**Microsoft Windows SmartScreen may flag newly uploaded files that have not built up a long enough history.*
+\**Microsoft Windows SmartScreen kann neu hochgeladene Dateien markieren, die noch nicht lange genug in der Vergangenheit liegen.*
 
 ![Image](https://i.imgur.com/CUmfPMS.png)
 
-### Step 3: Bypass Windows security prompt
+### Schritt 3: Umgehen der Windows-Sicherheitsabfrage
 
-Click **Run anyway** to begin installation.
+Klicke auf **Dennoch ausführen**, um die Installation zu starten.
 
 ![Image](https://i.imgur.com/S7SFwms.png)
 
-DeFi app will launch automatically when the installation is complete.
+Die DeFi Wallet wird automatisch gestartet, wenn die Installation abgeschlossen ist.
 
 ## Installing on Linux using AppImage
 
