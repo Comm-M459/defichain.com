@@ -22,7 +22,7 @@ content:
 
 ## Die App herunterladen
 
-Lade die neueste App von der Seite [downloads](/downloads) herunter.
+Lade die neueste App-Version von der Seite [Downloads](/downloads) herunter.
 
 ## Mindestanforderungen
 
