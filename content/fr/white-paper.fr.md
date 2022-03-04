@@ -485,7 +485,7 @@ DeFiChain utilise un algorithme de preuve d'enjeu (PoS) similaire à l'algorithm
 
 #### Masternodes de staking
 
-Pour faire fonctionner un masternode (nœud de staking), les stakers doivent détenir un montant fixe de DFI, statut T1 2022 fixé à 20.000. Les masternodes de DeFiChain participent aux validations de transactions actives et aux créations de blocs. Le montant du staking est destiné à être réduit avec la stabilité et la maturité de la blockchain pour encourager une plus grande décentralisation.
+Pour faire fonctionner un masternode (nœud de staking), les stakers doivent détenir un montant fixe de 20 000 DFI. Les masternodes de DeFiChain participent aux validations de transactions actives et aux créations de blocs. Le montant du staking est destiné à être réduit avec la stabilité et la maturité de la blockchain pour encourager une plus grande décentralisation.
 
 Chaque nœud de staking ne peut effectuer qu'un seul hachage par seconde, le nonce de l'algorithme Bitcoin Core PoW étant remplacé par l'ID du masternode du staker.
 Un nouveau bloc est miné s'il satisfait à la condition suivante :
@@ -799,7 +799,7 @@ Redistribution des tokens brûlés pour les 259 200 prochains blocs =
 
 ### Masternodes
 
-DeFiChain est une blockchain basée sur la preuve d'enjeu. Initialement, posséder 1 000 000 DFI permet d'avoir un masternode. Le rendement du staking diminuera avec le temps, car le volume et le nombre de transactions compensent la réduction des récompenses de staking par transaction.
+DeFiChain est une blockchain basée sur la preuve d'enjeu. Initialement, posséder 1 000 000 DFI permettait d'avoir un masternode. Aujourd'hui, le montant a été réduit à 20 000 DFI pour la propriété d'un masternode. Le rendement du staking diminuera avec le temps, car le volume et le nombre de transactions compensent la réduction des récompenses de staking par transaction.
 
 Les masternodes ont droit à :
 
@@ -821,7 +821,7 @@ Pour des raisons de clarification et de transparence, Cake Pte Ltd est une soci�
 
 La Fondation DeFiChain créera un fonds de développement de la communauté avec une gestion allant jusqu'à 10% des récompenses du bloc. Ce pourcentage peut être mis à jour en soumettant une proposition de DAO qui sera votée par tous les masternodes. Les fonds de développement communautaires ont été popularisés par DASH et sont utilisés aujourd'hui dans certaines DAO sélectives. La communauté déterminera l'utilisation de ces fonds pour le développement, le marketing ou la recherche au profit de la communauté DeFiChain. Les masternodes DFI votent pour les projets qu'ils aiment et les propositions les plus votées chaque mois seront financées.
 
-Il en coûte 500 DFI de soumettre une proposition de budget, et une proposition peut être soumise par n'importe qui. Ces frais sont brûlés et non remboursables, que le budget soit approuvé ou non. Les budgets sont des propositions qui reçoivent un total net de votes positifs égal ou supérieur à 10% du total des votes possibles (par exemple plus de 448 sur 4480). Les budgets peuvent être annulés à tout moment si le total des votes (exprimés ou renouvelés) tombe sous le seuil d'approbation. Les budgets sont traités (financés) dans l'ordre des votes positifs moins les votes négatifs. Les budgets les plus populaires sont financés en priorité. Les votes ont lieu sur une base mensuelle mais peuvent être modifiés par un vote du masternode.
+Il en coûte 10 DFI de soumettre une proposition de budget, et une proposition peut être soumise par n'importe qui. Ces frais sont brûlés et non remboursables, que le budget soit approuvé ou non. Les budgets sont des propositions qui reçoivent un total net de votes positifs égal ou supérieur à 10% du total des votes possibles (par exemple plus de 448 sur 4480). Les budgets peuvent être annulés à tout moment si le total des votes (exprimés ou renouvelés) tombe sous le seuil d'approbation. Les budgets sont traités (financés) dans l'ordre des votes positifs moins les votes négatifs. Les budgets les plus populaires sont financés en priorité. Les votes ont lieu sur une base mensuelle mais peuvent être modifiés par un vote du masternode.
 
 Pour les décisions de gouvernance, seule la Fondation peut soumettre des propositions. Les propositions sont votées de la même manière que les propositions de budget de la DAO, sauf que les décisions seront honorées par un vote à la majorité simple.
 
