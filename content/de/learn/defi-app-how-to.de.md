@@ -183,34 +183,34 @@ Du solltest deine letzte Transaktion in der Liste der **Transaktionen** in deine
 
 ---
 
-### Receiving funds
+### Empfang von Zahlungen
 
 #### Schritt 1
 
-Within a selected wallet, click **RECEIVE**.
+Klicke innerhalb einer ausgewählten Wallet auf **EMPFANGEN**.
 
 <img src="/img/guides/installing-defi-app/wallet-receive.png" srcset="/img/guides/installing-defi-app/wallet-receive.png 1x, /img/guides/installing-defi-app/wallet-receive@2x.png 2x">
 
-Then click **NEW ADDRESS** to create a new receiving address.
+Klicke dann auf **NEUE ADRESSE**, um eine neue Empfangsadresse zu erstellen.
 
 <img src="/img/guides/installing-defi-app/wallet-receive1.png" srcset="/img/guides/installing-defi-app/wallet-receive1.png 1x, /img/guides/installing-defi-app/wallet-receive1@2x.png 2x">
 
 #### Schritt 2
 
-Fill out the information and give your address a meaningful label. Then click **CREATE**.
+Fülle die Informationen aus und gib deiner Adresse eine aussagekräftige Bezeichnung. Klicke dann auf **Erstellen**.
 
 <img src="/img/guides/installing-defi-app/wallet-receive2.png" srcset="/img/guides/installing-defi-app/wallet-receive2.png 1x, /img/guides/installing-defi-app/wallet-receive2@2x.png 2x">
 
 #### Schritt 3
 
-The new receive address you have just created will appear in your list of receive addresses.
+Die neue Empfangsadresse, die du gerade erstellt hast, erscheint in deiner Liste der Empfangsadressen.
 
 <img src="/img/guides/installing-defi-app/wallet-receive3.png" srcset="/img/guides/installing-defi-app/wallet-receive3.png 1x, /img/guides/installing-defi-app/wallet-receive3@2x.png 2x">
 
-Click the **QR code** button to bring up a QR code of the address.
+Klicke auf die Schaltfläche **QR-Code**, um einen QR-Code der Adresse aufzurufen.
 
 <img src="/img/guides/installing-defi-app/wallet-receive4.png" srcset="/img/guides/installing-defi-app/wallet-receive4.png 1x, /img/guides/installing-defi-app/wallet-receive4@2x.png 2x">
 
-Click the **copy address** button to copy the address to your system clipboard.
+Klicke auf die Schaltfläche **Adresse kopieren**, um die Adresse in die Zwischenablage deines Systems zu kopieren.
 
 <img src="/img/guides/installing-defi-app/wallet-receive5.png" srcset="/img/guides/installing-defi-app/wallet-receive5.png 1x, /img/guides/installing-defi-app/wallet-receive5@2x.png 2x">
