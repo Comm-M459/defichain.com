@@ -121,7 +121,7 @@ Suche deine Masternode-Adresse in der Liste der Masternodes, um zu überprüfen,
 Du kannst den Befehl `getmasternodeblocks OPERATOR_ADDRESS` ausführen, um zu sehen, wie viele Blöcke dein Masternode bisher gemintet hat.
 
 ## Für Owner, die die Aufgaben des Masternodes an einen anderen Node delegieren möchten
-In diesem Fall ist die Operator-Adresse eine andere als die Owner-Adresse (Kollateral).
+In diesem Fall ist die Operator-Adresse eine andere als die Owner-Adresse (Kollateraladresse).
 
 ### Schritt 1-4 - Wie oben
 
