@@ -486,7 +486,7 @@ DeFiChain verwendet einen Proof of Stake (PoS)-Algorithmus, der dem ursprünglic
 
 #### Masternodes zum Staking
 
-Um einen Masternode (Staking Node) zu betreiben, müssen Staker einen festen Betrag an DFI halten, der anfänglich auf 20.000 festgelegt ist. Masternodes auf DeFiChain nehmen aktiv an Transaktionsüberprüfungen und Blockerstellungen teil. Der Mindestbetrag fürs Staking soll mit zunehmender Stabilität und Entwicklungsstufe der Blockchain gesenkt werden, um eine weitere Dezentralisierung zu fördern.
+Um einen Masternode (Staking Node) zu betreiben, müssen Staker einen festen Betrag von 20.000 DFI halten. Masternodes auf DeFiChain nehmen aktiv an Transaktionsüberprüfungen und Blockerstellungen teil. Der Mindestbetrag fürs Staking soll mit zunehmender Stabilität und Entwicklungsstufe der Blockchain gesenkt werden, um eine weitere Dezentralisierung zu fördern.
 
 Jeder Staking Node kann nur 1 Hash pro Sekunde durchführen, wobei die Nonce aus dem Bitcoin Core PoW Algorithmus durch die Masternode ID eines Stakers ersetzt wird.
 Ein neuer Block wird gemint, wenn er die folgende Bedingung erfüllt:
@@ -523,7 +523,7 @@ Während der Generierung eines Blocks hat ein Staker das Recht, die doppelt sign
 
 Um Staker, die doppelt signieren, bestrafen zu können, muss DeFiChain das sofortige Abheben des Stakes verbieten. Wenn also eine Deaktivierungstransaktion bestätigt wird, benötigt DeFiChain 3000 Blöcke, um sie abzuschließen. Bei einer Blockzeit von 30 Sekunden entsprechen 3000 Blöcke 25 Stunden.
 
-Die Strafe für das Doppelsignieren beträgt das 10-fache der Blockprämie, die von der Sicherheit abgezogen wird. Das schließt die Staker auch sofort von weiteren Einsätzen aus. Der Staker, der seinen Einsatz wieder aufnehmen möchte, muss einen neuen UTXO von 20.000 DFI einsetzen. Wenn du den offiziellen DeFiChain Node betreibst, kommt es nicht zu einem unbeabsichtigten oder versehentlichen Doppelsignieren. Doppeltes Signieren geschieht nur in böser Absicht.
+Die Strafe für das Doppelsignieren beträgt das 10-fache der Blockprämie, die von der Sicherheit abgezogen wird. Das schließt die Staker auch sofort von weiteren Einsätzen aus. Der Staker, der seinen Einsatz wieder aufnehmen möchte, muss erneut UTXO in der Höhe von 20.000 DFI fürs Staking einsetzen. Wenn man den offiziellen DeFiChain Node betreibt, kommt es nicht zu einem unbeabsichtigten oder versehentlichen Doppelsignieren. Doppeltes Signieren geschieht nur in böser Absicht.
 
 #### Zeitdrift Angriff
 
@@ -800,7 +800,7 @@ Umverteilung der verbrannten Token für die nächsten 259.200 Blöcke =
 
 ### Masternodes
 
-DeFi ist eine Proof of Stake-Blockchain. Anfänglich ermöglichen 1.000.000 DFI, inzwischen Stand Q1 2022 20.000 DFI dem Besitzer einen Staking Node zu besitzen. Die Rendite für das Staking sinkt mit der Zeit, da das Volumen und die Anzahl der Transaktionen die geringeren Rewards für das Staking pro Transaktion ausgleichen.
+DeFi ist eine Proof of Stake-Blockchain. Ursprünglich konnte man mit 1.000.000 DFI einen Masternode betreiben. Heute ist der Betrag auf 20.000 DFI für das Betreiben eines Masternodes reduziert worden. Die Rendite für das Staking sinkt mit der Zeit, da das Volumen und die Anzahl der Transaktionen die geringeren Rewards für das Staking pro Transaktion ausgleichen.
 
 Diese Nodes haben Anspruch auf:
 
@@ -822,7 +822,7 @@ Zur Klarstellung und Transparenz: Cake Pte Ltd ist ein privates Unternehmen mit 
 
 Die DeFiChain Foundation wird einen gemeinschaftlichen Entwicklungsfonds einrichten, der bis zu 10 % der Block-Belohnungen verwaltet. Dieser Prozentsatz kann aktualisiert werden, indem ein DAO-Vorschlag eingereicht wird, über den alle Masternodes abstimmen. Community Development Funds wurden von DASH[^10] populär gemacht und werden heute in einigen ausgewählten DAOs eingesetzt. Die Community entscheidet über die Verwendung dieser Mittel für Entwicklung, Marketing oder Forschung, die der DeFi-Community zugute kommt. DFI Masternodes stimmen über Projekte ab, die ihnen gefallen, und die Vorschläge mit den meisten Stimmen werden jeden Monat finanziert.
 
-Die Einreichung eines Budgetvorschlags kostet 10 DFI und kann von jedem eingereicht werden. Diese Gebühr wird verbrannt und ist nicht erstattungsfähig, unabhängig davon, ob der Haushalt genehmigt wird. Budgets sind Vorschläge, die eine Nettosumme von Ja-Stimmen erhalten, die mindestens 10% der möglichen Gesamtstimmen ausmacht (z.B. mehr als 448 von 4480). Budgets können jederzeit annulliert werden, wenn die Gesamtzahl der Stimmen (abgegebene oder neu abgegebene) unter die Genehmigungsschwelle fällt. Die Budgets werden in der Reihenfolge der Ja- minus der Nein-Stimmen bearbeitet (bezahlt). Beliebtere Budgets werden vorrangig ausgezahlt. Die Abstimmung findet monatlich statt, kann aber durch eine Abstimmung auf dem Masternode geändert werden.
+Die Einreichung eines Budgetvorschlags kostet 10 DFI und kann von jedem erfolgen. Diese Gebühr wird verbrannt und ist nicht erstattungsfähig, unabhängig davon, ob der Haushalt genehmigt wird. Budgets sind Vorschläge, die eine Nettosumme von Ja-Stimmen erhalten, die mindestens 10% der möglichen Gesamtstimmen ausmacht (z.B. mehr als 448 von 4480). Budgets können jederzeit annulliert werden, wenn die Gesamtzahl der Stimmen (abgegebene oder neu abgegebene) unter die Genehmigungsschwelle fällt. Die Budgets werden in der Reihenfolge der Ja- minus der Nein-Stimmen bearbeitet (bezahlt). Beliebtere Budgets werden vorrangig ausgezahlt. Die Abstimmung findet monatlich statt, kann aber durch eine Abstimmung auf dem Masternode geändert werden.
 
 Für Governance-Entscheidungen kann nur die Foundation Vorschläge einreichen. Die Abstimmung über Vorschläge erfolgt ähnlich wie bei den Haushaltsvorschlägen der DAO, mit dem Unterschied, dass die Entscheidungen mit einfacher Mehrheit getroffen werden.
 
