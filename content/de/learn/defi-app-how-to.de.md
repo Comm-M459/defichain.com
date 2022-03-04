@@ -28,7 +28,7 @@ Lade die neueste App-Version von der Seite [Downloads](/downloads) herunter.
 
 | Anforderung | Mindestens erforderlich |
 |-|-|
-| Arbeitsspeicher | 4GB |
+| Arbeitsspeicher | 4 GB |
 | Betriebssystem | macOS 10.14, Windows 10, Ubuntu LTS 18 oder höher |
 
 ## Installation unter macOS
