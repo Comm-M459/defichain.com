@@ -151,7 +151,7 @@ Du kannst den Befehl `getmasternodeblocks OPERATOR_ADDRESS` eingeben, um zu sehe
 
 ## Erstellen über die DeFi Wallet App
 
-Es ist ganz einfach, deinen Masternode über die DeFi Wallet App einzurichten. Gehe einfach auf die Registerkarte Masternodes und klicke auf "Create +" in der oberen rechten Ecke des Bildschirms. Der Prozess ist automatisch und selbsterklärend.
+Es ist ganz einfach, deinen Masternode über die DeFi Wallet App einzurichten. Gehe einfach auf die Registerkarte Masternodes und klicke auf "Erstellen +" in der oberen rechten Ecke des Bildschirms. Der Prozess ist automatisch und selbsterklärend.
 
 ![Masternode1](https://user-images.githubusercontent.com/3271586/112108417-2472a280-8beb-11eb-91f1-896904d46a85.png)
 
