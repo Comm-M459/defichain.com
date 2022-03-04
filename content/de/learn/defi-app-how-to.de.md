@@ -130,62 +130,62 @@ Du kannst jetzt die DeFi Wallet öffnen.
 
 #### Hauptnavigation in der Seitenleiste
 
-- **Wallets** tab: Send and receive funds, and view transactions
-- **Liquidity** tab: Add and remove liquidity, and viewing APR of your liquidity
-- **DEX** tab: Swap between wrapped BTC/ETH/USDT and DFI
-- **Tokens** tab: View community-verified DST (DeFi Standard tokens) and create your own
-- **Blockchain** tab: A built-in mini block explorer to examine the blockchain
-- **Masternodes** tab: View a list of masternodes and create your own
+- Tab **Guthaben**: Geld senden und empfangen und Transaktionen einsehen
+- Tab **Liquidität**: Liquidität hinzufügen und entfernen und Jahreszins deiner Liquiditäts-Miningbestände anzeigen
+- Tab **DEX**: Tauschen zwischen gewrappten BTC/ETH/USDT und DFI
+- Tab **Tokens**: Von der Community verifizierte DST-Tokens (DeFi Standard Token) ansehen und eigene erstellen
+- Tab **Blockchain**: Ein eingebauter Mini-Block-Explorer zur Einsicht in die Blockchain
+- Tab **Masternodes**: Eine Liste der Masternodes anzeigen und deinen eigenen erstellen
 
-#### Sidebar sub navigation
+#### Unternavigation in der Seitenleiste
 
-- **Console**: Run DeFiChain CLI commands
-- **Help**: Help options
-- **Settings**: Switch between Main and Test net, language and other settings
+- **Konsole**: DeFiChain CLI-Befehle ausführen (Befehlszeilenschnittstelle)
+- **Hilfe**: Hilfe-Optionen
+- **Einstellungen**: Wechsel zwischen Main- und Testnetz, Sprache und anderen Einstellungen
 
-### Opening a wallet
+### Öffnen einer Wallet
 
-Switch to the **Wallets** tab, choose a wallet e.g. DFI.
+Wechsle zum Tab **Guthaben**, wähle eine Wallet, z.B. DFI.
 
 <p><img src="/img/guides/installing-defi-app/wallets-choose.png" srcset="/img/guides/installing-defi-app/wallets-choose.png 1x, /img/guides/installing-defi-app/wallets-choose@2x.png 2x"></p>
 
-### Sending funds
+### Guthaben senden
 
-#### Step 1
+#### Schritt 1
 
-Within a wallet, click on **Send**.
+In einer Wallet klickst du auf **Senden**.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send.png" srcset="/img/guides/installing-defi-app/wallet-send.png 1x, /img/guides/installing-defi-app/wallet-send@2x.png 2x"></p>
 
-#### Step 2
+#### Schritt 2
 
-Enter the **Amount** and, the **To address** to send to. Yu can also enter an address using QR code scanner feature next to the address field. Press **CONTINUE** when you are ready.
+Gib den **Betrag** und die **Adresse** ein, an die du senden möchtest. Du kannst eine Adresse auch mit dem QR-Code-Scanner neben dem Adressfeld eingeben. Klicke auf **WEITER**, wenn du bereit bist.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send1.png" srcset="/img/guides/installing-defi-app/wallet-send1.png 1x, /img/guides/installing-defi-app/wallet-send1@2x.png 2x"></p>
 
-#### Step 3
+#### Schritt 3
 
-Review the **Amount** and **To address** and verify they are correct. The **COMPLETE SEND** button is disabled for a few seconds to protect you from accidental sending.
+Überprüfe den **Betrag** und die **Adresse** und stelle sicher, dass sie korrekt sind. Die Schaltfläche **Betrag senden** ist für ein paar Sekunden deaktiviert, um dich vor versehentlichem Senden zu schützen.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send2.png" srcset="/img/guides/installing-defi-app/wallet-send2.png 1x, /img/guides/installing-defi-app/wallet-send2@2x.png 2x"></p>
 
-Click **COMPLETE SEND** to confirm sending.
+Klicke auf **Betrag senden**, um den Auftrag zu bestätigen.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send3.png" srcset="/img/guides/installing-defi-app/wallet-send3.png 1x, /img/guides/installing-defi-app/wallet-send3@2x.png 2x"></p>
 
-#### Step 4
+#### Schritt 4
 
-After the transaction is complete, press **BACK TO WALLET** to return to the wallet.
+Nachdem die Transaktion abgeschlossen ist, klicke auf **Zurück zur Wallet**, um zur Wallet zurückzukehren.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send4.png" srcset="/img/guides/installing-defi-app/wallet-send4.png 1x, /img/guides/installing-defi-app/wallet-send4@2x.png 2x"></p>
 
-You should see your latest transaction in the list of **Transactions** in your wallet.
+Du solltest deine letzte Transaktion in der Liste der **Transaktionen** in deiner Wallet sehen.
 
 ---
 
 ### Receiving funds
 
-#### Step 1
+#### Schritt 1
 
 Within a selected wallet, click **RECEIVE**.
 
@@ -195,13 +195,13 @@ Then click **NEW ADDRESS** to create a new receiving address.
 
 <img src="/img/guides/installing-defi-app/wallet-receive1.png" srcset="/img/guides/installing-defi-app/wallet-receive1.png 1x, /img/guides/installing-defi-app/wallet-receive1@2x.png 2x">
 
-#### Step 2
+#### Schritt 2
 
 Fill out the information and give your address a meaningful label. Then click **CREATE**.
 
 <img src="/img/guides/installing-defi-app/wallet-receive2.png" srcset="/img/guides/installing-defi-app/wallet-receive2.png 1x, /img/guides/installing-defi-app/wallet-receive2@2x.png 2x">
 
-#### Step 3
+#### Schritt 3
 
 The new receive address you have just created will appear in your list of receive addresses.
 
