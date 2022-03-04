@@ -137,27 +137,27 @@ Um am Staking-Algorithmus teilzunehmen, musst du dem Netzwerk mitteilen, dass du
 
 wobei `OWNER_ADDRESS` die Adresse des Kollateral-/Owner Nodes und `OPERATOR_ADDRESS` die Adresse des Operators ist. Bitte beachte, dass es 10 DFI kostet, diesen Befehl auszuführen.
 
-There is nothing to do after this, you may simply ensure that your masternode operator is correctly running the masternode on their side by passing them the operator address.
+Danach gibt es nichts mehr zu tun. Du kannst einfach sicherstellen, dass dein Masternode-Operator den Masternode auf seiner Seite korrekt betreibt, indem du ihm die Operator-Adresse übermittelst.
 
-We can confirm the masternode is running by running: 
+Wir können überprüfen, ob der Masternode läuft, indem wir Folgendes ausführen: 
 
 ```
 ~/.defi/defi-cli listmasternodes
 ```
 
-Look for your masternode address in the list of masternodes to confirm that you have successfully set everything up.
+Sieh nach deiner Masternode-Adresse in der Liste der Masternodes, um zu überprüfen, ob alles erfolgreich eingerichtet wurde.
 
-You may run the command `getmasternodeblocks OPERATOR_ADDRESS` to see how many blocks your masternode has minted so far.
+Du kannst den Befehl `getmasternodeblocks OPERATOR_ADDRESS` eingeben, um zu sehen, wie viele Blöcke dein Masternode bisher gemintet hat.
 
-## Creating via the DeFiChain Desktop Wallet
+## Erstellen über die DeFi Wallet App
 
-It's easy to set up your masternode through the DeFiChain Desktop Wallet, simply browse to the Masternodes tab and click on "Create +" in the upper right corner of the screen. The process is automated and seamless.
+Es ist ganz einfach, deinen Masternode über die DeFi Wallet App einzurichten. Gehe einfach auf die Registerkarte Masternodes und klicke auf "Create +" in der oberen rechten Ecke des Bildschirms. Der Prozess ist automatisch und selbsterklärend.
 
 ![Masternode1](https://user-images.githubusercontent.com/3271586/112108417-2472a280-8beb-11eb-91f1-896904d46a85.png)
 
-## Running multiple masternodes on the same machine
+## Mehrere Masternodes auf demselben Rechner betreiben
 
-If you would like to run multiple masternodes on the same machine, you simply need to specify multiple `masternode_operator` entries in your `defi.conf`:
+Wenn du mehrere Masternodes auf demselben Rechner betreiben möchtest, musst du einfach mehrere `masternode_operator`-Einträge in deiner `defi.conf` vornehmen:
 
 ```
 gen=1
@@ -167,19 +167,19 @@ masternode_operator=OPERATOR_ADDRESS_2
 masternode_operator=OPERATOR_ADDRESS_3
 ```
 
-On the next run, the node will begin minting for all the specified masternodes. There is no hard limit to how many masternodes a single machine can run.
+Beim nächsten Aufruf beginnt der Node mit dem Minting für alle angegebenen Masternodes. Es gibt keine feste Grenze dafür, wie viele Masternodes ein einzelner Rechner betreiben kann.
 
-## Resigning masternodes
+## Masternodes zurückziehen
 
-If you decide to resign your masternode, you may run 
+Wenn du dich entscheidest, deinen Masternodebetrieb zu beenden, kannst du Folgendes ausführen 
 
 ```
 ~/.defi/defi-cli resignmasternode
 ```
-## Masternode states
-Sending `createmasternode` (or 'resignmasternode') transaction doesn't mean that it acts immediately after submitting to the blockchain. There are special delays for each state.
+## Masternode-Status
+Wenn du eine Transaktion "createemasternode" (oder "resignmasternode") sendest, bedeutet das nicht, dass sie sofort nach dem Übertragen an die Blockchain wirksam wird. Für jeden Status gibt es gewisse Verzögerungen.
 
-Masternodes can exist in these states:
+Masternodes können in diesen Status vorkommen:
 ```
         PRE_ENABLED,
         ENABLED,
@@ -188,9 +188,9 @@ Masternodes can exist in these states:
         PRE_BANNED,
         BANNED
 ```
-- `PRE_ENABLED` - masternode was created, but waits for enough blocks after creation to get activated.
-- `ENABLED` - masternode is in fully operable state, can mint blocks and sign anchors
-- `PRE_RESIGNED` - masternode is still operable, but have received a 'resign' transaction and will wait for a special delay to get resigned
-- `RESIGNED` - masternode resigned, collateral unlocked and is available to be reclaimed
-- `PRE_BANNED` - masternode was caught as a 'criminal' (signing two blocks from parallel forks on close heights and we got special proofing tx on chain) but still operable (waiting, as in the case of PRE_RESIGNED)
-- `BANNED` - masternode deactivated, collateral unlocked and can be reclaimed (same as RESIGNED, but forced through deactivation)
+- `PRE_ENABLED` - Masternode wurde erstellt, wartet aber nach der Erstellung auf genügend Blöcke, um aktiviert zu werden.
+- `ENABLED` - Masternode ist voll funktionsfähig, kann Blöcke minten und Verankerungen signieren
+- `PRE_RESIGNED` - Der Masternode ist noch in Betrieb, hat aber eine "Resign"-Transaktion erhalten und wartet auf eine gewisse Verzögerung, um aus dem Betrieb genommen zu werden.
+- `RESIGNED` - Masternode außer Betrieb genommen, das Kollateral freigeschaltet und zur Rückforderung verfügbar
+- `PRE_BANNED` - Der Masternode wurde als "Krimineller" überführt (er signierte zwei Blöcke von parallelen Forks auf unmittelbarer Höhe und wir bekamen ein spezielles Proofing-Tx auf der Chain), aber immer noch funktionsfähig (wartend, wie im Fall von PRE_RESIGNED)
+- `BANNED` - Masternode deaktiviert, Kollateral freigeschaltet und kann zurückverlangt werden (wie RESIGNED, aber durch Deaktivierung erzwungen)
