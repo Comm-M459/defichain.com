@@ -27,7 +27,7 @@ Wenn du einen Masternode auf DefiChain einrichtest, kannst du am Konsensprotokol
 _HINWEIS: Diese Anleitung setzt grundlegende Kenntnisse im Umgang mit dem Linux-Terminal voraus._
 
 ## Masternode-Rollen
-Es gibt zwei verschiedene Rollen: den "masternode owner" und den "masternode operator". Der Owner hält die Sicherheiten und die Hauptaktivität (Minten neuer Token, Abstimmung über Verankerung) wird vom Operator durchgeführt. In der Regel kann ein Node beide Rollen spielen.
+Es gibt zwei verschiedene Rollen: den "masternode owner" und den "masternode operator". Der Owner hält die Sicherheiten und die Hauptaktivität (Minten neuer Token, Abstimmung über Verankerung) wird vom Operator durchgeführt. Im Prinzip kann ein Node beide Rollen spielen.
 
 ## Für Owner, die ihre eigenen Masternodes betreiben
 In diesem Szenario ist die Adresse des Operators gleich der (Kollateral-) Adresse des Owners.
