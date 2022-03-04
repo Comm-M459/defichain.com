@@ -1,13 +1,13 @@
 ---
-title: Anleitung zur DeFiChain App "Defi Wallet"
+title: Anleitung zur DeFiChain-DeFi Wallet Desktop-App
 type: article
-long_title: Eine schrittweise Anleitung zur Verwendung und Installation der DeFiChain App "DeFi Wallet Desktop-App"
+long_title: Eine schrittweise Anleitung zur Verwendung und Installation der DeFi Wallet Desktop-App
 cta_to: Read
 meta:
   description: Eine schrittweise Anleitung zur Verwendung und Installation der DeFiChain App "Defi Wallet"
   og:
-    title: Anleitung zur DeFiChain App "Defi Wallet"
-    description: Eine schrittweise Anleitung zur Verwendung und Installation der DeFiChain App "Defi Wallet"
+    title: DeFi Wallet Desktop-App Leitfaden
+    description: Eine schrittweise Anleitung zur Verwendung und Installation der DeFi Wallet Desktop-App
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -16,54 +16,54 @@ content:
   sections:
     hero:
       name: hero
-      headline: DeFiChain app how-to.
-      subhead: A step-by-step guide.
+      headline: DeFi Wallet Desktop-App Leitfaden
+      subhead: Schritt-für-Schritt-Anleitung
 ---
 
-## Download the app
+## Die App herunterladen
 
-Download the latest app from the [downloads](/downloads) page.
+Lade die neueste App von der Seite [downloads](/downloads) herunter.
 
-## Minimum requirements
+## Mindestanforderungen
 
-| Requirement | Minimum Required |
+| Anforderung | Mindestens erforderlich |
 |-|-|
-| Memory | 4GB |
-| OS | macOS 10.14, Windows 10, Ubuntu LTS 18 and above |
+| Arbeitsspeicher | 4GB |
+| Betriebssystem | macOS 10.14, Windows 10, Ubuntu LTS 18 oder höher |
 
-## Installing on macOS
+## Installation unter macOS
 
-### Step 1: Installation
+### Schritt 1: Installation
 
-Open the downloaded image **DeFi-Wallet-<version>.dmg**. In the Finder window that pops up, drag the DeFi Wallet on the left, on to the Applications directory shortcut on the right.
+Öffne das heruntergeladene Image **DeFi-Wallet-<Version>.dmg**. Ziehe im Finder-Fenster, das sich öffnet, die DeFi Wallet auf der linken Seite auf die Verknüpfung mit dem Verzeichnis Applications auf der rechten Seite.
 
 <p><img src="/img/guides/installing-defi-app/drag-to-install.png" srcset="/img/guides/installing-defi-app/drag-to-install.png 1x, /img/guides/installing-defi-app/drag-to-install@2x.png 2x"></p>
 
-### Step 2: Dealing with macOS security prompt when opening the app
+### Schritt 2: Umgang mit der macOS-Sicherheitsabfrage beim Öffnen der App
 
-Open the app. The first time you open the DeFi app, you will be presented with a security prompt. Press OK to dismiss it.
+Öffne die App. Wenn du die DeFi Wallet zum ersten Mal öffnest, wird dir eine Sicherheitsabfrage angezeigt. Klicke OK, um sie zu ignorieren.
 
 <p><img src="/img/guides/installing-defi-app/macos-security-prompt.png" srcset="/img/guides/installing-defi-app/macos-security-prompt.png 1x, /img/guides/installing-defi-app/macos-security-prompt@2x.png 2x"></p>
 
-\**You will see this security prompt with early unsigned releases of the app. In future releases signed with Apple, you will not see security prompts. For now, please follow step 3 for a workaround.*
+\**Du wirst diese Sicherheitsabfrage bei frühen, nicht signierten Versionen der App sehen. In zukünftigen Versionen, die von Apple signiert sind, wirst du keine Sicherheitsabfragen mehr sehen. Vorerst befolgst du bitte Schritt 3 für eine Lösung.*
 
-### Step 3: Allow app execution
+### Schritt 3: Ausführung der App zulassen
 
-\**Only open the app this way if you are sure you have downloaded DeFi app from an official source. DeFi app is currently only available on the [official website](/) and [DeFiChain’s GitHub](https://github.com/DeFiCh/app/releases).*
+\**Öffne die App nur auf diese Weise, wenn du sicher bist, dass du die DeFi-App von einer offiziellen Quelle heruntergeladen hast. Die DeFi Wallet ist derzeit nur auf [official website](/) und [DeFiChain’s GitHub](https://github.com/DeFiCh/app/releases) verfügbar.*
 
-Go to **System Preferences** and click on **Security & Privacy**.
+Gehe zu **Systemeinstellungen** und klicke auf **Sicherheit & Datenschutz**..
 
 <p><img src="/img/guides/installing-defi-app/system-preferences.png" srcset="/img/guides/installing-defi-app/system-preferences.png 1x, /img/guides/installing-defi-app/system-preferences@2x.png 2x"></p>
 
-Then click on the **Open Anyway**.
+Dann klicke auf **Dennoch öffnen**.
 
 <p><img src="/img/guides/installing-defi-app/open-anyway-a.png" srcset="/img/guides/installing-defi-app/open-anyway-a.png 1x, /img/guides/installing-defi-app/open-anyway-a@2x.png 2x"></p>
 
-Click **Open** on the confirmation popup.
+Klicke auf **Öffnen** im Bestätigungs-Pop-up.
 
 <p><img src="/img/guides/installing-defi-app/open-anyway-b.png" srcset="/img/guides/installing-defi-app/open-anyway-b.png 1x, /img/guides/installing-defi-app/open-anyway-b@2x.png 2x"></p>
 
-DeFi app will launch automatically when the installation is complete.
+Die DeFi Wallet wird automatisch gestartet, wenn die Installation abgeschlossen ist.
 
 ## Installing on Windows
 
