@@ -87,25 +87,25 @@ Klicke auf **Dennoch ausführen**, um die Installation zu starten.
 
 Die DeFi Wallet wird automatisch gestartet, wenn die Installation abgeschlossen ist.
 
-## Installing on Linux using AppImage
+## Installieren unter Linux mit AppImage
 
-Please ensure you have enabled the **Allow executing file as program** option for the download file.
+Bitte stelle sicher, dass du die Option **Ausführen der Datei als Programm erlauben** für die Download-Datei aktiviert hast.
 
 ![Image](https://i.imgur.com/TU3ggCU.png)
 
-You can now open DeFi app.
+Du kannst jetzt die DeFi Wallet öffnen.
 
-## Installing on Linux using Debian
+## Installieren unter Linux mit Debian
 
-You can choose to either install DeFi app as a GUI tool or command line tool.
+Du kannst die DeFi Wallet entweder als GUI-Tool oder als Befehlszeilen-Tool installieren.
 
-### Using Software Center
+### Software Center verwenden
 
-The simplest method is to use Software Center in Ubuntu. Simply navigate to the folder (usually *Downloads* folder)  containing the downloaded **.deb** file and open it.
+Die einfachste Methode ist, das Software Center in Ubuntu zu verwenden. Navigiere einfach zu dem Ordner (normalerweise der Ordner *Downloads*), der die heruntergeladene **.deb** Datei enthält (normalerweise der Ordner *Downloads*), und öffne sie.
 
-### Install .deb files in command line using dpkg
+### Installiere .deb-Dateien in der Befehlszeile mit dpkg
 
-If you want to install **deb** packages using the command line, you can use either the `apt` command or the `dpkg` command.
+Wenn du **deb** Pakete über die Befehlszeile installieren willst, kannst du entweder den Befehl `apt` oder den Befehl `dpkg` verwenden.
 
 ```
 sudo apt install PATH_TO_DEB_FILE
@@ -118,17 +118,17 @@ sudo dpkg -i PATH_TO_DEB_FILE
 ```
 
 
-You can now open DeFi app.
+Du kannst jetzt die DeFi Wallet öffnen.
 
 ---
 
-## Using the wallet
+## Verwendung der Wallet
 
-### The wallet interface
+### Die Wallet-Oberfläche
 
 <p><img src="/img/guides/installing-defi-app/wallets.png" srcset="/img/guides/installing-defi-app/wallets.png 1x, /img/guides/installing-defi-app/wallets@2x.png 2x"></p>
 
-#### Sidebar main navigation
+#### Hauptnavigation in der Seitenleiste
 
 - **Wallets** tab: Send and receive funds, and view transactions
 - **Liquidity** tab: Add and remove liquidity, and viewing APR of your liquidity
