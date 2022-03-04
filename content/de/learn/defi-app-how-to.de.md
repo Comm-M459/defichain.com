@@ -1,13 +1,13 @@
 ---
-title: DeFiChain app how-to
+title: Anleitung zur DeFiChain App "Defi Wallet"
 type: article
-long_title: A step-by-step guide to using and installing the DeFiChain app.
+long_title: Eine schrittweise Anleitung zur Verwendung und Installation der DeFiChain App "DeFi Wallet Desktop-App"
 cta_to: Read
 meta:
-  description: A step-by-step guide to using and installing the DeFiChain app.
+  description: Eine schrittweise Anleitung zur Verwendung und Installation der DeFiChain App "Defi Wallet"
   og:
-    title: DeFiChain app how-to
-    description: A step-by-step guide to using and installing the DeFiChain app.
+    title: Anleitung zur DeFiChain App "Defi Wallet"
+    description: Eine schrittweise Anleitung zur Verwendung und Installation der DeFiChain App "Defi Wallet"
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
