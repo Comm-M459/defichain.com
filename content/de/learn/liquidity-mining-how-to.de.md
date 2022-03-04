@@ -1,13 +1,13 @@
 ---
-title: Liquidity mining with DeFi app
+title: Liquiditäts-Mining mit der DeFi Wallet
 type: article
-long_title: Step-by-step on how to liquidity mine with DeFi app
+long_title: Schritt-für-Schritt-Anleitung zum Liquiditäts-Mining mit der DeFi Wallet
 cta_to: Read
 meta:
-  description: Step-by-step on how to liquidity mine with DeFi app
+  description: Schritt-für-Schritt-Anleitung zum Liquiditäts-Mining mit der DeFi Wallet
   og:
-    title: Liquidity mining with DeFi app
-    description: Step-by-step on how to liquidity mine with DeFi app
+    title: Liquiditäts-Mining mit der DeFi Wallet
+    description: Schritt-für-Schritt-Anleitung zum Liquiditäts-Mining mit der DeFi Wallet
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -16,100 +16,100 @@ content:
   sections:
     hero:
       name: hero
-      headline: Liquidity mining with DeFi app
-      subhead: A step-by-step guide.
+      headline: Liquiditäts-Mining mit der DeFi Wallet
+      subhead: Schritt-für-Schritt-Anleitung
 ---
 
-## What is liquidity mining?
+## Was ist Liquiditäts-Mining?
 
-Liquidity mining is a DeFi (decentralized finance) mechanism in which participants supply cryptocurrencies into liquidity pools, and being rewarded with fees and tokens based on their share of the total pool liquidity. Liquidity pools in DeFiChain consist of liquidity in pairs of coins, used by the DeFiChain DEX (Decentralized Exchange).
+Liquiditäts-Mining ist ein DeFi-Mechanismus (DeFi stehend für dezentrales Finanzwesen), bei dem die Teilnehmer Kryptowährungen in Liquiditätspools bereitstellen und dafür mit Gebühren und Token auf der Grundlage ihres Anteils an der gesamten Pool-Liquidität belohnt werden. Die Liquiditätspools in DeFiChain bestehen aus Liquidität in Tokenpaaren, die von der DeFiChain DEX (Decentralized Exchange) bereitgestellt werden.
 
-## Adding liquidity
+## Hinzufügen von Liquidität
 
-### Step 1: Launch the DeFiChain app
+### Schritt 1: Starte die DeFi Wallet
 
-Don't have the app installed yet? [Click here for a step-by-step guide on how to do so.](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch)
+Du hast die App noch nicht installiert? [Klicke hier für eine Schritt-für-Schritt-Anleitung, wie du sie installieren kannst.](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch)
 
-### Step 2: Navigate to Liquidity
+### Schritt 2: Wähle den Tab Liquidität
 
-Click on **Liquidity** in the sidebar to access the liquidity pools.
+Klicke auf **Liquidität** in der Seitenleiste, um zu den Liquiditätspools zu gelangen.
 
 <img src="/img/guides/liquidity-mining/go-to-liquidity.png" srcset="/img/guides/liquidity-mining/go-to-liquidity.png 1x, /img/guides/liquidity-mining/go-to-liquidity@2x.png 2x">
 
-### Step 3: Learn more
+### Schritt 3: Mehr erfahren
 
-When you first land on **Liquidity**, you will be presented with videos you can watch to learn more about liquidity mining on DeFiChain and how the DEX works. The video on _impermanent loss_ is also helpful. 
+Wenn du zum ersten Mal beim Menüpunkt **Liquidität** ankommst, kannst du dir Videos ansehen, um mehr über Liquiditäts-Mining auf der DeFiChain und die Funktionsweise der DEX zu erfahren. Das Video über _impermanenten Verlust_ ist ebenfalls hilfreich.
 
 <img src="/img/guides/liquidity-mining/liquidity-welcome.png" srcset="/img/guides/liquidity-mining/liquidity-welcome.png 1x, /img/guides/liquidity-mining/liquidity-welcome@2x.png 2x">
 
-Below the videos, you'd find a list of _pool pairs_. Within each pool pair the total liquidity in it and APR is displayed.
+Unter den Videos findest du eine Liste der _Poolpaare_. Für jedes Poolpaar wird die Gesamtliquidität und der effektive Jahreszins angezeigt.
 
-### Step 4: Decide which pool pair to supply liquidity to
+### Schritt 4: Entscheide, welches Poolpaar mit Liquidität versorgt werden soll
 
-You can supply liquidity to the ETH-DFI, BTH-DFI and USDT-DFI pool. Whichever pool pair you decide to supply to, you will need the corresponding coins in your wallet. For example, if you wish to supply liquidity to the BTC-DFI pool, you need to have sufficient BTC (wrapped BTC) and DFI in your wallet. The current version of DeFiChain only accepts wrapped tokens (wrapped ETH/BTH/USDT). If you do not currently have any wrapped tokens, [check out this guide](/learn/obtaining-wrapped-tokens).
+Du kannst z.B. dem dETH-DFI, dBTH-DFI und dUSDT-DFI Pool Liquidität zur Verfügung stellen. Für welches Poolpaar du dich auch entscheidest, du brauchst die entsprechenden Token in deiner Wallet. Wenn du z.B. den dBTC-DFI-Pool mit Liquidität versorgen willst, musst du genügend dBTC (wrapped BTC) und DFI in deiner Wallet haben. Die aktuelle Version von DeFiChain akzeptiert nur wrapped Token (wrapped ETH/BTH/USDT). Wenn du derzeit keine wrapped Token hast, [sieh dir diese Anleitung an](/learn/obtaining-wrapped-tokens).
 
-Once you are ready to supply liquidity to any of the pool pairs, click **ADD LIQUIDITY**. You can also click the **+** button for any of the pool pairs to specifically add liquidity to that pool pair.
+Wenn du bereit bist, einem der Poolpaare Liquidität zur Verfügung zu stellen, klicke auf **LIQUIDITÄT HINZUFÜGEN**. Du kannst auch auf die Schaltfläche **+** bei einem Poolpaar klicken, um gezielt Liquidität zu diesem Poolpaar hinzuzufügen.
 
 <img src="/img/guides/liquidity-mining/liquidity-add-buttons.png" srcset="/img/guides/liquidity-mining/liquidity-add-buttons.png 1x, /img/guides/liquidity-mining/liquidity-add-buttons@2x.png 2x">
 
-### Step 5: Adding liquidity
+### Schritt 5: Hinzufügen von Liquidität
 
-In this example, we will add liquidity to the BTC-DFI pool pair. Enter the input amounts for both the BTC side and DFI side. You can make use of the **MAX** buttons to add the maximum amount for each coin, available in your wallet. When you enter an amount on one side of the pair, the app automatically balances the amount of the other side, based on the ratio of current liquidity in the pool.
+In diesem Beispiel werden wir dem Poolpaar dBTC-DFI Liquidität hinzufügen. Gib die Beträge sowohl für die dBTC-Seite als auch für die DFI-Seite ein. Mit den Schaltflächen **MAX** kannst du für jeden Token den maximalen Betrag eingeben, der in deiner Wallet verfügbar ist. Wenn du einen Betrag auf einer Seite des Paares eingibst, gleicht die App den Betrag auf der anderen Seite automatisch aus, basierend auf dem Verhältnis der aktuellen Liquidität im Pool.
 
 <img src="/img/guides/liquidity-mining/liquidity-adding.png" srcset="/img/guides/liquidity-mining/liquidity-adding.png 1x, /img/guides/liquidity-mining/liquidity-adding@2x.png 2x">
 
-_TIP: If clicking **MAX** on a side causes an "Insufficient balance" warning, simply click **MAX** on the other side of the pair._
+TIPP: Wenn das Anklicken von **MAX** auf einer Seite eine Warnung "Unzureichender Betrag" verursacht, klicke einfach **MAX** auf der anderen Seite des Paares an.
 
-Next, select the address you want to receive shares and rewards at. Unless you want to receive rewards at a specific address, you can usually leave this field unchanged.
+Als Nächstes wählst du die Adresse aus, unter der du Anteile und Rewards erhalten möchtest. Wenn du die Rewards nicht unter einer bestimmten Adresse erhalten willst, kannst du dieses Feld normalerweise unverändert lassen.
 
 <img src="/img/guides/liquidity-mining/liquidity-receive-at.png" srcset="/img/guides/liquidity-mining/liquidity-receive-at.png 1x, /img/guides/liquidity-mining/liquidity-receive-at@2x.png 2x">
 
-When you are ready to add, click **CONTINUE**.
+Wenn du bereit zum Hinzufügen bist, klicke auf **Weiter**.
 
 <img src="/img/guides/liquidity-mining/liquidity-add-continue.png" srcset="/img/guides/liquidity-mining/liquidity-add-continue.png 1x, /img/guides/liquidity-mining/liquidity-add-continue@2x.png 2x">
 
-Verify the deposits, rates and pool share, then click **SUPPLY** to confirm.
+Überprüfe die Einzahlungen, die Kurse und den Poolanteil und klicke dann zur Bestätigung auf **AUSFÜHREN**.
 
 <img src="/img/guides/liquidity-mining/liquidity-add-confirm.png" srcset="/img/guides/liquidity-mining/liquidity-add-confirm.png 1x, /img/guides/liquidity-mining/liquidity-add-confirm@2x.png 2x">
 
-The app will then prepare the transaction, followed by adding your liquidity to the blockchain. Do not navigate away from this screen or close the app while the transaction is being prepared.
+Die App bereitet dann die Transaktion vor und fügt deine Liquidität der Blockchain hinzu. Navigiere nicht von dieser Ansicht weg oder schließe die App, während die Transaktion vorbereitet wird.
 
 <img src="/img/guides/liquidity-mining/liquidity-loading.png" srcset="/img/guides/liquidity-mining/liquidity-loading.png 1x, /img/guides/liquidity-mining/liquidity-loading@2x.png 2x">
 
-Once the transaction has gone through. You will see the transaction hash. You can click **VIEW ON CHAIN** to view the transaction on the DeFiChain Explorer, or click **BACK TO POOL** to see your added liquidity in the app.
+Sobald die Transaktion abgeschlossen ist, siehst du den Transaktions-Hash. Du kannst auf **Blick auf die Chain** klicken, um die Transaktion im DeFiChain Explorer zu sehen, oder auf **Zurück zum Pool**, um deine hinzugefügte Liquidität in der App zu sehen.
 
 <img src="/img/guides/liquidity-mining/liquidity-complete.png" srcset="/img/guides/liquidity-mining/liquidity-complete.png 1x, /img/guides/liquidity-mining/liquidity-complete@2x.png 2x">
 
-### Step 6: Check your liquidity
+### Schritt 6: Prüfe deine Liquidität
 
-You will now see your added liquidity above the **Available pool pairs** table.
+Du siehst nun deine hinzugefügte Liquidität oberhalb der Tabelle **Verfügbare Poolpaare**.
 
 <img src="/img/guides/liquidity-mining/liquidity-mine.png" srcset="/img/guides/liquidity-mining/liquidity-mine.png 1x, /img/guides/liquidity-mining/liquidity-mine@2x.png 2x">
 
 ---
 
-## Removing liquidity
+## Liquidität entfernen
 
-### Step 1: Removing
+### Schritt 1: Entfernen
 
-Click on the **-** button in the pool pair that you have supplied liquidity to.
+Klicke auf die Schaltfläche **-** in dem Poolpaar, dem du Liquidität zur Verfügung gestellt hast.
 
 <img src="/img/guides/liquidity-mining/liquidity-remove-button.png" srcset="/img/guides/liquidity-mining/liquidity-remove-button.png 1x, /img/guides/liquidity-mining/liquidity-remove-button@2x.png 2x">
 
-### Step 2: How much to remove
+### Schritt 2: Wie viel entfernen
 
-Enter the amount of liquidity you wish to remove, either by typing the percentage value or using the slider. Next, select the address you want the removed liquidity to go back to. Unless you want to remove to a specific address, you can usually leave this field unchanged.
+Gib den Betrag an Liquidität ein, den du entfernen möchtest, indem du entweder den Prozentwert eingibst oder den Schieberegler benutzt. Als Nächstes wählst du die Adresse aus, an die die entfernte Liquidität zurückfließen soll. Wenn du nicht an eine bestimmte Adresse auszahlen willst, kannst du dieses Feld normalerweise unverändert lassen.
 
 <img src="/img/guides/liquidity-mining/liquidity-removing.png" srcset="/img/guides/liquidity-mining/liquidity-removing.png 1x, /img/guides/liquidity-mining/liquidity-removing@2x.png 2x">
 
-Then click **CONTINUE**.
+Klicke dann auf **Weiter**
 
-### Step 3: Confirmation
+### Schritt 3: Bestätigung
 
-Verify the amount of liquidity to remove and receive address, then press **CONFIRM**.
+Überprüfe die Menge der zu entfernenden Liquidität und die Empfangsadresse und klicke dann auf **Bestätigen**.
 
 <img src="/img/guides/liquidity-mining/liquidity-remove-confirm.png" srcset="/img/guides/liquidity-mining/liquidity-remove-confirm.png 1x, /img/guides/liquidity-mining/liquidity-remove-confirm@2x.png 2x">
 
-Wait for the removal transaction to be prepared and processed.
+Warte darauf, dass die Entnahme-Transaktion vorbereitet und bearbeitet wird.
 
 <img src="/img/guides/liquidity-mining/liquidity-remove-confirm.png" srcset="/img/guides/liquidity-mining/liquidity-remove-confirm.png 1x, /img/guides/liquidity-mining/liquidity-remove-confirm@2x.png 2x">
