@@ -56,7 +56,7 @@ Wähle dann den Token, den du kaufen möchtest, im rechten Feld **In** aus.
 
 <img src="/img/guides/obtaining-tokens/dex-to.png" srcset="/img/guides/obtaining-tokens/dex-to.png 1x, /img/guides/obtaining-tokens/dex-to@2x.png 2x">
 
-Du kannst entweder im Feld **Von** angeben, wie viel du DFI verkaufen möchtest, oder im Feld **In**, wie viel des anderen Tokens du kaufen möchtest. Du kannst auch auf die Schaltfläche **MAX** klicken, um den maximalen Betrag an DFI einzugeben.
+Du kannst entweder im Feld **Von** angeben, wie viel DFI du verkaufen möchtest, oder im Feld **In**, wie viel des anderen Tokens du kaufen möchtest. Du kannst auch auf die Schaltfläche **MAX** klicken, um den maximalen Betrag an DFI einzugeben.
 
 Klicke auf **Weiter**, wenn du bereit bist zu tauschen.
 
