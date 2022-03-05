@@ -68,7 +68,7 @@ Stattdessen werden wir crontab verwenden, um den Prozess am Laufen zu halten. F�
 
 in die Datei ein und drücke `Strg-X` und dann die Eingabetaste, um die Datei zu speichern.
 
-### Schritt 4 - Einrichten einer Owner-Adresse mit ausreichenden Mitteln
+### Schritt 4 - Einrichten einer Owner-Adresse mit entsprechender Besicherung
 
 Um einen Masternode betreiben zu können, musst du mindestens 20.000 DFI besitzen. Richten wir eine Adresse mit genügend Kapital ein, um sie als Owner zu verwenden. Masternodes unterstützen derzeit nur Legacy-Adressen, also erstelle eine Masternode-Adresse mit:
 
