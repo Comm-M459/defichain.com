@@ -1,13 +1,13 @@
 ---
-title: Wallet encryption
+title: Verschlüsselung der Wallet
 type: article
-long_title: How to encrypt your wallet via the console
+long_title: So verschlüsselt man seine Wallet über die Konsole
 cta_to: Read
 meta:
-  description: How to encrypt your wallet via the console
+  description: So verschlüsselt man seine Wallet über die Konsole
   og:
     title: Wallet encryption
-    description: How to encrypt your wallet via the console
+    description: So verschlüsselt man seine Wallet über die Konsole
     site_name: DeFiChain
     image: /img/og/ogimage_en.png
     image_type: image/png
@@ -16,82 +16,82 @@ content:
   sections:
     hero:
       name: hero
-      headline: Wallet encryption
-      subhead: How to encrypt your wallet via the console
+      headline: Verschlüsselung der Wallet
+      subhead: So verschlüsselst du deine Wallet über die Konsole
 ---
 
-**Notice**: Encrypting your wallet via the console will cause your mnemonic phrase to change, do not rely on your mnemonic phrase as a backup if you follow this guide, instead make a backup after enabling encryption using backup files and store them in a secure location.
+**Hinweis**: Wenn du deine Wallet über die Konsole verschlüsselst, ändert sich deine mnemonische Phrase, die 24 Wiederherstellungswörter stimmen also nicht mehr. Verlasse dich nicht auf deine mnemonische Phrase als Backup, wenn du diese Anleitung befolgst, sondern erstelle ein Backup, nachdem du die Verschlüsselung aktiviert hast, und speichere es an einem sicheren Ort.
 
-At the time of this writing, v2.1.4, the app does not yet have a graphical UI built-in to facilitate wallet encryption or locking. This can be a serious risk as your wallets can be compromised by any person or system having access to your `wallet.dat` file at your DeFi folder. 
+Zum Zeitpunkt des Verfassens dieses Artikels, v2.1.4, verfügt die App noch nicht über eine grafische Benutzeroberfläche, die die Verschlüsselung oder das Sperren der Wallet erleichtert. Dies kann ein ernsthaftes Risiko darstellen, da deine Wallets von jeder Person oder jedem System übernommen werden können, die/der Zugriff auf die Datei "wallet.dat" in deinem DeFi-Ordner hat.
 
-As DeFiChain node is a fork of Bitcoin Core, it has an inherited wallet encryption that you are able to manage with relative ease.
+Da DeFiChain Node ein Fork von Bitcoin Core ist, verfügt er über eine übernommene Wallet-Verschlüsselung, die du relativ einfach verwalten kannst.
 
-This guide shows how you can perform the wallet encryption and decryption, also known as wallet locking and unlocking through the Console access available via DeFiChain app. 
+Diese Anleitung zeigt dir, wie du die Ver- und Entschlüsselung der Wallet, auch Wallet Locking und Unlocking genannt, über den Konsolenzugang der DeFi Wallet App durchführen kannst. 
 
-**Disclaimer**: Verify and understand all commands that you are about to enter at Console, especially from untrusted sources. The author of this guide is not responsible for any loss of funds. 
+**Disclaimer**: Überprüfe und informiere dich über alle Befehle, die du in die Konsole eingibst, vor allem wenn sie aus nicht vertrauenswürdigen Quellen stammen. Der Autor dieses Leitfadens ist nicht für den Verlust von angelegtem Kapital verantwortlich.
 
-## 1. Securing your wallet
+## 1. Sichern deiner Wallet
 
-1. Back up your existing `wallet.dat` somewhere safe. This file is very important to recover your DFI and DeFi Standard Tokens (DSTs) should things go wrong. The file can usually be located at the following paths:
+1. Erstelle eine Sicherungskopie deiner bestehenden `wallet.dat` an einem sicheren Speicherort. Diese Datei ist sehr wichtig, um deine DFI- und DeFi-Standard-Tokens (DSTs) wiederherzustellen, falls etwas schief geht. Die Datei findest du normalerweise unter den folgenden Pfaden:
   `~/.defi/wallets` for Linux
-  `~/Library/Application Support/DeFi/wallets` for Mac
-  `<root>\Users\<username>\AppData\Roaming\DeFi Blockchain\wallets` for Windows
-  Remember that this file is _unencrypted_! Keep it absolutely safe!
+  `~/Library/Application Support/DeFi/wallets` auf dem Mac
+  `<root>\Users\<username>\AppData\Roaming\DeFi Blockchain\wallets` unter Windows
+  Denk daran, dass diese Datei _unverschlüsselt_ ist! Bewahre sie absolut sicher auf!
 
-2. To secure your wallet for the first time, generate a nice long random passphrase. For illustration purposes, this guide will be using the following passphrase `REPLACE_THIS_WITH_A_LONG_SECURE_PASSPHRASE`. You can use any random passphrase generator, ideally offline ones. Write it down securely.
+2. Um deine Wallet zum ersten Mal zu sichern, musst du einen langen, zufälligen Passsatz erstellen. Zur Veranschaulichung wird in dieser Anleitung der folgende Passsatz `ERSETZE_DIES_DURCH_EINEN_LANGEN_SICHEREN_PASSSATZ` verwendet. Du kannst jeden Zufallsgenerator für Passsätze verwenden, am besten einen Offline-Generator. Schreibe ihn sorgfältig auf.
 
-3. Lock your wallet by typing the following at the Console: 
+3. Verschlüssele deine Wallet, indem du in der Konsole Folgendes eingibst: 
 
     ```
-    encryptwallet REPLACE_THIS_WITH_A_LONG_SECURE_PASSPHRASE
+    encryptwallet ERSETZE_DIES_DURCH_EINEN_LANGEN_SICHEREN_PASSSATZ
     ```
 
-    It should take a few seconds and you should see a message `wallet encrypted`.  At this point onwards, your wallet, i.e. `wallet.dat` file will be encrypted by default. 
+    Es sollte ein paar Sekunden dauern und du solltest die Meldung `wallet encrypted` sehen.  Ab diesem Zeitpunkt ist deine Wallet, d.h. die Datei "wallet.dat", standardmäßig verschlüsselt. 
 
-    Your DeFi App will function as normal for view-only, and your DeFi liquidity mining rewards will be streamining in as usual. Try to send some DFI or DST, you should now be seeing the following message: `Add-on auth TX failed: Can't sign TX`. This shows that your wallet keys are now encrypted. Hacker having access to your wallet at this stage would only be able to view your holdings, but unable to spend it.
+    Deine DeFi Wallet App wird wie gewohnt funktionieren und deine DeFi Liquiditäts-Mining-Rewards werden wie gewohnt eingehen. Wenn du versuchst, DFI oder DST zu senden, solltest du die folgende Meldung sehen: `Add-on auth TX failed: Can't sign TX`. Das zeigt, dass deine Wallet Keys jetzt verschlüsselt sind. Ein Hacker, der zu diesem Zeitpunkt Zugang zu deiner Wallet hat, kann nur deine Bestände einsehen, aber nicht ausgeben.
 
-## 2. Unlocking your wallet
+## 2. Entsperren deiner Wallet
 
-As your wallet state is now locked and encrypted by default, you now need to unlock your wallet every time you want to make a transaction, e.g. sending DFI or DST, performing DEX swap, adding liquidity, etc.
+Da der Betriebsmodus deiner Wallet jetzt standardmäßig gesperrt und verschlüsselt ist, musst du deine Wallet jedes Mal entsperren, wenn du eine Transaktion durchführen willst, z.B. wenn du DFI oder DST sendest, einen DEX-Tausch durchführst, Liquidität hinzufügst, etc.
 
-To unlock, go to Console, and enter:
+Zum Entsperren gehst du zur Konsole und gibst ein:
 
 ```
-walletpassphrase REPLACE_THIS_WITH_A_LONG_SECURE_PASSPHRASE 60
+walletpassphrase ERSETZE_DIES_DURCH_EINEN_LANGEN_SICHEREN_PASSSATZ 60
 ```
 
-This will unlock your wallet for 60 seconds. Thereafter it would automatically revert itself to locked state again.
+Dadurch wird deine Wallet für 60 Sekunden entsperrt. Danach kehrt sie automatisch wieder in den gesperrten Zustand zurück.
 
-Now you can go to your app and make any transaction you desire to make, within 60 seconds. If you find yourself getting the `Add-on auth TX failed: Can't sign TX` as you are trying to make a transaction, it means that your wallet is now locked again, you will have to unlock it again with `walletpassphrase` as above.
+Jetzt kannst du deine App aufrufen und innerhalb von 60 Sekunden jede gewünschte Transaktion durchführen. Wenn du die Meldung "Add-on auth TX failed: Can't sign TX` bekommst, während du versuchst, eine Transaktion durchzuführen, bedeutet das, dass deine Wallet jetzt wieder gesperrt ist und du sie wie oben beschrieben mit dem Befehl `walletpassphrase...`  wieder entsperren musst.
 
-## 3. Locking your wallet
+## 3. Sperren deiner Wallet
 
-If you find that you complete your transaction in a shorter time and you want to ensure that your wallet is locked immediately without waiting for timeout, simply enter
+Wenn du feststellst, dass du deine Transaktion in einer kürzeren Zeit abgeschlossen hast und du sicherstellen willst, dass deine Wallet sofort gesperrt wird, ohne auf die Abschaltung zu warten, gib einfach ein
 
 ```
 walletlock
 ```
 
-This immediately locks your wallet and prevent any further transactions from carried out!
+Dadurch wird deine Wallet unmittelbar gesperrt und es können keine weiteren Transaktionen mehr durchgeführt werden!
 
-## 4. Checking your wallet encryption status
+## 4. Überprüfen des Verschlüsselungsstatus deiner Wallet
 
-To ensure that your wallet is really locked and encrypted, you can enter:
+Um sicherzustellen, dass deine Wallet wirklich gesperrt und verschlüsselt ist, kannst du Folgendes eingeben:
 
 ```
 getwalletinfo
 ```
 
-For an encrypted wallet, you should be seeing a response that includes `"unlocked_until": 1609145224`. When a wallet is locked, `unlocked_until` should show `0`. When it is unlocked, it would show a [UNIX timestamp](https://www.epochconverter.com).
+Bei einer verschlüsselten Wallet solltest du eine Meldung erhalten, die `"unlocked_until": 1609145224` enthält. Wenn eine Wallet gesperrt ist, sollte `unlocked_until` `0` anzeigen. Wenn sie entsperrt ist, sollte sie einen [UNIX-Zeitstempel](https://www.epochconverter.com) anzeigen..
 
-For an unencrypted wallet, `unlocked_until` is missing. It would not even show `0`.
+Bei einer unverschlüsselten Wallet fehlt `unlocked_until`. Es zeigt nicht einmal `0` an.
 
 ---
 
-## Tips
+## Tipps
 
-1. Once you are sure that your wallet is securely encrypted, make sure you dispose of your unencrypted `wallet.dat` that you backed up earlier. You do not need it anymore.
+1. Sobald du sicher bist, dass deine Wallet sicher verschlüsselt ist, solltest du die unverschlüsselte `wallet.dat`, die du zuvor gesichert hast, sicher löschen. Du brauchst sie nicht mehr.
 
-2. To change passphrase, use `walletpassphrasechange "oldpassphrase" "newpassphrase"`.
+2. Um den Passsatz zu ändern, verwende `walletpassphrasechange "alter Passsatz" "neuer Passsatz"`.
 
-3. The steps described in this guide will be integrated in future releases of DeFiChain's app. Also, hardware wallet support via Ledger is also under work.
+3. Die in diesem Leitfaden beschriebenen Schritte werden in zukünftige Versionen der DeFi Wallet App integriert. Die Unterstützung von Hardware Wallets wie Ledger ist ebenfalls in Arbeit.
