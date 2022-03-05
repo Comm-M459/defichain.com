@@ -22,7 +22,7 @@ content:
 
 Um die DEX mit Liquidität zu versorgen und Liquidity-Mining zu betreiben, brauchst du nicht nur DFI, sondern auch Token für die andere Seite des Poolpaares, das du mit Liquidität versehen möchtest. DeFiChain unterstützt derzeit nur wrapped Token, nämlich wrapped ETH, BTC und USDT.
 
-Wenn du auch DFI brauchst, kannst du dir unseren Leitfaden [wo und wie man DFI kauft] ansehen.(https://www.youtube.com/watch?v=vtM-k7E-HPA).
+Wenn du auch DFI brauchst, kannst du dir unseren Leitfaden [wo und wie man DFI kauft](https://www.youtube.com/watch?v=vtM-k7E-HPA) ansehen.
 
 ## Methode 1: DEX verwenden
 
