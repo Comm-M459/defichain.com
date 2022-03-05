@@ -36,7 +36,7 @@ Du hast die App noch nicht installiert? [Klicke hier und finde eine Schritt-für
 
 ### Schritt 2: Stelle sicher, dass du DFI auf deiner Wallet hast
 
-Nachdem du die DeFi Wallet App geöffnet hast, klicke in der Seitenleiste auf **Guthaben**. Vergewissere dich, dass du Guthaben (DFI) auf deiner Wallet hast, denn für die Transaktionsgebühren werden DFI benötigt. Wenn du noch keine DFI hast, [hier findest du eine Schritt-für-Schritt-Anleitung, wie und wo du DFI kaufen kannst].(https://defichain.ghost.io/where-and-how-to-buy-dfi-defichain/)
+Nachdem du die DeFi Wallet App geöffnet hast, klicke in der Seitenleiste auf **Guthaben**. Vergewissere dich, dass du Guthaben (DFI) auf deiner Wallet hast, denn für die Transaktionsgebühren werden DFI benötigt. Wenn du noch keine DFI hast, [hier findest du eine Schritt-für-Schritt-Anleitung, wie und wo du DFI kaufen kannst.](https://defichain.ghost.io/where-and-how-to-buy-dfi-defichain/)
 
 <img src="/img/guides/installing-defi-app/wallets-choose.png" srcset="/img/guides/installing-defi-app/wallets-choose.png 1x, /img/guides/installing-defi-app/wallets-choose@2x.png 2x">
 
