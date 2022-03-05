@@ -49,7 +49,7 @@ Lade die neueste App-Version von der Seite [Downloads](/downloads) herunter.
 
 ### Schritt 3: Ausführung der App zulassen
 
-\**Öffne die App nur auf diese Weise, wenn du sicher bist, dass du die DeFi-App von einer offiziellen Quelle heruntergeladen hast. Die DeFi Wallet ist derzeit nur auf [official website](/) und [DeFiChain’s GitHub](https://github.com/DeFiCh/app/releases) verfügbar.*
+\**Öffne die App nur auf diese Weise, wenn du sicher bist, dass du die DeFi-App von einer offiziellen Quelle heruntergeladen hast. Die DeFi Wallet ist derzeit nur auf der [offiziellen Website](/) und [DeFiChain’s GitHub](https://github.com/DeFiCh/app/releases) verfügbar.*
 
 Gehe zu **Systemeinstellungen** und klicke auf **Sicherheit & Datenschutz**..
 
