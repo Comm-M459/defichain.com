@@ -75,7 +75,7 @@ Ein Doppelklick auf die heruntergeladene Datei
 
 Wenn du die DeFi Wallet App zum ersten Mal installierst, kann es sein, dass das Installationsprogramm eine Sicherheitsabfrage anzeigt. Klicke auf **Mehr Info**.
 
-\**Microsoft Windows SmartScreen kann neu hochgeladene Dateien markieren, die noch nicht lange genug in der Vergangenheit liegen.*
+\**Microsoft Windows SmartScreen kann neu hochgeladene Dateien melden, die noch nicht lange genug in der Vergangenheit liegen.*
 
 ![Image](https://i.imgur.com/CUmfPMS.png)
 
