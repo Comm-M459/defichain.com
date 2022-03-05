@@ -101,7 +101,7 @@ Du kannst die DeFi Wallet entweder als GUI-Tool oder als Befehlszeilen-Tool inst
 
 ### Software Center verwenden
 
-Die einfachste Methode ist, das Software Center in Ubuntu zu verwenden. Navigiere einfach zu dem Ordner (normalerweise der Ordner *Downloads*), der die heruntergeladene **.deb** Datei enthält (normalerweise der Ordner *Downloads*), und öffne sie.
+Die einfachste Methode ist, das Software Center in Ubuntu zu verwenden. Navigiere einfach zu dem Ordner, der die heruntergeladene **.deb** Datei enthält (normalerweise der Ordner *Downloads*), und öffne sie.
 
 ### Installiere .deb-Dateien in der Befehlszeile mit dpkg
 
