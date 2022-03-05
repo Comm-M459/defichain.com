@@ -32,7 +32,7 @@ Le DEX DeFiChain ne souffre pas des frais de fourniture élevés des DEX basés 
 
 ### Étape 1 : Lancez l'application DeFi Wallet
 
-Vous n'avez pas encore installé l'application ? [Cliquez ici pour un guide étape par étape sur la façon de le faire].(https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch)
+Vous n'avez pas encore installé l'application ? [Cliquez ici pour un guide étape par étape sur la façon de le faire.](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch)
 
 ### Étape 2 : Assurez-vous que vous avez DFI dans votre portefeuille.
 
