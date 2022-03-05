@@ -76,10 +76,10 @@ Hinweis: Wenn du ein neues Konto eröffnest, musst du eine Identitätsprüfung (
 
 ### Schritt 2: Guthaben bei CakeDeFi
 
-Von deiner [CakeDeFi Assets Seite](https://app.cakedefi.com/wallets), kannst du ETH, BTC oder USDT auf die DeFi Wallet abheben. Wenn du diese Token noch nicht hast oder dir mehr besorgen möchtest, kannst du entweder:
+Von deiner [CakeDeFi Assets Seite](https://app.cakedefi.com/wallets) kannst du u.a. dETH, dBTC oder dUSDT auf die DeFi Wallet übertragen. Wenn du diese Token noch nicht hast oder dir mehr besorgen möchtest, kannst du entweder:
 
 1. ETH, BTC oder USDT von einer externen Wallet bei CakeDeFi einzahlen
-2. BETH, BTC oder USDT über die Fiat-Onramp kaufen, die je nach Land Zahlungsmethoden wie Kreditkarten, Apple Pay und Überweisungen akzeptiert
+2. ETH, BTC oder USDT über die Fiat-Onramp kaufen, die je nach Land Zahlungsmethoden wie Kreditkarten, Apple Pay und Überweisungen akzeptiert.
 
 <div class="mbg1"><img src="/img/guides/obtaining-tokens/cake-assets.png" srcset="/img/guides/obtaining-tokens/cake-assets.png 1x, /img/guides/obtaining-tokens/cake-assets@2x.png 2x"></div>
 
