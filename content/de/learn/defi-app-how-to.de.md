@@ -133,7 +133,7 @@ Du kannst jetzt die DeFi Wallet öffnen.
 - Tab **Guthaben**: Geld senden und empfangen und Transaktionen einsehen
 - Tab **Liquidität**: Liquidität hinzufügen und entfernen und Jahreszins deiner Liquiditäts-Miningbestände anzeigen
 - Tab **DEX**: Tauschen zwischen gewrappten BTC/ETH/USDT und DFI
-- Tab **Tokens**: Von der Community verifizierte DST-Tokens (DeFi Standard Token) ansehen und eigene erstellen
+- Tab **Token**: Von der Community verifizierte DST-Tokens (DeFi Standard Token) ansehen und eigene erstellen
 - Tab **Blockchain**: Ein eingebauter Mini-Block-Explorer zur Einsicht in die Blockchain
 - Tab **Masternodes**: Eine Liste der Masternodes anzeigen und deinen eigenen erstellen
 
