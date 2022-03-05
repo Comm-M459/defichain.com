@@ -26,9 +26,9 @@ Wenn du auch DFI brauchst, kannst du dir unseren Leitfaden [wo und wie man DFI k
 
 ## Methode 1: DEX verwenden
 
-Die erste Methode findet direkt in der DeFi Wallet statt. Wenn du die DEX verwendest, kann es sein, dass du die Token je nach Kontostand und Verhältnis der Poolpaare zu einem niedrigeren Preis tauschen kannst, als wenn du die zweite Methode - über CakeDeFi - benutzt hättest.
+Die erste Methode findet direkt in der DeFi Wallet App statt. Wenn du die DEX verwendest, kann es sein, dass du die Token je nach Kontostand und Verhältnis der Poolpaare zu einem niedrigeren Preis tauschen kannst, als wenn du die zweite Methode - über CakeDeFi - benutzt hättest.
 
-### Schritt 1: Starte die DeFi Wallet
+### Schritt 1: Starte die DeFi Wallet App
 
 Du hast die App noch nicht installiert? [Klicke hier für eine Schritt-für-Schritt-Anleitung, wie du sie installieren kannst.](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch)
 
