@@ -49,7 +49,7 @@ Lade die neueste App-Version von der Seite [Downloads](/downloads) herunter.
 
 ### Schritt 3: Ausführung der App zulassen
 
-\**Öffne die App nur auf diese Weise, wenn du sicher bist, dass du die DeFi-App von einer offiziellen Quelle heruntergeladen hast. Die DeFi Wallet ist derzeit nur auf der [offiziellen Website](/) und [DeFiChain’s GitHub](https://github.com/DeFiCh/app/releases) verfügbar.*
+\**Öffne die App nur auf diese Weise, wenn du sicher bist, dass du die DeFi Wallet App von einer offiziellen Quelle heruntergeladen hast. Die DeFi Wallet ist derzeit nur auf der [offiziellen Website](/) und [DeFiChain’s GitHub](https://github.com/DeFiCh/app/releases) verfügbar.*
 
 Gehe zu **Systemeinstellungen** und klicke auf **Sicherheit & Datenschutz**..
 
@@ -73,7 +73,7 @@ Ein Doppelklick auf die heruntergeladene Datei
 
 ### Schritt 2: Windows-Sicherheitsabfrage
 
-Wenn du die DeFi-App zum ersten Mal installierst, kann es sein, dass das Installationsprogramm eine Sicherheitsabfrage anzeigt. Klicke auf **Mehr Info**.
+Wenn du die DeFi Wallet App zum ersten Mal installierst, kann es sein, dass das Installationsprogramm eine Sicherheitsabfrage anzeigt. Klicke auf **Mehr Info**.
 
 \**Microsoft Windows SmartScreen kann neu hochgeladene Dateien markieren, die noch nicht lange genug in der Vergangenheit liegen.*
 
