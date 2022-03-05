@@ -35,7 +35,7 @@ Diese Anleitung zeigt dir, wie du die Ver- und Entschlüsselung der Wallet, auch
 1. Erstelle eine Sicherungskopie deiner bestehenden `wallet.dat` an einem sicheren Speicherort. Diese Datei ist sehr wichtig, um deine DFI- und DeFi-Standard-Tokens (DSTs) wiederherzustellen, falls etwas schief geht. Die Datei findest du normalerweise unter den folgenden Pfaden:
   `~/.defi/wallets` unter Linux
   `~/Library/Application Support/DeFi/wallets` auf dem Mac
-  `<root>\Users\<username>\AppData\Roaming\DeFi Blockchain\wallets` unter Windows
+  `<root>\Users\<username>\AppData\Roaming\DeFi Blockchain\wallets` unter Windows.
   Denk daran, dass diese Datei _unverschlüsselt_ ist! Bewahre sie absolut sicher auf!
 
 2. Um deine Wallet zum ersten Mal zu sichern, musst du einen langen, zufälligen Passsatz erstellen. Zur Veranschaulichung wird in dieser Anleitung der folgende Passsatz `ERSETZE_DIES_DURCH_EINEN_LANGEN_SICHEREN_PASSSATZ` verwendet. Du kannst jeden Zufallsgenerator für Passsätze verwenden, am besten einen Offline-Generator. Schreibe ihn sorgfältig auf.
