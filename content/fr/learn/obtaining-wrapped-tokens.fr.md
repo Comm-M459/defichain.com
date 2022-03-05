@@ -70,13 +70,13 @@ Vérifiez les montants et les frais de la transaction. Cliquez ensuite sur **ÉC
 
 ### Étape 1 : Connectez-vous à votre compte CakeDeFi
 
-Connectez-vous à votre [compte CakeDeFi.](https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch). Si vous n'en avez pas encore, [cliquez ici pour vous inscrire.](https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
+Connectez-vous à votre [compte CakeDeFi](https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch). Si vous n'en avez pas encore, [cliquez ici pour vous inscrire](https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
 
 _Note : Si vous enregistrez un nouveau compte, vous devrez effectuer une vérification d'identité (KYC)._
 
 ### Étape 2 : Fonds sur CakeDeFi
 
-Depuis votre page [Actifs CakeDeFi](https://pool.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch#/wallets)vous pouvez retirer ETH, BTC ou USDT vers DeFiChain. Si vous n'avez pas actuellement ces coins, ou si vous souhaitez en obtenir plus, vous pouvez soit :
+Depuis votre page [Actifs CakeDeFi](https://pool.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch#/wallets)vous pouvez retirer dETH, dBTC ou dUSDT vers DeFiChain. Si vous n'avez pas actuellement ces tokens, ou si vous souhaitez en obtenir plus, vous pouvez soit :
 
 1. Déposer ETH, BTC ou USDT d'un portefeuille externe sur CakeDeFi.
 2. Achetez de l'ETH, du BTC ou de l'USDT en utilisant la rampe d'accès au fiat, qui accepte des méthodes de paiement comme les cartes de crédit, Apple Pay et les virements, selon votre pays.
@@ -87,7 +87,7 @@ Depuis votre page [Actifs CakeDeFi](https://pool.cakedefi.com/?utm_source=defich
 
 Une fois que vos ETH, BTC ou USDT sont dans vos actifs CakeDeFi, vous pouvez les retirer. Cliquez sur le bouton **WITHDRAW** correspondant au token que vous voulez retirer.
 
-Dans la pop-up de retrait, sélectionnez DeFi Blockchain comme **Transfer Network** (reseau de transfert). Donnez votre adresse de réception DeFiChain dans le champ **To DeFi Blockchain address**. Vous trouverez des informations sur la façon d'obtenir votre adresse de réception de l'application DeFiChain dans [ce guide].(https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
+Dans la pop-up de retrait, sélectionnez DeFi Blockchain comme **Transfer Network** (reseau de transfert). Donnez votre adresse de réception DeFiChain dans le champ **To DeFi Blockchain address**. Vous trouverez des informations sur la façon d'obtenir votre adresse de réception de l'application DeFiChain dans [ce guide](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
 
 <img src="/img/guides/obtaining-tokens/cake-withdraw.png" srcset="/img/guides/obtaining-tokens/cake-withdraw.png 1x, /img/guides/obtaining-tokens/cake-withdraw@2x.png 2x">
 
@@ -95,4 +95,4 @@ Saisissez votre **two-factor authentication code** (code d'authentification à d
 
 
 
-_Note : Pour des raisons de sécurité, le traitement des retraits sur CakeDeFi peut prendre jusqu'à 24 heures (jours de semaine) et 72 heures (week-ends).
+_Note : Pour des raisons de sécurité, le traitement des retraits sur CakeDeFi peut prendre jusqu'à 24 heures (jours de semaine) et 72 heures (week-ends)._
