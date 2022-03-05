@@ -41,7 +41,7 @@ Ouvrez l'image téléchargée **DeFi-Wallet-<version>.dmg**. Dans la fenêtre du
 
 ### Étape 2 : Gérer l'invite de sécurité de macOS lors de l'ouverture de l'application
 
-Ouvrez l'application. La première fois que vous ouvrez l'application DeFi, une invite de sécurité vous sera présentée. Appuyez sur OK pour la rejeter.
+Ouvrez l'application. La première fois que vous ouvrez l'application DeFi Wallet, une invite de sécurité vous sera présentée. Appuyez sur OK pour la rejeter.
 
 <p><img src="/img/guides/installing-defi-app/macos-security-prompt.png" srcset="/img/guides/installing-defi-app/macos-security-prompt.png 1x, /img/guides/installing-defi-app/macos-security-prompt@2x.png 2x"></p>
 
@@ -49,7 +49,7 @@ Ouvrez l'application. La première fois que vous ouvrez l'application DeFi, une 
 
 ### Étape 3 : Autoriser l'exécution de l'application
 
-\**N'ouvrez l'application de cette façon que si vous êtes sûr d'avoir téléchargé l'application DeFi depuis une source officielle. L'application DeFi est actuellement disponible uniquement sur [official website](/) et [DeFiChain’s GitHub](https://github.com/DeFiCh/app/releases).*
+\**N'ouvrez l'application de cette façon que si vous êtes sûr d'avoir téléchargé l'application DeFi Wallet depuis une source officielle. L'application DeFi Wallet est actuellement disponible uniquement sur le [site officiel](/) et [DeFiChain’s GitHub](https://github.com/DeFiCh/app/releases).*
 
 Aller à **Préférences système** et cliquer sur **Sécurité et confidentialité**.
 
@@ -63,7 +63,7 @@ Cliquez sur **Ouvrir** dans la fenêtre de confirmation.
 
 <p><img src="/img/guides/installing-defi-app/open-anyway-b.png" srcset="/img/guides/installing-defi-app/open-anyway-b.png 1x, /img/guides/installing-defi-app/open-anyway-b@2x.png 2x"></p>
 
-L'application DeFi se lancera automatiquement lorsque l'installation sera terminée.
+L'application DeFi Wallet se lancera automatiquement lorsque l'installation sera terminée.
 
 ## Installation sur Windows
 
@@ -73,7 +73,7 @@ Double-cliquez sur le fichier téléchargé.
 
 ### Étape 2 : Invite de sécurité de Windows
 
-Si c'est la première fois que vous installez l'application DeFi, le programme d'installation peut vous présenter une invite de sécurité comme indiqué. Cliquez sur **Plus d'infos**.
+Si c'est la première fois que vous installez l'application DeFi Wallet, le programme d'installation peut vous présenter une invite de sécurité comme indiqué. Cliquez sur **Plus d'infos**.
 
 \**Microsoft Windows SmartScreen peut signaler les fichiers nouvellement téléchargés qui n'ont pas accumulé un historique suffisamment long.*
 
@@ -93,11 +93,11 @@ Veuillez vous assurer que vous avez activé l'option **Autoriser l'exécution du
 
 ![Image](https://i.imgur.com/TU3ggCU.png)
 
-Vous pouvez maintenant ouvrir l'application DeFi.
+Vous pouvez maintenant ouvrir l'application DeFi Wallet.
 
 ## Installation sur Linux avec Debian
 
-Vous pouvez choisir d'installer l'application DeFi en tant qu'outil IUG ou en tant qu'outil de ligne de commande.
+Vous pouvez choisir d'installer l'application DeFi Wallet en tant qu'outil IUG ou en tant qu'outil de ligne de commande.
 
 ### Utilisation du Centre logiciel Ubuntu
 
@@ -118,7 +118,7 @@ sudo dpkg -i PATH_TO_DEB_FILE
 ```
 
 
-Vous pouvez maintenant ouvrir l'application DeFi.
+Vous pouvez maintenant ouvrir l'application DeFi Wallet.
 
 ---
 
@@ -169,13 +169,13 @@ Vérifiez le **Montant** et l'**Adresse de destination** et assurez-vous qu'ils 
 
 <p><img src="/img/guides/installing-defi-app/wallet-send2.png" srcset="/img/guides/installing-defi-app/wallet-send2.png 1x, /img/guides/installing-defi-app/wallet-send2@2x.png 2x"></p>
 
-Cliquez sur **FINALISER L'ENVOI** pour confirmer l'envoi.
+Cliquez sur **Finaliser l'envoi** pour confirmer l'envoi.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send3.png" srcset="/img/guides/installing-defi-app/wallet-send3.png 1x, /img/guides/installing-defi-app/wallet-send3@2x.png 2x"></p>
 
 #### Étape 4
 
-Une fois la transaction terminée, appuyez sur **RETOUR AU PORTEFEUILLE** pour revenir au portefeuille.
+Une fois la transaction terminée, appuyez sur **Retour au portefeuille** pour revenir au portefeuille.
 
 <p><img src="/img/guides/installing-defi-app/wallet-send4.png" srcset="/img/guides/installing-defi-app/wallet-send4.png 1x, /img/guides/installing-defi-app/wallet-send4@2x.png 2x"></p>
 
@@ -187,17 +187,17 @@ Vous devriez voir votre dernière transaction dans la liste des **Transactions**
 
 #### Étape 1
 
-Dans un portefeuille sélectionné, cliquez sur **RECEVOIR**.
+Dans un portefeuille sélectionné, cliquez sur **Recevoir**.
 
 <img src="/img/guides/installing-defi-app/wallet-receive.png" srcset="/img/guides/installing-defi-app/wallet-receive.png 1x, /img/guides/installing-defi-app/wallet-receive@2x.png 2x">
 
-Cliquez ensuite sur **NOUVELLE ADRESSE** pour créer une nouvelle adresse de réception.
+Cliquez ensuite sur **Nouvelle adresse** pour créer une nouvelle adresse de réception.
 
 <img src="/img/guides/installing-defi-app/wallet-receive1.png" srcset="/img/guides/installing-defi-app/wallet-receive1.png 1x, /img/guides/installing-defi-app/wallet-receive1@2x.png 2x">
 
 #### Étape 2
 
-Remplissez les informations et donnez à votre adresse une libellé significative. Cliquez ensuite sur **CRÉER**.
+Remplissez les informations et donnez à votre adresse une libellé significative. Cliquez ensuite sur **Créer**.
 
 <img src="/img/guides/installing-defi-app/wallet-receive2.png" srcset="/img/guides/installing-defi-app/wallet-receive2.png 1x, /img/guides/installing-defi-app/wallet-receive2@2x.png 2x">
 
