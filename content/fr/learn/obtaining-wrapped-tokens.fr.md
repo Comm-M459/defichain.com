@@ -87,7 +87,7 @@ Depuis votre page [Actifs CakeDeFi](https://app.cakedefi.com/wallets) vous pouve
 
 Une fois que vos ETH, BTC ou USDT sont dans vos actifs CakeDeFi, vous pouvez les retirer. Cliquez sur le bouton **WITHDRAW** correspondant au token que vous voulez retirer.
 
-Dans la pop-up de retrait, sélectionnez DeFi Blockchain comme **Transfer Network** (reseau de transfert). Donnez votre adresse de réception DeFiChain dans le champ **To DeFi Blockchain address**. Vous trouverez des informations sur la façon d'obtenir votre adresse de réception de l'application DeFiChain dans [ce guide](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
+Dans la pop-up de retrait, sélectionnez DeFi Blockchain comme **Transfer Network** (reseau de transfert). Donnez votre adresse de réception DeFiChain dans le champ **To Defichain address**. Vous trouverez des informations sur la façon d'obtenir votre adresse de réception de l'application DeFiChain dans [ce guide](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
 
 <img src="/img/guides/obtaining-tokens/cake-withdraw.png" srcset="/img/guides/obtaining-tokens/cake-withdraw.png 1x, /img/guides/obtaining-tokens/cake-withdraw@2x.png 2x">
 
