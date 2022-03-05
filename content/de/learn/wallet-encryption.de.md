@@ -62,7 +62,7 @@ walletpassphrase ERSETZE_DIES_DURCH_EINEN_LANGEN_SICHEREN_PASSSATZ 60
 
 Dadurch wird deine Wallet für 60 Sekunden entsperrt. Danach kehrt sie automatisch wieder in den gesperrten Zustand zurück.
 
-Jetzt kannst du deine App aufrufen und innerhalb von 60 Sekunden jede gewünschte Transaktion durchführen. Wenn du die Meldung "Add-on auth TX failed: Can't sign TX` bekommst, während du versuchst, eine Transaktion durchzuführen, bedeutet das, dass deine Wallet jetzt wieder gesperrt ist und du sie wie oben beschrieben mit dem Befehl `walletpassphrase...`  wieder entsperren musst.
+Jetzt kannst du deine App aufrufen und innerhalb von 60 Sekunden jede gewünschte Transaktion durchführen. Wenn du die Meldung `Add-on auth TX failed: Can't sign TX` bekommst, während du versuchst, eine Transaktion durchzuführen, bedeutet das, dass deine Wallet jetzt wieder gesperrt ist und du sie wie oben beschrieben mit dem Befehl `walletpassphrase...`  wieder entsperren musst.
 
 ## 3. Sperren deiner Wallet
 
