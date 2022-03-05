@@ -45,7 +45,7 @@ Lade die neueste App-Version von der Seite [Downloads](/downloads) herunter.
 
 <p><img src="/img/guides/installing-defi-app/macos-security-prompt.png" srcset="/img/guides/installing-defi-app/macos-security-prompt.png 1x, /img/guides/installing-defi-app/macos-security-prompt@2x.png 2x"></p>
 
-\**Diese Sicherheitsabfrage erscheint bei frühen, nicht signierten Versionen der App. In zukünftigen Versionen, die von Apple signiert sind, wird keine Sicherheitsabfrage mehr zu sehen sein. Falls noch nötig, bitte Schritt 3 für ausführen.*
+\**Diese Sicherheitsabfrage erscheint bei frühen, nicht signierten Versionen der App. In zukünftigen Versionen, die von Apple signiert sind, wird keine Sicherheitsabfrage mehr zu sehen sein. Falls also noch nötig, bitte Schritt 3 ausführen.*
 
 ### Schritt 3: Ausführung der App zulassen
 
