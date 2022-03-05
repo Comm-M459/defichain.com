@@ -28,7 +28,7 @@ Téléchargez la dernière application depuis la page [downloads](/downloads).
 
 | Exigences | Minimum requis |
 |-|-|
-| Mémoire | 4Go |
+| Mémoire vive | 4Go |
 | OS | macOS 10.14, Windows 10, Ubuntu LTS 18 et supérieur |
 
 ## Installation sur macOS
