@@ -34,7 +34,7 @@ Du hast die App noch nicht installiert? [Klicke hier für eine Schritt-für-Schr
 
 ### Schritt 2: Stelle sicher, dass du DFI in deiner Wallet hast
 
-Nachdem du die DeFi Wallet geöffnet hast, klicke in der Seitenleiste auf **Guthaben**. Vergewissere dich, dass du über Guthaben (DFI) in deiner Wallet verfügst, denn für die Transaktionsgebühren wird DFI benötigt. Wenn du noch keine DFI hast, findest du [hier eine Schritt-für-Schritt-Anleitung, wie und wo du DFI kaufen kannst].(https://defichain.ghost.io/where-and-how-to-buy-dfi-defichain/)
+Nachdem du die DeFi Wallet geöffnet hast, klicke in der Seitenleiste auf **Guthaben**. Vergewissere dich, dass du über Guthaben (DFI) in deiner Wallet verfügst, denn für die Transaktionsgebühren wird DFI benötigt. Wenn du noch keine DFI hast, findest du [hier eine Schritt-für-Schritt-Anleitung, wie und wo du DFI kaufen kannst.](https://defichain.ghost.io/where-and-how-to-buy-dfi-defichain/)
 
 <img src="/img/guides/installing-defi-app/wallets-choose.png" srcset="/img/guides/installing-defi-app/wallets-choose.png 1x, /img/guides/installing-defi-app/wallets-choose@2x.png 2x">
 
@@ -70,13 +70,13 @@ Klicke auf **Weiter**, wenn du bereit bist zu tauschen.
 
 ### Schritt 1: Logge dich in dein CakeDeFi Konto ein
 
-Logge dich in dein [CakeDeFi Konto] ein (https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch). Wenn du noch keins hast, [klicke hier, um dich zu registrieren]. (https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
+Logge dich in dein [CakeDeFi Konto](https://app.cakedefi.com/login) ein. Wenn du noch keins hast, [klicke hier, um dich zu registrieren](https://app.cakedefi.com/register).
 
 Hinweis: Wenn du ein neues Konto eröffnest, musst du eine Identitätsprüfung (KYC) durchführen.
 
 ### Schritt 2: Guthaben bei CakeDeFi
 
-Von deiner [CakeDeFi Assets Seite] (https://app.cakedefi.com/wallets), kannst du ETH, BTC oder USDT auf die DeFi Wallet abheben. Wenn du diese Token noch nicht hast oder dir mehr besorgen möchtest, kannst du entweder:
+Von deiner [CakeDeFi Assets Seite](https://app.cakedefi.com/wallets), kannst du ETH, BTC oder USDT auf die DeFi Wallet abheben. Wenn du diese Token noch nicht hast oder dir mehr besorgen möchtest, kannst du entweder:
 
 1. ETH, BTC oder USDT von einer externen Wallet bei CakeDeFi einzahlen
 2. BETH, BTC oder USDT über die Fiat-Onramp kaufen, die je nach Land Zahlungsmethoden wie Kreditkarten, Apple Pay und Überweisungen akzeptiert
