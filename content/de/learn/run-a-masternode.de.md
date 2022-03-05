@@ -68,7 +68,7 @@ Stattdessen werden wir crontab verwenden, um den Prozess am Laufen zu halten. F�
 
 in die Datei ein und drücke `Strg-X` und dann die Eingabetaste, um die Datei zu speichern.
 
-### Schritt 4 - Einrichtung einer Owner-Adresse mit ausreichenden Mitteln
+### Schritt 4 - Einrichten einer Owner-Adresse mit ausreichenden Mitteln
 
 Um einen Masternode betreiben zu können, musst du mindestens 20.000 DFI besitzen. Richten wir eine Adresse mit genügend Kapital ein, um sie als Owner zu verwenden. Masternodes unterstützen derzeit nur Legacy-Adressen, also erstelle eine Masternode-Adresse mit:
 
@@ -149,7 +149,7 @@ Sieh nach deiner Masternode-Adresse in der Liste der Masternodes, um zu überpr�
 
 Du kannst den Befehl `getmasternodeblocks OPERATOR_ADDRESS` eingeben, um zu sehen, wie viele Blöcke dein Masternode bisher gemintet hat.
 
-## Erstellen über die DeFi Wallet App
+## Einrichten über die DeFi Wallet App
 
 Es ist ganz einfach, deinen Masternode über die DeFi Wallet App einzurichten. Gehe einfach auf die Registerkarte Masternodes und klicke auf "Erstellen +" in der oberen rechten Ecke des Bildschirms. Der Prozess ist automatisch und selbsterklärend.
 
