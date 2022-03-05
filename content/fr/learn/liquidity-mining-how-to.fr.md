@@ -58,7 +58,7 @@ Dans cet exemple, nous allons ajouter de la liquidité à la paire de pool BTC-D
 
 <img src="/img/guides/liquidity-mining/liquidity-adding.png" srcset="/img/guides/liquidity-mining/liquidity-adding.png 1x, /img/guides/liquidity-mining/liquidity-adding@2x.png 2x">
 
-_CONSEIL : Si le fait de cliquer sur **MAX** sur un côté provoque un avertissement "Solde insuffisant", il suffit de cliquer sur **MAX** sur l'autre côté de la paire.
+_CONSEIL : Si le fait de cliquer sur **MAX** sur un côté provoque un avertissement "Solde insuffisant", il suffit de cliquer sur **MAX** sur l'autre côté de la paire._
 
 Ensuite, sélectionnez l'adresse à laquelle vous souhaitez recevoir les partages et les récompenses. À moins que vous ne souhaitiez recevoir des récompenses à une adresse spécifique, vous pouvez généralement laisser ce champ inchangé.
 
