@@ -33,7 +33,7 @@ Diese Anleitung zeigt dir, wie du die Ver- und Entschlüsselung der Wallet, auch
 ## 1. Sichern deiner Wallet
 
 1. Erstelle eine Sicherungskopie deiner bestehenden `wallet.dat` an einem sicheren Speicherort. Diese Datei ist sehr wichtig, um deine DFI- und DeFi-Standard-Tokens (DSTs) wiederherzustellen, falls etwas schief geht. Die Datei findest du normalerweise unter den folgenden Pfaden:
-  `~/.defi/wallets` for Linux
+  `~/.defi/wallets` unter Linux
   `~/Library/Application Support/DeFi/wallets` auf dem Mac
   `<root>\Users\<username>\AppData\Roaming\DeFi Blockchain\wallets` unter Windows
   Denk daran, dass diese Datei _unverschlüsselt_ ist! Bewahre sie absolut sicher auf!
