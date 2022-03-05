@@ -70,13 +70,13 @@ Vérifiez les montants et les frais de la transaction. Cliquez ensuite sur **ÉC
 
 ### Étape 1 : Connectez-vous à votre compte CakeDeFi
 
-Connectez-vous à votre [compte CakeDeFi](https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch). Si vous n'en avez pas encore, [cliquez ici pour vous inscrire](https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
+Connectez-vous à votre [compte CakeDeFi](https://app.cakedefi.com/login). Si vous n'en avez pas encore, [cliquez ici pour vous inscrire](https://app.cakedefi.com/register).
 
 _Note : Si vous enregistrez un nouveau compte, vous devrez effectuer une vérification d'identité (KYC)._
 
 ### Étape 2 : Fonds sur CakeDeFi
 
-Depuis votre page [Actifs CakeDeFi](https://pool.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch#/wallets)vous pouvez retirer dETH, dBTC ou dUSDT vers DeFiChain. Si vous n'avez pas actuellement ces tokens, ou si vous souhaitez en obtenir plus, vous pouvez soit :
+Depuis votre page [Actifs CakeDeFi](https://app.cakedefi.com/wallets) vous pouvez retirer dETH, dBTC ou dUSDT vers DeFiChain. Si vous n'avez pas actuellement ces tokens, ou si vous souhaitez en obtenir plus, vous pouvez soit :
 
 1. Déposer ETH, BTC ou USDT d'un portefeuille externe sur CakeDeFi.
 2. Achetez de l'ETH, du BTC ou de l'USDT en utilisant la rampe d'accès au fiat, qui accepte des méthodes de paiement comme les cartes de crédit, Apple Pay et les virements, selon votre pays.
