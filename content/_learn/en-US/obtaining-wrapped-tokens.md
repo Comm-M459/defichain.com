@@ -9,15 +9,15 @@ If you also need DFI, you can watch our guide on [where and how to buy DFI](http
 
 ## Method 1: Using the DEX
 
-The first method is right within the DeFi app. Using the DEX, and depending on the balance and ratio of the pool pairs, you may end up swapping the tokens at a lower price than if you would have done it via the second method – using CakeDeFi.
+The first method is right within the DeFi Wallet app. Using the DEX, and depending on the balance and ratio of the pool pairs, you may end up swapping the tokens at a lower price than if you would have done it via the second method – using CakeDeFi.
 
-### Step 1: Launch the DeFiChain app
+### Step 1: Launch the DeFi Wallet app
 
 Don’t have the app installed yet? [Click here for a step-by-step guide on how to do so.](https://defichain.com/learn/defi-app-how-to/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch)
 
 ### Step 2: Make sure you have DFI in your wallet
 
-After opening the DeFiChain App, click **Wallets** in the sidebar. Make sure you have funds (DFI) in your wallet, as DFI is needed for transaction fees. If you don't yet have DFI, [here is a step-by-step tutorial on how and where you can buy DFI.](https://defichain.ghost.io/where-and-how-to-buy-dfi-defichain/)
+After opening the DeFi Wallet App, click **Balances** in the sidebar. Make sure you have funds (DFI) in your wallet, as DFI is needed for transaction fees. If you don't yet have DFI, [here is a step-by-step tutorial on how and where you can buy DFI.](https://defichain.ghost.io/where-and-how-to-buy-dfi-defichain/)
 
 ![](/img/guides/installing-defi-app/wallets-choose.png)
 
@@ -53,13 +53,13 @@ Review the transaction amounts and fees. Then click **SWAP** to confirm.
 
 ### Step 1: Login to your CakeDeFi account
 
-Login to your [CakeDeFi account](https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch). If you don't have one yet, [click here to register.](https://www.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch).
+Login to your [CakeDeFi account](https://app.cakedefi.com/login). If you don't have one yet, [click here to register.](https://app.cakedefi.com/register).
 
 _Note: If you are registering a new account, you will need to complete identity verification (KYC)._
 
 ### Step 2: Funds in CakeDeFi
 
-From your [CakeDeFi Assets page](https://pool.cakedefi.com/?utm_source=defichain&utm_medium=dex-guide&utm_campaign=dex-launch#/wallets), you can withdraw ETH, BTC or USDT to DeFiChain. If you don't currently have these coins, or you'd like to obtain more, you can either:
+From your [CakeDeFi Assets page](https://app.cakedefi.com/wallets), you can withdraw ETH, BTC or USDT to DeFiChain. If you don't currently have these coins, or you'd like to obtain more, you can either:
 
 1. Deposit ETH, BTC or USDT from an external wallet into CakeDeFi
 2. Buy ETH, BTC or USDT using the fiat on-ramp, which accepts payment methods like credit cards, Apple Pay and transfers, depending on your country
