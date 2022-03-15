@@ -1,23 +1,6 @@
 ---
 title: Leitfaden DeFi Wallet Desktop-App
-type: article
-long_title: Eine schrittweise Anleitung zur Verwendung und Installation der DeFi Wallet Desktop-App
-cta_to: Read
-meta:
-  description: Eine schrittweise Anleitung zur Verwendung und Installation der DeFiChain App "Defi Wallet"
-  og:
-    title: Leitfaden DeFi Wallet Desktop-App
-    description: Eine schrittweise Anleitung zur Verwendung und Installation der DeFi Wallet Desktop-App
-    site_name: DeFiChain
-    image: /img/og/ogimage_en.png
-    image_type: image/png
-    locale: de
-content:
-  sections:
-    hero:
-      name: hero
-      headline: Leitfaden DeFi Wallet Desktop-App
-      subhead: Schritt-für-Schritt-Anleitung
+description: Eine schrittweise Anleitung zur Verwendung und Installation der DeFi Wallet Desktop-App
 ---
 
 ## Die App herunterladen
@@ -37,13 +20,13 @@ Lade die neueste App-Version von der Seite [Downloads](/downloads) herunter.
 
 Öffne das heruntergeladene Image **DeFi-Wallet-<Version>.dmg**. Ziehe im Finder-Fenster, das sich öffnet, die DeFi Wallet auf der linken Seite auf die Verknüpfung mit dem Verzeichnis Applications auf der rechten Seite.
 
-<p><img src="/img/guides/installing-defi-app/drag-to-install.png" srcset="/img/guides/installing-defi-app/drag-to-install.png 1x, /img/guides/installing-defi-app/drag-to-install@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/drag-to-install.png)
 
 ### Schritt 2: Umgang mit der macOS-Sicherheitsabfrage beim Öffnen der App
 
 Öffne die App. Wenn du die DeFi Wallet zum ersten Mal öffnest, wird dir eine Sicherheitsabfrage angezeigt. Klicke OK, um sie zu ignorieren.
 
-<p><img src="/img/guides/installing-defi-app/macos-security-prompt.png" srcset="/img/guides/installing-defi-app/macos-security-prompt.png 1x, /img/guides/installing-defi-app/macos-security-prompt@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/macos-security-prompt.png)
 
 \**Diese Sicherheitsabfrage erscheint bei frühen, nicht signierten Versionen der App. In zukünftigen Versionen, die von Apple signiert sind, wird keine Sicherheitsabfrage mehr zu sehen sein. Falls also noch nötig, bitte Schritt 3 ausführen.*
 
@@ -53,15 +36,15 @@ Lade die neueste App-Version von der Seite [Downloads](/downloads) herunter.
 
 Gehe zu **Systemeinstellungen** und klicke auf **Sicherheit & Datenschutz**..
 
-<p><img src="/img/guides/installing-defi-app/system-preferences.png" srcset="/img/guides/installing-defi-app/system-preferences.png 1x, /img/guides/installing-defi-app/system-preferences@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/system-preferences.png)
 
 Dann klicke auf **Dennoch öffnen**.
 
-<p><img src="/img/guides/installing-defi-app/open-anyway-a.png" srcset="/img/guides/installing-defi-app/open-anyway-a.png 1x, /img/guides/installing-defi-app/open-anyway-a@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/open-anyway-a.png)
 
 Klicke auf **Öffnen** im Bestätigungs-Pop-up.
 
-<p><img src="/img/guides/installing-defi-app/open-anyway-b.png" srcset="/img/guides/installing-defi-app/open-anyway-b.png 1x, /img/guides/installing-defi-app/open-anyway-b@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/open-anyway-b.png)
 
 Die DeFi Wallet wird automatisch gestartet, wenn die Installation abgeschlossen ist.
 
@@ -77,13 +60,13 @@ Wenn du die DeFi Wallet App zum ersten Mal installierst, kann es sein, dass das 
 
 \**Microsoft Windows SmartScreen kann neu hochgeladene Dateien melden, die noch nicht lange genug in der Vergangenheit liegen.*
 
-![Image](https://i.imgur.com/CUmfPMS.png)
+![](/img/guides/installing-defi-app/CUmfPMS.png)
 
 ### Schritt 3: Umgehen der Windows-Sicherheitsabfrage
 
 Klicke auf **Dennoch ausführen**, um die Installation zu starten.
 
-![Image](https://i.imgur.com/S7SFwms.png)
+![](/img/guides/installing-defi-app/S7SFwms.png)
 
 Die DeFi Wallet wird automatisch gestartet, wenn die Installation abgeschlossen ist.
 
@@ -91,7 +74,7 @@ Die DeFi Wallet wird automatisch gestartet, wenn die Installation abgeschlossen 
 
 Bitte stelle sicher, dass du die Option **Ausführen der Datei als Programm erlauben** für die Download-Datei aktiviert hast.
 
-![Image](https://i.imgur.com/TU3ggCU.png)
+![](/img/guides/installing-defi-app/TU3ggCU.png)
 
 Du kannst jetzt die DeFi Wallet öffnen.
 
@@ -126,7 +109,7 @@ Du kannst jetzt die DeFi Wallet öffnen.
 
 ### Die Wallet-Oberfläche
 
-<p><img src="/img/guides/installing-defi-app/wallets.png" srcset="/img/guides/installing-defi-app/wallets.png 1x, /img/guides/installing-defi-app/wallets@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/wallets.png)
 
 #### Hauptnavigation in der Seitenleiste
 
@@ -147,7 +130,7 @@ Du kannst jetzt die DeFi Wallet öffnen.
 
 Wechsle zum Tab **Guthaben**, wähle eine Wallet, z.B. DFI.
 
-<p><img src="/img/guides/installing-defi-app/wallets-choose.png" srcset="/img/guides/installing-defi-app/wallets-choose.png 1x, /img/guides/installing-defi-app/wallets-choose@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/wallets-choose.png)
 
 ### Guthaben senden
 
@@ -155,29 +138,29 @@ Wechsle zum Tab **Guthaben**, wähle eine Wallet, z.B. DFI.
 
 In einer Wallet klickst du auf **Senden**.
 
-<p><img src="/img/guides/installing-defi-app/wallet-send.png" srcset="/img/guides/installing-defi-app/wallet-send.png 1x, /img/guides/installing-defi-app/wallet-send@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/wallet-send.png)
 
 #### Schritt 2
 
 Gib den **Betrag** und die **Adresse** ein, an die du senden möchtest. Du kannst eine Adresse auch mit dem QR-Code-Scanner neben dem Adressfeld eingeben. Klicke auf **WEITER**, wenn du bereit bist.
 
-<p><img src="/img/guides/installing-defi-app/wallet-send1.png" srcset="/img/guides/installing-defi-app/wallet-send1.png 1x, /img/guides/installing-defi-app/wallet-send1@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/wallet-send1.png)
 
 #### Schritt 3
 
 Überprüfe den **Betrag** und die **Adresse** und stelle sicher, dass sie korrekt sind. Die Schaltfläche **Betrag senden** ist für ein paar Sekunden deaktiviert, um dich vor versehentlichem Senden zu schützen.
 
-<p><img src="/img/guides/installing-defi-app/wallet-send2.png" srcset="/img/guides/installing-defi-app/wallet-send2.png 1x, /img/guides/installing-defi-app/wallet-send2@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/wallet-send2.png)
 
 Klicke auf **Betrag senden**, um den Auftrag zu bestätigen.
 
-<p><img src="/img/guides/installing-defi-app/wallet-send3.png" srcset="/img/guides/installing-defi-app/wallet-send3.png 1x, /img/guides/installing-defi-app/wallet-send3@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/wallet-send3.png)
 
 #### Schritt 4
 
 Nachdem die Transaktion abgeschlossen ist, klicke auf **Zurück zur Wallet**, um zur Wallet zurückzukehren.
 
-<p><img src="/img/guides/installing-defi-app/wallet-send4.png" srcset="/img/guides/installing-defi-app/wallet-send4.png 1x, /img/guides/installing-defi-app/wallet-send4@2x.png 2x"></p>
+![](/img/guides/installing-defi-app/wallet-send4.png)
 
 Du solltest deine letzte Transaktion in der Liste der **Transaktionen** in deiner Wallet sehen.
 
@@ -189,28 +172,28 @@ Du solltest deine letzte Transaktion in der Liste der **Transaktionen** in deine
 
 Klicke innerhalb einer ausgewählten Wallet auf **EMPFANGEN**.
 
-<img src="/img/guides/installing-defi-app/wallet-receive.png" srcset="/img/guides/installing-defi-app/wallet-receive.png 1x, /img/guides/installing-defi-app/wallet-receive@2x.png 2x">
+![](/img/guides/installing-defi-app/wallet-receive.png)
 
 Klicke dann auf **NEUE ADRESSE**, um eine neue Empfangsadresse zu erstellen.
 
-<img src="/img/guides/installing-defi-app/wallet-receive1.png" srcset="/img/guides/installing-defi-app/wallet-receive1.png 1x, /img/guides/installing-defi-app/wallet-receive1@2x.png 2x">
+![](/img/guides/installing-defi-app/wallet-receive1.png)
 
 #### Schritt 2
 
 Fülle die Informationen aus und gib deiner Adresse eine aussagekräftige Bezeichnung. Klicke dann auf **Erstellen**.
 
-<img src="/img/guides/installing-defi-app/wallet-receive2.png" srcset="/img/guides/installing-defi-app/wallet-receive2.png 1x, /img/guides/installing-defi-app/wallet-receive2@2x.png 2x">
+![](/img/guides/installing-defi-app/wallet-receive2.png)
 
 #### Schritt 3
 
 Die neue Empfangsadresse, die du gerade erstellt hast, erscheint in deiner Liste der Empfangsadressen.
 
-<img src="/img/guides/installing-defi-app/wallet-receive3.png" srcset="/img/guides/installing-defi-app/wallet-receive3.png 1x, /img/guides/installing-defi-app/wallet-receive3@2x.png 2x">
+![](/img/guides/installing-defi-app/wallet-receive3.png)
 
 Klicke auf die Schaltfläche **QR-Code**, um einen QR-Code der Adresse aufzurufen.
 
-<img src="/img/guides/installing-defi-app/wallet-receive4.png" srcset="/img/guides/installing-defi-app/wallet-receive4.png 1x, /img/guides/installing-defi-app/wallet-receive4@2x.png 2x">
+![](/img/guides/installing-defi-app/wallet-receive4.png)
 
 Klicke auf die Schaltfläche **Adresse kopieren**, um die Adresse in die Zwischenablage deines Systems zu kopieren.
 
-<img src="/img/guides/installing-defi-app/wallet-receive5.png" srcset="/img/guides/installing-defi-app/wallet-receive5.png 1x, /img/guides/installing-defi-app/wallet-receive5@2x.png 2x">
+![](/img/guides/installing-defi-app/wallet-receive5.png)
