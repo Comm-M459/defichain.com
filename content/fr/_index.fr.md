@@ -32,14 +32,14 @@ content:
             url: https://defichain.com/downloads/
           - label: GUIDE D'UTILISATION
             title: Acheter $DFI
-            desc: Apprenez à connaître et à acquérir du coin $DFI à partir de divers échanges de crypto.
+            desc: Apprendre à connaître et à acquérir du coin $DFI à partir de divers échanges de crypto.
             button_text: En savoir plus
             button_type: outline
             url: https://blog.defichain.com/where-and-how-to-buy-dfi-defichain/
           - label: ÉCOSYSTÈME
             title: Explorer les projets communautaires
             desc: Liste complète de tout ce qui concerne DeFiChain
-            button_text: Explorez
+            button_text: Explorer
             button_type: outline
             url: https://defilinks.io/
     problem_solution:
