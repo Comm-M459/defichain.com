@@ -99,7 +99,7 @@ content:
           description: Emprunter et prêter par le biais de systèmes garantis.
         - icon: /static/svg/icons/functions/wrapping.svg
           title: Encapsulation (wrapping) de tokens 
-          description: Travaillez avec une variété de crypto-monnaies, directement, on-chain. 
+          description: Travailler avec une variété de crypto-monnaies, directement, on-chain. 
         - icon: /static/svg/icons/functions/oracle.svg
           title: Oracles de prix
           description: Recueillir des données provenant d'autres chaînes et de marchés non cryptographiques.
@@ -207,7 +207,7 @@ content:
               image:
                 x1: /img/timeline/2021/transparency-report.png
                 x2: /img/timeline/2021/transparency-report@2x.png
-                alt: Rapport de transparence T1
+                alt: Rapport de transparence T4
             - month: JAN
               status: past
               title: DeFiChain listé sur Messari.
@@ -333,7 +333,7 @@ content:
               image:
                 x1: /img/timeline/2021/mobile-app.png
                 x2: /img/timeline/2021/mobile-app@2x.png
-                alt: Application mobile
+                alt: Télécharger l'application mobile
             - month: SEP
               status: past
               title: Sortie de DeFi Scan, l'explorateur de blocs pour DeFiChain.
@@ -365,7 +365,7 @@ content:
               image:
                 x1: /img/timeline/3y/decentralized-leverage.png
                 x2: /img/timeline/3y/decentralized-leverage@2x.png
-                alt: Decentralized leveraged trading
+                alt: Négociation décentralisée à effet de levier
             - month: 3 années
               status: future
               title: Options décentralisées.
@@ -393,14 +393,14 @@ content:
               image:
                 x1: /img/timeline/3y/p2p.png
                 x2: /img/timeline/3y/p2p@2x.png
-                alt: De-facto blockchain for peer-to-peer financial transactions
+                alt: La blockchain de facto pour les transactions financières de pair à pair
             - month: 5 années
               status: future
               title: Chambre de compensation automatisée (ACH) sur la chaîne et règlement brut en temps réel (RTGS).
               image:
                 x1: /img/timeline/5y/ach.png
                 x2: /img/timeline/5y/ach@2x.png
-                alt: ACH and RTGS
+                alt: ACH et RTGS
             - month: 5 années
               status: future
               title: La blockchain de facto pour les transactions entre institutions financières.
@@ -417,7 +417,7 @@ content:
                 alt: De-facto blockchain for international financial transactions between countries and sovereign states
         - year: 2020
           title: 2020
-          status: Achieved
+          status: Réalisé
           events:
             - month: MAI
               status: past
@@ -461,7 +461,7 @@ content:
                 alt: DFI on Indoex
             - month: JUL
               status: past
-              title: Lancement de l'application de bureau DeFiChain (GUI).
+              title: Lancement de l'application de bureau DeFiChain (IUG)
               url: https://github.com/DeFiCh/defi-app
               image:
                 x1: /img/timeline/2020/defi-app.png
