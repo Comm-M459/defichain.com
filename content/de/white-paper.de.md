@@ -515,7 +515,7 @@ Um die Zuverlässigkeit der DeFiChain zu erhöhen, ist es daher notwendig, Doppe
 
 #### Identifizierung einer Doppelsignatur
 
-Jeder Block-Header hat eine Sequenznummer, die die Anzahl der Blöcke angibt, die ein bestimmter Staker vor einem bestimmten Block gemintet hat. Wenn zwei Blöcke mit der gleichen Sequenznummer gemintet werden, bedeutet das, dass ein Staker doppelt signiert hat, auch wenn die Blöcke unterschiedliche Vorgänger haben, d.h. über Branches hinweg.
+Jeder Block-Header hat eine Sequenznummer, die die Anzahl der Blöcke angibt, die ein bestimmter Staker vor einem bestimmten Block gemint hat. Wenn zwei Blöcke mit der gleichen Sequenznummer gemint werden, bedeutet das, dass ein Staker doppelt signiert hat, auch wenn die Blöcke unterschiedliche Vorgänger haben, d.h. über Branches hinweg.
 
 Während der Generierung eines Blocks hat ein Staker das Recht, die doppelt signierten Proofs in seinen Block-Header aufzunehmen und dafür nur die Hälfte der Strafe zu zahlen.
 
