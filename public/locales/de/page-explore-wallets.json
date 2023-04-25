@@ -40,8 +40,8 @@
     "subtitle": "Fortgeschrittene Wallets, die für die komplexe Nutzung von DeFiChain geeignet sind, wie z.B. Masternode-Management, Multi-Signatur-Management und mehr.",
     "entries": {
       "DFC": {
-        "title": "DeFi Wallet desktop app",
-        "desc": "Mit der funktionsfähigen und vollständig dezentralen Wallet-App kannst du Transaktionen durchführen, Liquiditäts-Mining betreiben, tauschen und vieles mehr. Full-Node enthalten."
+        "title": "DeFi Wallet: Full-Node-Desktop-App",
+        "desc": "Mit der vollständig dezentralen Wallet-App mit vollem Funktionsumfang kannst du Transaktionen durchführen, Liquiditäts-Mining betreiben, tauschen und vieles mehr. Full-Node enthalten."
       },
       "RPI": {
         "title": "DeFi Wallet für Raspberry Pi",
